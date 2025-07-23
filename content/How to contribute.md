@@ -2,7 +2,7 @@
 tags: [tutorials]
 ---
 
-There are other ways to work on the wiki, but I recommend the following if you know how to use the **command line**. This assumes **I have added you as a collaborator**:
+There are other ways to work on the wiki, but I recommend the following if you know how to use the **command line (cmd)**. This assumes **I have added you as a collaborator**:
 
 1. Clone the repo
 
