@@ -6,6 +6,8 @@ The one way sequencer is one of the most useful computer parts you can make to c
 
 It allows you to activate things *one at a time*(which is incredibly useful given the limitations of the wiring system), and paves the way for a lot more transistor and computer memory contraptions.
 
+---
+
 ## Blueprint
 
 In this diagram, the **write input** allows you to change the sequencer from only having 1/4 pulse at a time ( $on \to off \to off \to off$, this is the 1 at a time behavior most useful ) to a different pattern like 2/4 ($on\to off\to on \to off$ ). This is not *that* useful, so **don't think about it too much**.
