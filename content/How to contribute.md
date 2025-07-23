@@ -1,6 +1,34 @@
+---
+tags: [tutorials]
+---
 
-While the website is generated with a static site compiler called [Quartz](https://quartz.jzhao.xyz/), you only need to know how to edit the source files.
+There are other ways to work on the wiki, but I recommend the following if you know how to use the **command line**. This assumes **I have added you as a collaborator**:
 
-We use the note-taking app called [Obsidian](https://obsidian.md/) for this. Obsidian can be downloaded for free using the link above, and then used to edit the wiki using the following steps:
+1. Clone the repo
 
-1. **Download** the git repository using **Github**:
+```bash
+git clone https://github.com/Gassandrid/crdg.xyz
+```
+
+2. (requires npm) install dependencies/running/saving
+
+```bash
+cd crdg.xyz
+
+# install libs
+npm i
+
+# to run on ur own machine
+npx quartz build --serve
+
+# to SAVE YOUR CHANGES
+npx quartz sync
+```
+
+## To Edit the Actual Wiki
+
+You will need the note-taking app obsidian(https://obsidian.md/).
+
+When prompted to open a vault, open the files at crdg.xyz/Content/ in the repo you just cloned.
+
+Obsidian is new but you can do all the fancy format stuff using right click menu
