@@ -8,8 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/Gassandrid/crdg.xyz",
+      Game: "https://www.roblox.com/games/7715234692/cart-ride-around-a-75-KW-Diesel-Generator",
     },
   }),
 }
