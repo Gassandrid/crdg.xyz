@@ -1,19 +1,32 @@
-# ![Uploading image.png…]()
-CRDG.XYZ powered by Quartz v4
+# Crdg wiki
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+There are other ways to work on the wiki, but I recommend the following if you know how to use the **command line**. This assumes **I have added you as a collaborator**:
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+1. Clone the repo
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+```bash
+git clone https://github.com/Gassandrid/crdg.xyz
+```
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+2. (requires npm) install dependencies/running/saving
 
-## Sponsors
+```bash
+cd crdg.xyz
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+# install libs
+npm i
+
+# to run on ur own machine
+npx quartz build --serve
+
+# to SAVE YOUR CHANGES
+npx quartz sync
+```
+
+## To Edit the Actual Wiki
+
+You will need the note-taking app obsidian(https://obsidian.md/).
+
+When prompted to open a vault, open the files at crdg.xyz/Content/ in the repo you just cloned.
+
+Obsidian is new but you can do all the fancy format stuff using right click menu
