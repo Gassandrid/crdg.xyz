@@ -1,0 +1,135 @@
+return {
+
+`   aria_label = 'Navbox',`\
+`   nowrap_item = '%s``<span class="nowrap">`{=html}`%s``</span>`{=html}`',`\
+`   templatestyles = mw.getCurrentFrame():extensionTag{`\
+`       name = 'templatestyles', args = { src = 'Module:Navbox/styles.css' }`\
+`   },`\
+`   hlist_templatestyles = 'Hlist/styles.css',`\
+`   plainlist_templatestyles = 'Plainlist/styles.css',`\
+`   -- do not localize marker table`\
+`   marker = {`\
+`       oddeven = '\127_ODDEVEN_\127',`\
+`       restart = '\127_ODDEVEN0_\127',`\
+`       regex = '\127_ODDEVEN(%d?)_\127'`\
+`   },`\
+`   category = {`\
+`       orphan = '',`\
+`       horizontal_lists = 'Navigational boxes without horizontal lists',`\
+`       background_colors = 'Navboxes using background colours',`\
+`       illegible = 'Potentially illegible navboxes',`\
+`       borders = 'Navboxes using borders',`\
+`   },`\
+`   keyword = {`\
+`       border_subgroup = 'subgroup',`\
+`       border_child = 'child',`\
+`       border_none = 'none',`\
+`       evenodd_swap = 'swap',`\
+`       navbar_off = 'off',`\
+`       navbar_plain = 'plain',`\
+`       nocat_false = 'false',`\
+`       nowrapitems_yes = 'yes',`\
+`       orphan_yes = 'yes',`\
+`       state_collapsed = 'collapsed',`\
+`       state_off = 'off',`\
+`       state_plain = 'plain',`\
+`       subgroups = {'subgroup', 'child', ''},`\
+`       subpage_doc = 'doc',`\
+`       subpage_sandbox = 'sandbox',`\
+`       subpage_testcases = 'testcases',`\
+`       tracking_no = 'no'`\
+`   },`\
+`   class = {`\
+`       autocollapse = 'autocollapse',`\
+`       collapsible = 'mw-collapsible',`\
+`       collapsed = 'mw-collapsed',`\
+`       -- Warning`\
+`       navbox = 'navbox', -- WMF currently hides 'navbox' from mobile,`\
+`       -- so you probably shouldn't change the navbox class.`\
+`       navbox_abovebelow = 'navbox-abovebelow',`\
+`       navbox_group = 'navbox-group',`\
+`       navbox_image = 'navbox-image',`\
+`       navbox_inner = 'navbox-inner',`\
+`       navbox_list = 'navbox-list',`\
+`       navbox_list_with_group = 'navbox-list-with-group',`\
+`       navbox_part = 'navbox-', -- do not l10n`\
+`       navbox_styles = 'navbox-styles',`\
+`       navbox_subgroup = 'navbox-subgroup',`\
+`       navbox_title = 'navbox-title', -- l10n only if you change pattern.navbox_title below`\
+`       navbox_odd_part = 'odd', -- do not l10n`\
+`       navbox_even_part = 'even', -- do not l10n`\
+`       nomobile = 'nomobile',`\
+`       nowraplinks = 'nowraplinks',`\
+`       noviewer = 'noviewer' -- used to remove images from MediaViewer`\
+`   },`\
+`   pattern = {`\
+`       listnum = '^list(%d+)$',`\
+`       class = 'class',`\
+`       sandbox = '/sandbox$',`\
+`       navbox = 'Template:Navbox',`\
+`       nowrap = '^``<span class="nowrap">`{=html}`',`\
+`       style = 'style$',`\
+`       navbox_title = '<th[^>]*"navbox%-title"',`\
+`       hlist = 'hlist',`\
+`       plainlist = 'plainlist',`\
+`   },`\
+`   arg = {`\
+`       above = 'above',`\
+`       aboveclass = 'aboveclass',`\
+`       abovestyle = 'abovestyle',`\
+`       basestyle = 'basestyle',`\
+`       bodyclass = 'bodyclass',`\
+`       bodystyle = 'bodystyle',`\
+`       border = 'border',`\
+`       below = 'below',`\
+`       belowclass = 'belowclass',`\
+`       belowstyle = 'belowstyle',`\
+`       evenodd = 'evenodd',`\
+`       evenstyle = 'evenstyle',`\
+`       group1 = 'group1',`\
+`       group2 = 'group2',`\
+`       group_and_num = 'group%d',`\
+`       groupstyle_and_num = 'group%dstyle',`\
+`       groupclass = 'groupclass',`\
+`       groupstyle = 'groupstyle',`\
+`       groupwidth = 'groupwidth',`\
+`       innerstyle = 'innerstyle',`\
+`       image = 'image',`\
+`       imageclass = 'imageclass',`\
+`       imageleft = 'imageleft',`\
+`       imageleftstyle = 'imageleftstyle',`\
+`       imagestyle = 'imagestyle',`\
+`       list_and_num = 'list%d',`\
+`       listclass_and_num = 'list%dclass',`\
+`       liststyle_and_num = 'list%dstyle',`\
+`       list1padding = 'list1padding',`\
+`       listclass = 'listclass',`\
+`       listpadding = 'listpadding',`\
+`       liststyle = 'liststyle',`\
+`       name = 'name',`\
+`       navbar = 'navbar',`\
+`       navboxclass = 'navboxclass',`\
+`       nocat = 'nocat',`\
+`       nowrapitems = 'nowrapitems',`\
+`       oddstyle = 'oddstyle',`\
+`       orphan = 'orphan',`\
+`       state = 'state',`\
+`       style = 'style',`\
+`       templatestyles = 'templatestyles',`\
+`       child_templatestyles = 'child templatestyles',`\
+`       title = 'title',`\
+`       titleclass = 'titleclass',`\
+`       titlestyle = 'titlestyle',`\
+`       tracking = 'tracking'`\
+`   },`\
+`   -- names of navbar arguments`\
+`   navbar = {`\
+`       name = 1,`\
+`       fontstyle = 'fontstyle',`\
+`       mini = 'mini'`\
+`   }`
+
+}
+
+[Category:Navbox
+orphans](Category:Navbox_orphans "Category:Navbox orphans"){.wikilink}

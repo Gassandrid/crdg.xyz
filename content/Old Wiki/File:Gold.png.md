@@ -1,0 +1,1 @@
+a gold bar

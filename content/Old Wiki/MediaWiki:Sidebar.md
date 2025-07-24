@@ -1,0 +1,22 @@
+- navigation
+  - recentchanges-url\|recentchanges
+  - randompage-url\|randompage
+- Content
+  - Locations\|Locations
+  - Components\|Components
+  - Carts\|Carts
+  - Badges\|Badges
+  - Bosses\|Bosses
+  - Fish\|Fish
+  - Items\|Items
+  - Special:AllPages\|All Pages
+- Mechanics
+  - Assemblies\|Multipart Assemblies
+  - Beekeeping\|Beekeeping
+  - Tastes\|Tastes
+- Tutorials
+  - How_To_Beat_The_Game\|Completion
+  - Logic_Tutorial\|How To Use Logic Gates
+- SEARCH
+- TOOLBOX
+- LANGUAGES
