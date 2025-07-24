@@ -1,1 +1,0 @@
-Troutstanding Catch Badge

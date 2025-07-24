@@ -1,1 +1,0 @@
-Places down cardboard

@@ -1,3 +1,0 @@
-## Summary
-
-Manta Ray png

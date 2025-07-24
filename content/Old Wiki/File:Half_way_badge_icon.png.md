@@ -1,1 +1,0 @@
-for badges page

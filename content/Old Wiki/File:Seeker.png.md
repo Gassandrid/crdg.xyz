@@ -1,3 +1,0 @@
-## Summary
-
-activated seeker
