@@ -30,3 +30,5 @@ You will need the note-taking app obsidian(https://obsidian.md/).
 When prompted to open a vault, open the files at crdg.xyz/Content/ in the repo you just cloned.
 
 Obsidian is new but you can do all the fancy format stuff using right click menu
+
+Then you can make a pull request, and we will accept
