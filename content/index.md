@@ -6,4 +6,4 @@ This is a new **work in progress** project to create a real, complete wiki for t
 
 Unlike the MediaWiki powered *Miraheze* wiki, this one will include **tutorials** and **guides** to building all sorts of contraptions and strategies in the game.
 
-If you would like to contribute, please see [[How to contribute]].
+If you would like to contribute, please see [[How to contribute]]. "test123456"
