@@ -33,35 +33,35 @@ After using `/e summon` at a certain time, it will spawn a Fabricator (other ali
 
 ### Combinations on the Printer (Please only post confirmed codes…) <a name="combinations_on_the_printer_please_only_post_confirmed_codes..."></a>
 
-| Combination     | Material           | Feature                                 |
-|----------------|--------------------|-----------------------------------------|
-| *|||||||||      | TNT                | Can explode                             |
-| *_|_|           | D30                | EXPLOSION PROOF                         |
-| *||_||_||       | RGB                | Flashes in many colours (hence the name)|
-| *|||_|_|        | Soil               | able to be its own planter              |
-| |_|_|||_||      | Dirt               | not applicible                          |
-| |||_||_|        | Areogel            | unknown                                 |
-| ||_||_|         | Butter             | no friction                             |
-| |_|_||          | Sand               | not applicible                          |
-| |_||_|_|        | Transparent Ice    | unknown                                 |
-| |_||_|||||      | Circle             | a circle, no other use                  |
-| |||_|_|||       | Void               | unknown                                 |
-| |_||_||_|       | Stripped Wood      | not applicible                          |
-| |_|_|||         | Wood Planks        | not applicible                          |
-| ||||_|_|_|      | Red Granite        | not applicible                          |
-| ||_|            | Corroded Metal     | not applicible                          |
-| |||_||||||      | Copper Circle      | a circle, no other use                  |
-| |_|_|_|_|       | Light Blue Metal   | not applicible                          |
-| |_|_|_||||      | Metal Circle       | a circle, no other use                  |
-| |||_|_|         | Gold               | not applicible                          |
-| |_||_||_|       | Money              | not applicible                          |
-| |_|||_|         | White Slate        | not applicible                          |
-| |_||            | Paper              | not applicible                          |
-| |_|||           | Carbon Fiber       | gun proof? unknown                      |
-| |||_|_|||       | Face               | unknown                                 |
-| |_||||||        | Sponge             | unknown                                 |
-| ||||_|_||       | Brown Concrete     | not applicible                          |
-| |_|||_|         | Concrete           | not applicible                          |
-| |_|_|||_|       | Tile               | none                                    |
-| |_||_|_||       | Black Slab         |                                         |
+| Combination       | Material           | Feature                                 |
+|-------------------|--------------------|-----------------------------------------|
+| `*|||||||||`      | TNT                | Can explode                             |
+| `*_|_|`           | D30                | EXPLOSION PROOF                         |
+| `*||_||_||`       | RGB                | Flashes in many colours (hence the name)|
+| `*|||_|_|`        | Soil               | able to be its own planter              |
+| `|_|_|||_||`      | Dirt               | not applicible                          |
+| `|||_||_|`        | Areogel            | unknown                                 |
+| `||_||_|`         | Butter             | no friction                             |
+| `|_|_||`          | Sand               | not applicible                          |
+| `|_||_|_|`        | Transparent Ice    | unknown                                 |
+| `|_||_|||||`      | Circle             | a circle, no other use                  |
+| `|||_|_|||`       | Void               | unknown                                 |
+| `|_||_||_|`       | Stripped Wood      | not applicible                          |
+| `|_|_|||`         | Wood Planks        | not applicible                          |
+| `||||_|_|_|`      | Red Granite        | not applicible                          |
+| `||_|`            | Corroded Metal     | not applicible                          |
+| `|||_||||||`      | Copper Circle      | a circle, no other use                  |
+| `|_|_|_|_|`       | Light Blue Metal   | not applicible                          |
+| `|_|_|_||||`      | Metal Circle       | a circle, no other use                  |
+| `|||_|_|`         | Gold               | not applicible                          |
+| `|_||_||_|`       | Money              | not applicible                          |
+| `|_|||_|`         | White Slate        | not applicible                          |
+| `|_||`            | Paper              | not applicible                          |
+| `|_|||`           | Carbon Fiber       | gun proof? unknown                      |
+| `|||_|_|||`       | Face               | unknown                                 |
+| `|_||||||`        | Sponge             | unknown                                 |
+| `||||_|_||`       | Brown Concrete     | not applicible                          |
+| `|_|||_|`         | Concrete           | not applicible                          |
+| `|_|_|||_|`       | Tile               | none                                    |
+| `|_||_|_||`       | Black Slab         |                                         |
 
