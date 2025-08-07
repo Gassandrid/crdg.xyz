@@ -2,7 +2,7 @@
 tags: [tutorials]
 ---
 
-Because many of you may not have worked with **Git** or **Github** before, we think it best there be a guide on how to add *your changes* to the main website..
+Because many of you may not have worked with **Git** or **Github** before, we think it best there be a guide on how to add *your changes* to the main website.
 
 ---
 
