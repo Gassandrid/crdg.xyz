@@ -1,97 +1,175 @@
-Fabricator - object created for gamepass \"miracle of alien diplomacy\"
+An object created for gamepass *"Miracle of Alien Diplomacy"* for printing material tiles.
 
 ## Description
 
-![Printer prints](Printer_prints.gif "Printer prints") The Fabricator is
-designed to generate blocks of different materials and colours. It has a
-uranium rod hole. It has two buttons on the sides: the left button
-cleans the printed text after the printer, and the right one writes the
-text. To print \|, you need to press the button immediately, and if you
-need to print \_\| then you need to wait and then start pressing the
-button `<small>`{=html}(somewhat similar to Morse
-code)`</small>`{=html}. To Fabricate the \*, you need to press the clear
-button multiple times. The printer has a bunch of combinations that give
-flat blocks of different colours, effects, materials, features. Requires
-uranium rod to start generating flat blocks.
+![Printer prints](Printer_prints.gif "Printer prints")
 
-### How to get it {#how_to_get_it}
+The Fabricator is designed to generate blocks of different materials and colours.
+It has a uranium rod hole and two buttons:
 
-You need the gamepass \"miracle of alien diplomacy\", after using /e
-summon at a certain time, it will spawn a Fabricator (other alien
-objects may get in)
+* **Left button**: cleans the printed text after the printer
+* **Right button**: writes the text
 
-### Combinations on the printer (Please only post confirmed codes\...) {#combinations_on_the_printer_please_only_post_confirmed_codes...}
+To print `|`, press the button immediately.
+To print `_ |`, wait before pressing (like **Morse code**).
+To fabricate `*`, press the clear button **multiple times**.
 
-+--------------------------------------------------+------------------------------+--------------------------------+
-| Combinations                                     | Material                     | Feature                        |
-+==================================================+==============================+================================+
-| \[\[<File:Copper.png%7Cthumb>\|`<nowiki>`{=html} | \|`</nowiki>`{=html}\]\]     | Copper                         |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| ![\|\_\|\_\|](Steel_crdg.png "|_|_|")            | Lead                         | X                              |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| Codes marked with an \* are combos.              | \~\~\~\~\~\~\~\~\~\~         | \~\~\~\~\~\~\~\~\~\~           |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| The names below are unknown and are purely       |                              |                                |
-| descriptions of the object (OR the actual names) |                              |                                |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| To get \* on the printer spam the reset button   |                              |                                |
-| until you get it                                 |                              |                                |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\*                              |                              |                                |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| \*\_\|\_\|                                       | D30 (real name unknown)      | EXPLOSION PROOF                |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\*                              | \_                           | \_                             |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\*\_                            | \|\_\|\_\|`</nowiki>`{=html} | Soil                           |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_                            | \|\_                         | `</nowiki>`{=html}             |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}                                | \|\_                         | \_\|`</nowiki>`{=html}         |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}                                | \_                           | \_\|`</nowiki>`{=html}         |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_\|\_                        | `</nowiki>`{=html}           | Sand                           |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_                            | \_\|\_\|`</nowiki>`{=html}   | Transparent Ice                |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_                            | \_                           |                                |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}                                | \|\_\|\_                     | \|`</nowiki>`{=html}           |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_                            | \_                           | \_\|`</nowiki>`{=html}         |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_                            | \|\_                         | \|`</nowiki>`{=html}           |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}                                |                              | \_\|\_\|\_\|`</nowiki>`{=html} |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}                                | \_\|`</nowiki>`{=html}       | Corroded Metal                 |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}                                | \|\_                         |                                |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| \|\_\|\_\|\_\|\_\|                               | Light Blue Metal             | not applicible                 |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_\|\_\|\_                    |                              | `</nowiki>`{=html}             |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}                                | \|\_\|\_\|`</nowiki>`{=html} | Gold                           |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_                            | \_                           | \_\|`</nowiki>`{=html}         |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_                            | \|\_\|`</nowiki>`{=html}     | White Slate                    |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_                            | `</nowiki>`{=html}           | Paper                          |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_                            | \|`</nowiki>`{=html}         | Carbon Fiber                   |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}                                | \|\_\|\_                     | \|`</nowiki>`{=html}           |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_                            |                              |                                |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}                                |                              | \_\|\_                         |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_                            | \|\_\|`</nowiki>`{=html}     | Concrete                       |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_\|\_                        | \|\_\|`</nowiki>`{=html}     | Tile                           |
-+--------------------------------------------------+------------------------------+--------------------------------+
-| `<nowiki>`{=html}\|\_                            | \_\|\_                       | `</nowiki>`{=html}             |
-+--------------------------------------------------+------------------------------+--------------------------------+
+The printer has a bunch of combinations that give flat blocks of different colours, effects, materials, and features.
+
+> **Note:** Requires uranium rod to start generating flat blocks.
+
+---
+
+## How to Get It
+
+You need the gamepass *"Miracle of Alien Diplomacy"*.
+After using `/e summon` at a certain time, it will spawn a Fabricator (other alien objects may also appear).
+
+---
+
+## Confirmed Combinations
+
+### TNT
+
+* **Code:** `*|||||||||`
+* **Feature:** Can explode
+
+### D30
+
+* **Code:** `*_|_|`
+* **Feature:** EXPLOSION PROOF
+
+### RGB
+
+* **Code:** `*||_||_||`
+* **Feature:** Flashes in many colours
+
+### Soil
+
+* **Code:** `*|||_|_|`
+* **Feature:** Able to be its own planter
+
+### Dirt
+
+* **Code:** `|_|_|||_||`
+* **Feature:** Not applicable
+
+### Areogel
+
+* **Code:** `|||_||_|`
+* **Feature:** Unknown
+
+### Butter
+
+* **Code:** `||_||_|`
+* **Feature:** No friction
+
+### Sand
+
+* **Code:** `|_|_||`
+* **Feature:** Not applicable
+
+### Transparent Ice
+
+* **Code:** `|_||_|_|`
+* **Feature:** Unknown
+
+### Circle
+
+* **Code:** `|_||_|||||`
+* **Feature:** A circle, no other use
+
+### Void
+
+* **Code:** `|||_|_|||`
+* **Feature:** Unknown
+
+### Stripped Wood
+
+* **Code:** `|_||_||_|`
+* **Feature:** Not applicable
+
+### Wood Planks
+
+* **Code:** `|_|_|||`
+* **Feature:** Not applicable
+
+### Red Granite
+
+* **Code:** `||||_|_|_|`
+* **Feature:** Not applicable
+
+### Corroded Metal
+
+* **Code:** `||_|`
+* **Feature:** Not applicable
+
+### Copper Circle
+
+* **Code:** `|||_||||||`
+* **Feature:** A circle, no other use
+
+### Light Blue Metal
+
+* **Code:** `|_|_|_|_|`
+* **Feature:** Not applicable
+
+### Metal Circle
+
+* **Code:** `|_|_|_||||`
+* **Feature:** A circle, no other use
+
+### Gold
+
+* **Code:** `|||_|_|`
+* **Feature:** Not applicable
+
+### Money
+
+* **Code:** `|_||_||_|` *(Same code as Stripped Wood — possibly bug or placeholder)*
+* **Feature:** Not applicable
+
+### White Slate
+
+* **Code:** `|_|||_|`
+* **Feature:** Not applicable
+
+### Paper
+
+* **Code:** `|_||`
+* **Feature:** Not applicable
+
+### Carbon Fiber
+
+* **Code:** `|_|||`
+* **Feature:** Gun proof? Unknown
+
+### Face
+
+* **Code:** `|||_|_|||` *(Same code as Void — might need checking)*
+* **Feature:** Unknown
+
+### Sponge
+
+* **Code:** `|_||||||`
+* **Feature:** Unknown
+
+### Brown Concrete
+
+* **Code:** `||||_|_||`
+* **Feature:** Not applicable
+
+### Concrete
+
+* **Code:** `|_|||_|` *(Same code as White Slate)*
+* **Feature:** Not applicable
+
+### Tile
+
+* **Code:** `|_|_|||_|`
+* **Feature:** None
+
+### Black Slab
+
+* **Code:** `|_||_|_||`
+* **Feature:** *(No description given)*
