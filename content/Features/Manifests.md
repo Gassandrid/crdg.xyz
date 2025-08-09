@@ -10,9 +10,13 @@ tags: [todo]
 There are a total of nineteen (eighteen exluding Fireworks) manfiests, with the majority of them being able to be grown by **Seed Trees**. They serve different uses and are overall better than regular **Components** from the **Component Machine**. They are also able to be stored using the **miracle of manifestation** menu, opened by an icon in the **Roblox Menu**. 
 
 > ![[Pasted image 20250808222537.png|300]]
+>
 >The **miracle of manifestation** menu being opened.
+
 > ![[ScreenRecording_08-09-202510-55-25_1.gif|300]]
+>
 >The animation that plays whenever you spawn in a **Manifest Component**.
+
 ### Obtainment
 
 There are three ways to obtain manifest components;
