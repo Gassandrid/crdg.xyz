@@ -6,8 +6,9 @@ tags: [todo]
 
 To use it, a player must say “/e summon” in the chat. The command cannot be activated by other users that don’t have the gamepass. Using the command puts you in an arm-lifting emote with an alien-looking symbol under your character, and moving cancels out the emote. The symbol will gradually increase brightness depending on how close the next **Alien Summoning** happens.
 
->![[ScreenRecording_08-08-202517-39-38_1.gif|300]]
->The “/e summon” emote being used.
+  >![[ScreenRecording_08-08-202517-39-38_1.gif|300]]
+  >
+  >The “/e summon” emote being used.
 
 Once every ~20 minutes on a global time, an UFO will go to the nearest of one of the 5 main Islands in the game depending on where the emote is activated and will drop one of eleven **Alien Components** chosen by luck. 
 
