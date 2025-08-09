@@ -11,11 +11,11 @@ There are a total of nineteen (eighteen exluding Fireworks) manfiests, with the 
 
 > ![[Pasted image 20250808222537.png|300]]
 >
->The **miracle of manifestation** menu being opened.
+> The **miracle of manifestation** menu being opened.
 
 > ![[ScreenRecording_08-09-202510-55-25_1.gif|300]]
 >
->The animation that plays whenever you spawn in a **Manifest Component**.
+> The animation that plays whenever you spawn in a **Manifest Component**.
 
 ### Obtainment
 
