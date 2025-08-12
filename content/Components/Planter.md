@@ -5,7 +5,7 @@ tags:
 ---
 > [!infobox|n-th|right]
 > 
-> <center># Planter </center>
+> <p align="center"> # Planter </p>
 > 
 > > [!caption|center wfull txt-s]
 > > 
