@@ -5,7 +5,7 @@ tags:
 ---
 > [!infobox|n-th]
 > 
-> # Planter
+> ## Planter
 > 
 > > [!caption|center wfull txt-s]
 > > 
