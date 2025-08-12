@@ -3,9 +3,9 @@ tags:
   - todo
   - component
 ---
-> [!infobox|n-th|right]
+> [!infobox|n-th]
 > 
-> <p align="center"> # Planter </p>
+> # Planter
 > 
 > > [!caption|center wfull txt-s]
 > > 
