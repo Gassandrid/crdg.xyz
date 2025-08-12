@@ -5,7 +5,7 @@ tags:
 ---
 > [!infobox|n-th|right]
 > 
-> # **Planter**
+> ## Planter
 > 
 > > [!caption|center wfull txt-s]
 > > 
@@ -19,12 +19,12 @@ tags:
 > | **Inputs** | - [[Banana]]<br>- [[Seed]]<br>- [[miracle gro]] <br>- [Moray Eel](Moray_eel) <br>- [[Lemon]] |
 > | **Outputs** | - [[Manifests]]<br>- [[Banana]]<br>- [[Lemon]] <br>- [[Golden Lemon]]|
 
-The **Planter** is a **Miscellaneous**-type [Component](Components) spawned by the [[Component Machine]]. T were added on August 27th, 2022. **Planters** are mostly used for growing **Trees**, most usually the **Seed Tree** type. 
+The **Planter** is a **Miscellaneous**-type [Component](Components) spawned by the [[Component Machine]]. They were added on August 27th, 2022. **Planters** are mostly used for growing **Trees**, most usually the **Seed Tree** type. 
 # Usage
 
 **Planters** are mostly used to grow **Trees**. They also have a hidden ability; explosion protection. Placing 4 **Planters** close together and activating an explosion will protect all damage from happening. This ability is shared with **D30**, a slab created from the **Fabricator**.
 
-___
+
 # Golden Planters
 
 **Golden Planters** are **Planters** capable of growing a golden variant of the **Lemon Tree**, often called the **Golden Lemon Tree**. **Golden Planters** are also capable of growing other types of **Trees**, but they don’t produce any golden versions of their outputs. They have a unique grow speed, where growth speed is doubled in the first few minutes but is permanently slowed after the growth speed.
@@ -53,7 +53,7 @@ There are four types (5 including Golden Lemon trees) of **Trees** in the game. 
 
 ## Palm Trees
 
-**Palm Trees** are a type of **Tree** added during Part 3 of the Fish Update, on February 14th, 2025. They are the only type of **Tree** to have no output, and use a different material for their bark. They are planted by a [Moray Eel](Moray_eel), a type of Fish. **Palm Trees** are the only type of **Trees** to have a **Fish** as a **Seed**. 
+**Palm Trees** are a type of **Tree** added during Part 3 of the Fish Update, on February 14th, 2025. They are the only type of **Tree** to have no output, and use a different material for their bark. They are planted by a [Moray Eel](Moray_eel.md), a type of Fish. **Palm Trees** are the only type of **Trees** to have a **Fish** as a **Seed**. 
 
 ___
 # Strategies
@@ -68,7 +68,7 @@ There are multiple strategies you can use in order to grow trees more efficientl
 **Sky Islands** are the most safe strategy to ensure that your **Planters** won’t get destroyed. There aren’t any mandatory spots to create one, but it is recommended to make them on the [[Cathedral]] island, as you get the most space there. You‘ll also need the “[miracle of alien diplomacy](https://www.roblox.com/game-pass/982093805/miracle-of-alien-diplomacy)” gamepass, only available during Black Friday sales.
 ## Instructions
 
-First off, it is recommended to stay alive the whole time, and to also make the island during peak school time on school days (i.e Wednesdays) to make sure no one will join you. You will also need to regularly [Summon](Alien Summoning) every 20 minutes during the entire building process, as you might encounter bad luck trying to succesfully get a World Spike.
+First off, it is recommended to stay alive the whole time, and to also make the island during peak school time on school days (i.e Wednesdays) to make sure no one will join you. You will also need to regularly [Summon](Alien%20Summoning.md) every 20 minutes during the entire building process, as you might encounter bad luck trying to succesfully get a World Spike.
 
 1. Get to [[Gas Station]] and get the [Bag Of Sand](Bag_Of_Sand) there.
 2. Get to [[Cathedral]] and start building the Frame out of Cardboard shown in the **Blueprint**. Use the Bag of Sand (or alternatively, the towel dispenser) to get enough Cardboard.
