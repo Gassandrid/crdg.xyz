@@ -11,7 +11,7 @@ tags:
 > > 
 > > ![[Pasted image 20250812162000.png|center]]
 > > 
-> >  Able to grow plants if a seed is placed ontop.
+> > Able to grow plants if a seed is placed ontop.
 > ### Component Info
 > 
 > | Component Type | Miscellaneous |
@@ -19,7 +19,7 @@ tags:
 > | **Inputs** | - [[Banana]]<br>- [[Seed]]<br>- [[miracle gro]] <br>- [Moray Eel](Moray_eel) <br>- [[Lemon]] |
 > | **Outputs** | - [[Manifests]]<br>- [[Banana]]<br>- [[Lemon]] <br>- [[Golden Lemon]]|
 
-The **Planter** is a **Miscellaneous**-type [Component](Components) spawned by the [[Component Machine]]. They were added on August 27th, 2022. **Planters** are mostly used for growing **Trees**, most usually the **Seed Tree** type. 
+The **Planter** is a **Miscellaneous**-type [Component](Components) spawned by the [[Component Machine]]. T were added on August 27th, 2022. **Planters** are mostly used for growing **Trees**, most usually the **Seed Tree** type. 
 # Usage
 
 **Planters** are mostly used to grow **Trees**. They also have a hidden ability; explosion protection. Placing 4 **Planters** close together and activating an explosion will protect all damage from happening. This ability is shared with **D30**, a slab created from the **Fabricator**.
