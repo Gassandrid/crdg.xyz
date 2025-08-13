@@ -13,7 +13,7 @@
     min-height: 80px; text-shadow: 0 2px 6px rgba(0,0,0,1), 0 3px 6px rgba(0,0,0,0.23); 
     border: 2px solid #777777; font-family: sans-serif; font-size: 1.05rem; padding: 10px;">
 
-    <img src="images/Pasted image 20250813090828.png" alt="Notice Icon"
+    <img src="Attachments/Pasted%20image%2020250813090828.png" alt="Notice Icon"
          style="width: 120px; height: 120px; object-fit: contain;
          filter: drop-shadow(2px 4px 4px rgba(0,0,0,0.5));">
 
