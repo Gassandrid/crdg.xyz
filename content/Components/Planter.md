@@ -26,7 +26,7 @@ tags: [todo, component]
                 <span style="color:#1245dc;">IMAGE!</span>
             </div>
             <div style="display:flex; align-items:center; justify-content:center; gap:6px; font-size:1rem; font-style:italic; color:white;">
-                <span>This page is lacking the following images:</span>
+                <span>This page is lacking the following images: Tree variants, seasonly tree reskins</span>
                 <span style="background: rgba(255,0,0,0.4); border: 3px solid red; padding:2px 6px; border-radius:3px; color:white;">Placeholder</span>
             </div>
         </div>
