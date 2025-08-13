@@ -28,11 +28,12 @@ tags: [todo, component]
             </div>
             <div style="display:flex; align-items:center; justify-content:center; gap:6px; font-size:1rem; font-style:italic; color:white;">
                 <span>This page is lacking the following images:</span>
-                <span style="background: rgba(255,0,0,0.4); border: 3px solid red; padding:2px 6px; border-radius:3px; color:white;">Placeholder</span>
+                <span style="background: rgba(255,0,0,0.4); border: 3px solid red; padding:2px 6px; border-radius:3px; color:white;">Seasonal Trees, Tree Types</span>
             </div>
         </div>
     </div>
 </div>
+
 > [!infobox|n-th]
 > 
 > ## **Planter**
