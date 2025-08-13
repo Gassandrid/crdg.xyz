@@ -11,7 +11,7 @@
         z-index:0;"></div>
     <div style="position:relative; display:flex; align-items:center; gap:10px; z-index:1; height:100%;">
         <div style="width:100px; height:100px; flex-shrink:0; display:flex; align-items:center; justify-content:center; overflow:visible;">
-            <img src="https://static.wikia.nocookie.net/roblox/images/a/ab/ContentDDD.png/revision/latest?cb=20200105115756"
+            <img src="ContentDeleted.png"
                  alt="Notice Icon"
                  style="width:100px; height:100px; object-fit:contain;
                         transform:rotate(8deg);
