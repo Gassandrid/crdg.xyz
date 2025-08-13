@@ -1,6 +1,6 @@
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
-    padding:10px;
+    padding:0; 
     overflow:visible;
     font-family:sans-serif;
     font-size:1.05rem;
@@ -11,13 +11,13 @@
     box-shadow:2px 2px #777777;
     background:none;">
     <div style="display:flex;align-items:center;gap:10px;
-        padding: var(--backgroundPadding, 8px);
+        height:80px;
         border-radius:0.5px;
         background:
             linear-gradient(to bottom,rgba(238,220,52,0.85),rgba(15,16,1,0.85)),
             repeating-linear-gradient(-45deg,#ced211,#ced211 20px,#010100 20px,#010100 40px);
         flex-grow:1;
-        overflow:visible;"> 
+        overflow:visible;">
         <div style="position:relative;width:120px;height:120px;flex-shrink:0;display:flex;align-items:center;justify-content:center;">
             <img src="https://tr.rbxcdn.com/180DAY-5efd399b8a1e6ce4892b0afeef910591/420/420/Tshirt/Webp/noFilter"
                  alt="Notice Icon"
