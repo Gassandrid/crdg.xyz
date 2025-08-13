@@ -14,15 +14,14 @@
     font-size:1.05rem;
     padding:10px;
     overflow:visible;">
-    <div style="position:relative;width:120px;height:120px;flex-shrink:0;">
+    <div style="position:relative;width:120px;height:120px;flex-shrink:0;display:flex;align-items:center;justify-content:center;">
         <img src="https://tr.rbxcdn.com/180DAY-5efd399b8a1e6ce4892b0afeef910591/420/420/Tshirt/Webp/noFilter"
              alt="Notice Icon"
              style="width:120px;height:120px;object-fit:contain;
              filter:drop-shadow(2px 4px 4px rgba(0,0,0,0.5));
-             transform:rotate(8deg);
-             position:absolute;top:0;left:0;">
+             transform:rotate(8deg);">
     </div>
-    <div style="display:flex;flex-direction:column;justify-content:center;transform:translateY(-10%);">
+    <div style="display:flex;flex-direction:column;justify-content:center;">
         <div style="font-size:2rem;color:#ffffff;">
             <span style="color:#ced211;">WORK</span>
             <span style="color:#010100;">IN</span>
@@ -33,4 +32,3 @@
         </div>
     </div>
 </div>
-
