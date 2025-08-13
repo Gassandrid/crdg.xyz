@@ -12,11 +12,9 @@
     color: #FFFFFF; margin: 10px 5px 5px 5px; border-radius: 0.5px; 
     min-height: 80px; text-shadow: 0 2px 6px rgba(0,0,0,1), 0 3px 6px rgba(0,0,0,0.23); 
     border: 2px solid #777777; font-family: sans-serif; font-size: 1.05rem; padding: 10px;">
-
     <img src="Attachments/Pasted%20image%2020250813090828.png" alt="Notice Icon"
          style="width: 120px; height: 120px; object-fit: contain;
          filter: drop-shadow(2px 4px 4px rgba(0,0,0,0.5));">
-
     <div style="display: flex; flex-direction: column; justify-content: center; transform: translateY(-10%);">
         <div style="font-size: 2rem; color: #ffffff;">
             <span style="color: #ced211;">WORK</span>
