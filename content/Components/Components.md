@@ -32,7 +32,7 @@ Components are the primary in game objects that can be used for building with [[
 > 
 > ![[Pasted image 20250722144112.png]]
 
-[[Flashbang]]
+[[crdg.xyz/content/Components/Flashbang]]
 
 [[Gun]]
 
@@ -54,7 +54,7 @@ Components are the primary in game objects that can be used for building with [[
 
 [[Transistor]]
 
-[[Treadmil]]
+[[Treadmill]]
 
 [[Tripwire]]
 
@@ -66,7 +66,7 @@ Components are the primary in game objects that can be used for building with [[
 
 [[Flamethrower Component]]
 
-> [[1911]]
+> [[1911 Pistol]]
 > 
 > ![[Pasted image 20250722191142.png]]
 
@@ -80,4 +80,4 @@ Components are the primary in game objects that can be used for building with [[
 
 [[Propellant]]
 
-[[Rocket]]
+[[crdg.xyz/content/Old Wiki/Rocket]]
