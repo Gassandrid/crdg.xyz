@@ -14,8 +14,7 @@ view](Billsbatteries1.png "Bill's Batteries, side view")The island has
 spawners for [rusty carts](Carts#Rusty_Cart "rusty carts"){.wikilink}
 and [rusty passenger
 carts](Trailers#Rusty_passenger_cart "rusty passenger carts"){.wikilink},
-with a dumpster which has a [rusty fishing
-rod](Fish#Fishing_Rods "rusty fishing rod"){.wikilink} behind it and a
+with a dumpster which has a [](Fish.md#Fishing_Rods){.wikilink} behind it and a
 [rusty battery](Rusty_Battery "rusty battery"){.wikilink} inside, as
 well as the [screw](Riel "screw"){.wikilink} next to it. There is a vent
 in the back of the store which leads to the

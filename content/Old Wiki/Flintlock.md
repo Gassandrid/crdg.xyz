@@ -28,7 +28,7 @@ fintlog - exactly the same, but the barrel is floppy.
 
 bananalock - shoots bananas that can trip players.
 
-piranhalock - shoots activated [piranha](Fish "piranha"){.wikilink}s
+piranhalock - shoots activated [piranha](Fish.md "piranha"){.wikilink}s
 
 pomnilock - shoots ghost pomni projectiles with no gravity that turn
 people into pomni upon being hit. the shot sound is a slowed audio of a

@@ -3,7 +3,7 @@
 ```
 ## General
 
-One of the original [fish](Fish "fish"){.wikilink} able to be caught in
+One of the original [fish](Fish.md "fish"){.wikilink} able to be caught in
 testing, has a large variety of size.
 
 ## Unique Traits {#unique_traits}
