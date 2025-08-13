@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "crdg.xyz",
+    pageTitle: "The CRDG Wiki",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
