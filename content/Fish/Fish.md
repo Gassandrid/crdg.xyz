@@ -130,7 +130,7 @@ Can be spawned in by admins of the game.
 
 Most seasonal fish usually land in the category of legendary:
 
-#### Halloween Fish {#halloween_fish}
+#### Halloween Fish
 
 - [Skeleton Sailfish](Skeleton_Sailfish "Skeleton Sailfish")
 - [Zombie Fish](Zombie_Fish "Zombie Fish")
@@ -147,7 +147,7 @@ Just go to [this page](Old%20Wiki/Manifests.md "this page")
 
 ## Attributes
 
-### Attributes Rarities {#attributes_rarities}
+### Attributes Rarities
 
 Attributes on fish are random mutations that can happen:
 
@@ -166,45 +166,19 @@ Attributes on fish are random mutations that can happen:
 - Lengthy
 - Green (most common)
 
-## Poseidon & Miracle of the Ocean {#poseidon_miracle_of_the_ocean}
+## Poseidon & Miracle of the Ocean
 
-### [Poseidon NPC](NPCs#Poseidon "Poseidon NPC"){.wikilink} {#poseidon_npc}
+### [Poseidon NPC](NPCs#Poseidon "Poseidon NPC")
 
-Poseidon is a Mythical fish and is the only fishable
+Poseidon is a Mythical fish and is the only fishable [NPC](NPCs "NPC") If you talk to him he says *"Hi am am Poseidon"* and you can say hi or Goodbye. If you say hi, he says \"Do you want the miracle of the ocean\" and gives you the options \"no thanks\" or \"Yeah\" clicking no thanks will make him say \"suit yourself\" and the chat ends. Clicking \"Yeah\" will give you the Troutstanding Catch badge and unlock the miracle of the ocean.
 
-[NPC](NPCs "NPC"){.wikilink} If you talk to him he says \"Hi am am
+### Miracle of the Ocean
 
-Poseidon\" and you can say hi or Goodbye. If you say hi, he says \"Do
-
-you want the miracle of the ocean\" and gives you the options \"no
-
-thanks\" or \"Yeah\" clicking no thanks will make him say \"suit
-
-yourself\" and the chat ends. Clicking \"Yeah\" will give you the
-
-Troutstanding Catch badge and unlock the miracle of the ocean.
-
-### Miracle of the Ocean {#miracle_of_the_ocean}
-
-The miracle of the ocean is similar to the miracle of manifestation, as
-
-it allows you to store fish across servers.
-
-To use the miracle of the ocean, drag the fish you want to store into
-
-the menu and let go of click.
-
-Once in the menu, you can click on that fish, and it will show you all
-
-the variants of that fish you have including
-
-there size and color. To respawn them, just click the fish you want to
-
-respawn into the world.
+The miracle of the ocean is similar to the miracle of manifestation, as it allows you to store fish across servers. To use the miracle of the ocean, drag the fish you want to store into the menu and let go of click. Once in the menu, you can click on that fish, and it will show you all the variants of that fish you have including there size and color. To respawn them, just click the fish you want to respawn into the world.
 
 **\*\*YOU CAN NOT STORE GLUED/ACTIVATED FISH\*\***
 
-## What Fish Look like and what They Do {#what_fish_look_like_and_what_they_do}
+## What Fish Look like and what They Do
 
 ### Common Fish {#common_fish}
 
