@@ -40,4 +40,5 @@ tags: [todo]
         </div>
     </div>
 </div>
+
 ![[Pasted image 20250722182416.png]]
