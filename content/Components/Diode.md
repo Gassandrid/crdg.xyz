@@ -1,3 +1,0 @@
----
-tags: [components/manifest, todo]
----
