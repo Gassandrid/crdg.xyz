@@ -9,6 +9,9 @@ Unlike the MediaWiki powered *Miraheze* wiki, this one will include **tutorials*
 
 If you would like to contribute, please see [[How to contribute]].
 
+**If there are any problems with this sites access, (some website protection services flag crdg.xyz, and we have no idea why), then contact us via the Discord server.**
+
+Discord server link: https://discord.gg/DrvumChdZe
 ---
 
 > [!infobox|n-th]
