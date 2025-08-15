@@ -10,6 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/Gassandrid/crdg.xyz",
       Game: "https://www.roblox.com/games/7715234692/cart-ride-around-a-75-KW-Diesel-Generator",
+      Discord: "https://discord.gg/DrvumChdZe",
     },
   }),
 }

@@ -1,5 +1,6 @@
 ---
-tags: [tutorials]
+tags:
+  - tutorials/wiki
 ---
 
 Because many of you may not have worked with **Git** or **Github** before, we think it best there be a guide on how to add *your changes* to the main website.
@@ -20,7 +21,7 @@ Click the **fork** button on the main page, this will prompt you to make your ow
 
 Now that you have you own version of the wiki, you can do two things:
 
-1. **Make your changes directly in GitHub as outlined below:**
+#### Make Your Changes Directly in GitHub
 
 Click *content* to edit the wiki source
 
@@ -32,17 +33,21 @@ Click *content* to edit the wiki source
 
 **OR**
 
-2. **Download the Repository and *edit* it with obsidian**
+#### Editing With Obsidian
 
 Click the *code* button
 
 ![[Screenshot 2025-07-26 at 12.01.32 PM.png]]
 
-And then click *download zip* or any other way you would like to clone the repository.
+And then copy the **URL** of your repo
 
-![[Screenshot 2025-07-26 at 12.02.12 PM.png]]
+![[Screenshot 2025-08-15 at 1.42.37 PM.png]]
 
-You can now unpack this zip file and open it with **Obsidian** as mentioned in [[How to contribute]].
+Then, **IF YOU ARE ON WINDOWS**, you can clone the files onto your own computer (**make sure to choose a good spot for it**):
+
+![[Pasted image 20250815134329.png]]
+
+Then, go to [[Using Obsidian to Make Changes]] to learn how to use it to add changes.
 
 ### Adding Your Changes to the Main Wiki
 

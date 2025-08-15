@@ -1,4 +1,8 @@
-Assuming you [[How to make a pull request|have made a fork of the repository]], you can use **Obsidian** so that you dont ever have to touch git on your own machine.
+---
+tags: [tutorials/wiki]
+---
+
+Assuming you [[How to make a pull request|have made a fork of the repository]], you can use **Obsidian** so that you dont ever have to touch git on your own machine. 
 
 Wherever you **cloned your fork** on your local machine, **open obsidian to that location**:
 

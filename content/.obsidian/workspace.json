@@ -27,12 +27,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Using Obsidian to Make Changes.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Using Obsidian to Make Changes"
+              "title": "index"
+            }
+          },
+          {
+            "id": "fd6e84e364efed5c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Attachments/Screenshot 2025-07-26 at 12.02.12 PM.png"
+              },
+              "icon": "lucide-image",
+              "title": "Screenshot 2025-07-26 at 12.02.12 PM"
             }
           }
         ],
@@ -156,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Using Obsidian to Make Changes.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Using Obsidian to Make Changes"
+              "title": "Outline of index"
             }
           },
           {
@@ -194,8 +206,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a1543fe4cc358ef",
+  "active": "f48cfb9edc456af2",
   "lastOpenFiles": [
+    "Tutorials/Testing For Developers.md",
+    "Tutorials/How 2 QROT.md",
+    "Tutorials/How to make a pull request.md",
+    "Tutorials/Using Obsidian to Make Changes.md",
+    "Attachments/Pasted image 20250815134329.png",
+    "Attachments/Screenshot 2025-08-15 at 1.42.37 PM.png",
+    "Attachments/Screenshot 2025-07-26 at 12.02.12 PM.png",
     "Features/Bees.md",
     "Attachments/Pasted image 20250815215646.png",
     "Attachments/Pasted Image 20250815215611_449.png",
@@ -203,20 +222,15 @@
     "Attachments/Screenshot 2025-08-15 at 1.37.44 PM.png",
     "Attachments/OpeningVault.png",
     "Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md",
-    "Tutorials/Using Obsidian to Make Changes.md",
     "Toolkits and Templates/Wikibox Template.md",
     "Components/Planter.md",
     "Toolkits and Templates/Callouts.md",
     "Attachments/Pasted image 20250815173511.png",
-    "Tutorials/How 2 QROT.md",
     "Tutorials/Guide to Beekeeping.md",
     "Features/Emotes/sit.md",
     "Features/Emotes/dansen.md",
     "Features/Emotes",
     "Attachments/ScreenRecording_08-14-202510-44-01_1.gif",
-    "Attachments/ScreenRecording_08-14-202510-26-08_1.gif",
-    "Attachments/Pasted image 20250815114728.png",
-    "Attachments/Pasted Image 20250815173407_811.png",
     "index.md",
     "Fish/Fish.md",
     "Old Wiki/NPCs.md",
@@ -232,8 +246,6 @@
     "Components/glass pane.md",
     "Components/anti-gravity device.md",
     "Components/XOR Gate.md",
-    "Components/World Spike.md",
-    "Components/Wireless Signaler.md",
     "Tutorials",
     "Toolkits and Templates",
     "Resources/clippings/youtube",
