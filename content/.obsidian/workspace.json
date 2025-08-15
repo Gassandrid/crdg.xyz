@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Using Obsidian to Make Changes.md",
+                "file": "Tutorials/Wiki/Using Obsidian to Make Changes.md",
                 "mode": "source",
                 "source": false
               },
@@ -206,12 +206,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f48cfb9edc456af2",
+  "active": "6eabb567d612b953",
   "lastOpenFiles": [
-    "Tutorials/Testing For Developers.md",
+    "Tutorials/Wiki",
+    "Tutorials/Wiki/Testing For Developers.md",
     "Tutorials/How 2 QROT.md",
-    "Tutorials/How to make a pull request.md",
-    "Tutorials/Using Obsidian to Make Changes.md",
+    "Tutorials/Wiki/How to make a pull request.md",
+    "Tutorials/Wiki/Using Obsidian to Make Changes.md",
     "Attachments/Pasted image 20250815134329.png",
     "Attachments/Screenshot 2025-08-15 at 1.42.37 PM.png",
     "Attachments/Screenshot 2025-07-26 at 12.02.12 PM.png",
@@ -245,7 +246,6 @@
     "Components/leafblower.md",
     "Components/glass pane.md",
     "Components/anti-gravity device.md",
-    "Components/XOR Gate.md",
     "Tutorials",
     "Toolkits and Templates",
     "Resources/clippings/youtube",
