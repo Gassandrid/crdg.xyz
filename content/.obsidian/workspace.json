@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Toolkits and Templates/Callouts.md",
+                "file": "Components/Planter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Callouts"
+              "title": "Planter"
             }
           },
           {
@@ -153,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Toolkits and Templates/Callouts.md",
+                "file": "Components/Planter.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Callouts"
+              "title": "Outline of Planter"
             }
           }
         ],
@@ -183,8 +183,8 @@
   },
   "active": "21394123d1796572",
   "lastOpenFiles": [
-    "Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md",
     "Toolkits and Templates/Callouts.md",
+    "Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md",
     "Components/Planter.md",
     "Attachments/Pasted image 20250815173511.png",
     "Tutorials/How 2 QROT.md",

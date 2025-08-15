@@ -33,7 +33,7 @@ tags: [todo, component]
         </div>
     </div>
 </div>
----
+
 > [!infobox|n-th]
 > 
 > ## **Planter**
@@ -45,7 +45,7 @@ tags: [todo, component]
 > > Able to grow plants if a seed is placed on top.
 > 
 > ### Component Info
->
+> 
 > | Component Type | Miscellaneous |
 > | --- | --- |
 > | **Inputs** | - [[Banana]]<br>- [[Seed]]<br>- [[miracle gro]] <br>- [Moray Eel](Moray_eel) <br>- [[Lemon]] |
