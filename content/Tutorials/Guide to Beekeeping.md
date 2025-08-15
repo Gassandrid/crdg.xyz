@@ -37,6 +37,7 @@
         </div>
     </div>
 </div>
+
 ---
 
 This page will serve as a step-by-step guide to the **Beekeeping** feature of the game, with included pictures and blueprint for visual help.

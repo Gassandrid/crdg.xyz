@@ -11,12 +11,14 @@
             "id": "b7201ea03a71acaf",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "content/Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md"
+                "file": "content/Tutorials/Guide to Beekeeping.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "CRDG Diagram Toolkit.excalidraw"
+              "icon": "lucide-file",
+              "title": "Guide to Beekeeping"
             }
           }
         ]
@@ -180,19 +182,21 @@
   },
   "active": "b7201ea03a71acaf",
   "lastOpenFiles": [
-    "content/Toolkits and Templates/NeedsImage Notice Template.md",
+    "content/Tutorials/How to contribute.md",
     "content/Tutorials/Guide to Beekeeping.md",
+    "content/Toolkits and Templates/Wikibox Template.md",
+    "content/Toolkits and Templates/Stub Notice Template.md",
+    "content/Toolkits and Templates/NeedsImage Notice Template.md",
+    "content/Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md",
     "content/Features/Manifests.md",
     "content/Features/Alien Summoning.md",
     "content/Features/Emotes/dansen.md",
     "content/Features/Emotes/sit.md",
     "content/Tutorials/How to make a pull request.md",
     "content/index.md",
-    "content/Toolkits and Templates/Stub Notice Template.md",
     "content/Toolkits and Templates/Callouts.md",
     "content/Components/Prism.md",
     "content/Components/Planter.md",
-    "content/Tutorials/How to contribute.md",
     "content/Tutorials/How 2 QROT.md",
     "content/Tutorials/Breaking Apart Components.md",
     "Gamepasses/bee repellent.md",
