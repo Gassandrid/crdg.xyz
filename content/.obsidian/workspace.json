@@ -33,8 +33,7 @@
               "title": "CRDG Diagram Toolkit.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md",
+                "file": "Components/Planter.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CRDG Diagram Toolkit.excalidraw"
+              "title": "Outline of Planter"
             }
           }
         ],
@@ -178,13 +177,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f48cfb9edc456af2",
+  "active": "21394123d1796572",
   "lastOpenFiles": [
-    "Components/Planter.md",
+    "Toolkits and Templates/Callouts.md",
     "Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md",
+    "Components/Planter.md",
+    "Attachments/Pasted image 20250815173511.png",
     "Tutorials/How 2 QROT.md",
     "Tutorials/Guide to Beekeeping.md",
     "Features/Emotes/sit.md",
@@ -199,7 +201,6 @@
     "Attachments/Pasted Image 20250815123005_877.png",
     "Attachments/Pasted Image 20250815122927_675.png",
     "Attachments/Pasted Image 20250815122754_590.png",
-    "Attachments/Pasted Image 20250815122704_140.png",
     "index.md",
     "Fish/Fish.md",
     "Old Wiki/NPCs.md",
@@ -220,7 +221,6 @@
     "Components/Treadmill.md",
     "Components/Transporter.md",
     "Components/Tractor Beam.md",
-    "Components/Speargun.md",
     "Tutorials",
     "Toolkits and Templates",
     "Resources/clippings/youtube",
