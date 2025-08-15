@@ -1,7 +1,5 @@
 ---
-tags:
-  - todo
-  - component
+tags: [todo, component]
 ---
 
 <div style="--notice-height:80px; position:relative; margin:10px 5px 5px 5px; padding:10px;
@@ -47,7 +45,7 @@ tags:
 > > Able to grow plants if a seed is placed on top.
 > 
 > ### Component Info
-> 
+>
 > | Component Type | Miscellaneous |
 > | --- | --- |
 > | **Inputs** | - [[Banana]]<br>- [[Seed]]<br>- [[miracle gro]] <br>- [Moray Eel](Moray_eel) <br>- [[Lemon]] |
@@ -141,4 +139,3 @@ First off, it is recommended to stay alive the whole time, and to also make the 
 ## Miracle Gro
 
 **miracle gro** is an Exclusive object only capapble of being spawned by a Moderator. It can also be purchased inside of the **Tycoon**. It is a customizable version of the [[Seed]], however with everything being able to be changed inside of a **GUI**. 
-
