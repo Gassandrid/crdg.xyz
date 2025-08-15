@@ -1,5 +1,17 @@
 These callouts have standard use cases and titles, but you can override the title yourself if you want.
 
+You can also make them **collapsible** using a + or - sight as so:
+
+> [!Example]- this is collapsed
+> but can be clicked
+
+> [!Example]+ this is uncollapsed
+> but can be clicked to collapse
+
+---
+
+## Callout List
+
 **Info**
 
 > [!Info] Title
