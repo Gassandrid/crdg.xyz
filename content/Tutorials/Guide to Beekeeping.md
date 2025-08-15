@@ -79,3 +79,31 @@ However, there are some specific rules to this.
 
 ### Blueprints
 
+>![[Pasted image 20250815215646.png]]
+
+---
+
+## Honey
+
+**Honey** is a liquid able to be produced by a beehive. When a bee goes back to a hive, it will randomly select a 
+
+
+
+
+
+
+---
+## Troubleshooting
+
+A lot of issues may happen while trying to create a successful **Beehive**. This section is dedicated to ironing out the errors and to get your **Beehive** going.
+
+> [!Question] 
+> My bees aren't going to nearby planters.
+
+One of these conditions aren't met:
+- The light level should be low enough
+- The honeycombs in your beehive should be spaced out enough
+- There should be enough space for the bees to come out
+
+> [!Question] 
+> 
