@@ -71,8 +71,8 @@ Whenever a **Beehive** is created, all the bees inside will do the following:
 - Once they reach the plant, stay inside of it for a few seconds.
 - Once the few seconds have elapsed, the bees inside will go back inside the hive, selects a random cell and fills it with honey, and the cycle repeats.
 However, there are some specific rules to this.
-- No matter how many **Honeycombs** are placed, only one bee is able to fly towards one planter.
-	-  This means that bottlenecking is possible between [Planters](Planter) and **Honeycombs**.
+	- The amount of bees able to go on a specific tree depends on the size. For example, a small banana tree would only get one bee but a bigger banana tree would be able to get multiple bees on it due to the amount of leaves in the tree.
+		-  This means that bottlenecking is possible between [Planters](Planter) and **Honeycombs**.
 
 > [!Warning]
 > Bees have no limits in terms of pathfinding a [[Planter]]. This means that they are able to locate [[Planter#Sky Islands|Sky Islands]] from far away and are able to be used for griefing purposes.

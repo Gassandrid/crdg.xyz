@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Features/Bees.md",
+                "file": "content/Tutorials/Guide to Beekeeping.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bees"
+              "title": "Guide to Beekeeping"
             }
           }
         ],
@@ -197,8 +197,8 @@
   },
   "active": "07cec9abe116e5e6",
   "lastOpenFiles": [
-    "2025-08-1522-07-53-ezgif.com-video-to-gif-converter 1.gif",
     "content/Features/Bees.md",
+    "2025-08-1522-07-53-ezgif.com-video-to-gif-converter 1.gif",
     "content/Tutorials/Guide to Beekeeping.md",
     "2025-08-1522-07-53-ezgif.com-video-to-gif-converter.gif",
     "content/Toolkits and Templates/Callouts.md",
