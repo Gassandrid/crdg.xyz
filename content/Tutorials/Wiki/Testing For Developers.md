@@ -1,5 +1,5 @@
 ---
-tags: [tutorials]
+tags: [tutorials/wiki]
 ---
 
 There are other ways to work on the wiki, but I recommend the following if you know how to use the **command line**. This assumes **I have added you as a collaborator**:

@@ -7,11 +7,10 @@ This is a new **work in progress** project to create a real, complete wiki for t
 
 Unlike the MediaWiki powered *Miraheze* wiki, this one will include **tutorials** and **guides** to building all sorts of contraptions and strategies in the game.
 
-If you would like to contribute, please see [[How to contribute]].
+If you would like to contribute, please see [[How to make a pull request]].
 
 **If there are any problems with this sites access, (some website protection services flag crdg.xyz, and we have no idea why), then contact us via the Discord server.**
 
-Discord server link: https://discord.gg/DrvumChdZe
 ---
 
 > [!infobox|n-th]
