@@ -69,7 +69,8 @@ To shoot them down, it is common practice to use a [[Flintlock]]. Once a bee nes
 Whenever a **Beehive** is created, all the bees inside will do the following:
 - Fly towards a randomly chosen [[Planter]] (that has a Seed planted inside)
 - Once they reach the plant, stay inside of it for a few seconds.
-- Once the few seconds have elapsed, the bees inside will go back inside the hive, selects a random cell and fills it with honey, and the cycle repeats.
+- Goes to any adjacent plant near it then stays inside it for a few seconds.
+- Once the few seconds have elapsed, the bees will go back inside the hive, selects a random cell and fills it with honey, and the cycle repeats.
 However, there are some specific rules to this.
 	- The amount of bees able to go on a specific tree depends on the size. For example, a small banana tree would only get one bee but a bigger banana tree would be able to get multiple bees on it due to the amount of leaves in the tree.
 		-  This means that bottlenecking is possible between [Planters](Planter) and **Honeycombs**.
@@ -106,4 +107,8 @@ One of these conditions aren't met:
 - There should be enough space for the bees to come out
 
 > [!Question] 
-> 
+> My honeycombs aren't dripping out honey.
+
+One of two things went wrong:
+- Your honeycomb doesn't have enough honey in it (it needs to be a FULL cell of honey in order to drip)
+- You angled the honeycomb wrong (see image)
