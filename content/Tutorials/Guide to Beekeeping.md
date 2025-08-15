@@ -42,11 +42,11 @@
 This page will serve as a step-by-step guide to the **Beekeeping** feature of the game, with included pictures and blueprint for visual help.
 
 ___
-## Beehives
+## Bee Nests
 
-**Beehives** are the first step into creating an **Artificial Beehive**. They can appear in specific spots every 20 minutes and won't despawn once spawned. To find them, a map of all of the possible beehive locations will be linked. However, the first **beehive** spawned will **ALWAYS** be placed on a specific spot in [[content/Places/Cathedral|Cathedral]]. 
+**Bee Nests are the first step into creating a **Beehive**. They can appear in specific spots every 20 minutes and won't despawn once spawned. To find them, a map of all of the possible beehive locations will be linked. However, the first **bee nest** spawned will **ALWAYS** be placed on a specific spot in [[content/Places/Cathedral|Cathedral]]. 
 
-To shoot them down, it is common practice to use a [[Flintlock]]. Once a beehive reaches a maximum force, it will open into multiple **Honeycombs**, of which the amount is decided by luck. 
+To shoot them down, it is common practice to use a [[Flintlock]]. Once a bee nest reaches a maximum force, it will open into multiple **Honeycombs**, of which the amount is decided by luck. 
 
 > ![[Pasted image 20250815114728.png|300]]
 >
@@ -55,3 +55,23 @@ To shoot them down, it is common practice to use a [[Flintlock]]. Once a beehive
 > ![[Pasted image 20250815173511.png]]
 > 
 > A full map of all possible **beehive** locations. Red circles indicate the placement of the **beehive**.
+
+> [!tip] 
+> If a bee nest location is complicated (i.e the one in Gas Station and the one in Spawn), you're able to build a net around the nest to get all the **Honeycombs** dropped. The [[bee repellent]] gamepass is also quite useful, as it makes gathering **Honeycombs** much easier without dying.
+
+---
+## Beehives
+
+**Beehives** are artificially created bee nests created from **Honeycombs**. They are usually made as cardboard boxes with the honeycombs placed inside, creating a DIY beehive. 
+### Behavior
+
+Whenever a **Beehive** is created, all the bees inside will do the following:
+- Fly towards a randomly chosen [[Planter]] (that has a Seed planted inside)
+- Once they reach the plant, stay inside of it for a few seconds.
+- Once the few seconds have elapsed, the bees inside will go back inside the hive, selects a random cell and fills it with honey, and the cycle repeats.
+However, there are some specific rules to this.
+- No matter how many **Honeycombs** are placed, only one bee is able to fly towards one planter.
+	-  This means that bottlenecking is possible between [Planters](Planter) and **Honeycombs**.
+
+> [!tip]
+> Bees have no limits in terms of pathfinding a [[Planter]]. This means that they are able to locate [[Planter#Sky Islands|Sky Islands]] from far away and are able to be used for griefing purposes.
