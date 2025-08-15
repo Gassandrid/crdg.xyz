@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Tutorials/Wiki/Using Obsidian to Make Changes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Using Obsidian to Make Changes"
             }
           },
           {
@@ -168,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "Tutorials/Wiki/Using Obsidian to Make Changes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Using Obsidian to Make Changes"
             }
           },
           {
@@ -206,10 +206,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6eabb567d612b953",
+  "active": "f48cfb9edc456af2",
   "lastOpenFiles": [
-    "Tutorials/Wiki",
+    "Attachments/Screenshot 2025-08-15 at 3.09.53 PM.png",
     "Tutorials/Wiki/Testing For Developers.md",
+    "index.md",
+    "Tutorials/Wiki",
     "Tutorials/How 2 QROT.md",
     "Tutorials/Wiki/How to make a pull request.md",
     "Tutorials/Wiki/Using Obsidian to Make Changes.md",
@@ -232,7 +234,6 @@
     "Features/Emotes/dansen.md",
     "Features/Emotes",
     "Attachments/ScreenRecording_08-14-202510-44-01_1.gif",
-    "index.md",
     "Fish/Fish.md",
     "Old Wiki/NPCs.md",
     "koi_(February_exclusive).md",
@@ -252,7 +253,6 @@
     "Resources/clippings",
     "Resources",
     "Old Wiki/boring_stuff/ModuleNavbox",
-    "Old Wiki/boring_stuff/ModuleNavbar",
-    "Old Wiki/boring_stuff/ModuleNamespace_detect"
+    "Old Wiki/boring_stuff/ModuleNavbar"
   ]
 }

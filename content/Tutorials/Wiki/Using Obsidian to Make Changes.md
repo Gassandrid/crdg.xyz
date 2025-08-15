@@ -6,7 +6,13 @@ Assuming you [[How to make a pull request|have made a fork of the repository]], 
 
 Wherever you **cloned your fork** on your local machine, **open obsidian to that location**:
 
+**Make sure you are opening the `content` folder of your repo**
+
 ![[OpeningVault.png]]
+
+Should be something like this:
+
+![[Screenshot 2025-08-15 at 3.09.53 PM.png]]
 
 Once you have done that, it should auto detect the plugins and config for developing the wiki.
 
