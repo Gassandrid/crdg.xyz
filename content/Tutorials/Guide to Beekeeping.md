@@ -86,12 +86,11 @@ However, there are some specific rules to this.
 
 ## Honey
 
-**Honey** is a liquid able to be produced by a beehive. When a bee goes back to a hive, it will randomly select a 
+**Honey** is a liquid able to be produced by a beehive. There are a lot of ways to collect it, but the most efficient strategy is to simply let gravity do the job; If a **maximum-capacity** honey cell is facing downwards, it will slowly flow down and drop liquid on the ground. Then, you're able to simply place a glass under the honeycomb to be able to drink honey.
 
-
-
-
-
+> ![[Pasted image 20250816100727.png]]
+>
+> A simple honey collection system.
 
 ---
 ## Troubleshooting
