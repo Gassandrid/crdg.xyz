@@ -25,6 +25,18 @@
             "id": "f48cfb9edc456af2",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md"
+              },
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "fd6e84e364efed5c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "index.md",
@@ -34,21 +46,9 @@
               "icon": "lucide-file",
               "title": "index"
             }
-          },
-          {
-            "id": "fd6e84e364efed5c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Attachments/Screenshot 2025-07-26 at 12.02.12 PM.png"
-              },
-              "icon": "lucide-image",
-              "title": "Screenshot 2025-07-26 at 12.02.12 PM"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -168,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "Tutorials/Wiki/Using Obsidian to Make Changes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Using Obsidian to Make Changes"
             }
           },
           {
@@ -206,23 +206,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6eabb567d612b953",
+  "active": "fd6e84e364efed5c",
   "lastOpenFiles": [
-    "Tutorials/Wiki",
+    "Attachments/Screenshot 2025-07-26 at 12.02.12 PM.png",
+    "Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md",
+    "Tutorials/Wiki/Using Obsidian to Make Changes.md",
+    "Attachments/Screenshot 2025-08-15 at 3.09.53 PM.png",
     "Tutorials/Wiki/Testing For Developers.md",
+    "index.md",
+    "Tutorials/Wiki",
     "Tutorials/How 2 QROT.md",
     "Tutorials/Wiki/How to make a pull request.md",
-    "Tutorials/Wiki/Using Obsidian to Make Changes.md",
     "Attachments/Pasted image 20250815134329.png",
     "Attachments/Screenshot 2025-08-15 at 1.42.37 PM.png",
-    "Attachments/Screenshot 2025-07-26 at 12.02.12 PM.png",
     "Features/Bees.md",
     "Attachments/Pasted image 20250815215646.png",
     "Attachments/Pasted Image 20250815215611_449.png",
     "Attachments/Screenshot 2025-08-15 at 1.38.17 PM.png",
     "Attachments/Screenshot 2025-08-15 at 1.37.44 PM.png",
     "Attachments/OpeningVault.png",
-    "Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md",
     "Toolkits and Templates/Wikibox Template.md",
     "Components/Planter.md",
     "Toolkits and Templates/Callouts.md",
@@ -231,8 +233,6 @@
     "Features/Emotes/sit.md",
     "Features/Emotes/dansen.md",
     "Features/Emotes",
-    "Attachments/ScreenRecording_08-14-202510-44-01_1.gif",
-    "index.md",
     "Fish/Fish.md",
     "Old Wiki/NPCs.md",
     "koi_(February_exclusive).md",
@@ -252,7 +252,6 @@
     "Resources/clippings",
     "Resources",
     "Old Wiki/boring_stuff/ModuleNavbox",
-    "Old Wiki/boring_stuff/ModuleNavbar",
-    "Old Wiki/boring_stuff/ModuleNamespace_detect"
+    "Old Wiki/boring_stuff/ModuleNavbar"
   ]
 }
