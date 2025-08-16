@@ -56,3 +56,38 @@ Even though **QROT** may look difficult, he has the least amount of health in th
 
 > [!Tip]
 > You can determine what cycle you're on depending on how many pillars **QROT** creates. If he creates one pillar after his **Leap**, it will always indicate that the next cycle will be Cycle 2 or Cycle 4. If he creates two pillars, the next cycle will be Cycle 1 or Cycle 4.
+
+---
+
+## Attack Cycles
+
+**QROT** has the most **attack cycles** out of any boss in the game, having four. This makes the boss insanely difficult to memorize, adding on to the original difficulty. Unlike [[content/Bosses/RIEL|RIEL]]'s attack patterns, most of **QROT**'s have barely any coordination to each other and are really tricky to time, adding on even more. 
+
+### Cycle 1
+
+**Two Slashes, Orb Summon + Dash, 2x Dash and Orb Summon.** Keep in mind that **Orb Summon + Dash** means that the attacks are done at the same time, and that **2x Dash** means that dashes are done two times in the same rhythm.
+
+> [!Note] Note
+> The first **Dash** done in the cycle shares the same rhythm as the other two **Dashes**. The timing is pretty tricky, but you're able to get used to it pretty quickly.
+
+### Cycle 2
+
+**Two Slashes, and two Dashes.** This is the shortest attack cycle out of the four, and is somewhat easy to learn. The only confusing part is the dashes, as the first one is done right when the last slash ends.
+
+### Cycle 3
+
+**Two Slaps (with the second one delayed a bit), Orb Summon + Dash, 2x Dash, 2x Dash and Orb Summon + Dash.** This is the hardest attack cycle to learn due to it's length. Keep in mind that:
+- The two dashes next to each other **DON'T** follow the same rhythm, as there is a small gap in between.
+- The second slap is slightly delayed from the first slap unlike the first 2 attack cycles, allowing you to deal more damage.
+
+### Cycle 4
+
+**Dash, Slap, 2x Dash and Orb Summon**. This is debatably harder to learn than Cycle 2 due to the switch up on the **Slap** and **Dash**, but is also pretty easy to dodge when you've learned it fully. 
+
+---
+
+## Trivia
+
+- [This is the music used in the QROT boss fight.](https://www.youtube.com/watch?v=34cob339SyY) 
+- The [[Defeat QROT]] badge is featured in a badger called **Ultra Hard Badge List: Reborn** composed of solely difficult badges. The badge is rated as 1-star.
+- The old QROT arena had non-transparent spawn locations placed around it.
