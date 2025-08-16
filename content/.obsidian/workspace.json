@@ -29,20 +29,22 @@
               "state": {
                 "file": "Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "CRDG Diagram Toolkit.excalidraw"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
             "id": "fd6e84e364efed5c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attachments/Screenshot 2025-07-26 at 12.02.12 PM.png"
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Screenshot 2025-07-26 at 12.02.12 PM"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ],
@@ -206,6 +208,7 @@
   },
   "active": "fd6e84e364efed5c",
   "lastOpenFiles": [
+    "Attachments/Screenshot 2025-07-26 at 12.02.12 PM.png",
     "Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md",
     "Tutorials/Wiki/Using Obsidian to Make Changes.md",
     "Attachments/Screenshot 2025-08-15 at 3.09.53 PM.png",
@@ -216,7 +219,6 @@
     "Tutorials/Wiki/How to make a pull request.md",
     "Attachments/Pasted image 20250815134329.png",
     "Attachments/Screenshot 2025-08-15 at 1.42.37 PM.png",
-    "Attachments/Screenshot 2025-07-26 at 12.02.12 PM.png",
     "Features/Bees.md",
     "Attachments/Pasted image 20250815215646.png",
     "Attachments/Pasted Image 20250815215611_449.png",
