@@ -3,7 +3,7 @@ This page will serve as a step-by-step guide to the **Beekeeping** feature of th
 ___
 ## Bee Nests
 
-**Bee Nests are the first step into creating a **Beehive**. They can appear in specific spots every 20 minutes and won't respawn once spawned. To find them, a map of all of the possible beehive locations will be linked. However, the first **bee nest** spawned will **ALWAYS** be placed on a specific spot in [[content/Places/Cathedral|Cathedral]]. 
+Bee Nests are the first step into creating a **Beehive**. They can appear in specific spots every 20 minutes and won't respawn once spawned. To find them, a map of all of the possible beehive locations will be linked. However, the first **bee nest** spawned will **ALWAYS** be placed on a specific spot in [[content/Places/Cathedral|Cathedral]]. 
 
 To shoot them down, it is common practice to use a [[Flintlock]]. Once a bee nest reaches a maximum force, it will open into multiple **Honeycombs**, of which the amount is decided by luck. 
 
