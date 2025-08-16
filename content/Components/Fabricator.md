@@ -1,3 +1,7 @@
+---
+tags:
+  - templates
+---
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -41,4 +45,23 @@
 ---
 
 
-![[Fabricator-1755336727005.png]]
+
+> [!infobox|n-th]
+> 
+> ## Fabricator
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[Fabricator-1755336727005.png|]]
+> > 
+> > Fabricates tiles out of uranium rods and uses a binary input method.
+> 
+> ### Component Info
+> 
+> | Type | Building |
+> | --- | --- |
+> | **Obtainment** | [[Alien Summoning]] |
+> | **Inputs** | Uranium Rods |
+> | **Outputs** | Tiles |
+
+The **Fabricator** is an [[Alien Summoning#Alien Components|Alien Component]] added on November 28th, 2024. It is obtained by [[Alien Summoning]]. 
