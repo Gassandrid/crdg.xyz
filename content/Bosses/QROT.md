@@ -19,7 +19,7 @@ tags: [templates]
 > | **Rewards** | - [[Cacsepi]]<br>- [[dansen]]<br>- [[Defeat QROT]] |
 > | **Date Added** | October 11th, 2022 |
 
-**QROT** is the third and hardest [[index|Boss]] in the game. The boss is unlocked by defeating [[content/Bosses/RIEL|RIEL]] and obtaining the [[Glory]] and [[Finality]] badges. Due to it's difficulty, the rewards of the boss fight are purely cosmetic (except for the [[Cacsepi]]) and don't give anything useful. The boss fight was added on October 11th, 2022. He has the most attack patterns out of every boss, switching through four cycles. He has the least health out of any boss in the game.
+**QROT** is the third and hardest [[content/Bosses/index|Boss]] in the game. The boss is unlocked by defeating [[content/Bosses/RIEL|RIEL]] and obtaining the [[Glory]] and [[Finality]] badges. Due to it's difficulty, the rewards of the boss fight are purely cosmetic (except for the [[Cacsepi]]) and don't give anything useful. The boss fight was added on October 11th, 2022. He has the most attack patterns out of every boss, switching through four cycles. He has the least health out of any boss in the game.
 
 ## Description
 
