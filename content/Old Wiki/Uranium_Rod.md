@@ -18,7 +18,7 @@ it glows. It is often used so that people wishing to
 [Fish](Fish.md "fish"){.wikilink} can see where their hooks are.
 
 The uranium rod is used primarily to power the
-[printer](printer "printer"){.wikilink} and [nuclear
+[Printer](content/Components/Alien%20Tech/Printer.md "printer"){.wikilink} and [nuclear
 motor](nuclear_motor "nuclear motor"){.wikilink}. Printers use them to
 produce sheets of various materials, nuclear motors shake before
 exploding violently.
