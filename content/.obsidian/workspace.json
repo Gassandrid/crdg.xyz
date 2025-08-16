@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Places/Bill's batteries.md",
+                "file": "Items/Bag of sand.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bill's batteries"
+              "title": "Bag of sand"
             }
           },
           {
@@ -220,13 +220,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6eabb567d612b953",
+  "active": "6a1543fe4cc358ef",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-08-17 01.56.38.excalidraw.md",
+    "Excalidraw/Drawing 2025-08-17 01.56.03.excalidraw.md",
+    "Excalidraw",
+    "Excalidraw/Drawing 2025-08-17 01.56.05.excalidraw.md",
+    "Excalidraw/Drawing 2025-08-17 01.56.12.excalidraw.md",
+    "Excalidraw/Drawing 2025-08-17 01.56.07.excalidraw.md",
+    "Items/Bag of sand.md",
+    "Untitled.md",
+    "Places/Bill's batteries.md",
     "Places/Map.md",
     "Places/Gas Station.md",
     "Places/Spawn.md",
-    "Places/Bill's batteries.md",
-    "Items/Bag of sand.md",
     "Attachments/sandbag.gif",
     "Items/POWERFUL HELMET.md",
     "Items/Touch of Tetanus.md",
@@ -253,20 +260,13 @@
     "Components/Planter.md",
     "Toolkits and Templates/Callouts.md",
     "Attachments/Pasted image 20250815173511.png",
-    "Tutorials/Guide to Beekeeping.md",
-    "Features/Emotes/sit.md",
-    "Features/Emotes/dansen.md",
     "Features/Emotes",
-    "Fish/Fish.md",
-    "Old Wiki/NPCs.md",
-    "koi_(February_exclusive).md",
     "Fish",
     "Tutorials",
     "Toolkits and Templates",
     "Resources/clippings/youtube",
     "Resources/clippings",
     "Resources",
-    "Old Wiki/boring_stuff/ModuleNavbox",
-    "Old Wiki/boring_stuff/ModuleNavbar"
+    "Old Wiki/boring_stuff/ModuleNavbox"
   ]
 }
