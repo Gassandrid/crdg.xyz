@@ -55,7 +55,7 @@ Even though **QROT** may look difficult, he has the least amount of health in th
 **QROT** creates a pillar of light, doing absolutely nothing. This is the only attack that doesn't give you any downside, but instead is used to mark where **QROT** lands. These pillars are also able to cause lag spikes due to how many there are after a while.
 
 > [!Tip]
-> You can determine what cycle you're on depending on how many pillars **QROT** creates. If he creates one pillar after his **Leap**, it will always indicate that the next cycle will be Cycle 2 or Cycle 4. If he creates two pillars, the next cycle will be Cycle 1 or Cycle 4.
+> You can determine what cycle you're on depending on how many pillars **QROT** creates. If he creates one pillar after his **Leap**, it will always indicate that the next cycle will be Cycle 2 or Cycle 4. If he creates two pillars, the next cycle will be Cycle 1 or Cycle 3.
 
 ---
 
