@@ -4,49 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7ff55bd7dd24c156",
+        "id": "0714401a8d981257",
         "type": "tabs",
         "children": [
           {
-            "id": "21394123d1796572",
+            "id": "83475d7dac703b26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Wiki/Using Obsidian to Make Changes.md",
+                "file": "Components/Alien Egg.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Using Obsidian to Make Changes"
-            }
-          },
-          {
-            "id": "f48cfb9edc456af2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "CRDG Diagram Toolkit.excalidraw"
-            }
-          },
-          {
-            "id": "fd6e84e364efed5c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "CRDG Diagram Toolkit.excalidraw"
+              "title": "Alien Egg"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,11 +179,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd6e84e364efed5c",
+  "active": "83475d7dac703b26",
   "lastOpenFiles": [
+    "Components/1911 Pistol.md",
+    "Components/Planter.md",
+    "Components/Alien Egg.md",
+    "Components/NAND Gate.md",
+    "Components/Firework.md",
+    "Components/Alien Tech/Printer.md",
+    "Components/Gun.md",
+    "Components/index.md",
+    "Components/anti-gravity device.md",
+    "Components/Ball Of Oblotenium.md",
+    "Components/Alien Fishing Rod.md",
+    "Components/Light Bridge.md",
+    "Components/Flashbang.md",
+    "Components/Fabricator.md",
+    "Components/Diode.md",
+    "Components/Bearing.md",
+    "Tutorials/Wiki/Using Obsidian to Make Changes.md",
     "Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md",
     "Attachments/Screenshot 2025-07-26 at 12.02.12 PM.png",
-    "Tutorials/Wiki/Using Obsidian to Make Changes.md",
     "Attachments/Screenshot 2025-08-15 at 3.09.53 PM.png",
     "Tutorials/Wiki/Testing For Developers.md",
     "index.md",
@@ -224,26 +215,11 @@
     "Attachments/Screenshot 2025-08-15 at 1.37.44 PM.png",
     "Attachments/OpeningVault.png",
     "Toolkits and Templates/Wikibox Template.md",
-    "Components/Planter.md",
     "Toolkits and Templates/Callouts.md",
     "Attachments/Pasted image 20250815173511.png",
     "Tutorials/Guide to Beekeeping.md",
-    "Features/Emotes/sit.md",
-    "Features/Emotes/dansen.md",
     "Features/Emotes",
-    "Fish/Fish.md",
-    "Old Wiki/NPCs.md",
-    "koi_(February_exclusive).md",
-    "Old Wiki/Flounder.md",
     "Fish",
-    "Contraptions/index.md",
-    "Old Wiki/Planter.md",
-    "Toolkits and Templates/Stub Notice Template.md",
-    "Toolkits and Templates/NeedsImage Notice Template.md",
-    "Components/shiny golden tooth.md",
-    "Components/leafblower.md",
-    "Components/glass pane.md",
-    "Components/anti-gravity device.md",
     "Tutorials",
     "Toolkits and Templates",
     "Resources/clippings/youtube",
