@@ -6,5 +6,5 @@ Generator gameplay as they are milestones in the game
 ### Bosses {#bosses_1}
 
 - [Cart God](Cart_God "Cart God"){.wikilink}
-- [Riel](Riel "Riel"){.wikilink}
-- [QROT](QROT "QROT"){.wikilink}
+- [Riel](content/Old%20Wiki/Riel.md "Riel"){.wikilink}
+- [QROT](content/Bosses/QROT.md "QROT"){.wikilink}

@@ -20,7 +20,7 @@
 
 ###### Added: {#added_1}
 
-- [Riel](Riel "Riel"){.wikilink}
+- [Riel](content/Old%20Wiki/Riel.md "Riel"){.wikilink}
 - [Screw](Screw "Screw"){.wikilink}
 - [Flintlock](Flintlock "Flintlock"){.wikilink}
 - [Waypoint

@@ -62,7 +62,7 @@ Beating RIEL will give you the
 [Flintlock](Flintlock "Flintlock"){.wikilink} item, the
 "[Glory](Badges "Glory"){.wikilink}" Badge, the "Finality" Badge, the
 [Marbles](Marbles "Marbles"){.wikilink} item, and access to fighting
-[QROT](QROT "QROT"){.wikilink}. You also get the Ipecac sword in
+[QROT](content/Bosses/QROT.md "QROT"){.wikilink}. You also get the Ipecac sword in
 bosshub.
 
 ## General tips {#general_tips}

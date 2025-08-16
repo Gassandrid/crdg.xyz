@@ -7,7 +7,7 @@ component, see [Flamethrower
 
 The flamethrower is an admin item/private server unlockable in CRDG,
 obtained via being given by an admin or defeating
-[Riel](Riel "Riel"){.wikilink} during christmas (private server only).
+[Riel](content/Old%20Wiki/Riel.md "Riel"){.wikilink} during christmas (private server only).
 It is a green, gunlike device with a canister attached and a trigger.
 
 ## Function

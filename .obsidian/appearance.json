@@ -1,1 +1,6 @@
-{}
+{
+  "enabledCssSnippets": [
+    "mmw-caption-callout",
+    "mmw-infobox-callout"
+  ]
+}

@@ -21,8 +21,7 @@ knock people who have already fallen over around.
 
 ### Variants
 
-Flintlock - exactly the same, but can spawn the [alternative
-ending](Riel "alternative ending"){.wikilink}.
+Flintlock - exactly the same, but can spawn the [](content/Old%20Wiki/Riel.md){.wikilink}.
 
 fintlog - exactly the same, but the barrel is floppy.
 
