@@ -48,13 +48,13 @@ tags:
 
 > [!infobox|n-th]
 > 
-> ## Fabricator
+> ## Printer
 > 
 > > [!caption|center wfull txt-s]
 > > 
 > > ![[Fabricator-1755336727005.png|]]
 > > 
-> > Fabricates tiles out of uranium rods and uses a binary input method.
+> > Prints tiles out of uranium rods and uses a binary input method.
 > 
 > ### Component Info
 > 
@@ -64,4 +64,4 @@ tags:
 > | **Inputs** | Uranium Rods |
 > | **Outputs** | Tiles |
 
-The **Fabricator** is an [[Alien Summoning#Alien Components|Alien Component]] added on November 28th, 2024. It is obtained by [[Alien Summoning]]. 
+The **Printer** is an [[Alien Summoning#Alien Components|Alien Component]] added on November 28th, 2024.

@@ -7,7 +7,7 @@ tags: [todo, components/manifest]
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > ![[Pasted image 20250722191128.png|center]]
+> > ![[Pasted image 20250722191128.png|]]
 > > 
 > > A better version of the Gun component.
 > 

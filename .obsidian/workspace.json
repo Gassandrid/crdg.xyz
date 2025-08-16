@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fc0e0dfdc8ff20de",
+        "id": "b424e86fcd25ed6d",
         "type": "tabs",
         "children": [
           {
-            "id": "b7201ea03a71acaf",
+            "id": "0c9f210398efe1ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Tutorials/Guide to Beekeeping.md",
+                "file": "content/Components/Components.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Guide to Beekeeping"
-            }
-          },
-          {
-            "id": "07cec9abe116e5e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Bosses/QROT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "QROT"
+              "title": "Components"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,43 +180,44 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "07cec9abe116e5e6",
+  "active": "0c9f210398efe1ef",
   "lastOpenFiles": [
-    "content/Fish/Fish.md",
-    "Ice Cream-1755352539438.png",
+    "content/Components/Components.md",
+    "content/Components/1911 Pistol.md",
+    "content/Attachments/Pasted image 20250722191128.png",
+    "Deadeye.md",
+    "content/Toolkits and Templates/NeedsImage Notice Template.md",
+    "content/Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md",
+    "content/Toolkits and Templates/Callouts.md",
+    "Buzz.md",
+    "content/Attachments/Ice Cream-1755352539438.png",
     "Spawn-1755352986178.png",
     "Spawn-1755352972285.png",
+    "content/Tutorials/Guide to Beekeeping.md",
+    "content/Attachments/Pasted image 20250722191142.png",
+    "content/Features/Alien Summoning.md",
+    "content/Components/Printer.md",
+    "content/Components/Alien Egg.md",
+    "content/Components/Alien Fishing Rod.md",
+    "content/Components/Alien Tech/Printer.md",
+    "content/Items/Ice Cream.md",
+    "content/Components/Alien Tech",
+    "content/Items/index.md",
+    "content/Bosses/Boss Hub Weapons/Cacsepi.md",
+    "content/Bosses/QROT.md",
+    "content/Fish/Fish.md",
     "content/Places/Spawn.md",
     "content/Places/Map.md",
     "content/Places/Cathedral.md",
     "content/Places/Dealership.md",
     "content/Places/Gas Station.md",
     "content/Places/Bills.md",
-    "content/Items/Ice Cream.md",
     "content/Features/Manifests.md",
-    "content/Features/Alien Summoning.md",
-    "content/Features/Bees.md",
-    "content/Toolkits and Templates/Wikibox Template.md",
-    "content/Toolkits and Templates/Stub Notice Template.md",
-    "content/Toolkits and Templates/NeedsImage Notice Template.md",
-    "content/Contraptions/One Way Sequencer.md",
-    "content/Old Wiki/Bag_Of_Sand.md",
-    "content/Components/Fabricator.md",
-    "content/Components/Firework.md",
-    "content/Old Wiki/Alien_Tech.md",
-    "content/Toolkits and Templates/Callouts.md",
-    "content/Toolkits and Templates/CRDG Diagram Toolkit.excalidraw.md",
-    "content/Bosses/QROT.md",
-    "content/Bosses/index.md",
-    "content/Bosses/Boss Hub Weapons/Cacsepi.md",
     "content/Attachments/Cacsepi-1755348627349.png",
     "Cacsepi-1755350682810.gif",
     "content/Attachments/Cacsepi-1755350727774.gif",
     "Cacsepi-1755350693560.gif",
     "Cacsepi-1755350320574.png",
-    "content/Attachments/Alien Egg-1755338355499.png",
-    "Cacsepi-1755350066513.png",
-    "content/Components/Alien Egg.md",
     "content/Bosses/Boss Hub Weapons",
     "content/Badges",
     "content/Bosses",
