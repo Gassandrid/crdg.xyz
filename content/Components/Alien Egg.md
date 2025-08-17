@@ -39,5 +39,22 @@
 </div>
 
 ---
+The alien egg is an item that can be hatched. It emits a faint cracking sound as it progresses through the slow hatching process.
+
+> [!infobox|n-th]
+> 
+> ## Alien Egg
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[Alien Egg-1755338355499.png]]
+> > 
+> > An White Alien Egg.
+> 
+> ### Component Info
+> 
+> | Component Type | Miscellaneous |
+> | --- | --- |
+> 
 
 ![[Alien Egg-1755338355499.png]]
