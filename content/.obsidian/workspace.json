@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Components/Alien Egg.md",
+                "file": "Components/Input Reciever.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Alien Egg"
+              "title": "Input Reciever"
             }
           }
         ]
@@ -169,6 +169,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -181,9 +182,16 @@
   },
   "active": "83475d7dac703b26",
   "lastOpenFiles": [
-    "Components/1911 Pistol.md",
-    "Components/Planter.md",
+    "Components/Button.md",
+    "Components/Input Reciever.md",
+    "Attachments/inputreceiver 1.png",
+    "Attachments/inputreceiver.png",
     "Components/Alien Egg.md",
+    "Components/1911 Pistol.md",
+    "Components/Cannon.md",
+    "Components/Printer.md",
+    "Attachments/Ice Cream-1755352539438.png",
+    "Components/Planter.md",
     "Components/NAND Gate.md",
     "Components/Firework.md",
     "Components/Alien Tech/Printer.md",
@@ -208,16 +216,9 @@
     "Tutorials/Wiki/How to make a pull request.md",
     "Attachments/Pasted image 20250815134329.png",
     "Attachments/Screenshot 2025-08-15 at 1.42.37 PM.png",
-    "Features/Bees.md",
     "Attachments/Pasted image 20250815215646.png",
     "Attachments/Pasted Image 20250815215611_449.png",
     "Attachments/Screenshot 2025-08-15 at 1.38.17 PM.png",
-    "Attachments/Screenshot 2025-08-15 at 1.37.44 PM.png",
-    "Attachments/OpeningVault.png",
-    "Toolkits and Templates/Wikibox Template.md",
-    "Toolkits and Templates/Callouts.md",
-    "Attachments/Pasted image 20250815173511.png",
-    "Tutorials/Guide to Beekeeping.md",
     "Features/Emotes",
     "Fish",
     "Tutorials",
