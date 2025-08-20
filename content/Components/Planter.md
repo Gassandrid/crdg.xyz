@@ -83,7 +83,7 @@ There are four types (5 including Golden Lemon trees) of **Trees** in the game. 
 
 ### Lemon Trees
 
-**Lemon Trees** are **Trees** added during Part 1 of the Summer Update, on June 23rd, 2024. Along with **Golden Seed Trees**, they are the only types of **Tree** linked to a [Badge](Badges). They are planted by a [[Lemon]], obtainable by going to the vent inside of [[Bills]] and pulling it out. Be careful, as if a Lemon falls into the void, it won’t generate again. 
+**Lemon Trees** are **Trees** added during Part 1 of the Summer Update, on June 23rd, 2024. Along with **Golden Seed Trees**, they are the only types of **Tree** linked to a [Badge](Badges). They are planted by a [[Lemon]], obtainable by going to the vent inside of [[Bill's batteries]] and pulling it out. Be careful, as if a Lemon falls into the void, it won’t generate again. 
 
 They take about 30 minutes to grow their first Lemon, and will generate a few more before not being able to grow any. They are the only type of **Tree** that requires a Player to manually pull out the lemons it grows, otherwise they’ll be stuck to the Tree.
 

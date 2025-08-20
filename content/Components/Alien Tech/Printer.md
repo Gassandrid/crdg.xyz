@@ -46,7 +46,7 @@ After using `/e summon` at a certain time, it will spawn a Fabricator (other ali
 
 ### Soil
 
-- **Code:** `*|||_|_|`
+- **Code:** `*_|||_|_|`
 - **Feature:** Able to be its own planter
 
 ### Dirt

@@ -85,7 +85,7 @@ Components are the primary in game objects that can be used for building with [[
 
 > [!Note]+ Components
 > # Manifest Components
-> | ![[Pasted image 20250722191128.png]] | [![Deadeye](Deadeye.png)](Deadeye) | [![Duo](Duo.png)](Duo) | [![Heat Concentrate](Heat%20Concentrate.png)](HeatConcentrate) |
+> | ![[Pasted image 20250722191128.png|300]] | [![Deadeye](Deadeye.png)](Deadeye) | [![Duo](Duo.png)](Duo) | [![Heat Concentrate](Heat%20Concentrate.png)](HeatConcentrate) |
 > |:---:|:---:|:---:|:---:|
 > | **[[1911 Pistol]]** | **[Deadeye](Deadeye)** | **[Duo](Duo)** | **[Heat Concentrate](HeatConcentrate)** |
 > | [![Hollow Talisman](HollowTalisman_Icon.png)](HollowTalisman) | [![Juju](Juju.png)](Juju) | [![Soothe Stone](Soothe%20Stone.png)](SootheStone) | [![Swarm Pendant](SwarmPendant_icon.png)](SwarmPendant) |
