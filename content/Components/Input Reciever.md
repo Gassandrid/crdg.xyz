@@ -40,3 +40,20 @@ tags: [todo]
         </div>
     </div>
 </div>
+
+> [!infobox|n-th]
+> 
+> ## Input Receiver
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> >![[inputreceiver 1.png]]
+> > 
+> > An keyboard input receiver
+> 
+> ### Component Info
+> 
+> | Component Type | Miscellaneous |
+> | --- | --- |
+
+The **Input Receiver** is a component that allows you to send signals by pressing keys on your keyboard when it is attached to a seat. By default, it comes configured with the **WASD keys** (<, ^, >, v) and one additional random letter key. Each key has its own output outlet, and you can disable any of them individually by clicking on the outlet.
