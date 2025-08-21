@@ -1,4 +1,4 @@
-<iframe src="https://jimensions.vercel.app/countdown.html" style="width:100%; height:175px; border:none;"></iframe>
+<iframe src="https://jimensions.vercel.app/countdown.html" style="width:100%; height:170px; border:none;"></iframe>
 
 
 The **Blimp** is a feature added on **August 18th, 2025**. Whenever the time in-game reaches[[]] night or noon, the **Blimp** will come flying to either the [[Gas Station]] or [[content/Places/Cathedral|Cathedral]] and stay there for a few hours. 
