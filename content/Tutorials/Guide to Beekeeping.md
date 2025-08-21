@@ -8,9 +8,9 @@ ___
 
 ## Bee Nests
 
-Bee Nests are the first step into creating a **Beehive**. They can appear in specific spots every 20 minutes and won't respawn once spawned. To find them, a map of all of the possible beehive locations will be linked. However, the first **bee nest** spawned will **ALWAYS** be placed on a specific spot in [[content/Places/Cathedral|Cathedral]]. 
+Bee Nests are the first step into creating a **Beehive**. They can appear in specific spots every 20 minutes. To find them, a map of all of the possible beehive locations will be linked.
 
-To shoot them down, it is common practice to use a [[Flintlock]]. Once a bee nest reaches a maximum force, it will open into multiple **Honeycombs**, of which the amount is decided by luck. 
+To shoot them down, it is common practice to use a [[Flintlock]]. Once a bee nest reaches a maximum force, it will open into multiple **Honeycombs**, of which the amount is decided by luck. However, they usually open into one or two, albeit there is a rare chance they drop 10+ honeycombs. 
 
 > ![[Pasted image 20250815114728.png|300]]
 > 
@@ -59,6 +59,18 @@ However, there are some specific rules to this.
 > A simple honey collection system.
 
 ---
+## Centrifuges
+
+Centrifuges are advanced versions of beehives able to produce and extract honey at the same time. They also use a niche mechanic of honeycombs; centrifugal force. If a **honeycomb** is spun at a high speed, it is able to spill honey much quicker regardless of the orientation. Even tho they are powerful, they are however pretty difficult to make for a first-time beehive, and is recommended to use a simpler build.
+
+> ![[Pasted image 20250821230112.png]]
+>
+> A complex **centrifuge** design. Do note that this only showcases the centrifugal force mechanic, as this design isn’t able to create honey by itself. You’ll need to cover the centrifuge, add a collection system, set up the nuclear motor, etcetera.
+
+> ![[centrifuge.gif]]
+>
+> An example of a working **centrifuge**. This design was created by That_Dude (firgurativenumbers on Discord).
+---
 
 ## Troubleshooting
 
@@ -72,11 +84,13 @@ One of these conditions aren't met:
 - The light level should be low enough
 - The honeycombs in your beehive should be spaced out enough
 - There should be enough space for the bees to come out
+- Make sure to interact (grab, rotate) with the beehive, as human interaction is necessary for bees to function.
 
 > [!Question] 
 > My honeycombs aren't dripping out honey.
 
 One of two things went wrong:
 
-- Your honeycomb doesn't have enough honey in it (it needs to be a FULL cell of honey in order to drip)
+- Your honeycomb doesn't have enough honey in it (it needs to be a NEAR FULL cell of honey in order to drip)
 - You angled the honeycomb wrong (see image)
+
