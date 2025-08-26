@@ -20,7 +20,7 @@ quickly and can't make the entire journey without extra.
 Behind the dealership there\'s an [NPC](NPCs "NPC"){.wikilink} called
 [Screaming Man](NPCs#Screaming_Man "Screaming Man"){.wikilink}, and his
 only purpose is to activate the alternate ending by shooting his head
-off with the [Flintlock](Flintlock "Flintlock"){.wikilink}. There\'s
+off with the [Flintlock](content/Old%20Wiki/Flintlock.md "Flintlock"){.wikilink}. There\'s
 also a gate blocking the path. To open the gate, you to place a battery
 in the slot. After doing this, the gate will open and after a moment the
 gate will close again, throwing the battery in to the void, although he

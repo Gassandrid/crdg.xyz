@@ -1,2 +1,5 @@
-![[Pasted image 20250826111302.png]]
-![[2025-08-2611-13-12-ezgif.com-video-to-gif-converter.gif]]
+![[Pasted image 20250827002203.png]]
+
+> ![[2025-08-2700-22-29-ezgif.com-video-to-gif-converter.gif]]
+> 
+> 

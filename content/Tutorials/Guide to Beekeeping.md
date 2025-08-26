@@ -10,7 +10,7 @@ ___
 
 Bee Nests are the first step into creating a **Beehive**. They can appear in specific spots every 20 minutes. To find them, a map of all of the possible beehive locations will be linked.
 
-To shoot them down, it is common practice to use a [[Flintlock]]. Once a bee nest reaches a maximum force, it will open into multiple **Honeycombs**, of which the amount is decided by luck. However, they usually open into one or two, albeit there is a rare chance they drop 10+ honeycombs. 
+To shoot them down, it is common practice to use a [[content/Old Wiki/Flintlock]]. Once a bee nest reaches a maximum force, it will open into multiple **Honeycombs**, of which the amount is decided by luck. However, they usually open into one or two, albeit there is a rare chance they drop 10+ honeycombs. 
 
 > ![[Pasted image 20250815114728.png|300]]
 > 

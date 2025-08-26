@@ -68,4 +68,4 @@ using the item template rather than the componentinfo template.
 Obtainment should be clarified within the article.
 
 A good example of a properly formatted item article can be found
-[here](Flintlock "here"){.wikilink}.
+[here](content/Old%20Wiki/Flintlock.md "here"){.wikilink}.

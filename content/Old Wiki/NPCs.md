@@ -22,7 +22,7 @@ entering building mode.
 Screaming Man is located on the [Cart
 Dealership](Cart_Dealership "Cart Dealership"){.wikilink} island, behind
 the dealership. To get the alternative ending you need to shoot his head
-off with a [Flintlock](Flintlock "Flintlock"){.wikilink}.
+off with a [Flintlock](content/Old%20Wiki/Flintlock.md "Flintlock"){.wikilink}.
 
 ### Tall Person {#tall_person}
 

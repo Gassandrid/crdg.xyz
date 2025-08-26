@@ -24,7 +24,7 @@ The **Blimp** includes many mechanics and features to spice up the environment. 
 
 ### Defense System
 
-According to a sign inside of the blimp, **NO** weapons are allowed. Holding a [[Flintlock]] or a [[Makarov]] inside of the blimp will trigger the center room lamp to pop out a minigun and target the weaponholder until their death. You’re able to dodge the minigun from hitting you last second if you unhold the gun the second it faces you.
+According to a sign inside of the blimp, **NO** weapons are allowed. Holding a [[content/Old Wiki/Flintlock]] or a [[Makarov]] inside of the blimp will trigger the center room lamp to pop out a minigun and target the weaponholder until their death. You’re able to dodge the minigun from hitting you last second if you unhold the gun the second it faces you.
 
 > ![[Pasted image 20250822011532.png|300]]
 >

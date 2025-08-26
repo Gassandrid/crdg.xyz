@@ -21,7 +21,7 @@
 
 #### Event Items {#event_items}
 
-- [Icicle](Icicle "Icicle"){.wikilink}
+- [Icicle](content/Old%20Wiki/Icicle.md "Icicle"){.wikilink}
 - [Hot Coco](Hot_Coco "Hot Coco"){.wikilink}
 - [Menorah](Menorah "Menorah"){.wikilink}
 - [Trick Or Treat
@@ -34,7 +34,7 @@
 - [Stapler](Stapler "Stapler"){.wikilink}
 - [Cardboard](Cardboard "Cardboard"){.wikilink}
 - [Box cutter](Box_cutter "Box cutter"){.wikilink}
-- [Flintlock](Flintlock "Flintlock"){.wikilink}
+- [Flintlock](content/Old%20Wiki/Flintlock.md "Flintlock"){.wikilink}
 - [Marbles](Marbles "Marbles"){.wikilink}
 - [Waypoint
   Teleporter](Waypoint_Teleporter "Waypoint Teleporter"){.wikilink}
@@ -55,8 +55,8 @@
 - [Brick](Brick.md "Brick"){.wikilink}
 - [Tau Cannon](Tau_Cannon "Tau Cannon"){.wikilink}
 - [Stinger](content/Old%20Wiki/Stinger.md "Stinger"){.wikilink}
-- [PM9](Pm9 "PM9"){.wikilink}
-- [PTRD-41](PTRD-41 "PTRD-41"){.wikilink}
+- [PM9](content/Old%20Wiki/Pm9.md "PM9"){.wikilink}
+- [Ptrd-41](content/Old%20Wiki/Ptrd-41.md "PTRD-41"){.wikilink}
 - [Thunderbuss](Thunderbuss.md "Thunderbuss"){.wikilink}
 - [Bananabuss](Bananabuss.md "Bananabuss"){.wikilink}
 - [BA-GL THUMPER](BA-GL_THUMPER "BA-GL THUMPER"){.wikilink}

@@ -22,7 +22,7 @@
 
 - [Riel](content/Old%20Wiki/Riel.md "Riel"){.wikilink}
 - [Screw](Screw "Screw"){.wikilink}
-- [Flintlock](Flintlock "Flintlock"){.wikilink}
+- [Flintlock](content/Old%20Wiki/Flintlock.md "Flintlock"){.wikilink}
 - [Waypoint
   Teleporter](Waypoint_Teleporter "Waypoint Teleporter"){.wikilink}
 - [Boss Hub](Boss_Hub "Boss Hub"){.wikilink}

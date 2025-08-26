@@ -59,7 +59,7 @@ up and then slams down into the ground quickly creating a shockwave that
 ## Reward
 
 Beating RIEL will give you the
-[Flintlock](Flintlock "Flintlock"){.wikilink} item, the
+[Flintlock](content/Old%20Wiki/Flintlock.md "Flintlock"){.wikilink} item, the
 "[Glory](Badges "Glory"){.wikilink}" Badge, the "Finality" Badge, the
 [Marbles](Marbles "Marbles"){.wikilink} item, and access to fighting
 [QROT](content/Bosses/QROT.md "QROT"){.wikilink}. You also get the Ipecac sword in
