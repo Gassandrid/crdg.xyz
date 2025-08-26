@@ -46,18 +46,18 @@
 - [Blunderbuss](content/Old%20Wiki/Blunderbuss.md "Blunderbuss"){.wikilink}
 - [Flamethrower](content/Old%20Wiki/Flamethrower.md "Flamethrower"){.wikilink}
 - [SMLE](content/Old%20Wiki/SMLE.md "SMLE"){.wikilink}
-- [AKM](AKM "AKM"){.wikilink}
-- [C4](C4 "C4"){.wikilink}
+- [AKM](content/Old%20Wiki/items/AKM.md "AKM"){.wikilink}
+- [C4](content/Old%20Wiki/items/C4.md "C4"){.wikilink}
 - [touch of christ](touch_of_christ "touch of christ"){.wikilink}
 - [Bananalock](Bananalock "Bananalock"){.wikilink}
 - [Piranhalock](Piranhalock "Piranhalock"){.wikilink}
 - [fintlog](fint_log "fintlog"){.wikilink}
-- [Brick](Brick "Brick"){.wikilink}
+- [Brick](Brick.md "Brick"){.wikilink}
 - [Tau Cannon](Tau_Cannon "Tau Cannon"){.wikilink}
 - [Stinger](content/Old%20Wiki/Stinger.md "Stinger"){.wikilink}
 - [PM9](Pm9 "PM9"){.wikilink}
 - [PTRD-41](PTRD-41 "PTRD-41"){.wikilink}
 - [Thunderbuss](Thunderbuss.md "Thunderbuss"){.wikilink}
-- [Bananabuss](Bananabuss "Bananabuss"){.wikilink}
+- [Bananabuss](Bananabuss.md "Bananabuss"){.wikilink}
 - [BA-GL THUMPER](BA-GL_THUMPER "BA-GL THUMPER"){.wikilink}
 - Hotdogbuss

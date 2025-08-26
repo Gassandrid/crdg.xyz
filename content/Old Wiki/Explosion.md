@@ -11,7 +11,7 @@ Explosions can occur when:
   enough, or is powered.
 - A [Stinger](content/Old%20Wiki/Stinger.md "Stinger"){.wikilink}\'s missile hits something.
 - A [Teddy Bear](Teddy_Bear "Teddy Bear"){.wikilink} is hugged.
-- A [C4](C4 "C4"){.wikilink} is detonated.
+- A [C4](content/Old%20Wiki/items/C4.md "C4"){.wikilink} is detonated.
 - [The Cannon](Traps#Cannon "The Cannon"){.wikilink} is shot.
 - [The Emergency
   Button](Traps#Moving_Platform "The Emergency Button"){.wikilink} is

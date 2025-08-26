@@ -1,4 +1,4 @@
-The **Bag of sand** is a Tool that can be found at the [[Gas Station]].
+The **Bag of sand** is a Tool that can be found at the [[Gas Station]]. It does not have an icon. It is also one of the only items in the game to be able to get multiple of.
 
 ---
 # Usage

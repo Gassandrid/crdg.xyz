@@ -10,7 +10,7 @@
 
 ###### Added:
 
-- [C4](C4 "C4"){.wikilink}
+- [C4](content/Old%20Wiki/items/C4.md "C4"){.wikilink}
 
 ### `<u>`{=html}Update #2`</u>`{=html} {#update_2}
 
