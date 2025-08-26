@@ -1,7 +1,7 @@
 ```{=mediawiki}
 {{ComponentInfo|title1=Decoupler|image1=Decoupler view1.png|caption1=A decoupler.|Functions=When powered the squares separate from eachother}}
 ```
-The decopler is a [component](Components "component"){.wikilink} in
+The decopler is a [component](Components.md "component"){.wikilink} in
 CRDG. It separates when powered.
 
 ## Function

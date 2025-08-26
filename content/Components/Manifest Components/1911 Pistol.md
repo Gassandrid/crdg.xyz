@@ -9,7 +9,7 @@ The **1911 Pistol** is a [[content/Features/Manifests|Manifests]] item that can 
 
 ## Usage
 
-When activated, the **1911 Pistol** fires a fast projectile that destroys parts, similar to the [[content/Spawnables/Components/Gun|Gun]] but with a much shorter cooldown. Some players use it for building and destroying parts, while others use it as a weapon against others.
+When activated, the **1911 Pistol** fires a fast projectile that destroys parts, similar to the [[content/Components/Regular Components/Gun|Gun]] but with a much shorter cooldown. Some players use it for building and destroying parts, while others use it as a weapon against others.
 
 >![[1911 Pistol Image.png]]
 >

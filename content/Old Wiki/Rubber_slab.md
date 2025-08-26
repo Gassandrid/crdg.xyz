@@ -4,7 +4,7 @@
 ```{=mediawiki}
 {{ComponentInfo|title1=Rubber slab|Functions=Blocks electrical signals, has very high friction}}
 ```
-The rubber slab is a [component](Components "component"){.wikilink} in
+The rubber slab is a [component](Components.md "component"){.wikilink} in
 CRDG. It is a simple black slab made of rubber.
 
 ## Function

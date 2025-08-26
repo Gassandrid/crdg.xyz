@@ -15,7 +15,7 @@ You can also squeeze the lemon to extract juice.
 ## Lemon tree {#lemon_tree}
 
 To grow a lemon tree, place a lemon in the
-[planter](planter "planter"){.wikilink} and wait for lemons to begin
+[Planter](Planter.md "planter"){.wikilink} and wait for lemons to begin
 growing. Lemon trees can produce between **3** and **10** **lemons** per
 tree.
 
@@ -23,10 +23,10 @@ tree.
 
 To retrieve the lemon, first open the vent located behind [Bill\'s
 Batteries](Bill's_Batteries "Bill's Batteries"){.wikilink}. You\'ll need
-a [component machine](Components "component machine"){.wikilink} to make
+a [component machine](Components.md "component machine"){.wikilink} to make
 around 7 cables. Connect the cables together to form one long cable.
-Attach [spikes](spikes "spikes"){.wikilink} into the ground with a
-[button](button "button"){.wikilink} and glue the cables to it to
+Attach [Spikes](content/Old%20Wiki/Spikes.md "spikes"){.wikilink} into the ground with a
+[Button](content/Old%20Wiki/Button.md "button"){.wikilink} and glue the cables to it to
 prevent them from falling. Lower the cables into the vent, keeping only
 the start of the first cable glued to the spike visible. Next, attach a
 seat to another set of spikes by the vent, make sure the back of the

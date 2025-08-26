@@ -1,4 +1,4 @@
-The uranium rod is a [component](Components "component"){.wikilink} in
+The uranium rod is a [component](Components.md "component"){.wikilink} in
 CRDG. it is a neon green, glowing rod which is used to power some
 machines.
 
@@ -18,7 +18,7 @@ it glows. It is often used so that people wishing to
 [Fish](Fish.md "fish"){.wikilink} can see where their hooks are.
 
 The uranium rod is used primarily to power the
-[Printer](content/Components/Alien%20Tech/Printer.md "printer"){.wikilink} and [nuclear
+[Printer](Printer.md "printer"){.wikilink} and [nuclear
 motor](nuclear_motor "nuclear motor"){.wikilink}. Printers use them to
 produce sheets of various materials, nuclear motors shake before
 exploding violently.

@@ -3,7 +3,7 @@
 ```
 The Gas Station is the second last section of the game. It also serves
 as a refuel section for your cart. At the Gas Station there are many
-buildings. On the side there is the [Seeker](Seeker "Seeker"){.wikilink}
+buildings. On the side there is the [Seeker](content/Old%20Wiki/Seeker.md "Seeker"){.wikilink}
 and [Knife trap](Knife_trap "Knife trap"){.wikilink}. There\'s an
 [NPC](NPCs "NPC"){.wikilink} called [Tall
 Person](NPCs#Tall_Person "Tall Person"){.wikilink} near the Gas pumps.

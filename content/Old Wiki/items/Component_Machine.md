@@ -20,4 +20,4 @@ springs to rockets!
 ## Components
 
 You can see the list of components you can generate with the generator
-on this [page](Components "page"){.wikilink}.
+on this [page](Components.md "page"){.wikilink}.

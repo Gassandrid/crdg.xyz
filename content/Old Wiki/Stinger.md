@@ -16,4 +16,4 @@ It appears specifically designed to destroy flying machines, since
 schnogrind, the owner of the game, does not like them. It does so very
 effectively and moderators with it will likely shoot down any flying
 machines they see. This can be countered with D30 plating from the
-[Printer](content/Components/Alien%20Tech/Printer.md "printer"){.wikilink} although it is inconsistent.
+[Printer](Printer.md "printer"){.wikilink} although it is inconsistent.

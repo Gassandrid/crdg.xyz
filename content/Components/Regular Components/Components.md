@@ -10,31 +10,31 @@ Components are the primary in game objects that can be used for building with [[
 > 
 > ![[Pasted image 20250722143919.png]]
 
-> [[content/Spawnables/Components/Banana]]:
+> [[content/Components/Regular Components/Banana]]:
 > 
 > ![[Pasted image 20250722182410.png]]
 
 [[Bearing]]:
 
-> [[content/Spawnables/Components/Button]]
+> [[content/Components/Regular Components/Button]]
 > 
 > ![[Pasted image 20250722143935.png]]
 
-> [[content/Spawnables/Components/Cable]]
+> [[content/Components/Regular Components/Cable]]
 > 
 > ![[Pasted image 20250722144356.png]]
 
-> [[content/Spawnables/Components/Cannon]]
+> [[content/Components/Regular Components/Cannon]]
 > 
 > ![[Pasted image 20250722144101.png]]
 
-> [[content/Spawnables/Components/Decoupler]]
+> [[content/Components/Regular Components/Decoupler]]
 > 
 > ![[Pasted image 20250722144112.png]]
 
 [[crdg.xyz/content/Components/Flashbang]]
 
-[[content/Spawnables/Components/Gun]]
+[[content/Components/Regular Components/Gun]]
 
 [[Input Reciever]]
 
@@ -42,17 +42,17 @@ Components are the primary in game objects that can be used for building with [[
 
 [[Rubber]]
 
-[[content/Spawnables/Components/Seat]]
+[[content/Components/Regular Components/Seat]]
 
-[[content/Spawnables/Components/Seed]]
+[[content/Components/Regular Components/Seed]]
 
-[[content/Spawnables/Components/Servo]]
+[[content/Components/Regular Components/Servo]]
 
-[[content/Spawnables/Components/Spikes]]
+[[content/Components/Regular Components/Spikes]]
 
-[[content/Spawnables/Components/Stopwatch]]
+[[content/Components/Regular Components/Stopwatch]]
 
-[[content/Spawnables/Components/Transistor]]
+[[content/Components/Regular Components/Transistor]]
 
 [[Treadmill]]
 

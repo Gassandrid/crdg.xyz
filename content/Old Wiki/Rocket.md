@@ -17,5 +17,5 @@ facing. The front of the rocket is where the button is, not the hole.
 It can be used to make crude flying machines, especially with the alien
 gyro, although it is unstable and hard to control unless used properly.
 As a manifest, it can be obtained from fishing, growing
-[seeds](Seed "seeds"){.wikilink}, etc. and can be stored in the manifest
+[seeds](content/Old%20Wiki/Seed.md "seeds"){.wikilink}, etc. and can be stored in the manifest
 menu.

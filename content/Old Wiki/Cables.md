@@ -1,1 +1,1 @@
-1.  REDIRECT [Cable](Cable "Cable"){.wikilink}
+1.  REDIRECT [Cable](content/Old%20Wiki/Cable.md "Cable"){.wikilink}

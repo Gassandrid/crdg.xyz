@@ -48,8 +48,8 @@ tags: [todo, component]
 > 
 > | Component Type | Miscellaneous |
 > | --- | --- |
-> | **Inputs** | - [[content/Spawnables/Components/Banana]]<br>- [[content/Spawnables/Components/Seed]]<br>- [[miracle gro]] <br>- [Moray Eel](Moray_eel) <br>- [[Lemon]] |
-> | **Outputs** | - [[Manifests]]<br>- [[content/Spawnables/Components/Banana]]<br>- [[Lemon]] <br>- [[Golden Lemon]]|
+> | **Inputs** | - [[content/Components/Regular Components/Banana]]<br>- [[content/Components/Regular Components/Seed]]<br>- [[miracle gro]] <br>- [Moray Eel](Moray_eel) <br>- [[Lemon]] |
+> | **Outputs** | - [[Manifests]]<br>- [[content/Components/Regular Components/Banana]]<br>- [[Lemon]] <br>- [[Golden Lemon]]|
 
 The **Planter** is a **Miscellaneous**-type [Component](Components.md) spawned by the [[Component Machine]]. They were added on August 27th, 2022. 
 
@@ -73,11 +73,11 @@ There are four types (5 including Golden Lemon trees) of **Trees** in the game. 
 
 ### Banana Trees
 
-**Banana Trees** are the fastest **Tree** to grow, usually taking about 20 minutes before starting to grow [[crdg.xyz/content/Components/Banana|Bananas]]. They are planted by a [[content/Spawnables/Components/Banana]]. They were added on August 27th, 2022 along with **Seed Trees**. Due to it’s fast growth speed, if a **Banana Tree** were to be left untouched for a couple hours, it would be able to grow huge in size, almost overtaking the **Cathedral**. It is the only tree in the game to be able to reproduce itself, as **Lemon Trees** have to be manually cut off to grow. 
+**Banana Trees** are the fastest **Tree** to grow, usually taking about 20 minutes before starting to grow [[crdg.xyz/content/Components/Banana|Bananas]]. They are planted by a [[content/Components/Regular Components/Banana]]. They were added on August 27th, 2022 along with **Seed Trees**. Due to it’s fast growth speed, if a **Banana Tree** were to be left untouched for a couple hours, it would be able to grow huge in size, almost overtaking the **Cathedral**. It is the only tree in the game to be able to reproduce itself, as **Lemon Trees** have to be manually cut off to grow. 
 
 ### Seed Trees
 
-**Seed Trees** are the slowest **Tree** to grow, taking 24 hours of in-real-life time to grow. They are planted by a [[content/Spawnables/Components/Seed]]. They were added on August 27th, 2022 along with **Banana Trees**. They are the only type of **Tree** to take a different amount of time depending on if it is grown on a Public Server or a Private Server, taking 19 hours in a **Public Server**. They are by far the hardest to try growing, as many complications can happen during growth (griefing, disconnections, etc.). 
+**Seed Trees** are the slowest **Tree** to grow, taking 24 hours of in-real-life time to grow. They are planted by a [[content/Components/Regular Components/Seed]]. They were added on August 27th, 2022 along with **Banana Trees**. They are the only type of **Tree** to take a different amount of time depending on if it is grown on a Public Server or a Private Server, taking 19 hours in a **Public Server**. They are by far the hardest to try growing, as many complications can happen during growth (griefing, disconnections, etc.). 
 
 **Seed Trees** are the only type of **Tree** to grow [[crdg.xyz/content/Features/Manifests|Manifests]], and are also the only type of **Tree** to grow different Outputs depending on if they are grown in a Pubic Server or Private Server.
 
@@ -138,4 +138,4 @@ First off, it is recommended to stay alive the whole time, and to also make the 
 
 ## Miracle Gro
 
-**miracle gro** is an Exclusive object only capapble of being spawned by a Moderator. It can also be purchased inside of the **Tycoon**. It is a customizable version of the [[content/Spawnables/Components/Seed]], however with everything being able to be changed inside of a **GUI**. 
+**miracle gro** is an Exclusive object only capapble of being spawned by a Moderator. It can also be purchased inside of the **Tycoon**. It is a customizable version of the [[content/Components/Regular Components/Seed]], however with everything being able to be changed inside of a **GUI**. 

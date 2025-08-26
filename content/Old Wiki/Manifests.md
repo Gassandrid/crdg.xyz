@@ -26,7 +26,7 @@ different pools depending on if you\'re in a private server or not.
 
 #### Only in public servers {#only_in_public_servers}
 
-- [Rocket](Rocket "Rocket"){.wikilink}
+- [Rocket](content/Old%20Wiki/Rocket.md "Rocket"){.wikilink}
 - Speargun
 - 1911 Pistol
 - Flamethrower
