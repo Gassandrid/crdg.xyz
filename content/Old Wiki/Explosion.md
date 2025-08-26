@@ -9,7 +9,7 @@ Explosions can occur when:
 
 - A [Jerry can](Jerry_can "Jerry can"){.wikilink} impacts something hard
   enough, or is powered.
-- A [Stinger](Stinger "Stinger"){.wikilink}\'s missile hits something.
+- A [Stinger](content/Old%20Wiki/Stinger.md "Stinger"){.wikilink}\'s missile hits something.
 - A [Teddy Bear](Teddy_Bear "Teddy Bear"){.wikilink} is hugged.
 - A [C4](C4 "C4"){.wikilink} is detonated.
 - [The Cannon](Traps#Cannon "The Cannon"){.wikilink} is shot.

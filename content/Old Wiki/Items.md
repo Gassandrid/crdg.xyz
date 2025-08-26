@@ -44,8 +44,8 @@
 
 - [Superglue](Superglue "Superglue"){.wikilink}
 - [Blunderbuss](Blunderbuss "Blunderbuss"){.wikilink}
-- [Flamethrower](Flamethrower "Flamethrower"){.wikilink}
-- [SMLE](SMLE "SMLE"){.wikilink}
+- [Flamethrower](content/Old%20Wiki/Flamethrower.md "Flamethrower"){.wikilink}
+- [SMLE](content/Old%20Wiki/SMLE.md "SMLE"){.wikilink}
 - [AKM](AKM "AKM"){.wikilink}
 - [C4](C4 "C4"){.wikilink}
 - [touch of christ](touch_of_christ "touch of christ"){.wikilink}
@@ -54,7 +54,7 @@
 - [fintlog](fint_log "fintlog"){.wikilink}
 - [Brick](Brick "Brick"){.wikilink}
 - [Tau Cannon](Tau_Cannon "Tau Cannon"){.wikilink}
-- [Stinger](Stinger "Stinger"){.wikilink}
+- [Stinger](content/Old%20Wiki/Stinger.md "Stinger"){.wikilink}
 - [PM9](Pm9 "PM9"){.wikilink}
 - [PTRD-41](PTRD-41 "PTRD-41"){.wikilink}
 - [Thunderbuss](Thunderbuss "Thunderbuss"){.wikilink}
