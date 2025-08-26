@@ -43,7 +43,7 @@
 #### Admin/Unobtainable Items {#adminunobtainable_items}
 
 - [Superglue](Superglue "Superglue"){.wikilink}
-- [Blunderbuss](Blunderbuss "Blunderbuss"){.wikilink}
+- [Blunderbuss](content/Old%20Wiki/Blunderbuss.md "Blunderbuss"){.wikilink}
 - [Flamethrower](content/Old%20Wiki/Flamethrower.md "Flamethrower"){.wikilink}
 - [SMLE](content/Old%20Wiki/SMLE.md "SMLE"){.wikilink}
 - [AKM](AKM "AKM"){.wikilink}
@@ -57,7 +57,7 @@
 - [Stinger](content/Old%20Wiki/Stinger.md "Stinger"){.wikilink}
 - [PM9](Pm9 "PM9"){.wikilink}
 - [PTRD-41](PTRD-41 "PTRD-41"){.wikilink}
-- [Thunderbuss](Thunderbuss "Thunderbuss"){.wikilink}
+- [Thunderbuss](Thunderbuss.md "Thunderbuss"){.wikilink}
 - [Bananabuss](Bananabuss "Bananabuss"){.wikilink}
 - [BA-GL THUMPER](BA-GL_THUMPER "BA-GL THUMPER"){.wikilink}
 - Hotdogbuss

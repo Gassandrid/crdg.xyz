@@ -2,18 +2,18 @@
 tags: [todo, items/unobtainable]
 ---
 
-The Bananalock is an unobtainable version of the [Flintlock](Flintlock "Flintlock"){.wikilink} that shoots banana peels, making people trip like the component/[trap](Traps#Banana_Peels "trap"){.wikilink} ones.
+The Bananalock is an unobtainable variant of the [Flintlock](Flintlock "Flintlock"{ that shoots banana peels, making people trip like the component/[trap](Traps#Banana_Peels "trap"). Visually, it is a retexture of said item with a yellow color.
 
 ---
 
 ## Usage
 
-Clicking left mouse will shoot a banana projectile in whichever direction your mouse is pointing. If the banana comes into contact with any unachored part(s), it will send the part(s) in a random direction.
+Left clicking  will shoot a banana projectile in whichever direction your mouse is pointing. If the banana comes into contact with any unanchored part(s), it will send the part(s) in a random direction.
 
-> <img width="664" height="664" alt="image" src="https://github.com/user-attachments/assets/2c29dbde-1eda-4088-a83e-ec443aa0d74c" />
+> ![[Pasted image 20250826203428.png|500|500]]
 > 
-> The bananalock being held by a player.
+> The Bananalock being held by a player.
 
-> <img width="240" height="240" alt="image" src="https://github.com/user-attachments/assets/5db6bbd8-d1c4-4816-bf1a-7edce458fda5" />
+> ![[bananalock.gif|500|500]]
 > 
 > The Bananalock being used by a player.
