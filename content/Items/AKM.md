@@ -1,4 +1,4 @@
-<div style="--notice-height:120px; position:relative; margin:10px 5px 5px 5px; padding:10px;
+<div style="--notice-height:100px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;
     text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);
     border-radius:0.5px; border:2px solid #777777; box-shadow:4px 4px 12px rgba(0,0,0,0.6);
