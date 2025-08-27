@@ -37,9 +37,36 @@
     </div>
 </div>
 
-
-![[Pasted image 20250826234115.png]]
-
-> ![[2025-08-2700-12-03-ezgif.com-video-to-gif-converter.gif]]
+> [!infobox|n-th]
 > 
+> ## AKM
 > 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[Pasted image 20250827103338.png|center]]
+> > 
+> > assault rifels...
+> 
+> ### Item Info
+> 
+> | Type | Combat |
+> | --- | --- |
+> | **Firerate** | 0.125s per shot |
+> | **Ammo** | 31
+> | **Reload Speed** | 2.5s |
+> | **Damage** | 31
+
+The **AKM** is an exclusive, **Combat**-type weapon added on November 24th, 2022. Visually, it resembles a real life AKM. It is a weapon directly ported from **Cleave**, an older game made by **Schnogrind**. Therefore, it is similar to other weapons like the **SMLE** and the **Tau Cannon** and share a reload mechanic. It is also one of the only two guns in the game to be semi-automatic, with the other being the [[flintglock]].
+
+---
+## Usage
+
+Holding left click while having the **AKM** will automatically shoot out a burst of bullets until it runs out of ammo. Each of these bullets deal a whopping 31 damage, however they are unable to land a critical hit.
+
+> ![[2025-08-27 10-43-31 (1).gif]]
+> 
+> The **AKM**'s reload animation.
+
+> ![[Pasted image 20250827110322.png|500|500]]
+> 
+> The mark that shows when you get hit by an **AKM**.
