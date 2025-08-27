@@ -12,7 +12,7 @@
     <div style="position:absolute; top:0; left:0; right:0; bottom:0;
         background: rgba(0,0,0,0.25); z-index:1;">
     </div>
-    <div style="position:relative; display:flex; flex-direction:column; justify-content:center; text-align:center; height:100%; z-index:2;">
+    <div style="position:relative; display:flex; flex-direction:column; justify-content:center; text-align:center; height:100%; z-index:1;">
         <div style="font-size:2rem; color:#ff4d4d;">
             <span style="color:#ff3333;">EXCLUSIVE</span>
             <span style="color:#cc0000;">CONTENT!</span>
