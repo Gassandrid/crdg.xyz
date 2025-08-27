@@ -45,7 +45,7 @@
 > | **Damage** | 30 (Point Blank) |
 > 
 
-The **BA-GL 'Thumper'** is a **Combat**-type item added on **October 22nd, 2022.** It is similar to a **Grenade Launcher**, both visually and usably. This weapon was directly ported from **Cleave**, an older game made by **Schnogrind**. Even with it's low ammo, it is able to be used quite fast by timing your R key presses. 
+The **BA-GL 'Thumper'** is an exclusive **Combat**-type item added on **October 22nd, 2022.** It is similar to a **Grenade Launcher**, both visually and usably. This weapon was directly ported from **Cleave**, an older game made by **Schnogrind**. Even with it's low ammo, it is able to be used quite fast by timing your R key presses. 
 
 ---
 

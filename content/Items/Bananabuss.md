@@ -39,7 +39,7 @@
 > | --- | --- |
 > | **Reload Speed** | 1s |
 
-The **Bananabuss** is a **Combat**-type **Item** added on **November 25th, 2024**. It resembles a [[content/Items/Blunderbuss|Blunderbuss]] with the color being fully yellow. When equipping the item, it will play a lower pitched sound of the [[Flintlock]] equip sound.
+The **Bananabuss** is an exclusive **Combat**-type **Item** added on **November 25th, 2024**. It resembles a [[content/Items/Blunderbuss|Blunderbuss]] with the color being fully yellow. When equipping the item, it will play a lower pitched sound of the [[Flintlock]] equip sound.
 
 ---
 

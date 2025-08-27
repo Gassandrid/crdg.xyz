@@ -40,14 +40,14 @@
 > | **Reload Speed** | 1s |
 ---
 
-The **Blunderbuss** is a **Combat**-type **Item** added on **October 8th, 2024**. It is a variant of the **Flintlock**, shooting 10 bullets instead of one but with a higher reload speed.
+The **Blunderbuss** is an exclusive **Combat**-type **Item** added on **October 8th, 2024**. It is a variant of the **Flintlock**, shooting 10 bullets instead of one but with a higher reload speed.
 
 ---
 ## Usage
 
-
+Left clicking while holding the **Blunderbuss** will shoot out multiple [[Flintlock]] bullets. This can be useful for rusting stuff, but is also dangerous as this can fling other people.
 
 
 > ![[2025-08-2712-45-21-ezgif.com-video-to-gif-converter.gif|400]]
 > 
-> 
+> The **blunderbuss** being used.
