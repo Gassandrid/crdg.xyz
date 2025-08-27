@@ -23,6 +23,8 @@
     </div>
 </div>
 
+---
+
 > [!infobox|n-th]
 > 
 > ## Blunderbuss
@@ -38,7 +40,7 @@
 > | Type | Combat |
 > | --- | --- |
 > | **Reload Speed** | 1s |
----
+
 
 The **Blunderbuss** is an exclusive **Combat**-type **Item** added on **October 8th, 2024**. It is a variant of the **Flintlock**, shooting 10 bullets instead of one but with a higher reload speed.
 

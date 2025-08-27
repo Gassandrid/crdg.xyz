@@ -41,7 +41,7 @@
 > | Type | Miscellaneous |
 > | --- | --- |
 > | **Reload Speed** | 5s |
----
+
 
 The **Brick** is a **Miscellaneous**-type exclusive item added on April 14th, 2023. Visually, it resembles a cartoony outlined red brick with three holes. It is the only item in the game where it is able to recharge placing itself.
 
