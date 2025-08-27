@@ -51,9 +51,9 @@ The **AKM** is an exclusive, **Combat**-type weapon added on November 24th, 2022
 
 Holding left click while having the **AKM** will automatically shoot out a burst of bullets until it runs out of ammo. Each of these bullets deal a whopping 31 damage. This gun is also able to land critical hits on someone, increasing the damage even further.
 
- ![[2025-08-27 10-43-31 (1).gif]]
-
- The **AKM**'s reload animation.
+ >![[2025-08-27 10-43-31 (1).gif]]
+>
+  The **AKM**'s reload animation.
 
 > ![[Pasted image 20250827110322.png|500|500]]
 > 
