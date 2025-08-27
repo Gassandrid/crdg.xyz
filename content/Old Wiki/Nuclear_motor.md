@@ -38,7 +38,7 @@ just destroyed.
 If you want to use it as a bomb, there are several ways to make sure it
 ends up exploding, as well as making it more potent.
 
-- [Glue](Glue "Glue"){.wikilink} or staple the uranium rod in rather
+- [Glue](content/Old%20Wiki/Glue.md "Glue"){.wikilink} or staple the uranium rod in rather
   than just setting it in so it doesn\'t jostle out and stop.
 - Use a [spike](content/Old%20Wiki/Spikes.md "spike"){.wikilink} machine to anchor it to the
   ground so people can\'t pick it up and throw it off.

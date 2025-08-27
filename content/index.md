@@ -25,4 +25,4 @@ This is part of a genre of games on Roblox called "Cart Rides". This game was re
 
 Some useful pages on this site include the [[Components]] page, a list of all the components in the game. 
 
-Something unique to this wiki is our index of [[Contraptions/index|Player Contraptions]] which can assist you in game, assuming you have tools like [[Glue]], [[Component Machine]], etc.
+Something unique to this wiki is our index of [[Contraptions/index|Player Contraptions]] which can assist you in game, assuming you have tools like [[content/Old Wiki/Glue]], [[Component Machine]], etc.

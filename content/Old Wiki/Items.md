@@ -4,7 +4,7 @@
 
 - [Makarov](Makarov "Makarov"){.wikilink}
 - [Component Machine](Component_Machine "Component Machine"){.wikilink}
-- [Glue](Glue "Glue"){.wikilink}
+- [Glue](content/Old%20Wiki/Glue.md "Glue"){.wikilink}
 - [Portable Cart](Portable_Cart "Portable Cart"){.wikilink}
 
 #### Island Items {#island_items}

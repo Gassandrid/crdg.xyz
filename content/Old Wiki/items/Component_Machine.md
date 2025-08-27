@@ -10,7 +10,7 @@ Component machine is a gamepass which costs 220 robux, when used a menu
 opens up that can be used to get components by either typing in the name
 or pressing \"get an thing\", the \"get an thing\" option spins a
 roulette which gives out a random item. The component machine is best
-used with [glue](glue "glue"){.wikilink}.
+used with [Glue](content/Old%20Wiki/Glue.md "glue"){.wikilink}.
 
 ## Description
 

@@ -37,7 +37,7 @@
 
 ###### Added: {#added_2}
 
-- [Glue](Glue "Glue"){.wikilink}
+- [Glue](content/Old%20Wiki/Glue.md "Glue"){.wikilink}
 - Faster debris cleaning (-20 Seconds)
 
 ## 2023 {#section_1}
