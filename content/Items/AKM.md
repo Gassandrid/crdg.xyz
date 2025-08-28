@@ -44,7 +44,7 @@
 > | **Reload Speed** | 2.5s |
 > | **Damage** | 31
 
-The **AKM** is an exclusive, **Combat**-type weapon added on November 24th, 2022. Visually, it resembles a real life AKM. It is a weapon directly ported from **Cleave**, an older game made by **Schnogrind**. Therefore, it is similar to other weapons like the **SMLE** and the **Tau Cannon** and share a reload mechanic. It is also one of the only two guns in the game to be semi-automatic, with the other being the [[flintglock]]. 
+The **AKM** is an exclusive, **Combat**-type weapon added on November 24th, 2022. Visually, it resembles a real life AKM. It is a weapon directly ported from **Cleave**, an older game made by **Schnogrind**. Therefore, it is similar to other weapons like the **SMLE** and the **Tau Cannon** and share a reload mechanic. It is also one of the only two guns in the game to be automatic, with the other being the [[flintglock]]. 
 
 ---
 ## Usage

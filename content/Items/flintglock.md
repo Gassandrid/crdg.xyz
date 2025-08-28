@@ -44,7 +44,7 @@
 > | **Ammo** | Bullets |
 > | **Firerate** | 0.1 seconds |
 
-The **flintglock** is a **Combat**-type, **exclusive** item made on June 4th, 2022. It acts like a regular flintlock, but shoots out bullets way faster at about one per 0.1 seconds. Visually, it resembles a flintlock barrel with the handle of a [[Makarov]]. It is one of the only two semi-automatic guns in the game, the other being the [[content/Items/AKM|AKM]].
+The **flintglock** is a **Combat**-type, **exclusive** item made on June 4th, 2022. It acts like a regular flintlock, but shoots out bullets way faster at about one per 0.1 seconds. Visually, it resembles a flintlock barrel with the handle of a [[Makarov]]. It is one of the only two automatic guns in the game, the other being the [[content/Items/AKM|AKM]].
 
 ---
 ## Usage
