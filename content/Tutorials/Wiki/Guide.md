@@ -1,6 +1,9 @@
 > [!Info] Title
 > **Please do NOT use any large-language model (AI) to edit any aspect of an articles. LLM hallucinations can depict various things as factual, when said things are not factual.*** Also, this _is_ a niche game. 
 More information can be found on https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)
+>
+> For math, please use LaTeX.
+> Example: $y+x^y+76\frac{3}{4}^2 \text{This is a demo of the LaTeX system}$
 
 This guide is intended to inform users of how pages should be designed and formatted. This page is not a strict list of rules, but contains the preferred formatting of pages of various types.
 
