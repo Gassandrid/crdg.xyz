@@ -1,5 +1,6 @@
 ---
-tags: [templates]
+tags:
+  - templates
 ---
 
 > [!infobox|n-th]
