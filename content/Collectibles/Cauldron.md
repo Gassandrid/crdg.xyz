@@ -1,3 +1,4 @@
+
 The cauldron is a collectible added in the Big Blimp update that you can buy from the [[Blimp]] for 6 glasses of honey.
 
 > [!infobox|n-th]
