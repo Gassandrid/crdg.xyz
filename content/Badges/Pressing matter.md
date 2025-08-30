@@ -52,6 +52,9 @@ The **knife trap** is a trap found behind the main building in [[Gas Station]] a
 > [!Tip] Tip
 > If you can, try placing a [[Planter]] close to you. If you accidentally get the explosive too close to you and shoot it, it wont kill you as [[Planter|Planters]] can block **explosion damage**.
 
+> ![[Pasted image 20250830214540.png|400]]
+> 
+> An ideal [[Jerry_can|Jerry Can]] placement.
 ### Cut Lemons
 
 **Cut Lemons** are created by using the [[Knife]] to cut a [[Lemon]]. There isn't really any strategy required for this, but the best way to do it is to use a spike to get the **lemon** stuck at a horizontal angle and throw the **knife** around the **lemon** while still grabbing it to try cutting it. If you do this correctly, the lemon should detach and split into two parts.
@@ -68,7 +71,7 @@ The **lemonade pressurizer** is a **machine** able to crush **cut lemons** force
 You need at least **four cut lemon** pieces in order to produce a full glass of **Lemonade**. Once you get a full glass of Lemonade, grab it and hold left click to drink it entirely. You should now have the **delicious citrus** badge.
 
 > [!Warning] Warning
-> If you just walk into a glass of lemonade, you will lose a couple drops due to the equipping animation. Instead, **PLEASE** hold an item and **THEN** pick up the glass. The equipping animation won't interfere and you should have the entire glass held.
+> If you just walk into a glass of lemonade, you will lose a couple drops due to the equipping animation. Instead, **FIRST** hold an item and **THEN** pick up the glass. The equipping animation won't interfere and you should have the entire glass held.
 
 
 
