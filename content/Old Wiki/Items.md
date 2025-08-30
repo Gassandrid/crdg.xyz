@@ -14,8 +14,8 @@
 - [Ice Cream](Ice_Cream "Ice Cream"){.wikilink}
 - [glass](glass "glass"){.wikilink}
 - [Ladder](Ladder "Ladder"){.wikilink}
-- [Couch](Couch "Couch"){.wikilink}
-- [Lamp](Lamp "Lamp"){.wikilink}
+- [Couch](content/Old%20Wiki/components/Couch.md "Couch"){.wikilink}
+- [Lamp](content/Old%20Wiki/Lamp.md "Lamp"){.wikilink}
 - [Vending machine
   items](Vending_machine_items "Vending machine items"){.wikilink}
 
@@ -31,7 +31,7 @@
 #### Badge Items {#badge_items}
 
 - [Jerry can](Jerry_can "Jerry can"){.wikilink}
-- [Stapler](Stapler "Stapler"){.wikilink}
+- [Stapler](content/Old%20Wiki/Stapler.md "Stapler"){.wikilink}
 - [Cardboard](Cardboard "Cardboard"){.wikilink}
 - [Box cutter](Box_cutter "Box cutter"){.wikilink}
 - [Flintlock](content/Old%20Wiki/Flintlock.md "Flintlock"){.wikilink}

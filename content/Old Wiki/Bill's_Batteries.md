@@ -18,7 +18,7 @@ with a dumpster which has a [](Fish.md#Fishing_Rods){.wikilink} behind it and a
 [rusty battery](Rusty_Battery "rusty battery"){.wikilink} inside, as
 well as the [screw](content/Old%20Wiki/Riel.md "screw"){.wikilink} next to it. There is a vent
 in the back of the store which leads to the
-[Lemon](Lemon "Lemon"){.wikilink} also you can screw in the vent so no
+[Lemon](content/Old%20Wiki/Lemon.md "Lemon"){.wikilink} also you can screw in the vent so no
 one can open the vent.
 
 Although they are less common here,

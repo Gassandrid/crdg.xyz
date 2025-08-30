@@ -16,7 +16,7 @@ about five seconds like this the trap resets. It is easy to avoid if you
 can do it properly.
 
 It is of note the trap is also used for cutting
-[Lemons](Lemon "Lemons"){.wikilink} and gold lemons before juicing. In
+[Lemons](content/Old%20Wiki/Lemon.md "Lemons"){.wikilink} and gold lemons before juicing. In
 order to do this properly use a [component
 machine](Component_Machine "component machine"){.wikilink} and
 [Spikes](content/Old%20Wiki/Spikes.md "spikes"){.wikilink} to create a platform to catch the

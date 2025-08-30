@@ -22,7 +22,7 @@ inside of the store spawns [](Fish.md){.wikilink} every 3 minutes.
   [cardboard](cardboard "cardboard"){.wikilink}, which it can be used to
   generate debris to turn into cardboard.
 - There is a room inside the building farthest from the lift containing
-  a sofa, a [lamp](Lamp "lamp"){.wikilink}, a paper towel dispenser, a
+  a sofa, a [lamp](content/Old%20Wiki/Lamp.md "lamp"){.wikilink}, a paper towel dispenser, a
   small ladder and some money.
 - There is a room above the shop area that contains the fishing rod with
   gold in it. To get in, you must shoot the back off of a chair and face

@@ -48,8 +48,8 @@ tags: [todo, component]
 > 
 > | Component Type | Miscellaneous |
 > | --- | --- |
-> | **Inputs** | - [[Banana]]<br>- [[Seed]]<br>- [[miracle gro]] <br>- [Moray Eel](Moray_eel) <br>- [[Lemon]] |
-> | **Outputs** | - [[Manifests]]<br>- [[Banana]]<br>- [[Lemon]] <br>- [[Golden Lemon]]|
+> | **Inputs** | - [[Banana]]<br>- [[Seed]]<br>- [[miracle gro]] <br>- [Moray Eel](Moray_eel) <br>- [[content/Old Wiki/Lemon]] |
+> | **Outputs** | - [[Manifests]]<br>- [[Banana]]<br>- [[content/Old Wiki/Lemon]] <br>- [[Golden Lemon]]|
 
 The **Planter** is a **Miscellaneous**-type [Component](Components.md) spawned by the [[Component_Machine|Component Machine]]. They were added on August 27th, 2022. 
 
@@ -83,13 +83,13 @@ There are four types (5 including Golden Lemon trees) of **Trees** in the game. 
 
 ### Lemon Trees
 
-**Lemon Trees** are **Trees** added during Part 1 of the Summer Update, on June 23rd, 2024. Along with **Golden Seed Trees**, they are the only types of **Tree** linked to a [Badge](Badges). They are planted by a [[Lemon]], obtainable by going to the vent inside of [[Bill's batteries]] and pulling it out. Be careful, as if a Lemon falls into the void, it won’t generate again. 
+**Lemon Trees** are **Trees** added during Part 1 of the Summer Update, on June 23rd, 2024. Along with **Golden Seed Trees**, they are the only types of **Tree** linked to a [Badge](Badges). They are planted by a [[content/Old Wiki/Lemon]], obtainable by going to the vent inside of [[Bill's batteries]] and pulling it out. Be careful, as if a Lemon falls into the void, it won’t generate again. 
 
 They take about 30 minutes to grow their first Lemon, and will generate a few more before not being able to grow any. They are the only type of **Tree** that requires a Player to manually pull out the lemons it grows, otherwise they’ll be stuck to the Tree.
 
 #### Golden Lemon Trees
 
-**Golden Lemon Trees** are trees added along regular **Lemon Trees**. They are technically the same type of Tree, but however grow different types of Outputs. To make one, plant a [[Lemon]] inside of a **Golden Planter**. **Golden Lemon Trees** follow the same growth speed as **Golden Planters** do, except the speed slows down exactly when **Golden Lemon Trees** finish growing their first [[Golden Lemon]].
+**Golden Lemon Trees** are trees added along regular **Lemon Trees**. They are technically the same type of Tree, but however grow different types of Outputs. To make one, plant a [[content/Old Wiki/Lemon]] inside of a **Golden Planter**. **Golden Lemon Trees** follow the same growth speed as **Golden Planters** do, except the speed slows down exactly when **Golden Lemon Trees** finish growing their first [[Golden Lemon]].
 
 ### Palm Trees
 
