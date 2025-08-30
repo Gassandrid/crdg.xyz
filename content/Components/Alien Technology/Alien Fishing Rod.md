@@ -37,3 +37,5 @@
         </div>
     </div>
 </div>
+
+![[Pasted image 20250830120606.png]]
