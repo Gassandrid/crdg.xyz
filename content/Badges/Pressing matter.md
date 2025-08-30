@@ -30,10 +30,11 @@
 
 **Pressing matter** is a badge added on **June 23rd, 2024** during the **summer update pt1** along with the [[Delicious Citrus]] badge. It awards the [[content/Items/Stapler|Stapler]] item and unlocks the door behind the [[Gas Station]][^1], but requires the [[Component Machine]] and [[content/Items/Glue|Glue]] to be obtained[^2]. It is the first badge to be a part of the **"secret badges"** trilogy[^3], therefore meaning that the badge wasn't given a full obtainment method on release.
 
----
 ## Obtainment
 
 It is best recommended to get the [[Delicious Citrus]] badge while getting this badge to save time, but it is not required. It is also recommended to get both badges at either [[Gas Station]] or [[content/Places/Cathedral|Cathedral]], as they have a lot of empty spaces and have some objects required for the badge.
+
+---
 ### Lemon
 
 To start off, you must acquire a [[Lemon]]. Go behind the [[Bill's batteries]] building and go next to the vent. Next, build a simple contraption consisting of a [[Spikes|Spike]] and exactly seven [[Cable|Cables]]. After you're done, send all of the cables linked together into the vent and go in. You will need to glue the [[Lemon]] to the [[Cable]] placed on the floor, then detach the [[Spikes|Spike]] and pull the [[Cable|Cables]] back up. If you did this step right, you should now have the lemon at the top of [[Bill's batteries]] and can now move on to **planting** the [[Lemon]].
