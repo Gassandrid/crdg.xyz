@@ -1,6 +1,6 @@
 Before options like split [[Diode]]s and [[Wireless Receiver]] were easy to get using the [[Manifests]] system. 
 
-It uses a constant clock on one side to check for changes to **broken-up [[Transistor]]s** ( see [[Breaking Apart Components]] for help ).
+It uses a constant clock on one side to check for changes to **broken-up [[content/Old Wiki/Transistor]]s** ( see [[Breaking Apart Components]] for help ).
 
 ---
 

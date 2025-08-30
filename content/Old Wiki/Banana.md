@@ -24,7 +24,7 @@ players, although it may be more difficult if they are placed in
 troublesome positions.
 
 The banana can also be planted in a
-[Planter](Planter "Planter"){.wikilink}. It grows much faster than other
+[Planter](Planter.md "Planter"){.wikilink}. It grows much faster than other
 plants and drops more banana peels, allowing large amounts to be amassed
 easily.
 

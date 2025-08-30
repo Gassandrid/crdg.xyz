@@ -14,7 +14,7 @@ Linear actuator x2
 
 Bearing x2
 
-[Cable](Cable "Cable"){.wikilink} (at least 1)
+[Cable](content/Old%20Wiki/Cable.md "Cable"){.wikilink} (at least 1)
 
 A base, preferably cardboard
 

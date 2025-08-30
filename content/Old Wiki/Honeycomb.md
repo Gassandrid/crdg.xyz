@@ -19,7 +19,7 @@ The honeycomb is inert until it is assembled into a box made from
 [Cardboard](Cardboard "Cardboard"){.wikilink}. It must be glued and have
 at least 5 sides, with an opening for the bees to come out. When these
 conditions are fulfilled it will begin releasing bees to nearby trees
-growing from [planters](Planter "planters"){.wikilink}. The bees will go
+growing from [planters](Planter.md "planters"){.wikilink}. The bees will go
 between a few trees before flying back to the hive and filling a hexagon
 with honey. There is almost infinite range, the bees will fly between
 islands to reach planters.

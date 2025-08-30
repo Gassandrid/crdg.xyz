@@ -17,7 +17,7 @@ they are rectangular prisms. All but the 255 item can be consumed in
 some way.
 
 They are one of the few items that cannot be grabbed with
-[spikes](spikes "spikes"){.wikilink}.
+[Spikes](content/Old%20Wiki/Spikes.md "spikes"){.wikilink}.
 
   Item                   Code         Consume sound        Other
   ---------------------- ------------ -------------------- --------------------------------------------

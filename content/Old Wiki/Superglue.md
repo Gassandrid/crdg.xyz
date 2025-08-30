@@ -2,7 +2,7 @@
 {{Item|title1=Superglue|image1=Unique glue.webp|caption1=Schnogrind, the game's owner holding Superglue|Usage=Acts similarly to glue but is able to affect players and other unglueable things. Impossible to unglue.|Obtaining=Admin item}}
 ```
 Super glue is an admin item that is given only to admins of CRDG, which
-behaves as a buffed [glue](glue "glue"){.wikilink}. It is a glue bottle
+behaves as a buffed [Glue](content/Old%20Wiki/Glue.md "glue"){.wikilink}. It is a glue bottle
 with a red tint, resembling gorilla glue.
 
 ## Function

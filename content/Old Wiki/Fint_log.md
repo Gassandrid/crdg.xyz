@@ -1,1 +1,1 @@
-1.  REDIRECT [Flintlock](Flintlock "Flintlock"){.wikilink}
+1.  REDIRECT [Flintlock](content/Old%20Wiki/Flintlock.md "Flintlock"){.wikilink}

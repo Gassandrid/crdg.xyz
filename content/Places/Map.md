@@ -10,4 +10,4 @@ CRDG has **5 main locations** on the path to completing the game, with their own
 
 Will finish later
 
-![[Screenshot 2025-07-22 at 1.55.59 PM.png]]
+<img width="904" height="898" alt="image" src="https://github.com/user-attachments/assets/71b4a29c-b1d7-4a0d-becb-7dce603a9a0e" />

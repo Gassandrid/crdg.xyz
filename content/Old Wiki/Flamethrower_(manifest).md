@@ -6,7 +6,7 @@
 ```
 `<small>`{=html}This page is about a manifest item that spews fire. For
 the admin item, see
-[Flamethrower](Flamethrower "Flamethrower"){.wikilink}.`</small>`{=html}
+[Flamethrower](content/Old%20Wiki/Flamethrower.md "Flamethrower"){.wikilink}.`</small>`{=html}
 
 The flamethrower is a manifest component in CRDG.
 

@@ -6,4 +6,4 @@ characterized by it\'s blinding flash and small red ish colour.
 `<big>`{=html}**Function**`</big>`{=html}
 
 If you start smashing the fish against any type of surface it will emit
-a bright flash like the [flashbang](Flashbang "flashbang"){.wikilink}.
+a bright flash like the [flashbang](content/Old%20Wiki/Flashbang.md "flashbang"){.wikilink}.

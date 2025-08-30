@@ -10,7 +10,7 @@
 
 ###### Added:
 
-- [C4](C4 "C4"){.wikilink}
+- [C4](content/Old%20Wiki/items/C4.md "C4"){.wikilink}
 
 ### `<u>`{=html}Update #2`</u>`{=html} {#update_2}
 
@@ -20,9 +20,9 @@
 
 ###### Added: {#added_1}
 
-- [Riel](Riel "Riel"){.wikilink}
+- [Riel](content/Old%20Wiki/Riel.md "Riel"){.wikilink}
 - [Screw](Screw "Screw"){.wikilink}
-- [Flintlock](Flintlock "Flintlock"){.wikilink}
+- [Flintlock](content/Old%20Wiki/Flintlock.md "Flintlock"){.wikilink}
 - [Waypoint
   Teleporter](Waypoint_Teleporter "Waypoint Teleporter"){.wikilink}
 - [Boss Hub](Boss_Hub "Boss Hub"){.wikilink}
@@ -37,7 +37,7 @@
 
 ###### Added: {#added_2}
 
-- [Glue](Glue "Glue"){.wikilink}
+- [Glue](content/Old%20Wiki/Glue.md "Glue"){.wikilink}
 - Faster debris cleaning (-20 Seconds)
 
 ## 2023 {#section_1}

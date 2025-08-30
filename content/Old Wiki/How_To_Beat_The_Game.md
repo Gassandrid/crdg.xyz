@@ -56,7 +56,7 @@ heavy. After passing the slope, there is a tunnel which doesn\'t do
 anything, and you just need to maintain a safe speed until you reach the
 [clothes line](Traps#Clothes_Lines "clothes line"){.wikilink}.
 
-If you have [glue](glue "glue"){.wikilink} or the stapler, simply set
+If you have [Glue](content/Old%20Wiki/Glue.md "glue"){.wikilink} or the stapler, simply set
 the battery upright in your cart and glue it in. Since there is no
 passenger cart you can get up the hill at a more safe speed, and have
 less risk of derailing or tipping over while doing so.
@@ -106,7 +106,7 @@ leading up to a steep drop with a [gun
 trap](Traps#Gun_Traps "gun trap"){.wikilink} at the bottom.
 
 If you have a component machine, anchor the battery by attaching
-[spikes](Spikes "spikes"){.wikilink} to the wall with a button, and
+[spikes](content/Old%20Wiki/Spikes.md "spikes"){.wikilink} to the wall with a button, and
 using a rope or cable with one end attached to the spikes and the other
 attached to the battery. This allows the battery to be reused to get
 through [the gate](Traps#The_Gate "the gate"){.wikilink} without

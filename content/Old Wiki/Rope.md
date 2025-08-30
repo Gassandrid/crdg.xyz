@@ -1,6 +1,6 @@
 Rope, is a component from the [Component
 Machine](Component_Machine "Component Machine"){.wikilink}. It behaves
-similarly to [Cable](Cable "Cable"){.wikilink} ![rope](Rope.png "rope")
+similarly to [Cable](content/Old%20Wiki/Cable.md "Cable"){.wikilink} ![rope](Rope.png "rope")
 Whilst being idle, it behaves exactly like cable, but it cannot transfer
 signals
 

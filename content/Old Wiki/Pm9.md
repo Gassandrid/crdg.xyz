@@ -41,7 +41,7 @@ pm9?`</big>`{=html}**`</u>`{=html}
 makarov users get up close if they have a better gun than you!(beware of
 explosives)\]
 
-• pair with [c4](c4 "c4"){.wikilink} to get (few) results in sniper
+• pair with [C4](content/Old%20Wiki/items/C4.md "c4"){.wikilink} to get (few) results in sniper
 duels \[c4 body armour lezz gooo!!\]
 
 • if pm9 is not your only developer given weapon don\'t use it unless

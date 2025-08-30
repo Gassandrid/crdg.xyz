@@ -1,1 +1,1 @@
-1.  REDIRECT [Items](Items "Items"){.wikilink}
+1.  REDIRECT [Items](content/Old%20Wiki/Items.md "Items"){.wikilink}

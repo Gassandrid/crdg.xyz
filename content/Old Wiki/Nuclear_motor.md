@@ -38,9 +38,9 @@ just destroyed.
 If you want to use it as a bomb, there are several ways to make sure it
 ends up exploding, as well as making it more potent.
 
-- [Glue](Glue "Glue"){.wikilink} or staple the uranium rod in rather
+- [Glue](content/Old%20Wiki/Glue.md "Glue"){.wikilink} or staple the uranium rod in rather
   than just setting it in so it doesn\'t jostle out and stop.
-- Use a [spike](Spikes "spike"){.wikilink} machine to anchor it to the
+- Use a [spike](content/Old%20Wiki/Spikes.md "spike"){.wikilink} machine to anchor it to the
   ground so people can\'t pick it up and throw it off.
   - remember to remove the button from the spikes so they don\'t just
     press it and throw it away.
@@ -51,7 +51,7 @@ ends up exploding, as well as making it more potent.
 
 If you shoot the uranium rod in the middle of the spinning, you can turn
 it to a motor and make it not explode. To do this you need to have a
-Component machine \"[Gun](Gun "Gun"){.wikilink}\". Than put the rod in
+Component machine \"[Gun](content/Old%20Wiki/Gun.md "Gun"){.wikilink}\". Than put the rod in
 the motor with the gun glued with it. After a bit press the button/
 activate the gun.
 

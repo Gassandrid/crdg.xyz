@@ -3,7 +3,7 @@
 ```
 The Gas Station is the second last section of the game. It also serves
 as a refuel section for your cart. At the Gas Station there are many
-buildings. On the side there is the [Seeker](Seeker "Seeker"){.wikilink}
+buildings. On the side there is the [Seeker](content/Old%20Wiki/Seeker.md "Seeker"){.wikilink}
 and [Knife trap](Knife_trap "Knife trap"){.wikilink}. There\'s an
 [NPC](NPCs "NPC"){.wikilink} called [Tall
 Person](NPCs#Tall_Person "Tall Person"){.wikilink} near the Gas pumps.
@@ -22,7 +22,7 @@ inside of the store spawns [](Fish.md){.wikilink} every 3 minutes.
   [cardboard](cardboard "cardboard"){.wikilink}, which it can be used to
   generate debris to turn into cardboard.
 - There is a room inside the building farthest from the lift containing
-  a sofa, a [lamp](Lamp "lamp"){.wikilink}, a paper towel dispenser, a
+  a sofa, a [lamp](content/Old%20Wiki/Lamp.md "lamp"){.wikilink}, a paper towel dispenser, a
   small ladder and some money.
 - There is a room above the shop area that contains the fishing rod with
   gold in it. To get in, you must shoot the back off of a chair and face
