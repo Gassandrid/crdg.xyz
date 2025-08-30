@@ -1,7 +1,6 @@
 ---
 tags: [tutorials/bees]
 ---
-
 This page will serve as a step-by-step guide to the **Beekeeping** feature of the game, with included pictures and blueprint for visual help.
 
 ___
@@ -10,7 +9,7 @@ ___
 
 Bee Nests are the first step into creating a **Beehive**. They can appear in specific spots every 20 minutes. To find them, a map of all of the possible beehive locations will be linked.
 
-To shoot them down, it is common practice to use a [[content/Old Wiki/Flintlock]]. Once a bee nest reaches a maximum force, it will open into multiple **Honeycombs**, of which the amount is decided by luck. However, they usually open into one or two, albeit there is a rare chance they drop 10+ honeycombs. 
+To shoot them down, it is common practice to use a [[Flintlock]]. Once a bee nest reaches a maximum force, it will open into multiple **Honeycombs**, of which the amount is decided by luck. However, they usually open into one or two, albeit there is a rare chance they drop 10+ honeycombs. 
 
 > ![[Pasted image 20250815114728.png|300]]
 > 
@@ -33,13 +32,11 @@ To shoot them down, it is common practice to use a [[content/Old Wiki/Flintlock]
 
 Whenever a **Beehive** is created, all the bees inside will do the following:
 
-- Fly towards a randomly chosen [[Planter]] (that has a Seed planted inside)
-- Once they reach the plant, stay inside of it for a few seconds.
-- Goes to any adjacent plant near it then stays inside it for a few seconds.
-- Once the few seconds have elapsed, the bees will go back inside the hive, selects a random cell and fills it with honey, and the cycle repeats.
-However, there are some specific rules to this.
-	- The amount of bees able to go on a specific tree depends on the size. For example, a small banana tree would only get one bee but a bigger banana tree would be able to get multiple bees on it due to the amount of leaves in the tree.
-		-  This means that bottlenecking is possible between [Planters](Planter.md) and **Honeycombs**.
+- Creates 6 raycasts in a hexagonal pattern with no limits.
+- Out of those 6 raycasts, gets all of the planted [[Planter|Planters]] inside of them.
+- Sends out bees inside depending on the amount of planters in said raycasts.
+- Once the bees reach the [[Planter]], they go to any adjacent plant near it then stay inside it for a few seconds.
+- Once the few seconds have elapsed, the bees will go back inside the hive, selects a specific cell and fills it with honey, and the cycle repeats.
 
 > [!Warning]
 > Bees have no limits in terms of pathfinding a [[Planter]]. This means that they are able to locate [[Planter#Sky Islands|Sky Islands]] from far away and are able to be used for griefing purposes.

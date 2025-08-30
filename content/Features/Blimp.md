@@ -9,7 +9,7 @@ The **Blimp** is a feature added on **August 18th, 2025**. Whenever the time in-
 ---
 ## Overview
 
-When inside of the **Blimp**, you will be prompted by the owner, **Filbubar**. He’s an anthropomorphic bear wearing sunglasses and owns the store. Along with him are three stands with a randomly selected decoration to buy honey with, the prices of them chosen by luck. After night ends, **Filbubar** will drive the blimp back off into the sky and restock once it comes back again, repeating a cycle.
+When inside of the **Blimp**, you will be prompted by the owner, **Filbubar**. Along with him are three stands with a randomly selected decoration to buy honey with, the prices of them chosen by luck. After night ends, **Filbubar** will drive the blimp back off into the sky and restock once it comes back again, repeating a cycle.
 
 > ![[Pasted image 20250822011511.png|600]]
 >
@@ -24,7 +24,7 @@ The **Blimp** includes many mechanics and features to spice up the environment. 
 
 ### Defense System
 
-According to a sign inside of the blimp, **NO** weapons are allowed. Holding a [[Flintlock]], a [[Makarov]], a [[Jerry_can|Jerry Can]], a [[content/Items/Flamethrower|Flamethrower]], a [[Tau Cannon]], an [[content/Items/AKM|AKM]], a [[Polymer SMLE]], a [[Menorah Sword]], a [[content/Items/PM9|PM9]], a [[content/Items/PTRD-41|PTRD-41]], a [[content/Items/SMLE|SMLE]], a [[Derringer]], a [[content/Items/C4|C4]] or a [[content/Items/Blunderbuss|Blunderbuss]] inside of the blimp will trigger the center room lamp to pop out a minigun and target the weapon holder until their death. You’re able to dodge the minigun from hitting you last second if you un-equip the gun the second it faces you.
+According to a frame inside of the blimp, **NO** weapons are allowed. Holding a [[Flintlock]], a [[Makarov]], a [[Jerry_can|Jerry Can]], a [[content/Items/Flamethrower|Flamethrower]], a [[Tau Cannon]], an [[content/Items/AKM|AKM]], a [[Polymer SMLE]], a [[Menorah Sword]], a [[content/Items/PM9|PM9]], a [[content/Items/PTRD-41|PTRD-41]], a [[content/Items/SMLE|SMLE]], a [[Derringer]], a [[content/Items/C4|C4]] or a [[content/Items/Blunderbuss|Blunderbuss]] inside of the blimp will trigger the center room lamp to pop out a minigun and target the weapon holder until their death. You’re able to dodge the minigun from hitting you last second if you un-equip the gun the second it faces you.
 
 > ![[Pasted image 20250822011532.png|300]]
 >
@@ -35,7 +35,7 @@ According to a sign inside of the blimp, **NO** weapons are allowed. Holding a [
 > The minigun that appears when you pull out a weapon.
 ### Filbubar’s Desk
 
-**Filbubar’s** desk includes a variety of items that he has on display to make the blimp a bit cleaner. It includes:
+**Filbubar's** desk includes a variety of items that he has on display to make the blimp a bit cleaner. It includes:
 - A record player.
 - Some posters.
 - A hatch.

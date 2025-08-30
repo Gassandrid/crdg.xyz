@@ -48,10 +48,10 @@ tags: [todo, component]
 > 
 > | Component Type | Miscellaneous |
 > | --- | --- |
-> | **Inputs** | - [[content/Components/Regular Components/Banana]]<br>- [[content/Components/Regular Components/Seed]]<br>- [[miracle gro]] <br>- [Moray Eel](Moray_eel) <br>- [[Lemon]] |
-> | **Outputs** | - [[Manifests]]<br>- [[content/Components/Regular Components/Banana]]<br>- [[Lemon]] <br>- [[Golden Lemon]]|
+> | **Inputs** | - [[Banana]]<br>- [[Seed]]<br>- [[miracle gro]] <br>- [Moray Eel](Moray_eel) <br>- [[Lemon]] |
+> | **Outputs** | - [[Manifests]]<br>- [[Banana]]<br>- [[Lemon]] <br>- [[Golden Lemon]]|
 
-The **Planter** is a **Miscellaneous**-type [Component](Components.md) spawned by the [[Component Machine]]. They were added on August 27th, 2022. 
+The **Planter** is a **Miscellaneous**-type [Component](Components.md) spawned by the [[Component_Machine|Component Machine]]. They were added on August 27th, 2022. 
 
 ## Usage
 
@@ -73,7 +73,7 @@ There are four types (5 including Golden Lemon trees) of **Trees** in the game. 
 
 ### Banana Trees
 
-**Banana Trees** are the fastest **Tree** to grow, usually taking about 20 minutes before starting to grow [[crdg.xyz/content/Components/Banana|Bananas]]. They are planted by a [[content/Components/Regular Components/Banana]]. They were added on August 27th, 2022 along with **Seed Trees**. Due to it’s fast growth speed, if a **Banana Tree** were to be left untouched for a couple hours, it would be able to grow huge in size, almost overtaking the **Cathedral**. It is the only tree in the game to be able to reproduce itself, as **Lemon Trees** have to be manually cut off to grow. 
+**Banana Trees** are the fastest **Tree** to grow, usually taking about 20 minutes before starting to grow [[Banana|Bananas]]. They are planted by a [[Banana]]. They were added on August 27th, 2022 along with **Seed Trees**. Due to it’s fast growth speed, if a **Banana Tree** were to be left untouched for a couple hours, it would be able to grow huge in size, almost overtaking the **Cathedral**. It is the only tree in the game to be able to reproduce itself, as **Lemon Trees** have to be manually cut off to grow. 
 
 ### Seed Trees
 
