@@ -18,7 +18,7 @@ from)](The_Mothership "(Where they come from)"){.wikilink}
   alien egg                                                           can be hatched if placed near furnace, also a gyro
   bridge maker                                                        if you have 2 bridge makers, it makes one bridge
   mouse tracker                                                       tracks the closest players mouse
-  [printer / fabricator](Printer.md "printer / fabricator"){.wikilink}   uses morse code to fabricate materials
+  [printer / fabricator](Fab.md "printer / fabricator"){.wikilink}   uses morse code to fabricate materials
 
 ## Gallery
 
