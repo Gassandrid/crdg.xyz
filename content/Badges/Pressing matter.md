@@ -28,7 +28,7 @@
 > | **Requirements** | - [[Component Machine]] <br>- [[Glue]] |
 > | **Reward(s)** | - [[Stapler]] <br>- [[Gas Station]] Door |
 
-**Pressing matter** is a badge added on **June 23rd, 2024** during the **summer update pt1** along with the [[Delicious Citrus]] badge. It awards the [[content/Items/Stapler|Stapler]] item and unlocks the door behind the [[Gas Station]][^1], but requires the [[Component Machine]] and [[content/Items/Glue|Glue]] to be obtained[^2]. It is the first badge to be a part of the **"secret badges"** trilogy[^3], therefore meaning that the badge wasn't given a full obtainment method on release.
+**Pressing matter** is a badge added on **June 23rd, 2024** during the **summer update pt1** along with the [[Delicious Citrus]] badge. It awards the [[content/Items/Stapler|Stapler]] item and unlocks the door behind the [[Gas Station]][^1], but requires the [[Component Machine]] and [[content/Items/Glue|Glue]] to be obtained[^2]. It is the first badge to be a part of the **"secret badges"** series, therefore meaning that the badge wasn't given a full obtainment method on release.
 
 ## Obtainment
 
@@ -79,5 +79,3 @@ You need at least **four cut lemon** pieces in order to produce a full glass of 
 [^1]: The door behind the [[Gas Station]] opens once you've obtained the **Pressing matter** badge. The room contains the [[Couch]], a [[Lamp]] and a fake replica of [[Money]].
 
 [^2]: However, the badge can still be obtained if a friend uses the [[Component Machine]] and [[content/Items/Glue|Glue]] items for you to make the Lemonade required to drink.
-
-[^3]: Along with the [[Delicious Citrus]] badge, there exists an unused secret badge named [New secret 3](https://www.roblox.com/badges/3843434168534330/New-secret-3). Not much is known about this badge, except for it's former description "transform" and it's badge icon depicting a palm tree.
