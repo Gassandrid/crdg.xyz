@@ -1,10 +1,10 @@
 ---
 tags: [todo]
 ---
-**Alien Summoning** is a Feature added on November 29th, 2024 available by purchasing the “[miracle of alien diplomacy](https://www.roblox.com/game-pass/982093805/miracle-of-alien-diplomacy)” gamepass only available during Black Friday, costing 400 Robux.
+**Alien Summoning** is a Feature added on November 29th, 2024 available by purchasing the “[miracle of alien diplomacy](https://www.roblox.com/game-pass/982093805/miracle-of-alien-diplomacy)” game pass only available during Black Friday, costing 400 robux.
 ## Usage
 
-To use it, a player must say “/e summon” in the chat. The command cannot be activated by other users that don’t have the gamepass. Using the command puts you in an arm-lifting emote with an alien-looking symbol under your character, and moving cancels out the emote. The symbol will gradually increase brightness depending on how close the next **Alien Summoning** happens.
+To use it, say “/e summon” in the chat. The command cannot be activated by other users that don’t have the game pass. Using the command puts you in an arm-lifting emote with an alien-looking symbol under your character, and moving cancels out the emote. The symbol will gradually increase brightness depending on how close the next **Alien Summoning** happens.
 
 >![[ScreenRecording_08-08-202517-39-38_1.gif|300]]
 >

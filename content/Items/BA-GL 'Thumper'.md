@@ -27,7 +27,7 @@
 
 > [!infobox|n-th]
 > 
-> ## BA-GL 'Thumber'
+> ## BA-GL 'Thumper'
 > 
 > > [!caption|center wfull txt-s]
 > > 
