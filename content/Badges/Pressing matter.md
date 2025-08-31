@@ -39,6 +39,9 @@ It is best recommended to get the [[Delicious Citrus]] badge while getting this 
 
 To start off, you must acquire a [[Lemon]]. Go behind the [[Bill's batteries]] building and go next to the vent. Next, build a simple contraption consisting of a [[Spikes|Spike]] and exactly seven [[Cable|Cables]]. After you're done, send all of the cables linked together into the vent and go in. You will need to glue the [[Lemon]] to the [[Cable]] placed on the floor, then detach the [[Spikes|Spike]] and pull the [[Cable|Cables]] back up. If you did this step right, you should now have the lemon at the top of [[Bill's batteries]] and can now move on to **planting** the [[Lemon]].
 
+> ![[Pasted image 20250831171450.png]]
+> 
+> The cable placement for getting the **Lemon**.
 ### Lemon Trees
 
 **Lemon Trees** are the next step into acquiring the **badge**. To create one, simply plant the [[Lemon]] you've gotten out of the **vent** and plant it inside of a [[Planter]]. This will start the growing process of a **lemon tree** which will take about 30 minutes. During this time, you may start either building the lemonade extractor or getting the [[Knife]] from the **knife trap** at [[Gas Station]].
