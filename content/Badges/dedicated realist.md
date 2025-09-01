@@ -1,0 +1,1 @@
+The **Dedicated Realist** badge used to be obtained by bringing the money which appeared near the screw at [[Bill's batteries]] to the vending machine at the [[Gas Station]]. This badge is no longer obtainable, but those who have it get the [[Teddy Bloxpin]] permanently.
