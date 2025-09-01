@@ -139,3 +139,13 @@ First off, it is recommended to stay alive the whole time, and to also make the 
 ## Miracle Gro
 
 **miracle gro** is an Exclusive object only capapble of being spawned by a Moderator. It can also be purchased inside of the **Tycoon**. It is a customizable version of the [[content/Components/Regular Components/Seed]], however with everything being able to be changed inside of a **GUI**. 
+
+---
+
+## Seasonal Trees
+
+**Seasonal Trees** are a global event that happens from **September to February** that changes every leaf instance of a **tree** to be orange during **Autumn** and white during **Winter**. It does not have any use except for being purely cosmetic and don't change tree drops from **Seed Trees**.
+
+> ![[Pasted image 20250901103250.png|300]]
+> 
+> A **Seed Tree** with leaves retextured to orange due to it being grown in **Autumn**.
