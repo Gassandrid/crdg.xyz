@@ -12,7 +12,7 @@ To use it, say “/e summon” in the chat. The command cannot be activated by o
 
 Once every ~20 minutes on a global time, an UFO will go to the nearest of one of the 5 main Islands in the game depending on where the emote is activated and will drop one of eleven **Alien Components** chosen by luck. 
 
-# Alien Components
+## Alien Components
 
 **Alien Components** are components created by **Alien Summoning.** There are currently eleven in the game with some being rarer than others. Do note that none of the components have official names, so names given to them are purely for the sake of communication and are unofficial.
 
@@ -27,5 +27,5 @@ Once every ~20 minutes on a global time, an UFO will go to the nearest of one of
 | Fab               | Uses a binary input system to print out specific tiles depending on the combination of inputs. Uses **Uranium Rods** as fuel.                                                               | Building              | ![[Pasted image 20250829180537.png\|200\|200]] |
 | Laser             | On use, charges the laser. Activating it again powers a high range beam towards where it’s facing.                                                                                          | Combat, Building      | ![[Plasma_cannon.PNG\|200\|200]]               |
 | Alien Egg         | An egg created by Martians. How it was made was unknown, but sources say the alien came before the egg.                                                                                     | Building              | ![[Alien Egg-1755338355499.png\|200\|200]]     |
-| Tractor Beam      | On use, will vacuum up any unanchored item near it and begin to place them all above the tractor.                                                                                           | Building              |                                                |
+| Tractor Beam      | On use, will vacuum up any unanchored item near it and begin to place them all above the tractor.                                                                                           | Building              | ![[Pasted image 20250907175258.png\|200\|200]] |
 | Pointer           | On use, grabs the nearest player’s mouse position and will point towards it. Activating it again will toggle it off.                                                                        | Building              | ![[Pasted image 20250829180652.png\|200\|200]] |
