@@ -66,5 +66,6 @@ The printer has a bunch of combinations that give flat blocks called **slabs**. 
 | **Wood Planks**    | ``I_III_III``  |                                                                                                                                         | ![[Pasted image 20250907205241.png\|200]]                         |
 | **Aerogel**        | ``IIII_II_I``  | Just like **Cellophane**, really bouncy.                                                                                                | ![[Pasted image 20250907205459.png\|200]]                         |
 |                    |                |                                                                                                                                         |                                                                   |
+|                    |                |                                                                                                                                         |                                                                   |
 
 [^1]: Even though printer slabs may look the same in size, they are purposefully slightly different to make building more annoying.
