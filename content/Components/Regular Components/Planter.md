@@ -142,9 +142,9 @@ First off, it is recommended to stay alive the whole time, and to also make the 
 
 ---
 
-## Seasonal Trees
+## Autumn Trees
 
-**Seasonal Trees** are a global event that happens from **September to February** that changes every leaf instance of a **tree** to be orange during **Autumn** and white during **Winter**. It does not have any use except for being purely cosmetic and don't change tree drops from **Seed Trees**.
+**Autumn Trees** are a global event that happens from **September to December** that changes every leaf instance of a **tree** to be orange during **Autumn**. It does not have any use except for being purely cosmetic and don't change tree drops from **Seed Trees**.
 
 > ![[Pasted image 20250901103250.png|300]]
 > 
