@@ -15,7 +15,7 @@
 > | **Usage** |  Prints out tiles using a binary-like input system. |
 > | **Date Added** | November 28th, 2024 |
 
-The **Fab**, also known as the **Fabricator** or the **Printer** is a **Miscellaneous**-type **Alien Technology** added on **November 28th, 2024** during **Black Friday 2024**. It is similar to the [[Cauldron]], using an input system (in this case, a code-based system) and fuel to create a **slab**, also known as a **tile**.
+The **Fab**, also known as the **Fabricator** or the **Printer** is a **Miscellaneous**-type [[Alien Technology]] added on **November 28th, 2024** during **Black Friday 2024**. It is similar to the [[Cauldron]], using an input system (in this case, a code-based system) and fuel to create a **slab**, also known as a **tile**.
 
 ## Usage
 
