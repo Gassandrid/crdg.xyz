@@ -1,6 +1,7 @@
 {
   "enabledCssSnippets": [
     "mmw-caption-callout",
-    "mmw-infobox-callout"
+    "mmw-infobox-callout",
+    "article-series"
   ]
 }
