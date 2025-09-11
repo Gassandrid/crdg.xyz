@@ -44,9 +44,6 @@ The printer has a bunch of combinations that give flat blocks called **slabs**. 
 > [!Note] Note
 > All of the pipes (|) in the **Code** section of the table are replaced with uppercase I's to avoid markdown inconsistency.
 
-
-> [!Example]+ Slabs
-> 
 | Slab                    | Code           | Usage                                                                                                                                   | Image                                                             |
 | ----------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | **Dynamite**            | `*IIIIIIIII`   | Explodes if thrown at a high velocity, similar to the [[Jerry Can]].                                                                    | ![[Pasted image 20250907192120.png\|200\|200]]                    |
@@ -85,7 +82,7 @@ The printer has a bunch of combinations that give flat blocks called **slabs**. 
 | **Mud**                 | `I_I_II`       |                                                                                                                                         | ![[Pasted image 20250911162130.png\|200]]                         |
 | **Clay**                | `I_III_II`     |                                                                                                                                         | ![[Pasted image 20250911162501.png\|200]]                         |
 | **Diamond Plate**       | `I_I_III`      |                                                                                                                                         | ![[Pasted image 20250911162804.png\|200]]                         |
-| **Obsidian**            |                | Bit transparent.                                                                                                                        | ![[Pasted image 20250911163206.png\|200]]                         |
+| **Obsidian**            | `I_II_I_II`    | Bit transparent.                                                                                                                        | ![[Pasted image 20250911163206.png\|200]]                         |
 
 
 [^1]: Even though printer slabs may look the same in size, they are purposefully slightly different to make building more annoying.
