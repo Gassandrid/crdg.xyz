@@ -1,4 +1,11 @@
 <iframe src="https://jimensions.vercel.app/countdown.html" style="width:100%; height:191px; border:none;"></iframe>
+Blimp Cycles
+| 01:30 EDT | DAY   |   |   |   |
+|-----------|-------|---|---|---|
+| 07:10 EDT | NIGHT |   |   |   |
+| 13:30 EDT | DAY   |   |   |   |
+| 19:10 EDT | NIGHT |   |   |   |
+
 
 The **Blimp** is a feature added on **August 18th, 2025**. Whenever the time in-game reaches night or noon, the **Blimp** will come flying to either the [[Gas Station]] or [[content/Places/Cathedral|Cathedral]] and stay there for hours (or minutes depending on which cycle). 
 
