@@ -1,7 +1,7 @@
 <iframe src="https://jimensions.vercel.app/countdown.html" style="width:100%; height:191px; border:none;"></iframe>
 
 Blimp Cycles
-<style type="text/css">.tg{border-collapse:collapse;border-spacing:0;}.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}</style><table class="tg"><thead><tr><th class="tg-0pky">01:30 EDT</th><th class="tg-0pky">DAY</th><th class="tg-0pky"></th><th class="tg-0pky"></th><th class="tg-0pky"></th></tr></thead><tbody><tr><td class="tg-0pky">07:10 EDT</td><td class="tg-0pky">NIGHT</td><td class="tg-0pky"></td><td class="tg-0pky"></td><td class="tg-0pky"></td></tr><tr><td class="tg-0pky">13:30 EDT</td><td class="tg-0pky">DAY</td><td class="tg-0pky"></td><td class="tg-0pky"></td><td class="tg-0pky"></td></tr><tr><td class="tg-0pky">19:10 EDT</td><td class="tg-0pky">NIGHT</td><td class="tg-0pky"></td><td class="tg-0pky"></td><td class="tg-0pky"></td></tr></tbody></table>
+<table><thead><tr><th>01:30 EDT</th><th>DAY</th></tr></thead><tbody><tr><td>07:10 EDT</td><td>NIGHT</td></tr><tr><td>13:30 EDT</td><td>DAY</td></tr><tr><td>19:10 EDT</td><td>NIGHT</td></tr></tbody></table>
 
 
 The **Blimp** is a feature added on **August 18th, 2025**. Whenever the time in-game reaches night or noon, the **Blimp** will come flying to either the [[Gas Station]] or [[content/Places/Cathedral|Cathedral]] and stay there for hours (or minutes depending on which cycle). 
