@@ -24,3 +24,7 @@ To use the **Worldspike**, activate it. The middle glass part will anchor itself
 
 > [!Tip] Full Anchoring
 > By using two **Worldspikes**, you are able to fully anchor builds due to the second **worldspike** anchoring the hinge from the first one.
+
+> ![[RobloxPlayerBeta_WPgeqBeO04.gif|350]]
+> 
+> A **worldspike** in it's anchored mode.
