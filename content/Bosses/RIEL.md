@@ -16,4 +16,3 @@
 > | **Rewards** | - [[Flintlock]] ([[Glory]])<br>- [[Marbles]] ([[Finality]]) <br>- [[Waypoint Teleporter]] (private server only) <br>- Access to [[QROT]] <br>- [[Ipecac]]
 > | **Date Added** | July 26th, 2022 |
 
-![[Pasted image 20250914144340.png]]
