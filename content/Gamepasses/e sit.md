@@ -3,6 +3,7 @@
 > ## /e sit
 > 
 > > [!caption|center wfull txt-s]
+> > 
 > > ![[SitGamepass.png|center]]
 > > Gamepass icon
 > > 
