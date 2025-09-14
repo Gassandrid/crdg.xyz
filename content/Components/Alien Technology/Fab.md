@@ -19,7 +19,7 @@ The **Fab**, also known as the **Fabricator** or the **Printer** is a **Miscella
 
 ## Usage
 
-To use the **Fab**, create an [[Uranium Rod]] from the [[Component Machine]] and insert it through the hole on the back. The [[Uranium Rod]] should now be dug up into the hole and should've played a sound indicating so. 
+To use the **Fab**, create an [[Uranium Rod]] from the [[content/Items/Obtainable Items/Component Machine]] and insert it through the hole on the back. The [[Uranium Rod]] should now be dug up into the hole and should've played a sound indicating so. 
 
 > [!Tip]+ Uranium Rod Stacking
 > You're able to glue uranium rods together in a line order to (in a way) over-fuel the **Fab**. This is especially useful for fabricating slabs like the **Soil Slab** in bulk.

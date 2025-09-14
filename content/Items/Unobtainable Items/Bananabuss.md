@@ -23,37 +23,31 @@
     </div>
 </div>
 
----
-
 > [!infobox|n-th]
 > 
-> ## Flamethrower
+> ## Bananabuss
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > ![[Pasted image 20250827002203.png|center]]
+> > ![[Pasted image 20250827123923.png|center]]
 > > 
 > >  
 > 
 > ### Item Info
 > 
-> | Type | **Combat** |
+> | Type | Combat |
 > | --- | --- |
-> | **Date Added** | August 4th, 2022 |
-> | **Damage** | Flame Damage |
-> | **Accuracy** | 10 Studs (width and height) |
-> | **Ammo** | N/A
+> | **Reload Speed** | 1s |
 
-The **Flamethrower** is a **Combat**-type **Exclusive** item added on August 4th, 2022. It is similar to the [[content/Items/Flamethrower|Flamethrower]] manifest component, but burns way faster and has a bigger flame. This item used to be given out to **Janitors** to specifically clear out debris, but was eventually removed.
+The **Bananabuss** is an exclusive **Combat**-type **Item** added on **November 25th, 2024**. It resembles a [[content/Items/Unobtainable Items/Blunderbuss|Blunderbuss]] with the color being fully yellow. When equipping the item, it will play a lower pitched sound of the [[Flintlock]] equip sound.
 
 ---
+
 ## Usage
 
-To use it, just hold left click and flames will start to go in the way your mouse is facing. Careful though, as you're able to burn yourself.
+Using left click with the **Bananabuss** will shoot out 10 [[content/Components/Regular Components/Banana|Bananas]] that go in the direction your mouse is facing. If a banana hits someone or something, they will fling.
 
-> [!Tip] Heating the Screw
-> You're able to heat up the screw really easily. I don't know what you would use this information with as you've most likely beaten [[content/Bosses/RIEL|RIEL]] already.
 
-> ![[2025-08-2700-22-29-ezgif.com-video-to-gif-converter.gif]]
-> 
-> The **Flamethrower** being used.
+>![[2025-08-2700-16-13-ezgif.com-video-to-gif-converter.gif]]
+>
+> The **Bananabuss** being used.

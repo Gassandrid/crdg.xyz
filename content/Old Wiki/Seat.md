@@ -18,5 +18,5 @@ It can be used for a place to leave the character while they are AFK if
 anchored with [Spikes](content/Old%20Wiki/Spikes.md "spikes"){.wikilink}, as well as keeping
 the player safe from falling off of things. It can be used to keep
 players in moving contraptions or carts. It can also be used in
-[Makarov](Makarov "Makarov"){.wikilink} clipping, eg. for
+[Makarov](content/Old%20Wiki/Makarov.md "Makarov"){.wikilink} clipping, eg. for
 [Gold](Gold "Gold"){.wikilink}.

@@ -18,7 +18,7 @@ can be fired from the cannon but this often results in them detonating
 in the barrel.
 
 It is an effective way to traverse between specific islands, especially
-if the player has the [makarov](makarov "makarov"){.wikilink} and
+if the player has the [Makarov](content/Old%20Wiki/Makarov.md "makarov"){.wikilink} and
 [miracle of
 momentum](miracle_of_momentum "miracle of momentum"){.wikilink}. It may
 take several tries to aim it properly, however. It can be used to lob

@@ -2,7 +2,7 @@
 
 #### Gamepass items {#gamepass_items}
 
-- [Makarov](Makarov "Makarov"){.wikilink}
+- [Makarov](content/Old%20Wiki/Makarov.md "Makarov"){.wikilink}
 - [Component Machine](Component_Machine "Component Machine"){.wikilink}
 - [Glue](content/Old%20Wiki/Glue.md "Glue"){.wikilink}
 - [Portable Cart](Portable_Cart "Portable Cart"){.wikilink}
@@ -49,7 +49,7 @@
 - [AKM](content/Old%20Wiki/items/AKM.md "AKM"){.wikilink}
 - [C4](content/Old%20Wiki/items/C4.md "C4"){.wikilink}
 - [touch of christ](touch_of_christ "touch of christ"){.wikilink}
-- [Bananalock](Bananalock "Bananalock"){.wikilink}
+- [Bananalock](Bananalock.md "Bananalock"){.wikilink}
 - [Piranhalock](Piranhalock "Piranhalock"){.wikilink}
 - [fintlog](fint_log "fintlog"){.wikilink}
 - [Brick](Brick.md "Brick"){.wikilink}
