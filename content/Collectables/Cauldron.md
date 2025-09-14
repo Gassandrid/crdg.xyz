@@ -16,7 +16,7 @@
 > | **Date Added** | August 17th, 2025 |
 > | **Cost** (in glasses) | 6 |
 
-The **Cauldron** is a miscellaneous-type blimp decoration added on August 17th, 2025 during the Big Blimp update. It acts similar to the [[Fab]], using a combination-based system to create a product. 
+The **Cauldron** is a miscellaneous-type blimp decoration added on August 17th, 2025 during the Big Blimp update. It can be bought in the blimp for 6 glasses of honey. It acts similar to the [[Fab]], using a combination-based system to create a product. However, the **Cauldron** is much different from the [[Fab]], offering much more possible combinations and unique status effects given to the player.
 
 ## Usage
 
