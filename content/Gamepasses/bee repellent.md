@@ -4,7 +4,7 @@
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> >![[Pasted image 20250914175728.png|center]]
+> >![[BeePropellentGamepass.png|center]]
 > > Gamepass icon
 > > 
 > > 
