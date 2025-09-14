@@ -15,4 +15,5 @@
 > | --- | --- |
 > | Gives |  ability to use [[sit]] emote|
 
-**/e sit** grants you ability to use emote [[sit]] in emote wheel. More information about the emote could be found on [[sit]] 
+**/e sit** grants you ability to use emote [[sit]] in emote wheel. 
+More information can be found on [[sit]] page!
