@@ -4,4 +4,9 @@
 
 ## Usage
 
-Using left click while having your mouse in between two unanchored objects will create a 
+Using left click while having your mouse in between two unanchored objects will create a glue blob that will connect two objects.
+
+> [!Info] Useful keybinds
+> **Shift + b** - will try to use glue on your current mouse position without needing to have it equippedy
+> 
+> b - will try to remove glue based on your current mouse position, however, you need to have glue equipped
