@@ -76,3 +76,8 @@ You can also make them **collapsible** using a + or - sight as so:
 
 > [!Bug]
 > There is an error when you run this
+
+
+filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler 
+> [!Info|txt-s right wm-sm] Title
+> You can align callouts to the left

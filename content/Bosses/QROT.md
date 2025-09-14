@@ -14,8 +14,9 @@ tags: [templates]
 > 
 > ### Boss Info
 > 
-> | **Requirement** | Obtain the [[Finality]] and [[Glory]] badges |
+> | **Lives** | 4 |
 > | --- | --- |
+> | **Requirement** | Obtain the [[Finality]] and [[Glory]] badges |
 > | **Rewards** | - [[Cacsepi]]<br>- [[dansen]]<br>- [[Defeat QROT]] <br>- [[QROT Hunting Trophy]]|
 > | **Date Added** | October 11th, 2022 |
 
