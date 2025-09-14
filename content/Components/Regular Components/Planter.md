@@ -77,13 +77,13 @@ There are four types (5 including Golden Lemon trees) of **Trees** in the game. 
 
 ### Seed Trees
 
-**Seed Trees** are the slowest **Tree** to grow, taking 24 hours of in-real-life time to grow. They are planted by a [[content/Components/Regular Components/Seed]]. They were added on August 27th, 2022 along with **Banana Trees**. They are the only type of **Tree** to take a different amount of time depending on if it is grown on a Public Server or a Private Server, taking 19 hours in a **Public Server**. They are by far the hardest to try growing, as many complications can happen during growth (griefing, disconnections, etc.). 
+**Seed Trees** are the slowest **Tree** to grow, taking 19 hours of in-real-life time to grow. They are planted by a [[content/Components/Regular Components/Seed]]. They were added on August 27th, 2022 along with **Banana Trees**. They are the only type of **Tree** to take a different amount of time depending on if it is grown on a Public Server or a Private Server, taking 24 hours in a **Public Server**. They are by far the hardest to try growing, as many complications can happen during growth (griefing, disconnections, etc.). 
 
-**Seed Trees** are the only type of **Tree** to grow [[crdg.xyz/content/Features/Manifests|Manifests]], and are also the only type of **Tree** to grow different Outputs depending on if they are grown in a Pubic Server or Private Server.
+**Seed Trees** are the only type of **Tree** to grow [[Manifests]], and are also the only type of **Tree** to grow different Outputs depending on if they are grown in a Pubic Server or Private Server.
 
 ### Lemon Trees
 
-**Lemon Trees** are **Trees** added during Part 1 of the Summer Update, on June 23rd, 2024. Along with **Golden Seed Trees**, they are the only types of **Tree** linked to a [Badge](Badges). They are planted by a [[content/Old Wiki/Lemon]], obtainable by going to the vent inside of [[Bill's batteries]] and pulling it out. Be careful, as if a Lemon falls into the void, it won’t generate again. 
+**Lemon Trees** are **Trees** added during Part 1 of the Summer Update, on June 23rd, 2024. Along with **Golden Seed Trees**, they are the only types of **Tree** linked to a [Badge](Badges). They are planted by a [[Lemon]], obtainable by going to the vent inside of [[Bill's batteries]] and pulling it out. Be careful, as if a Lemon falls into the void, it won’t generate again. 
 
 They take about 30 minutes to grow their first Lemon, and will generate a few more before not being able to grow any. They are the only type of **Tree** that requires a Player to manually pull out the lemons it grows, otherwise they’ll be stuck to the Tree.
 
@@ -138,7 +138,7 @@ First off, it is recommended to stay alive the whole time, and to also make the 
 
 ## Miracle Gro
 
-**miracle gro** is an Exclusive object only capapble of being spawned by a Moderator. It can also be purchased inside of the **Tycoon**. It is a customizable version of the [[content/Components/Regular Components/Seed]], however with everything being able to be changed inside of a **GUI**. 
+**miracle gro** is an Exclusive object only capable of being spawned by a Moderator. It can also be purchased inside of the **Tycoon**. It is a customizable version of the [[content/Components/Regular Components/Seed]], however with everything being able to be changed inside of a **GUI**. 
 
 ---
 
