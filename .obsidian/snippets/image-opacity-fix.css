@@ -1,0 +1,4 @@
+/* turns off automatic opacity in pictures */
+body {
+    --callout-blend-mode: normal;
+}
