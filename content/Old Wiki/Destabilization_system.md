@@ -7,7 +7,7 @@ The destabilization system is a major mechanic in CRDG.
 
 The destabilization system governs when people fall over and lose
 movement control, eg. if they were tripped by
-[Marbles](Marbles "Marbles"){.wikilink} or a
+[Marbles](content/Old%20Wiki/Marbles.md "Marbles"){.wikilink} or a
 [Flintlock](content/Old%20Wiki/Flintlock.md "Flintlock"){.wikilink}. Most strong flings (eg,
 from [banana peel](content/Old%20Wiki/Banana.md "banana peel"){.wikilink}) result in
 destabilization. Short destabilizations are sometimes referred to as

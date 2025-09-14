@@ -35,7 +35,7 @@
 - [Cardboard](Cardboard "Cardboard"){.wikilink}
 - [Box cutter](Box_cutter "Box cutter"){.wikilink}
 - [Flintlock](content/Old%20Wiki/Flintlock.md "Flintlock"){.wikilink}
-- [Marbles](Marbles "Marbles"){.wikilink}
+- [Marbles](content/Old%20Wiki/Marbles.md "Marbles"){.wikilink}
 - [Waypoint
   Teleporter](Waypoint_Teleporter "Waypoint Teleporter"){.wikilink}
 - [Teddy Bear](Teddy_Bear "Teddy Bear"){.wikilink}
