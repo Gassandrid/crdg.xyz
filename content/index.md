@@ -5,7 +5,7 @@ tags: [templates]
 
 This is a new **work in progress** project to create a real, complete wiki for the game.
 
-If you would like to contribute, please see [[How to make a pull request]]. The Discord server is available for help and other things at https://discord.gg/DrvumChdZe
+If you would like to contribute, please go over to the "Tutorials" tab on the Explorer and start with [[How to make a pull request]]. The Discord server is available for help and other things at https://discord.gg/DrvumChdZe.
 
 ---
 
@@ -19,10 +19,15 @@ If you would like to contribute, please see [[How to make a pull request]]. The 
 > 
 > The game Logo.
 
-This is part of a genre of games on Roblox called "Cart Rides". This game was released at 10/11/21 with it being _very_ buggy. The turns always made the carts flip and slip off the track and the physics were glitchy and a lot of times it would make you fall off. The main goal of the game is to cart ride past many islands to turn on the 75KW diesel generator. Through these tracks there are many things to watch out for like pianos falling on you, slipping on banana peels, and very fast darts. If you want to see the first finished version, there is a game that archived the first version. It can be found here: [CRDG (classic)](https://www.roblox.com/games/15085639307/classic-cart-ride-around-a-75-KW-Diesel-Generator). The popularity spike was in 2022-2023. Optimization and quality of life improvements have been added. Since then, the player count has lowered from an average of 100, to an average of 30. One reason is because the dev's patched most flyers. Many features that have been added increases the player count for a short time, but at the end, it is always 20–36 players.
+**Cart Ride around a 75 KW Diesel Generator**, abbreviated as **CRDG** is a game on Roblox released on November 3rd, 2021 marketed as a cart ride game with the goal of turning back on a diesel generator protected by a [[Cart God|cart god]]. However, the game takes a turn on the genre and adds many additional content aimed around the grabbing mechanic that it often deviates from the regular carting experience and experiments with other genres such as building and boss fighting. After the addition of the [[Component Machine]], most of the game's active players switched from carting and building barebones machinery out of the game's objects to building actual technological contraptions, attracting many players due to how unique the building style of the game was.
 
+Over time, the game evolved from just regular carting to genres like [[Fish|fishing]] and [[Planter|gardening]] while still keeping the cart ride genre as it's main marketing. This led to the game's demise in popularity, as no proper advertising was created to help support the game. However, the game still kept receiving updates such as [[Bees|beekeeping]], [[Alien Summoning|alien summoning]] and tons of additional quality of life updates to upgrade the user experience.
+
+Due to the game's low popularity, no unofficial wiki had been able to create a complete source of information for the game. However, this wiki is aimed to achieve that goal and sprinkle on top additional information like advanced contraptions and tips to help you into fully understanding the game.
+
+---
 ## Notable Pages
 
 Some useful pages on this site include the [[Components]] page, a list of all the components in the game. 
 
-Something unique to this wiki is our index of [[Contraptions/index|Player Contraptions]] which can assist you in game, assuming you have tools like [[content/Old Wiki/Glue]], [[Component Machine]], etc.
+Something unique to this wiki is our index of [[Contraptions/index|Player Contraptions]] which can assist you in game, assuming you have tools like [[content/Items/Glue|Glue]], [[Component Machine]], etc.
