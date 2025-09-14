@@ -16,7 +16,7 @@
 > | **Usage** | Able to simultaneously be used as a gyroscope and anchor. |
 > | **Date Added** | November 28th, 2024 |
 
-The **Worldspike** is a miscellaneous-type [[content/Components/Alien Technology/index|Alien Technology]] added on November 28th, 2024. It is an upgraded version of the [[Spikes]] component, being able to anchor while airborne and simultaneously being a gyroscope.
+The **Worldspike** is a miscellaneous-type [[content/Components/Alien Technology/index|Alien Technology]] added on November 28th, 2024. It is an upgraded version of the [[Spikes]] component, being able to anchor while airborne and simultaneously being a gyroscope. It is primarily used in the making of [[Planter#Sky Islands|Sky Islands]], but can also be used as a stronger alternative for building.
 
 ## Usage
 
