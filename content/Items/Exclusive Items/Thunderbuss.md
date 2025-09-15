@@ -2,7 +2,7 @@
 tags: [items/unobtainable]
 ---
 
-The **Thunderbuss** is an Exclusive version of the [[content/Items/Unobtainable Items/Blunderbuss]] given to **THUNDERTOILET**. Visually, it is a retexture of said gun with a yellow neon color.
+The **Thunderbuss** is an Exclusive version of the [[content/Items/Exclusive Items/Blunderbuss]] given to **THUNDERTOILET**. Visually, it is a retexture of said gun with a yellow neon color.
 
 ---
 

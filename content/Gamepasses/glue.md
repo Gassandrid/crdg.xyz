@@ -16,8 +16,8 @@
 > | --- | --- |
 > | Gives | glue item |
 
-Gives player [[content/Items/Obtainable Items/Glue|Glue]] item, which can be used to glue uncollided parts, best used with [[content/Gamepasses/component machine|component machine]].
+Gives player [[content/Items/Regular Items/Glue|Glue]] item, which can be used to glue uncollided parts, best used with [[content/Gamepasses/component machine|component machine]].
 
-More information can be found on [[content/Items/Obtainable Items/Glue|Glue]] page!
+More information can be found on [[content/Items/Regular Items/Glue|Glue]] page!
  > [!Info]
-> [[content/Items/Obtainable Items/Glue|Glue]]  page is currently Work in progress, Sorry!
+> [[content/Items/Regular Items/Glue|Glue]]  page is currently Work in progress, Sorry!

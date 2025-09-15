@@ -23,31 +23,34 @@
     </div>
 </div>
 
+---
+
 > [!infobox|n-th]
 > 
-> ## Bananabuss
+> ## flintglock
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > ![[Pasted image 20250827123923.png|center]]
+> > ![[Pasted image 20250827095419.png|center]]
 > > 
 > >  
 > 
 > ### Item Info
 > 
-> | Type | Combat |
+> | Type | **Combat** |
 > | --- | --- |
-> | **Reload Speed** | 1s |
+> | **Date Added** | June 4th, 2022 |
+> | **Accuracy** | 5 Studs (width and height) |
+> | **Ammo** | Bullets |
+> | **Firerate** | 0.1 seconds |
 
-The **Bananabuss** is an exclusive **Combat**-type **Item** added on **November 25th, 2024**. It resembles a [[content/Items/Unobtainable Items/Blunderbuss|Blunderbuss]] with the color being fully yellow. When equipping the item, it will play a lower pitched sound of the [[Flintlock]] equip sound.
+The **flintglock** is a **Combat**-type, **exclusive** item made on June 4th, 2022. It acts like a regular flintlock, but shoots out bullets way faster at about one per 0.1 seconds. Visually, it resembles a flintlock barrel with the handle of a [[content/Items/Regular Items/Makarov]]. It is one of the only two automatic guns in the game, the other being the [[content/Items/Exclusive Items/AKM|AKM]].
 
 ---
-
 ## Usage
 
-Using left click with the **Bananabuss** will shoot out 10 [[content/Components/Regular Components/Banana|Bananas]] that go in the direction your mouse is facing. If a banana hits someone or something, they will fling.
+To use it, hold down left click. It will automatically spray out a ton of bullet towards the direction of your mouse.
 
-
->![[2025-08-2700-16-13-ezgif.com-video-to-gif-converter.gif]]
->
-> The **Bananabuss** being used.
+> ![[2025-08-2709-43-40-ezgif.com-video-to-gif-converter.gif]]
+> 
+> The **flintglock** being used.
