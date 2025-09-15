@@ -40,25 +40,25 @@
 
 ---
 
+
 > [!infobox|n-th]
 > 
-> ## Finality
+> ## Troutstanding Catch
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > ![[Finality.png|center]]
+> > ![[Troutstanding Catch.png|center]]
 > > 
 > > Badge icon
+> > 
 > 
 > ### Badge Info
 > 
-> | Type | alternative |
+> | Type | Bonus |
 > | --- | --- |
 > | **Requirements** | - None! |
-> | **Reward(s)** | - Boss hub acces |
+> | **Reward(s)** | - miracle of the ocean. |
 
-**Finality** badge requires player to grab the screw from [[Bill's batteries]] to be heated in hidden furnace room at [[content/Places/Cathedral|Cathedral]], and when heated player has to insert it in the lapm at [[Gas Station]], recieving [[Flintlock]] and [[Waypoint Teleporter]] player needs to teleport to [[Dealership]] and shoot at the screaming man's head. Which forces an animation of every island falling in the void and giant black hole appearing.
+To obtain **Troutstanding Catch** player must talk to poseidon, which is a mythic catch
 
-### Detailed Guide
-
-Work in progress...
+More information can be found on [[Fish]] page

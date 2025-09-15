@@ -22,24 +22,3 @@
         </div>
     </div>
 </div>
-
----
-
-> [!infobox|n-th]
-> 
-> ## dedicated realist
-> 
-> > [!caption|center wfull txt-s]
-> > 
-> > ![[DedicatedRealist.png|center]]
-> > 
-> > Badge icon
-> 
-> ### Badge Info
-> 
-> | Type | unobtainable |
-> | --- | --- |
-> | **Requirements** | - None! |
-> | **Reward(s)** | - [[Teddy Bloxpin]] |
-
-The **Dedicated Realist** badge used to be obtained by taking the robux from [[Bill's batteries]] and transporting it to the vending machine at the [[Gas Station]]. This badge is no longer obtainable, but those who got it while it was obtainable got the [[Teddy Bloxpin]] item.

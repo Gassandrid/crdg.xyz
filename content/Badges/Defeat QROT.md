@@ -6,14 +6,16 @@
 > > 
 > > ![[Defeat QROT.png|center]]
 > > 
-> > 
+> > Badge icon
 > > 
 > 
 > ### Badge Info
 > 
-> | Type | Main |
+> | Type | Bonus |
 > | --- | --- |
 > | **Requirements** | - [[Glory]] <br>- [[Finality]] |
-> | **Reward(s)** | - [[Cacsepi]] <br>- [[dansen]] <br>- [[Defeat QROT]] <br>- [[QROT Hunting Trophy]] |
+> | **Reward(s)** | - [[Cacsepi]] <br>- [[dansen]] <br>- [[QROT Hunting Trophy]] |
 
 **Defeat QROT** badge is awarded for defeating [[QROT]], which is accessible in boss hub after getting [[Glory]] badge. 
+
+Information about boss fight and QROT can be found on [[QROT]] page.
