@@ -60,3 +60,4 @@ Below is a list of every ingredient able to be dropped inside of a **Cauldron**.
 >  - [[Corn]]
 >  - [[Pumpkin]] 
 >  - [[Passenger Cart]]
+>  - [[Bubblegum]]
