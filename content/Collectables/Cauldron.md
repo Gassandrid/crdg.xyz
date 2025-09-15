@@ -21,7 +21,7 @@ The **Cauldron** is a miscellaneous-type blimp decoration added on August 17th, 
 ## Usage
 
 The **Cauldron** works by dropping multiple ingredients into the pot and combining them to merge into a potion.
-- All components from the [[content/Items/Regular Items/Component Machine|Component Machine]] aren't necessarily ingredients, as many of them do not work.
+- All components from the [[Compone-nt Machine|Compone-nt Machine]] aren't necessarily ingredients, as many of them do not work.
 	-  Instead, the list of ingredients can also extend to objects found around the world, [[Manifests]], [[content/Components/Alien Technology/index|Alien Technology]], Liquids and other miscellaneous objects such as [[Flintlock]] balls and [[Jerry Can|Jerry Cans]].
 - All liquids count as an ingredient.
 - Potions can range from two to four ingredients.
