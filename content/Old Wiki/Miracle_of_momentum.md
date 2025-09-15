@@ -19,5 +19,5 @@ does not work when the player is
 [destabilized](Destabilization_system "destabilized"){.wikilink}, it
 also destabilizes the player on use.
 
-When used with the [makarov](makarov "makarov"){.wikilink}, the miracle
+When used with the [Makarov](content/Old%20Wiki/Makarov.md "makarov"){.wikilink}, the miracle
 of momentum\'s fling can be made much stronger (albeit less accurate)

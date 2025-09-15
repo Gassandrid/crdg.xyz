@@ -116,7 +116,7 @@ First off, it is recommended to stay alive the whole time, and to also make the 
 1. Get to [[Gas Station]] and get the [Bag Of Sand](Bag_Of_Sand.md) there.
 2. Get to [[Cathedral]] and start building the Frame out of Cardboard shown in the **Blueprint**. Use the Bag of Sand (or alternatively, the towel dispenser) to get enough Cardboard.
 3. Use the **Build Points** you’ve generated to get how many **Planters** you want.
-4. Build the Anchor Setup in the **Blueprint**. Once you’re ready, fly up into the sky. You may use the [[Makarov]] to slightly slant yourself so that flying directly up wont spot your island.
+4. Build the Anchor Setup in the **Blueprint**. Once you’re ready, fly up into the sky. You may use the [[content/Items/Obtainable Items/Makarov]] to slightly slant yourself so that flying directly up wont spot your island.
 5. Once you think you’ve went high up enough, activate the World Spike.
 6. Wait 19 hours.
 

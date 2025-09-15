@@ -83,7 +83,7 @@ strategy may aggravate spawnoids, and make well-meaning players upset.
 If spawnoids reach the island you are on, don\'t let them get to any
 cart spawners, since they can use these to blow things up.
 
-If you own the [makarov](makarov "makarov"){.wikilink} and the spawnoid
+If you own the [Makarov](content/Old%20Wiki/Makarov.md "makarov"){.wikilink} and the spawnoid
 does not, shoot them repeatedly until they go away or die. You can set
 up tripwire traps with guns taped to them to keep them away. If a
 spawnoid is being shown to be particularly persistent watch and prepare

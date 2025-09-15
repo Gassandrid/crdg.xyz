@@ -8,7 +8,7 @@ stats :
 
 • great accuracy
 
-• has recoil like the [Makarov](Makarov "Makarov"){.wikilink} (screen
+• has recoil like the [Makarov](content/Old%20Wiki/Makarov.md "Makarov"){.wikilink} (screen
 shake)
 
 • 13 shots to the body to kill / 9 head shots to kill \[8\~ damage with

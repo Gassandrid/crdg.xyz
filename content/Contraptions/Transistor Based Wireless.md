@@ -6,7 +6,7 @@ It uses a constant clock on one side to check for changes to **broken-up [[conte
 
 ## Blueprint
 
-The blue-piece input takes any kind of pulse(not toggle based), and the base of the receiver receives some semi-fast clock input ( either use [[Portable Diesel Generator]] or a simple [[Tripwire Clock]] ). 
+The blue-piece input takes any kind of pulse(not toggle based), and the base of the receiver receives some semi-fast clock input ( either use [[portable diesel generator]] or a simple [[Tripwire Clock]] ). 
 
 Machine will check for output from input after every cycle from clock, input can be separated into a toggle ( purple outputs ) pair, or pulse with every input.
 
