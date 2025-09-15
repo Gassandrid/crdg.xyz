@@ -28,7 +28,7 @@ The **Blimp** includes many mechanics and features to spice up the environment. 
 
 ### Defense System
 
-According to a frame inside of the blimp, **NO** weapons are allowed. Holding a [[Flintlock]], a [[content/Items/Obtainable Items/Makarov]], a [[Jerry_can|Jerry Can]], a [[Flamethrower|Flamethrower]], a [[Tau Cannon]], an [[content/Items/Unobtainable Items/AKM|AKM]], a [[Polymer SMLE]], a [[Menorah Sword]], a [[content/Items/Unobtainable Items/PM9|PM9]], a [[content/Items/Unobtainable Items/PTRD-41|PTRD-41]], a [[content/Items/Unobtainable Items/SMLE|SMLE]], a [[Derringer]], a [[content/Items/Obtainable Items/C4|C4]] or a [[content/Items/Unobtainable Items/Blunderbuss|Blunderbuss]] inside of the blimp will trigger the center room lamp to pop out a minigun and target the weapon holder until their death. You’re able to dodge the minigun from hitting you last second if you un-equip the gun the second it faces you.
+According to a frame inside of the blimp, **NO** weapons are allowed. Holding a [[Flintlock]], a [[content/Items/Regular Items/Makarov]], a [[Jerry_can|Jerry Can]], a [[Flamethrower|Flamethrower]], a [[Tau Cannon]], an [[content/Items/Exclusive Items/AKM|AKM]], a [[Polymer SMLE]], a [[Menorah Sword]], a [[content/Items/Exclusive Items/PM9|PM9]], a [[content/Items/Exclusive Items/PTRD-41|PTRD-41]], a [[content/Items/Exclusive Items/SMLE|SMLE]], a [[Derringer]], a [[content/Items/Regular Items/C4|C4]] or a [[content/Items/Exclusive Items/Blunderbuss|Blunderbuss]] inside of the blimp will trigger the center room lamp to pop out a minigun and target the weapon holder until their death. You’re able to dodge the minigun from hitting you last second if you un-equip the gun the second it faces you.
 
 > ![[Pasted image 20250822011532.png|300]]
 >

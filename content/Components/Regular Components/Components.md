@@ -1,4 +1,4 @@
-Components are the primary in game objects that can be used for building with [[content/Old Wiki/Glue]]. There are a few sources of components, namely [[content/Items/Obtainable Items/Component Machine]], [[Manifests]], [[Alien Summoning]], and [[Map]] items.
+Components are the primary in game objects that can be used for building with [[content/Old Wiki/Glue]]. There are a few sources of components, namely [[content/Items/Regular Items/Component Machine]], [[Manifests]], [[Alien Summoning]], and [[Map]] items.
 
 ---
 
