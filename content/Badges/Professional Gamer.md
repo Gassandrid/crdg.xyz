@@ -42,23 +42,20 @@
 
 > [!infobox|n-th]
 > 
-> ## Finality
+> ## Professional Gamer
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > ![[Finality.png|center]]
+> >![[Professional Gamer.png|center]]
 > > 
 > > Badge icon
+> > 
 > 
 > ### Badge Info
 > 
-> | Type | alternative |
+> | Type | Bonus |
 > | --- | --- |
 > | **Requirements** | - None! |
-> | **Reward(s)** | - Boss hub acces |
+> | **Reward(s)** | - None. (currently) |
 
-**Finality** badge requires player to grab the screw from [[Bill's batteries]] to be heated in hidden furnace room at [[content/Places/Cathedral|Cathedral]], and when heated player has to insert it in the lapm at [[Gas Station]], recieving [[Flintlock]] and [[Waypoint Teleporter]] player needs to teleport to [[Dealership]] and shoot at the screaming man's head. Which forces an animation of every island falling in the void and giant black hole appearing.
-
-### Detailed Guide
-
-Work in progress...
+To obtain **Professional Gamer** Player must complete Super Hubert Man.
