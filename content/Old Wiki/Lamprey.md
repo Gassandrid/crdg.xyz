@@ -1,5 +1,4 @@
-`<big>`{=html}**Description**`</big>`{=html} ![A close up of the Lamprey
-in game.](Lamprey.png "A close up of the Lamprey in game.") The Lamprey
+`<big>`{=html}**Description**`</big>`{=html} ![](lamprey.png) The Lamprey
 is one of the many fish that can be obtained, it is characterized by
 it\'s long small body and it\'s orange colouring.
 

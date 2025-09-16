@@ -13,7 +13,7 @@ item if you enter the code 255 into it. Inside the store, there was a
 radioactive Garfield Mug that referenced the radioactive mug incident by
 the crackling noises it produces. There is one fuel canister spawner to
 fuel up with, there is also a fuel pump inside the store. The shelf
-inside of the store spawns [](Fish.md){.wikilink} every 3 minutes.
+inside of the store spawns [](content/Fish/Fishing.md){.wikilink} every 3 minutes.
 
 ## Easter eggs {#easter_eggs}
 

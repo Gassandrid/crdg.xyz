@@ -15,7 +15,7 @@ Despite it\'s appearance, the uranium rod is inert on it\'s own, other
 than glowing. You can [spray
 paint](spray_paint "spray paint"){.wikilink} it to change the color that
 it glows. It is often used so that people wishing to
-[Fish](Fish.md "fish"){.wikilink} can see where their hooks are.
+[Fishing](content/Fish/Fishing.md "fish"){.wikilink} can see where their hooks are.
 
 The uranium rod is used primarily to power the
 [Fab](Fab.md "printer"){.wikilink} and [nuclear

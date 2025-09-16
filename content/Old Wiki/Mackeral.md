@@ -1,1 +1,1 @@
-1.  REDIRECT [Mackerel](Mackerel "Mackerel"){.wikilink}
+1.  REDIRECT [Mackerel](content/Old%20Wiki/Mackerel.md "Mackerel"){.wikilink}

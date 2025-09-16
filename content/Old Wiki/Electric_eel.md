@@ -1,6 +1,4 @@
-`<big>`{=html}**Description**`</big>`{=html} ![A close up of the
-Electric eel in
-game.](Eel.png "A close up of the Electric eel in game.") The Electric
+`<big>`{=html}**Description**`</big>`{=html} ![](eel.png) The Electric
 eel is one of the many fish that can be obtained , it is uncommon but
 you\'ll still fish it up a bunch and is characterized by it\'s long body
 , black colour and stretching capabilities.
