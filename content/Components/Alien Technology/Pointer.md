@@ -15,7 +15,7 @@
 > | **Usage** | On activation, will orient itself to the mouse of the player that activated it. |
 > | **Date Added** | November 28th, 2024 |
 
-The **Pointer** is a miscellaneous-type [[content/Components/Alien Technology/index|Alien Technology]] added on November 28th, 2024. It acts like a mouse pointer, facing the direction of the mouse of the player who activated it. However, going far away from it with automatically disable it.
+The **Pointer** is a miscellaneous-type [[content/Components/Alien Technology/index|Alien Technology]] added on November 28th, 2024. It acts like a mouse pointer, facing the direction of the mouse of the player who activated it. However, going far away from it will automatically disable it.
 
 ## Usage
 
