@@ -1,5 +1,4 @@
-`<big>`{=html}**Description**`</big>`{=html} ![A close up of the Saw
-shark in game.](Sawshark.png "A close up of the Saw shark in game.") The
+`<big>`{=html}**Description**`</big>`{=html} ![](sawshark.png) The
 Saw Shark is one of the many sharks that can be obtained , it is a
 legendary fish so you won\'t be fishing them up a lot.It\'s
 characterized by it\'s flat brown body and it\'s most notable part it\'s

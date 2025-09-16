@@ -69,7 +69,7 @@ ___
 
 ## Trees
 
-There are four types (5 including Golden Lemon trees) of **Trees** in the game. Most of them are planted by [[Components]], but some are planted with **Miscellaneous** objects found on the map or [[Fish]]. All of them take time to grow, with some being faster than others. 
+There are four types (5 including Golden Lemon trees) of **Trees** in the game. Most of them are planted by [[Components]], but some are planted with **Miscellaneous** objects found on the map or [[content/Fish/Fishing]]. All of them take time to grow, with some being faster than others. 
 
 ### Banana Trees
 
@@ -93,7 +93,7 @@ They take about 30 minutes to grow their first Lemon, and will generate a few mo
 
 ### Palm Trees
 
-**Palm Trees** are a type of **Tree** added during Part 3 of the Fish Update, on February 14th, 2025. They are the only type of **Tree** to have no output, and use a different material for their bark. They are planted by a [Moray Eel](Moray_eel), a type of Fish. **Palm Trees** are the only type of **Tree** to have a [[Fish]] as a **Seed**. 
+**Palm Trees** are a type of **Tree** added during Part 3 of the Fish Update, on February 14th, 2025. They are the only type of **Tree** to have no output, and use a different material for their bark. They are planted by a [Moray Eel](Moray_eel), a type of Fish. **Palm Trees** are the only type of **Tree** to have a [[content/Fish/Fishing]] as a **Seed**. 
 
 ___
 

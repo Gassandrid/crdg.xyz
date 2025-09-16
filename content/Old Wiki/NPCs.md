@@ -37,10 +37,10 @@ Senile Old Man is located on the
 on a slope. He talks about the [Cart
 God](Cart_God "Cart God"){.wikilink}.
 
-### [Poseidon](Poseidon "Poseidon"){.wikilink}
+### [Poseidon](content/Old%20Wiki/Poseidon.md "Poseidon"){.wikilink}
 
-Poseidon is a [fishable](Fish.md "fishable"){.wikilink} NPC. By talking to
-him, you can unlock the [](Fish.md#Miracle_of_the_ocean){.wikilink}, as
+Poseidon is a [fishable](content/Fish/Fishing.md "fishable"){.wikilink} NPC. By talking to
+him, you can unlock the [](content/Fish/Fishing.md#Miracle_of_the_ocean){.wikilink}, as
 well as the Troutstanding Catch [Badge](Badges "Badge"){.wikilink}.
 
 ## Gallery

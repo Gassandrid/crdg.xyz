@@ -1,6 +1,4 @@
-`<big>`{=html}**Description**`</big>`{=html} ![A close up of the
-Swordfish in
-game.](Swordfish.png "A close up of the Swordfish in game.") The
+`<big>`{=html}**Description**`</big>`{=html} ![](swordfish.png) The
 Swordfish is one of the many fish that can be obtained , it is uncommon
 but you\'ll fish it up a couple of times and is characterized by it\'s
 tuna shaped body, blue ish grey colour and mainly it\'s sword.
