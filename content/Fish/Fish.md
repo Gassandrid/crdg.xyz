@@ -1,6 +1,6 @@
 ## Background
 
-During September 2024 the floppy fish was added to CRDG, they originated from a game originally worked on by GargantuanPrankster8 called \'green fish 36\', however it was added to CRDG because people asked for it. During the time it was in the game, it could be found at the Petrol Station laying atop some cabinets, this was however short lived as it was removed temporarily. After the removal of the floppy fish, a new greater fishing update was being worked on, this consisted of many new fish as well as the [[Fishing Rod]] that could be used to gain these new fish, the fishing rod could be found at the [[Gas Station]]. Later on, more fish were added, as well as a rusty fishing rod that could be found at [[Bill's batteries]].
+During September 2024 the floppy fish was added to CRDG, they originated from a game originally worked on by GargantuanPrankster8 called \'green fish 36\', however it was added to CRDG because people asked for it. During the time it was in the game, it could be found at the Petrol Station laying atop some cabinets, this was however short lived as it was removed temporarily. After the removal of the floppy fish, a new greater fishing update was being worked on, this consisted of many new fish as well as the [[Regular Fishing Rod]] that could be used to gain these new fish, the fishing rod could be found at the [[Gas Station]]. Later on, more fish were added, as well as a rusty fishing rod that could be found at [[Bill's batteries]].
 
 For information on how to fish, please see [[Fish#How to Use { how_to_use}|below]]
 
