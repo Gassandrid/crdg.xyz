@@ -3,7 +3,8 @@
 
 > ![[Spawn.png|450]]
 >
->Spawn in-game
+>**Spawn** in-game
+
 ## Beehive spots
 There is a total of 1 **beehive** that can spawn on **spawn**. It can be found under the diesel generator at the corner of **spawn** platform.
 
