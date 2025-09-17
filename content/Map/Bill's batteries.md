@@ -37,7 +37,7 @@
 
 >![[Pasted image 20250809083409.png|450]]
 >
-Bill's batteries in-game
+**Bill's batteries** in-game
 
 ## Beehive spots
 There is a total of 2 **beehive** spots directly on the **Bill’s batteries**, and another **beehive** inside the tunnel right after **Bill's batteries**. Other 2 **beehives** are on each side of the **Bill’s batteries** roof
