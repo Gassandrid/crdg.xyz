@@ -37,6 +37,7 @@
 >![[Cathedral.png|450]]
 >
 >**Cathedral** in-game
+
 ## Beehive spots
 There is only 1 beehive spot, its located on the top right pole of the cathedral.
 
