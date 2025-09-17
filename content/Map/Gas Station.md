@@ -43,3 +43,7 @@ Shop has a **Fuel pump** and a [[Regular Fishing Rod]] inside, there is really n
 
 ## Secret button
 There is a **secret button** hidden under the bumper of Gas carrier, pressing it will spawn a black part that can be seen across the map. Sometimes given part can start teleporting sequence, teleporting every player near that part to a randomly chosen spot from its list (It is currently unknown if every spot has been have discovered as of now)
+
+>![[SecretButton.png|350]]
+>
+>Said button in question.
