@@ -1,6 +1,10 @@
 ## Brief description 
 Gas station is 4th island in the game, and has many secrets. There is a hidden room with an open door that has 2 glasses and a wheel inside of it, then, there is a shop that has [[Regular Fishing Rod]] inside. Secret button under the trunk of a fuel carrier, secret room with sofa, lantern, ladder and a money stack, it is opens if player has [[Pressing matter]] badge and a secret room above shop with a golden bar inside
 
+>![[GasStation.png|450]]
+>
+>**Gas station** in-game
+
 ## Beehive spots
 There is 2 beehives that spawn directly on the **Gas station** and 1 more beehive that spawns under the elevator entrance platform.
 
