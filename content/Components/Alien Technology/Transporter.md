@@ -38,4 +38,21 @@
     </div>
 </div>
 
+> [!infobox|n-th]
+> 
+> ## Worldspike
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[Pasted image 20250829175859.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Alien Technology |
+> | --- | --- |
+> | **Usage** | Able to simultaneously be used as a gyroscope and anchor. |
+> | **Date Added** | November 28th, 2024 |
+
 ![[Pasted image 20250829175859.png]]
