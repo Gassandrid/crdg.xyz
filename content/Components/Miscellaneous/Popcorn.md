@@ -2,7 +2,6 @@
 tags:
   - templates
 ---
-
 > [!infobox|n-th]
 > 
 > ## Popcorn
@@ -13,10 +12,10 @@ tags:
 > > 
 > > 
 > 
-> ### Tutorial Info
+> ### Component Info
 > 
 > | Type | Edible |
 > | --- | --- |
 > | **Date Added** | October 12th, 2024 |
-> | **Use** | N/A, but edible. |
+> | **Use** | None, but edible. |
 

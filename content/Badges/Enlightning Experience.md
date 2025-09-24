@@ -1,41 +1,12 @@
-<div style="display:flex;align-items:center;gap:10px;
-    margin:10px 5px 5px 5px;
-    padding:0; 
-    overflow:visible;
-    font-family:sans-serif;
-    font-size:1.05rem;
-    color:#FFFFFF;
-    text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);
-    border-radius:0.5px;
-    border:2px solid #777777;
-    box-shadow:2px 2px #777777;
-    background:none;">
-    <div style="display:flex;align-items:center;gap:10px;
-        height:80px;
-        border-radius:0.5px;
-        background:
-            linear-gradient(to bottom,rgba(238,220,52,0.85),rgba(15,16,1,0.85)),
-            repeating-linear-gradient(-45deg,#ced211,#ced211 20px,#010100 20px,#010100 40px);
-        flex-grow:1;
-        overflow:visible;">
-        <div style="position:relative;width:120px;height:120px;flex-shrink:0;display:flex;align-items:center;justify-content:center;">
-            <img src="https://tr.rbxcdn.com/180DAY-5efd399b8a1e6ce4892b0afeef910591/420/420/Tshirt/Webp/noFilter"
-                 alt="Notice Icon"
-                 style="width:120px;height:120px;object-fit:contain;
-                 filter:drop-shadow(2px 4px 4px rgba(0,0,0,0.5));
-                 transform:rotate(8deg);">
-        </div>
-        <div style="display:flex;flex-direction:column;justify-content:center;">
-            <div style="font-size:2rem;color:#ffffff;">
-                <span style="color:#ced211;">WORK</span>
-                <span style="color:#010100;">IN</span>
-                <span style="color:#ced211;">PROGRESS!</span>
-            </div>
-            <div style="font-size:1rem;color:#ffffff;font-style:italic;margin-top:4px;">
-                This page is under construction, but you’re able to help us make it!
-            </div>
-        </div>
-    </div>
+<div style="display:flex;align-items:center;margin:1em 0;">
+  <div style="color:#b2b7f2;font-size:3.3em;font-family:serif;font-weight:bold;line-height:.8;padding:4px 6px;">“</div>
+  <blockquote style="margin:0;font-style:italic;flex:1;text-align:center;background:none;border:none;padding:0;">
+    5 times?! that's shockingly unlucky... unlocks miracle of lightning
+  </blockquote>
+  <div style="color:#b2b7f2;font-size:3.3em;font-family:serif;font-weight:bold;line-height:.8;padding:4px 6px;">„</div>
+</div>
+<div style="text-align:right;margin-top:.25em;">
+  <small>— Description of the <b>Enlightning Experience</b> badge.</small>
 </div>
 
 ---
@@ -48,13 +19,24 @@
 > > 
 > > ![[Enlightning Experience.png|center]]
 > > 
-> > Badge icon
+> > The icon for the **Enlightning Experience** badge.
 > 
 > ### Badge Info
-> 
-> | Type | Secret |
+> | **Date Added** | August 17th, 2025
 > | --- | --- |
-> | **Requirements** | - None! |
-> | **Reward(s)** | - Unknown. |
+> | **Requirements** | Getting struck five times by natural lightning in a public server |
+> | **Rewards** | - [[Miracle of Lightning]] |
 
-Information will appear on this page once confirmed badge owners will tell the obtainment method.
+**Enlightning Experience** is a badge added on August 17th, 2025 during the Big Blimp Update along with another badge, the [[Professional Gamer]] badge. It is obtained by getting hit by a natural lightning strike five times inside of a public server. However, the amount of strikes you are hit by saves even after you leave. It awards the [[Miracle of Lightning]] item. This badge used to have it's obtainment secret due to the description being vaguer, originally not saying "5 times?!". However, the badge description was edited 9 days later on August 26th to make the obtainment more clear. The first person to obtain this badge was **LoafLoafLoaf** on September 24th, 2025 at about 15:44 UTC.
+
+## Tips
+
+Getting struck by lightning five times in a public server can be a difficult task, and furthermore by preventing lightning rods counting to the lightning strike counter. Below is a list of tips that are able to help you into obtaining enough strikes for this badge and key positions to get struck in.
+
+### Positions
+
+Positioning is a key element into how likely you are to get struck by lightning. There isn't any mandatory spot, but you are more likely able to get struck by positioning yourself on top of the diesel generator at [[Spawn]] while holding [[cardboard]]. Due to how lightning generation works, it's more likely that lightning can spawn on an anchored object, and since the diesel battery is above the [[content/Map/Spawn|Spawn]] island which are both anchored objects, it strikes more there. The reason for holding [[cardboard]] is to extend your hitbox so that if lightning strikes really close to you, it'll still strike you due to the [[cardboard]] increasing your hitbox.
+
+> ![[Pasted image 20250924191336.png|350]]
+> 
+> A good position to get struck in.
