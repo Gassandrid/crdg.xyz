@@ -8,6 +8,7 @@
 <div style="text-align:right;margin-top:.25em;">
   <small>— Tooltip of the <b>Miracle of Lightning</b> item.</small>
 </div>
+
 ---
 
 > [!infobox|n-th]
