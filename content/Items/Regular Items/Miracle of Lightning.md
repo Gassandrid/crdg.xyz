@@ -28,7 +28,7 @@
 > | **Obtainment** | Getting the [[Enlightning Experience]] badge |
 > | **Date Added** | August 17th, 2025 |
 
-The **Miracle of Lightning** is a multi-use Combat item added on August 17th, 2025. It is the reward for the [[Enlightning Experience]] badge. It is part of the "miracle of" item series, with the two others being [[Touch of Tetanus]] and [[Touch of Chemicals]]. It uses two modes that are able to be switched together by pressing the E key or D-Pad Right button. These four abilities are themed around the shocking mechanic previously introduced by the [[Thunderbuss]], and were recycled to be used in a now-obtainable item.
+The **Miracle of Lightning** is a multi-use Combat item added on August 17th, 2025. It is the reward for the [[Enlightning Experience]] badge. It uses two modes that are able to be switched together by pressing the E key or D-Pad Right button. These four abilities are themed around the shocking mechanic previously introduced by the [[Thunderbuss]], and were recycled to be used in a now-obtainable item.
 
 ## Abilities
 
