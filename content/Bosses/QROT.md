@@ -91,7 +91,7 @@ Even though **QROT** may look difficult, he has the least amount of health in th
 ## Trivia
 
 - [This is the music used in the QROT boss fight.](https://www.youtube.com/watch?v=34cob339SyY) 
-- The [[Defeat QROT]] badge is featured in a badger called **Ultra Hard Badge List: Reborn** composed of solely difficult badges. The badge is rated as 1-star.
+- The [[Defeat QROT]] badge was featured in a badger called **Ultra Hard Badge List: Reborn** composed of solely difficult badges. The badge was rated as 1-star, until it was removed to due a "Problematic Developer" and that the bossfight was given it's difficulty from it's bugs.
 - The old QROT arena had non-transparent spawn locations placed around it.
 
 ## Gallery
