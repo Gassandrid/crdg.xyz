@@ -39,12 +39,17 @@
 >**Cathedral** in-game
 
 ## Beehive spots
-There is only 1 beehive spot, its located on the top right pole of the cathedral.
+There is currently 2 beehive spots, its located on the top right pole of the cathedral.
 
 > [!Example]- Screenshot of every beehive spot
 > ![[Pasted image 20250815114728.png|220]]
 > 
 >**Beehive** on right pole of **cathedral**
+>
+> ![[BeehiveOnRightSIdeOfCathedral.png|220]]
+>**Beehive** on right side of **cathedral**
+
+
 
 ## Blimp
 
