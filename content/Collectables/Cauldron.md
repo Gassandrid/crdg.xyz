@@ -48,7 +48,7 @@ Below is a list of every ingredient able to be dropped inside of a **Cauldron**.
 >  - The following [[content/Components/Manifest Components/index|Manifest Components]]:
 >    - [[ORB]]
 >  - The following [[content/Components/Alien Technology/index|Alien Technology]]:
->    - [[Alien Egg]]
+>    - [[Alien Egg]] (specifically the homunculus from it, not the egg)
 >  - [[Regular Fishing Rod]]
 >  - [[Jerry Can]]
 >  - [[Flintlock]] bullets
