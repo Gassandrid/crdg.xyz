@@ -37,3 +37,21 @@
         </div>
     </div>
 </div>
+
+---
+
+> [!infobox|n-th]
+> 
+> ## Makarov
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[Makarov.png|center]]
+> > 
+> > Item in-game
+> 
+> ### Item Info
+> 
+> | **Requirements** | makarov gamepass |
+> | --- | --- |
+> | **Usage** | - Boosting yourself and shooting other players |
