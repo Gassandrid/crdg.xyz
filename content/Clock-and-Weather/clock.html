@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>CRDG Clock + Weather Predictor</title>
+<style>
+  :root { --bg:#0f1720; --fg:#e6eef6; --accent:#4fd1c5; }
+  html,body { height:100%; margin:0; font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial; background:var(--bg); color:var(--fg); display:grid; place-items:center; }
+  .card { text-align:center; padding:28px 36px; border-radius:12px; box-shadow:0 6px 30px rgba(0,0,0,0.6); background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); width:380px; }
+  h1 { margin:0 0 14px 0; font-size:18px; letter-spacing:0.6px; color:var(--accent); }
+  .time { font-weight:700; font-size:28px; margin:10px 0; }
+  .daynight { margin-top:6px; font-size:16px; color:var(--accent); }
+  .weather { font-size:18px; margin-top:8px; color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>CRDG Clock + Weather Predictor</h1>
+  <div id="clock" class="time">CRDG: --:--:--</div>
+  <div id="localtime" class="daynight">--</div>
+  <div id="daynight" class="daynight">--</div>
+  <div id="weather" class="weather">Weather: --</div>
+  <div id="nextstorm" class="daynight"></div>
+</div>
+
+<!-- External JS reference: put your JavaScript into clock.js in the same folder -->
+<script src="./clock.obf.min.js"></script>
+
+</body>
+</html>

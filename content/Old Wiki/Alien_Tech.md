@@ -1,10 +1,5 @@
 ## Alien Items {#alien_items}
 
-![](Alien_diplomacy.png "Alien_diplomacy.png"){width="414"
-height="414"}\"Alien Tech\" refers to the items you get while using \"/e
-summon\" [(Where they come
-from)](The_Mothership "(Where they come from)"){.wikilink}
-
 (please note these may be called different things)
 
   Name                                                                Use

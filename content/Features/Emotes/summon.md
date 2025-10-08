@@ -1,39 +1,15 @@
-z<div style="display:flex;align-items:center;gap:10px;
-    margin:10px 5px 5px 5px;
-    padding:0; 
-    overflow:visible;
-    font-family:sans-serif;
-    font-size:1.05rem;
-    color:#FFFFFF;
-    text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);
-    border-radius:0.5px;
-    border:2px solid #777777;
-    box-shadow:2px 2px #777777;
-    background:none;">
-    <div style="display:flex;align-items:center;gap:10px;
-        height:80px;
-        border-radius:0.5px;
-        background:
-            linear-gradient(to bottom,rgba(238,220,52,0.85),rgba(15,16,1,0.85)),
-            repeating-linear-gradient(-45deg,#ced211,#ced211 20px,#010100 20px,#010100 40px);
-        flex-grow:1;
-        overflow:visible;">
-        <div style="position:relative;width:120px;height:120px;flex-shrink:0;display:flex;align-items:center;justify-content:center;">
-            <img src="https://tr.rbxcdn.com/180DAY-5efd399b8a1e6ce4892b0afeef910591/420/420/Tshirt/Webp/noFilter"
-                 alt="Notice Icon"
-                 style="width:120px;height:120px;object-fit:contain;
-                 filter:drop-shadow(2px 4px 4px rgba(0,0,0,0.5));
-                 transform:rotate(8deg);">
-        </div>
-        <div style="display:flex;flex-direction:column;justify-content:center;">
-            <div style="font-size:2rem;color:#ffffff;">
-                <span style="color:#ced211;">WORK</span>
-                <span style="color:#010100;">IN</span>
-                <span style="color:#ced211;">PROGRESS!</span>
-            </div>
-            <div style="font-size:1rem;color:#ffffff;font-style:italic;margin-top:4px;">
-                This page is under construction, but you’re able to help us make it!
-            </div>
-        </div>
-    </div>
-</div>
+**Summon**, also known as **/e summon** is an emote, added on November 27th, 2024 as a part of the second [[Black Friday]] update.
+
+---
+
+## Obtainment
+
+To unlock the **summon** emote, you would of had to pay 400 Robux when the gamepass came out.
+
+>![[summon-ezgif.com-crop 1.gif]]
+>
+>The **Summon** emote
+
+## Use
+
+To use the summon emote, click the Emote Icon and choose summon, once you click it an icon below your player will appear. The icon will be a different transparency every time you use the emote, as every 30 minutes when your icon is at its brightest, you will be able to **summon** an item. The item is random, but most are useful, and this is how you would obtain the [[Fab]] for example.
