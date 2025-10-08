@@ -50,11 +50,11 @@ Below is a list of every ingredient able to be dropped inside of a **Cauldron**.
 >  - The following [[content/Components/Alien Technology/index|Alien Technology]]:
 >    - [[Alien Egg]] (specifically the homunculus from it, not the egg)
 >  - [[Regular Fishing Rod]]
->  - [[Jerry Can]]
+>  - [[Jerry Can]]: Makes you explode when you hit a high enough velocity.
 >  - [[Flintlock]] bullets
 >  - [[Wheel]] 
 >  - [[Pickle Jar]] (pickle only)
->  - [[Ultra Cart]]
+>  - [[Ultra Cart]]: Propels you when ragdolled.
 >  - [[Pizza]]
 >  - [[Battery]]
 >  - [[Corn]]
