@@ -1,0 +1,1 @@
+The **Black Friday** event is a yearly event that comes every November. This event 
