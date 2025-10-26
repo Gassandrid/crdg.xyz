@@ -27,6 +27,11 @@
 > | --- | --- |
 > | **Usage** | - Teleporting across islands |
 
+**Waypoint Teleporter** was added on 26th of July, 2022 alongside [[Flintlock]], [[content/Bosses/RIEL|RIEL]], [[Finality]] and [[Glory]]
+
+---
+## Usage
+
 The **Waypoint Teleporter** is an item that is given out on private servers to players who have the [[Glory]] badge. Upon clicking it, a GUI will open, allowing its owner to teleport to any of 5 islands: "[[content/Map/Spawn|Spawn]]" "[[Bill's batteries]]" "[[Dealership|Cart Dealership]]" "[[Gas Station|gas station]]" "[[content/Map/Cathedral|Cathedral]]"
 
 >![[WaypointTeleporterGUI.png|255]]

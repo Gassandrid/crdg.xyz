@@ -1,10 +1,10 @@
 > [!infobox|n-th]
 > 
-> ## Fanta
+> ## Bloxy cola
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > ![[Fanta.png|center]]
+> > ![[BloxyCola.png|center]]
 > > 
 > > Item in-game
 > 
@@ -12,9 +12,9 @@
 > 
 > | **Obtainment** | [[Gas Station]] vending machine |
 > | --- | --- |
-> | **Usage** | - Heals you |
+> | **Usage** | - None |
 
-**Fanta** is one of five items in vending machine. can be obtained by using code "0865443084".
+**Bloxy cola** is one of five items in vending machine. can be obtained by using code "7692674396".
 
 Has item image of a bloxy cola.
 

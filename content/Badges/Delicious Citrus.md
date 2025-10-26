@@ -25,8 +25,8 @@
 > 
 > | Type | Secret |
 > | --- | --- |
-> | **Requirements** | - [[content/Items/Obtainable Items/Component Machine]] <br>- [[content/Items/Obtainable Items/Glue]] |
-> | **Reward(s)** | - [[content/Items/Obtainable Items/Cardboard]] 
+> | **Requirements** | - **Component Machine** <br>- **Glue** |
+> | **Reward(s)** | - **cardboard** <br>- **box cutter** |
 
 Similar to [[Pressing matter]] (this implies that you already know how to get this badge), you have to get the lemon out using 7 cables. After this you should get the knife and a golden bar. After you get everything needed you should head to the [[content/Places/Cathedral|Cathedral]] . At the [[content/Places/Cathedral|Cathedral]] you should head to furnace room hidden in the ladder and melt the golden bar. When golden bar starts leaking, you should immediately start pouring molten gold in the planter, but it is recommended to transform multiple planters into golden ones. After you get everything needed for the badge, start growing lemons, then harvest them and make golden lemonade out of the golden lemonades. 
 

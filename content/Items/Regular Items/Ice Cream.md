@@ -39,5 +39,26 @@
 </div>
 
 ---
+> [!infobox|n-th]
+> 
+> ## Ice Cream
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[IceCream.png|center]]
+> > 
+> > Item in-game
+> 
+> ### Item Info
+> 
+> | **Requirements** | none! (Found on map) |
+> | --- | --- |
+> | **Usage** | - left click to lick  |
 
-![[Ice Cream-1755352539438.png]]
+i dont know how to obtain ice cream as of now, WIP.
+
+---
+
+## Usage
+
+(WIP, someone please do this)

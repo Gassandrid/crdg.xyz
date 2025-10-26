@@ -1,10 +1,10 @@
 > [!infobox|n-th]
 > 
-> ## Fanta
+> ## Root beer
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > ![[Fanta.png|center]]
+> > ![[RootBeer.png|center]]
 > > 
 > > Item in-game
 > 
@@ -14,7 +14,7 @@
 > | --- | --- |
 > | **Usage** | - Heals you |
 
-**Fanta** is one of five items in vending machine. can be obtained by using code "0865443084".
+**Root beer** is one of five items in vending machine. can be obtained by using code "4851843831".
 
 Has item image of a bloxy cola.
 
