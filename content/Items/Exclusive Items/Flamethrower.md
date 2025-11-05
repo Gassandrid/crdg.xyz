@@ -51,9 +51,6 @@ The **Flamethrower** is a **Combat**-type **Exclusive** item added on August 4th
 
 To use it, just hold left click and flames will start to go in the way your mouse is facing. Careful though, as you're able to burn yourself.
 
-> [!Tip] Heating the Screw
-> You're able to heat up the screw really easily. I don't know what you would use this information with as you've most likely beaten [[content/Bosses/RIEL|RIEL]] already.
-
 > ![[2025-08-2700-22-29-ezgif.com-video-to-gif-converter.gif]]
 > 
 > The **Flamethrower** being used.
