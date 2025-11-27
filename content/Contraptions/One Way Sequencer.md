@@ -1,5 +1,7 @@
 ---
-tags: [tutorials/computer]
+tags:
+  - tutorials/computer
+author: "[[Ewan]]"
 ---
 
 The one way sequencer is one of the most useful computer parts you can make to control things.
