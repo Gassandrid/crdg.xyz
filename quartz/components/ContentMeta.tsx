@@ -47,13 +47,19 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       // Display author if present in frontmatter
       const author = fileData.frontmatter?.author
       if (author) {
-        // Extract page name from wikilink format [[Page Name]] or just use the string as-is
+        // Extract page name from wikilink format [[Page Name]] or [[People/Name]] or just use the string as-is
         const wikilinkMatch = author.match(/\[\[([^\]]+)\]\]/)
-        const authorName = wikilinkMatch ? wikilinkMatch[1] : author
+        const authorPath = wikilinkMatch ? wikilinkMatch[1] : author
 
-        // Create a link to the author's page
-        const authorSlug = authorName.replace(/\s+/g, "-") as FullSlug
+        // If the path doesn't include a folder, assume it's in the People folder
+        const authorSlug = (
+          authorPath.includes("/") ? authorPath : `Players/${authorPath}`
+        ).replace(/\s+/g, "-") as FullSlug
+
         const authorLink = resolveRelative(fileData.slug!, authorSlug)
+
+        // Extract just the name for display (without folder path)
+        const authorName = authorPath.split("/").pop() || authorPath
 
         segments.push(
           <span>
@@ -61,7 +67,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
             <a href={authorLink} class="internal">
               {authorName}
             </a>
-          </span>
+          </span>,
         )
       }
 
