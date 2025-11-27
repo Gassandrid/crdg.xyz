@@ -5,6 +5,7 @@ import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
 import { JSX } from "preact"
 import style from "./styles/contentMeta.scss"
+import { FullSlug, resolveRelative } from "../util/path"
 
 interface ContentMetaOptions {
   /**
@@ -41,6 +42,27 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
           minutes: Math.ceil(minutes),
         })
         segments.push(displayedTime)
+      }
+
+      // Display author if present in frontmatter
+      const author = fileData.frontmatter?.author
+      if (author) {
+        // Extract page name from wikilink format [[Page Name]] or just use the string as-is
+        const wikilinkMatch = author.match(/\[\[([^\]]+)\]\]/)
+        const authorName = wikilinkMatch ? wikilinkMatch[1] : author
+
+        // Create a link to the author's page
+        const authorSlug = authorName.replace(/\s+/g, "-") as FullSlug
+        const authorLink = resolveRelative(fileData.slug!, authorSlug)
+
+        segments.push(
+          <span>
+            Made by{" "}
+            <a href={authorLink} class="internal">
+              {authorName}
+            </a>
+          </span>
+        )
       }
 
       const segmentsElements = segments.map((segment) => <span>{segment}</span>)
