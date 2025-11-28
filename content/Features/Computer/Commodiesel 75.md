@@ -43,6 +43,19 @@ It is recommended that you have baseline knowledge of the Lua programming langua
 > [!Note]
 > Loops can only run 60 times a second, and may slow down according to server TPS. Nested loops may also cause slowdown.
 
+### Demo Scripts
+
+The Commodiesel 64 comes pre-loaded with several demo scripts that showcase its capabilities. These include:
+
+- **beep.lua** - Simple audio demonstration
+- **demo.lua** - Rainbow gradient animation
+- **feedme.lua** - Animated character with audio
+- **music.lua** - Procedurally generated music
+- **pong.lua** - Full Pong game with AI
+- **s.lua** - Basic sprite movement
+
+For detailed information about each demo script, see [[Features/Computer/Computer Demo Scripts|Computer Demo Scripts]].
+
 ---
 
 ## Lua Programming
