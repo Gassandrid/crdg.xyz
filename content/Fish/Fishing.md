@@ -33,8 +33,19 @@
 
 ## Background
 
-During September 2024 the [[Floppy fish]] was added to CRDG, they originated from a game originally worked on by GargantuanPrankster8 called \'green fish 36\', however it was added to CRDG because people asked for it. During the time it was in the game, it could be found at the Petrol Station laying atop some cabinets, this was however short lived as it was removed temporarily. After the removal of the floppy fish, a new greater fishing update was being worked on, this consisted of many new fish as well as the [[Fishing Rod]] that could be used to gain these new fish, the fishing rod could be found at the [[Gas Station]]. Later on, more fish were added, as well as more fishing rods such as the [[Rainbow Rod]] or [[Fly Fishing Rod]]
-For information on how to fish, please see [[content/Fish/Fishing#How to Use { how_to_use}|below]]
+During September 2024 the [[Floppy fish]] was added to CRDG, they originated from a game originally worked on by Scatterous (AKA Calvin) called \'green fish 36\', however it was added to CRDG because GargantuanPrankster8 liked the idea. During the time it was in the game, it could be found at the [[Gas Station]] laying atop some cabinets, this was however short lived as it was removed temporarily. After the removal of the floppy fish, a new greater fishing update was being worked on, this consisted of many new fish as well as the [[Regular Fishing Rod|Fishing Rod]] that could be used to obtain these new fish, the Fishing Rod can be found at the [[Gas Station]]. Later on, more fish were added, as well as more fishing rods such as the [[Rainbow Rod]] or [[Fly Fishing Rod]].
+
+## How Fishing Works
+
+Fishing is a very simple system only requiring a few short steps:
+#### Obtainment:
+Fishing requires [[content/Fish/Fishing Rods/index|Fishing Rods]] that can be found around the [[content/Map/index|Map]], caught from Fishing, or purchased from the [[Blimp]]. 
+#### Casting:
+Fishing Rods are casted when the Hook on the rod is moving at a fast enough speed, meaning you can flick the rod quickly to cast if you're not using a Fisher. once you cast the Fishing Rod the line will extend very far and the Hook will launch in the direction the Handle of the Fishing Rod was moving. after casting, the Reel on the Fishing Rod will spin for about 8 seconds.
+#### Catching:
+Once the Reel stops spinning the Fishing Rod will begin to wait for a catch if the Hook is at a far enough distance below the Handle, this means you can split the end of the Rod from the Handle and put the Handle at a high point of the Map to catch Fish on land. when the Fishing Rod catches a Fish the Reel will begin to spin and a signal will be emitted from the Handle that can activate [[Components]]. 
+#### Reeling:
+Fishing Rods can be Reeled in at any time by simply moving the Handle at a fast enough speed. when Reeled in fully, any Fishes on the Hook will be dropped and the Fishing Rod will emit a signal through the Handle if a Fish was dropped.
 
 ## Fish that Are Able to Be Caught
 
@@ -267,23 +278,10 @@ The miracle of the ocean is similar to the miracle of manifestation, as it allow
 | ![[FurBearingTrout.png]] |
 
 ### Admin Fish
-So far, the only known admin fish is the Wai.ling Whale. It shares the
+So far, the only known admin fish is the Wailing Whale. It shares the
 same mesh as the normal whale and can\'t be stored.
 When powered, it will make a loud whale sound, making all players in the
 server deaf until they rejoin the server.
-
-## [[Fishing Rod]]
-
-Firstly, to cast, you must throw the rod forward until it casts. 
-
-**(DO NOT THROW THE ROD INTO THE VOID, That's NOT HOW IT WORKS)**
-
-Next, you must wait a little bit for a bite.
-
-Once you get a bite, you will know because the reel will spin.
-
-Finally, to reel, move the rod up and down very fast.
-
 
 ## Fish Attributes
 
