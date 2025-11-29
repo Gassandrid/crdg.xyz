@@ -14,11 +14,11 @@
     </div>
     <div style="position:relative; display:flex; flex-direction:column; justify-content:center; text-align:center; height:100%; z-index:1;">
         <div style="font-size:2rem; color:#ff4d4d;">
-            <span style="color:#ff3333;">EXCLUSIVE</span>
+            <span style="color:#ff3333;">REMOVED</span>
             <span style="color:#cc0000;">CONTENT!</span>
         </div>
         <div style="font-size:1rem; font-style:italic; color:white; margin-top:4px;">
-            This page includes content that cannot be obtained with normal means and is not accessible by playing the game.
+            This page includes content that is not accessible anymore.
         </div>
     </div>
 </div>
@@ -41,13 +41,13 @@
 > | --- | --- |
 > | **Date Added** | Unknown |
 
-**Fencing Foil** is a **Combat**-type **Exclusive** item at an unknown date. It is inspired by the [Fencing Foil Roblox gear.](https://www.roblox.com/catalog/10831489/Fencing-Foil)Information on this tool is unknown, as it is currently in a broken state.
+**Fencing Foil** was a **Combat**-type **Exclusive** item that was added at an unknown date, it has since been removed. It is inspired by the [Fencing Foil Roblox gear.](https://www.roblox.com/catalog/10831489/Fencing-Foil)Information on this tool is unknown, as it was in a broken state before being removed.
 
 ---
 ## Usage
 
-The main premise of the tool is to find someone else with the tool and challenge them. To challenge them, click on them. It will bring up a pop up a duel request, and accepting it will put you into a fencing challenge. The winner gets to live, and the loser dies.
+The main premise of the tool was to find someone else with the tool and challenge them. To challenge them, click on them. It will bring up a pop up a duel request, and accepting it will put you into a fencing challenge. The winner gets to live, and the loser dies.
 
 > ![[Pasted image 20250827161713.png]]
 > 
-> The pop up from the duel. However, this is currently broken.
+> The pop up from the duel. However, this is was broken.
