@@ -84,11 +84,12 @@ Components are the primary in game objects that can be used for building with [[
 
 
 > [!Note]+ Components
-> # Manifest Components
-> | ![[Pasted image 20250722191128.png|300]] | [![Deadeye](Deadeye.png)](Deadeye) | [![Duo](Duo.png)](Duo) | [![Heat Concentrate](Heat%20Concentrate.png)](HeatConcentrate) |
-> |:---:|:---:|:---:|:---:|
-> | **[[1911 Pistol]]** | **[Deadeye](Deadeye)** | **[Duo](Duo)** | **[Heat Concentrate](HeatConcentrate)** |
-> | [![Hollow Talisman](HollowTalisman_Icon.png)](HollowTalisman) | [![Juju](Juju.png)](Juju) | [![Soothe Stone](Soothe%20Stone.png)](SootheStone) | [![Swarm Pendant](SwarmPendant_icon.png)](SwarmPendant) |
-> | **[Hollow Talisman](HollowTalisman)** | **[Juju](Juju)** | **[Soothe Stone](SootheStone)** | **[Swarm Pendant](SwarmPendant)** |
-> | [![Vanguard](Vanguard.png)](Vanguard) | [![Veil Talisman](Veil%20Talisman.png)](VeilTalisman) | | |
-> | **[Vanguard](Vanguard)** | **[Veil Talisman](VeilTalisman)** | | |
+> 
+> > # Manifest Components
+> > | ![[Pasted image 20250722191128.png\|300]] | [![Deadeye](Deadeye.png)](Deadeye) | [![Duo](Duo.png)](Duo) | [![Heat Concentrate](Heat%20Concentrate.png)](HeatConcentrate) |
+> > |:---:|:---:|:---:|:---:|
+> > | **[[1911 Pistol]]** | **[Deadeye](Deadeye)** | **[Duo](Duo)** | **[Heat Concentrate](HeatConcentrate)** |
+> > | [![Hollow Talisman](HollowTalisman_Icon.png)](HollowTalisman) | [![Juju](Juju.png)](Juju) | [![Soothe Stone](Soothe%20Stone.png)](SootheStone) | [![Swarm Pendant](SwarmPendant_icon.png)](SwarmPendant) |
+> > | **[Hollow Talisman](HollowTalisman)** | **[Juju](Juju)** | **[Soothe Stone](SootheStone)** | **[Swarm Pendant](SwarmPendant)** |
+> > | [![Vanguard](Vanguard.png)](Vanguard) | [![Veil Talisman](Veil%20Talisman.png)](VeilTalisman) | | |
+> > | **[Vanguard](Vanguard)** | **[Veil Talisman](VeilTalisman)** | | |
