@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7ff55bd7dd24c156",
+        "id": "ad4ed9075d33109b",
         "type": "tabs",
         "children": [
           {
-            "id": "6b005c11e6962cab",
+            "id": "085fdde3e083b67b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bosses/RIEL.md",
+                "file": "Collectables/Cauldron.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "RIEL"
+              "title": "Cauldron"
             }
           }
         ]
@@ -180,10 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6b005c11e6962cab",
+  "active": "085fdde3e083b67b",
   "lastOpenFiles": [
-    "Old Wiki/Riel.md",
     "Bosses/RIEL.md",
+    "Old Wiki/Riel.md",
     "Collectables/Cauldron.md",
     "Components/Regular Components/Components.md",
     "Badges/winner.md",
