@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Components/Regular Components/Components.md",
+                "file": "Collectables/Cauldron.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Components"
+              "title": "Cauldron"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "f48cfb9edc456af2",
   "lastOpenFiles": [
+    "Components/Regular Components/Components.md",
     "Badges/winner.md",
     "Badges/Pressing matter.md",
     "Bosses/Cart God.md",
@@ -209,7 +210,6 @@
     "Components/Alien Technology/Tractor Beam.md",
     "Components/Alien Technology/Radio.md",
     "Components/Alien Technology/Pointer.md",
-    "Components/Alien Technology/Fab.md",
     "Components/Alien Technology",
     "Miscellaneous",
     "Gamepasses",
