@@ -93,33 +93,32 @@ The following list will contain a recipe for every potion, and will describe the
 
 > [!example]- List of Recipes
 > > ### 2 Ingredients 
-> > - **Jerry Can + Gas = Car Potion** (-)
+> > **--- Jerry Can + Gas = Car Potion** (-)
 > > Transforms you into a makeshift car. Leaping will make a honk noise, and drinking [[Diesel]] will make you faster, with a limit of 32 speed.
-> > <br>
-> > - **Rocket Cart + Gas = Rocket Potion**
-> > <br>
-> > - **Banana + Uranium Rod = Dinnerbone Potion** (-)
+> >
+> > **--- Rocket Cart + Gas = Rocket Potion**
+> > 
+> > **--- Banana + Uranium Rod = Dinnerbone Potion** (-)
 > > Flips the player's character upside down. Does not expire.
-> > <br>
-> > - **Balloon + Rope = Balloon Head** (-)
+> > 
+> > **--- Balloon + Rope = Balloon Head** (-)
 > > Turns the player's head into a balloon attached with a string. Does not expire.
-> > <br>
-> > - **Linear Actuator + Spring = Long Legs**
-> > <br>
-> > - **Ball of Oblotenium + Uranium Rod = Strength Potion**
+> > 
+> > **--- Linear Actuator + Spring = Long Legs**
+> > 
+> > **--- Ball of Oblotenium + Uranium Rod = Strength Potion**
 > > Will give the player a huge increase in grabbing strength. However, it expires really fast at about 3 seconds.
-> > <br>
-> > - **Planter + Pillow = Explosive Immunity**
+> > 
+> > **--- Planter + Pillow = Explosive Immunity**
 > > Will give the player explosive immunity, like a planter. However, it only protects the player from one blast.
-> > <br>
-> > - **Honey + Water = Honey Water**
+> > 
+> > **--- Honey + Water = Honey Water**
 > > Refreshing. Cures all potion effects.
 > > 
 > > ### 3+ Ingredients
-> > - **Flashbang + Gun + Jerry Can = Unfriend/Block Potion**
-> > <br>
-> > - **Gas + Orb + Ball of Oblotenium + Uranium Rod = Wormhole Potion**
+> > **--- Flashbang + Gun + Jerry Can = Unfriend/Block Potion**
+> > 
+> > **--- Gas + Orb + Ball of Oblotenium + Uranium Rod = Wormhole Potion**
 > > 
 > > ### Event Exclusive
-> > - **Pumpkin + Corn = Turkey Potion** (Halloween)
-> >
+> > **--- Pumpkin + Corn = Turkey Potion** (Halloween)
