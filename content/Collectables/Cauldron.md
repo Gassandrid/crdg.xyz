@@ -32,7 +32,7 @@ The **Cauldron** works by dropping ingredients into the pot and combining them t
 Below is a list of every ingredient able to be dropped inside of a **Cauldron**. Do note that some ingredients may be missing due to the fact that ingredients are still getting added over time. Some ingredients also have passive effects applied to them. This means that simply drinking a potion made out of them will grant you an effect.
 
 > [!example]- List of Ingredients
-> 
+> > 
 > > ### [[content/Components/Regular Components/index|Regular Components]]
 > >
 > > - [[Pillow]]
@@ -48,24 +48,24 @@ Below is a list of every ingredient able to be dropped inside of a **Cauldron**.
 > > - [[Banana]]: Ragdolls you.
 > > - [[Balloon]] (specifically the balloon itself, not the anchor)
 > > - [[Rope]]
->   
+> > 
 > > ### [[content/Components/Manifest Components/index|Manifest Components]] 
 > >
 > > - [[ORB]]
->    
+> > 
 > > ### [[content/Components/Alien Technology/index|Alien Technology]] 
 > >
 > > - [[Alien Egg]] (specifically the homunculus from it, not the egg)
->
+> > 
 > > ### [[content/Collectables/index|Collectibles]]
 > > 
 > > - [[Pickle Jar]] (and liquid)
->
+> > 
 > > ### [[content/Items/index|Miscellaneous Objects]]
 > > 
 > > - [[Flintlock]] bullets
 > > - [[Jerry Can]]: Makes you explode when you hit a high enough velocity.
->
+> > 
 > > ### Props
 > > 
 > > - [[Regular Fishing Rod]]
@@ -77,7 +77,6 @@ Below is a list of every ingredient able to be dropped inside of a **Cauldron**.
 > > - [[Pumpkin]] 
 > > - [[Passenger Cart]]
 > > - [[Bubblegum]]
->
 
 ---
 
@@ -92,36 +91,35 @@ Below is a list of every ingredient able to be dropped inside of a **Cauldron**.
 
 The following list will contain a recipe for every potion, and will describe their side effect. If a minus (-) symbol is present next to the potion, that means it cannot be concentrated.
 
->[!example]- List of Recipes
-> 
-> ### 2 Ingredients 
-> > **Jerry Can + Gas = Car Potion** (-)
+> [!example]- List of Recipes
+> > ### 2 Ingredients 
+> > - **Jerry Can + Gas = Car Potion** (-)
 > > Transforms you into a makeshift car. Leaping will make a honk noise, and drinking [[Diesel]] will make you faster, with a limit of 32 speed.
-> 
-> > **Rocket Cart + Gas = Rocket Potion**
-> 
-> > **Banana + Uranium Rod = Dinnerbone Potion** (-)
+> > <br>
+> > - **Rocket Cart + Gas = Rocket Potion**
+> > <br>
+> > - **Banana + Uranium Rod = Dinnerbone Potion** (-)
 > > Flips the player's character upside down. Does not expire.
->
-> > **Balloon + Rope = Balloon Head** (-)
+> > <br>
+> > - **Balloon + Rope = Balloon Head** (-)
 > > Turns the player's head into a balloon attached with a string. Does not expire.
-> 
-> > **Linear Actuator + Spring = Long Legs**
-> 
-> > **Ball of Oblotenium + Uranium Rod = Strength Potion**
+> > <br>
+> > - **Linear Actuator + Spring = Long Legs**
+> > <br>
+> > - **Ball of Oblotenium + Uranium Rod = Strength Potion**
 > > Will give the player a huge increase in grabbing strength. However, it expires really fast at about 3 seconds.
-> 
-> > **Planter + Pillow = Explosive Immunity**
+> > <br>
+> > - **Planter + Pillow = Explosive Immunity**
 > > Will give the player explosive immunity, like a planter. However, it only protects the player from one blast.
-> 
-> > **Honey + Water = Honey Water**
+> > <br>
+> > - **Honey + Water = Honey Water**
 > > Refreshing. Cures all potion effects.
->
-> ### 3+ Ingredients
-> > **Flashbang + Gun + Jerry Can = Unfriend/Block Potion**
->
-> > **Gas + Orb + Ball of Oblotenium + Uranium Rod = Wormhole Potion**
->
-> ### Event Exclusive
-> > **Pumpkin + Corn = Turkey Potion** (Halloween)
-> 
+> > 
+> > ### 3+ Ingredients
+> > - **Flashbang + Gun + Jerry Can = Unfriend/Block Potion**
+> > <br>
+> > - **Gas + Orb + Ball of Oblotenium + Uranium Rod = Wormhole Potion**
+> > 
+> > ### Event Exclusive
+> > - **Pumpkin + Corn = Turkey Potion** (Halloween)
+> >
