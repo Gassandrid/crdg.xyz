@@ -1,2 +1,2 @@
 
-The **Sprite Painter** is a tool used to create textures for the Commodiesel. You can access it by using [this link](https://jimensions.vercel.app/Sprite%20Painter.html), or by downloading the raw HTML file and opening it [[spritepainter.html|here]].
+The **Sprite Painter** is a tool used to create textures for the Commodiesel. You can access it by using [this link](https://jimensions.vercel.app/Sprite%20Painter.html), or by downloading the raw HTML file and opening it [[spritepainter2.html|here]].
