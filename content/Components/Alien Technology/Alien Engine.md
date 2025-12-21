@@ -40,4 +40,22 @@
 
 ---
 
-![[Pasted image 20250829175158.png]]
+> [!infobox|n-th]
+> 
+> ## Alien Engine
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[Pasted image 20250829175158.png]]
+> > 
+> > Crafted by top alien scientists, the Alien Engine is considered to be the best gravity manipulator in the game.
+> 
+> ### Component Info
+> 
+> | Component Type | Miscellaneous |
+> | --- | --- |
+> | Usage | Flying, carrying heavy weight |
+> 
+> 
+
+The **Alien Engine** is a miscellaneous-type [[content/Components/Alien Technology/index|alien technology]] added on November 28th, 2024. Compared to every other alien tech, the alien engine stands out the most, being one of the rarest to get and having one of the best use cases if used well.

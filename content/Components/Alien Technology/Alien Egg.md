@@ -39,7 +39,7 @@
 </div>
 
 ---
-The alien egg is an item that can be hatched. It emits a faint cracking sound as it progresses through the slow hatching process.
+The Crafted by top alien scientists, the Alien Engine is considered to be the best gravity manipulator in the game. is an item that can be hatched. It emits a faint cracking sound as it progresses through the slow hatching process.
 
 > [!infobox|n-th]
 > 
@@ -49,7 +49,7 @@ The alien egg is an item that can be hatched. It emits a faint cracking sound as
 > > 
 > > ![[Alien Egg-1755338355499.png]]
 > > 
-> > An White Alien Egg.
+> > An alien egg, without any cracks present.
 > 
 > ### Component Info
 > 
