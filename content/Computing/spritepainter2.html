@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sprite Editor</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- placeholder font -->
+  <style>
+    @font-face {
+      font-family: "PP Neue Montreal";
+      src: url("PPNeueMontreal-Regular.woff2") format("woff2");
+      font-weight: 400;
+    }
+  </style>
+
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #111;
+      color: #e5e5e5;
+
+      font-family: "PP Neue Montreal", Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      padding: 20px;
+      min-height: 100vh;
+    }
+
+    #controls {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      min-width: 260px;
+      background: #181818;
+      padding: 18px;
+      border: 2px solid #303030;
+      border-radius: 4px;
+    }
+
+    h3 {
+      margin: 0 0 10px 0;
+      font-size: 18px;
+      color: #fafafa;
+      border-bottom: 2px solid #303030;
+      padding-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+
+      font-family: "Fraunces", serif;
+    }
+
+    #palette {
+      display: grid;
+      grid-template-columns: repeat(16, 20px);
+      gap: 4px;
+      padding: 6px;
+      background: #151515;
+      border: 2px solid #272727;
+      border-radius: 4px;
+    }
+
+    .color {
+      width: 20px;
+      height: 20px;
+      border: 1px solid #444;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2px;
+      transition: none;
+    }
+
+    .color:hover {
+      border-color: #556977;
+    }
+
+    .color.transparent {
+      background: repeating-conic-gradient(#444 0% 25%, #222 0% 50%) 50% / 8px 8px;
+    }
+
+    .color.selected {
+      outline: 2px solid #7aff7a;
+      outline-offset: -2px;
+    }
+
+    input {
+      width: 70px;
+      font-size: 15px;
+      padding: 4px 5px;
+      border-radius: 2px;
+      border: 1px solid #444;
+      background: #111;
+      color: #fff;
+
+      font-family: "PP Neue Montreal", sans-serif;
+    }
+
+    label {
+      display: inline-block;
+      font-size: 14px;
+      margin-bottom: 2px;
+
+      font-family: "PP Neue Montreal", sans-serif;
+    }
+
+    .section {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    button {
+      padding: 8px 12px;
+      font-size: 14px;
+      cursor: pointer;
+      border: 2px solid #9bb0bd;
+      border-radius: 3px;
+      background: #111;
+      color: #9bb0bd;
+      font-weight: bold;
+      text-transform: uppercase;
+
+      font-family: "PP Neue Montreal", sans-serif;
+    }
+
+    button:hover {
+      background: #728c99;
+    }
+
+    #canvasWrapper {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      background: #181818;
+      border: 2px solid #303030;
+      border-radius: 4px;
+      padding: 20px;
+      overflow: auto;
+      max-height: 95vh;
+    }
+
+    #pixelCanvas {
+      image-rendering: pixelated;
+      border: 2px solid #3a3a3a;
+      background: #111;
+      border-radius: 2px;
+      cursor: crosshair;
+    }
+
+    #luaOutput {
+      white-space: pre;
+      background: #111;
+      border: 2px solid #303030;
+      padding: 10px;
+      border-radius: 4px;
+      max-height: 280px;
+      overflow-y: auto;
+
+      font-family: "IBM Plex Mono", monospace;
+
+      font-size: 13px;
+      color: #9bb0bd;
+    }
+  </style>
+
+<body>
+
+  <div id="controls">
+    <h3>Color Palette</h3>
+    <div id="palette"></div>
+
+    <div class="section">
+      <label>Width: <input type="number" id="canvasWidth" value="8" min="1" max="64"></label>
+      <label>Height: <input type="number" id="canvasHeight" value="16" min="1" max="64"></label>
+      <button id="resizeBtn">Resize</button>
+    </div>
+
+    <div class="section">
+      <button id="clearBtn">Clear</button>
+      <button id="undoBtn">Undo</button>
+      <button id="redoBtn">Redo</button>
+      <button id="exportBtn">Export</button>
+    </div>
+
+    <h3>Lua Output</h3>
+    <div id="luaOutput"></div>
+    <button id="copyBtn">Copy</button>
+  </div>
+
+  <div id="canvasWrapper">
+    <canvas id="pixelCanvas" width="400" height="800"></canvas>
+  </div>
+
+  <script>
+    // amazing color palette thanbk you snowgrind for providing :D
+    const COLOR_PALETTE = [
+      "rgba(0,0,0,0)", "#1a1a1a", "#222222", "#333333", "#444444", "#555555", "#666666", "#777777", "#888888", "#999999", "#aaaaaa", "#bbbbbb", "#d0d0d0", "#dddddd", "#eeeeee", "#ffffff",
+      "#242424", "#404040", "#606060", "#808080", "#262626", "#454545", "#656565", "#858585", "#2d2d2d", "#4d4d4d", "#6d6d6d", "#a2a2a2", "#333333", "#535353", "#737373", "#939393",
+      "#ff1a1a", "#ff4d4d", "#ff8080", "#ffb3b3", "#b31717", "#cc4545", "#e67474", "#ffa2a2", "#801515", "#993d3d", "#b36262", "#cc8686", "#4d1313", "#663333", "#805353", "#997373",
+      "#ff731a", "#ff8f4d", "#ffab80", "#ffc8b3", "#b35a17", "#cc7445", "#e68f74", "#ffaba2", "#804015", "#995b3d", "#b37662", "#cc9286", "#4d2d13", "#664433", "#805e53", "#997873",
+      "#ffb31a", "#ffc24d", "#ffd180", "#ffe1b3", "#b38617", "#cca345", "#e6bf74", "#ffdba2", "#806015", "#99753d", "#b38a62", "#cca086", "#4d4613", "#665b33", "#806f53", "#998473",
+      "#ffff1a", "#ffff4d", "#ffff80", "#ffffb3", "#b3b317", "#cccc45", "#e6e674", "#ffffa2", "#808015", "#99993d", "#b3b362", "#cccc86", "#4d4d13", "#666633", "#808053", "#999973",
+      "#99ff1a", "#b3ff4d", "#ccff80", "#e6ffb3", "#7cb317", "#93cc45", "#aae674", "#c2ffa2", "#588015", "#70993d", "#88b362", "#a0cc86", "#3a4d13", "#4f6633", "#658053", "#7a9973",
+      "#33ff1a", "#5cff4d", "#85ff80", "#afffb3", "#2ab317", "#4ccc45", "#6fe674", "#91ffa2", "#208015", "#40993d", "#60b362", "#80cc86", "#1a4d13", "#336633", "#4d8053", "#669973",
+      "#1aff9c", "#4dffb0", "#80ffc5", "#b3ffda", "#17b37e", "#45cc98", "#74e6b2", "#a2ffcb", "#15805f", "#3d9977", "#62b38f", "#86cca7", "#134d3d", "#336655", "#53806e", "#739986",
+      "#1ae6ff", "#4dedff", "#80f5ff", "#b3fbff", "#17a0b3", "#45b9cc", "#74d2e6", "#a2ebff", "#157080", "#3d8699", "#629eb3", "#86b7cc", "#13474d", "#335f66", "#537780", "#738f99",
+      "#1a8fe6", "#4da7ed", "#80bff5", "#b3d8fb", "#176ca7", "#4587c0", "#74a1d8", "#a2bcef", "#154b80", "#3d6399", "#627cb3", "#8694cc", "#13324d", "#334966", "#536180", "#737999",
+      "#1a33ff", "#4d5cff", "#8085ff", "#b3afff", "#172ab3", "#454ccc", "#746fe6", "#a291ff", "#152080", "#3d4099", "#6260b3", "#8680cc", "#131a4d", "#333366", "#534d80", "#736699",
+      "#731aff", "#8f4dff", "#ab80ff", "#c8b3ff", "#5a17b3", "#7445cc", "#8f74e6", "#aba2ff", "#401580", "#5b3d99", "#7662b3", "#9286cc", "#2d134d", "#443366", "#5e5380", "#787399",
+      "#b31aff", "#c24dff", "#d180ff", "#e1b3ff", "#8617b3", "#a345cc", "#bf74e6", "#dba2ff", "#601580", "#753d99", "#8a62b3", "#a086cc", "#46134d", "#5b3366", "#6f5380", "#847399",
+      "#ff1a99", "#ff4db3", "#ff80cc", "#ffb3e6", "#b3177c", "#cc4593", "#e674aa", "#ffa2c2", "#801558", "#993d70", "#b36288", "#cc86a0", "#4d133a", "#66334f", "#805365", "#99737a",
+      "#cc1a1a", "#d64d4d", "#e08080", "#ebb3b3", "#991717", "#b04545", "#c67474", "#dda2a2", "#661515", "#7d3d3d", "#936262", "#aa8686", "#361313", "#4d3333", "#635353", "#7a7373"
+    ];
+
+    let selectedColorIndex = 1;
+    let colorElements = [];
+    const paletteContainer = document.getElementById("palette");
+
+    for (let i = 0; i < COLOR_PALETTE.length; i++) {
+      const colorDiv = document.createElement("div");
+      colorDiv.className = "color";
+
+      if (i === 0) {
+        colorDiv.classList.add("transparent");
+      } else {
+        colorDiv.style.background = COLOR_PALETTE[i];
+      }
+
+      colorDiv.dataset.index = i;
+      colorDiv.addEventListener('click', function () {
+        selectedColorIndex = i;
+        updateSelectedColor();
+      });
+
+      paletteContainer.appendChild(colorDiv);
+      colorElements.push(colorDiv);
+    }
+
+    function updateSelectedColor() {
+      for (let i = 0; i < colorElements.length; i++) {
+        colorElements[i].classList.remove("selected");
+      }
+      colorElements[selectedColorIndex].classList.add("selected");
+    }
+
+    updateSelectedColor();
+
+    const canvas = document.getElementById("pixelCanvas");
+    const context = canvas.getContext("2d");
+    context.imageSmoothingEnabled = false;
+
+    let canvasWidth = 8;
+    let canvasHeight = 16;
+    let pixelScale = 50;
+
+    canvas.width = canvasWidth * pixelScale;
+    canvas.height = canvasHeight * pixelScale;
+
+    let pixelData = [];
+    for (let y = 0; y < canvasHeight; y++) {
+      pixelData[y] = [];
+      for (let x = 0; x < canvasWidth; x++) {
+        pixelData[y][x] = 0;
+      }
+    }
+
+    let isDrawing = false;
+    let undoHistory = [];
+    let redoHistory = [];
+
+    function saveStateForUndo() {
+      let stateCopy = {
+        pixels: [],
+        width: canvasWidth,
+        height: canvasHeight
+      };
+
+      for (let y = 0; y < canvasHeight; y++) {
+        stateCopy.pixels[y] = [];
+        for (let x = 0; x < canvasWidth; x++) {
+          stateCopy.pixels[y][x] = pixelData[y][x];
+        }
+      }
+
+      undoHistory.push(stateCopy);
+      redoHistory = [];
+    }
+
+    canvas.addEventListener("mousedown", function (e) {
+      isDrawing = true;
+      saveStateForUndo();
+      paintPixelAtPosition(e);
+    });
+
+    canvas.addEventListener("mousemove", function (e) {
+      if (isDrawing) {
+        paintPixelAtPosition(e);
+      }
+    });
+
+    window.addEventListener("mouseup", function () {
+      isDrawing = false;
+    });
+
+    function paintPixelAtPosition(mouseEvent) {
+      const rect = canvas.getBoundingClientRect();
+      const mouseX = mouseEvent.clientX - rect.left;
+      const mouseY = mouseEvent.clientY - rect.top;
+
+      const pixelX = Math.floor((mouseX / rect.width) * canvasWidth);
+      const pixelY = Math.floor((mouseY / rect.height) * canvasHeight);
+
+      if (pixelX >= 0 && pixelY >= 0 && pixelX < canvasWidth && pixelY < canvasHeight) {
+        pixelData[pixelY][pixelX] = selectedColorIndex;
+        redrawCanvas();
+      }
+    }
+
+    function redrawCanvas() {
+      const checkerSize = 10;
+
+      context.fillStyle = "#1e1e1e";
+      context.fillRect(0, 0, canvas.width, canvas.height);
+
+      for (let y = 0; y < canvas.height; y += checkerSize) {
+        for (let x = (Math.floor(y / checkerSize) % 2) * checkerSize; x < canvas.width; x += checkerSize * 2) {
+          context.fillStyle = "#333";
+          context.fillRect(x, y, checkerSize, checkerSize);
+        }
+      }
+
+      for (let y = 0; y < canvasHeight; y++) {
+        for (let x = 0; x < canvasWidth; x++) {
+          const colorIndex = pixelData[y][x];
+          if (colorIndex !== 0) {
+            context.fillStyle = COLOR_PALETTE[colorIndex];
+            context.fillRect(x * pixelScale, y * pixelScale, pixelScale, pixelScale);
+          }
+        }
+      }
+    }
+
+    function performUndo() {
+      if (undoHistory.length === 0) return;
+
+      let currentState = {
+        pixels: [],
+        width: canvasWidth,
+        height: canvasHeight
+      };
+
+      for (let y = 0; y < canvasHeight; y++) {
+        currentState.pixels[y] = [];
+        for (let x = 0; x < canvasWidth; x++) {
+          currentState.pixels[y][x] = pixelData[y][x];
+        }
+      }
+      redoHistory.push(currentState);
+
+      const previousState = undoHistory.pop();
+      pixelData = previousState.pixels;
+      canvasWidth = previousState.width;
+      canvasHeight = previousState.height;
+
+      canvas.width = canvasWidth * pixelScale;
+      canvas.height = canvasHeight * pixelScale;
+      redrawCanvas();
+    }
+
+    function performRedo() {
+      if (redoHistory.length === 0) return;
+
+      let currentState = {
+        pixels: [],
+        width: canvasWidth,
+        height: canvasHeight
+      };
+
+      for (let y = 0; y < canvasHeight; y++) {
+        currentState.pixels[y] = [];
+        for (let x = 0; x < canvasWidth; x++) {
+          currentState.pixels[y][x] = pixelData[y][x];
+        }
+      }
+      undoHistory.push(currentState);
+
+      const nextState = redoHistory.pop();
+      pixelData = nextState.pixels;
+      canvasWidth = nextState.width;
+      canvasHeight = nextState.height;
+
+      canvas.width = canvasWidth * pixelScale;
+      canvas.height = canvasHeight * pixelScale;
+      redrawCanvas();
+    }
+
+    document.getElementById("undoBtn").addEventListener('click', performUndo);
+    document.getElementById("redoBtn").addEventListener('click', performRedo);
+
+    document.getElementById("clearBtn").addEventListener('click', function () {
+      saveStateForUndo();
+
+      for (let y = 0; y < canvasHeight; y++) {
+        for (let x = 0; x < canvasWidth; x++) {
+          pixelData[y][x] = 0;
+        }
+      }
+      redrawCanvas();
+    });
+
+    document.getElementById("resizeBtn").addEventListener('click', function () {
+      const newWidth = parseInt(document.getElementById("canvasWidth").value);
+      const newHeight = parseInt(document.getElementById("canvasHeight").value);
+
+      if (newWidth <= 0 || newHeight <= 0) {
+        alert("Width and height must be positive numbers!");
+        return;
+      }
+
+      saveStateForUndo();
+
+      const oldPixelData = pixelData;
+      const oldWidth = canvasWidth;
+      const oldHeight = canvasHeight;
+
+      canvasWidth = newWidth;
+      canvasHeight = newHeight;
+
+      pixelData = [];
+      for (let y = 0; y < canvasHeight; y++) {
+        pixelData[y] = [];
+        for (let x = 0; x < canvasWidth; x++) {
+          pixelData[y][x] = 0;
+        }
+      }
+
+      const copyWidth = Math.min(oldWidth, canvasWidth);
+      const copyHeight = Math.min(oldHeight, canvasHeight);
+
+      for (let y = 0; y < copyHeight; y++) {
+        for (let x = 0; x < copyWidth; x++) {
+          pixelData[y][x] = oldPixelData[y][x];
+        }
+      }
+
+      canvas.width = canvasWidth * pixelScale;
+      canvas.height = canvasHeight * pixelScale;
+      redrawCanvas();
+
+      document.getElementById("canvasWrapper").scrollTop = canvas.height;
+    });
+
+    function generateVariableName(index) {
+      let result = '';
+      let num = index + 1;
+
+      while (num > 0) {
+        num--;
+        result = String.fromCharCode(65 + (num % 26)) + result;
+        num = Math.floor(num / 26);
+      }
+
+      return result;
+    }
+
+    document.getElementById("exportBtn").addEventListener('click', function () {
+      let flatPixels = [];
+      for (let y = 0; y < canvasHeight; y++) {
+        for (let x = 0; x < canvasWidth; x++) {
+          flatPixels.push(pixelData[y][x]);
+        }
+      }
+
+      const hasTransparentPixels = flatPixels.includes(0);
+
+      let usedColors = flatPixels.filter(colorIndex => colorIndex !== 0);
+      usedColors = Array.from(new Set(usedColors));
+      usedColors.sort((a, b) => a - b);
+
+      let colorVariables = {};
+      let variableIndex = 0;
+
+      if (hasTransparentPixels) {
+        colorVariables[0] = "A";
+        variableIndex = 1;
+      }
+
+      usedColors.forEach(colorIndex => {
+        const varName = generateVariableName(variableIndex);
+        colorVariables[colorIndex] = varName;
+        variableIndex++;
+      });
+
+      let luaCode = "";
+
+      Object.entries(colorVariables).forEach(([colorIndex, varName]) => {
+        const hexValue = parseInt(colorIndex).toString(16).padStart(2, '0').toUpperCase();
+        luaCode += `local ${varName} = 0x${hexValue}\n`;
+      });
+
+      luaCode += "\n";
+      luaCode += "local colors = {\n";
+
+      for (let y = 0; y < canvasHeight; y++) {
+        luaCode += "  ";
+        const rowValues = [];
+        for (let x = 0; x < canvasWidth; x++) {
+          rowValues.push(colorVariables[pixelData[y][x]]);
+        }
+        luaCode += rowValues.join(",");
+        luaCode += ",\n";
+      }
+
+      luaCode += "}";
+
+      document.getElementById("luaOutput").textContent = luaCode;
+    });
+
+    document.getElementById("copyBtn").addEventListener('click', function () {
+      const luaText = document.getElementById("luaOutput").textContent;
+
+      if (luaText.trim() === '') {
+        alert("Nothing to copy! Generate Lua code first.");
+        return;
+      }
+
+      navigator.clipboard.writeText(luaText).then(function () {
+        alert("Lua code copied to clipboard successfully!");
+      }).catch(function (err) {
+        console.error('Failed to copy text: ', err);
+        alert("Failed to copy to clipboard. Try selecting the text manually.");
+      });
+    });
+
+    window.addEventListener("keydown", function (e) {
+      if (e.ctrlKey && !e.shiftKey && e.key.toLowerCase() === 'z') {
+        e.preventDefault();
+        performUndo();
+      }
+
+      if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'z') {
+        e.preventDefault();
+        performRedo();
+      }
+
+      if (e.ctrlKey && e.key.toLowerCase() === 'y') {
+        e.preventDefault();
+        performRedo();
+      }
+    });
+
+    redrawCanvas();
+  </script>
+</body>
+
+</html>
