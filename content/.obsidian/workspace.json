@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collectables/Cauldron.md",
-                "mode": "preview",
+                "file": "Bosses/RIEL.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cauldron"
+              "title": "RIEL"
             }
           }
         ]
@@ -182,9 +182,9 @@
   },
   "active": "085fdde3e083b67b",
   "lastOpenFiles": [
+    "Collectables/Cauldron.md",
     "Bosses/RIEL.md",
     "Old Wiki/Riel.md",
-    "Collectables/Cauldron.md",
     "Components/Regular Components/Components.md",
     "Badges/winner.md",
     "Badges/Pressing matter.md",
