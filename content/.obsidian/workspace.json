@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bosses/RIEL.md",
+                "file": "Collectables/List of Collectibles.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "RIEL"
+              "title": "List of Collectibles"
             }
           }
         ]
@@ -182,13 +182,19 @@
   },
   "active": "085fdde3e083b67b",
   "lastOpenFiles": [
+    "Bosses/index.md",
+    "Bosses/Cart God.md",
     "Collectables/Cauldron.md",
+    "Components/Regular Components/Components.md",
+    "Collectables/List of Collectibles.md",
+    "Collectables/Untitled.base",
+    "Collectables/Water Cooler.md",
+    "Collectables/QROT Hunting Trophy.md",
+    "Collectables/Pickle Jar.md",
     "Bosses/RIEL.md",
     "Old Wiki/Riel.md",
-    "Components/Regular Components/Components.md",
     "Badges/winner.md",
     "Badges/Pressing matter.md",
-    "Bosses/Cart God.md",
     "Badges/HALF WAY!!!!!.md",
     "Badges/Finality.md",
     "Badges/Glory.md",
@@ -202,14 +208,9 @@
     "Collectibles/Cauldron.md",
     "Bosses/QROT.md",
     "Collectibles/Water Cooler.md",
-    "Bosses/index.md",
     "Components/Regular Components/Balloon.md",
     "Components/index.md",
     "Contraptions/One Way Sequencer.md",
-    "Contraptions/index.md",
-    "Components/Alien Technology/Worldspike.md",
-    "Components/Alien Technology/Transporter.md",
-    "Components/Alien Technology/Tractor Beam.md",
     "Components/Alien Technology",
     "Miscellaneous",
     "Gamepasses",
@@ -219,7 +220,6 @@
     "Collectables",
     "Bosses/Boss Hub Weapons",
     "Bosses",
-    "Badges",
     "Attachments/inputreceiver.png",
     "Attachments/inputreceiver 1.png",
     "Attachments/centrifuge.gif",
