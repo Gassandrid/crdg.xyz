@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ad4ed9075d33109b",
+        "id": "39e4c32484858bdd",
         "type": "tabs",
         "children": [
           {
-            "id": "085fdde3e083b67b",
+            "id": "44178044b26b55c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Collectables/List of Collectibles.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -180,17 +180,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "085fdde3e083b67b",
+  "active": "44178044b26b55c4",
   "lastOpenFiles": [
-    "Bosses/index.md",
-    "Bosses/Cart God.md",
-    "Collectables/Cauldron.md",
-    "Components/Regular Components/Components.md",
-    "Collectables/List of Collectibles.md",
-    "Collectables/Untitled.base",
     "Collectables/Water Cooler.md",
+    "Collectables/List of Collectibles.md",
+    "Hunting Trophy.md",
     "Collectables/QROT Hunting Trophy.md",
     "Collectables/Pickle Jar.md",
+    "Collectables/Cauldron.md",
+    "Bosses/index.md",
+    "Bosses/Cart God.md",
+    "Components/Regular Components/Components.md",
+    "Collectables/Untitled.base",
     "Bosses/RIEL.md",
     "Old Wiki/Riel.md",
     "Badges/winner.md",
@@ -210,7 +211,6 @@
     "Collectibles/Water Cooler.md",
     "Components/Regular Components/Balloon.md",
     "Components/index.md",
-    "Contraptions/One Way Sequencer.md",
     "Components/Alien Technology",
     "Miscellaneous",
     "Gamepasses",
