@@ -5,7 +5,7 @@ tags: [templates]
 
 This is a new **work in progress** project to create a real, complete wiki for the game.
 
-If you would like to contribute, please go over to the "Tutorials" tab on the Explorer and start with [[How to make a pull request]]. If you're above the legal age in your country, the CRDG Discord server is available for help and other things at https://discord.gg/McECseE4aD, and the discord server focused on the wiki can be found at https://discord.gg/DrvumChdZe.
+If you would like to contribute, please go over to the "Tutorials" tab on the Explorer and start with [[How to make a pull request]]. If you're above the legal age in your country, the CRDG Discord server is available for help and other things at https://discord.gg/McECseE4aD, and the Discord server focused on the wiki can be found at https://discord.gg/DrvumChdZe.
 
 ---
 
