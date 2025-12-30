@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ad4ed9075d33109b",
+        "id": "39e4c32484858bdd",
         "type": "tabs",
         "children": [
           {
-            "id": "085fdde3e083b67b",
+            "id": "44178044b26b55c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collectables/Cauldron.md",
+                "file": "Collectables/List of Collectibles.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cauldron"
+              "title": "List of Collectibles"
             }
           }
         ]
@@ -180,15 +180,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "085fdde3e083b67b",
+  "active": "44178044b26b55c4",
   "lastOpenFiles": [
+    "Collectables/Water Cooler.md",
+    "Collectables/List of Collectibles.md",
+    "Hunting Trophy.md",
+    "Collectables/QROT Hunting Trophy.md",
+    "Collectables/Pickle Jar.md",
+    "Collectables/Cauldron.md",
+    "Bosses/index.md",
+    "Bosses/Cart God.md",
+    "Components/Regular Components/Components.md",
+    "Collectables/Untitled.base",
     "Bosses/RIEL.md",
     "Old Wiki/Riel.md",
-    "Collectables/Cauldron.md",
-    "Components/Regular Components/Components.md",
     "Badges/winner.md",
     "Badges/Pressing matter.md",
-    "Bosses/Cart God.md",
     "Badges/HALF WAY!!!!!.md",
     "Badges/Finality.md",
     "Badges/Glory.md",
@@ -202,14 +209,8 @@
     "Collectibles/Cauldron.md",
     "Bosses/QROT.md",
     "Collectibles/Water Cooler.md",
-    "Bosses/index.md",
     "Components/Regular Components/Balloon.md",
     "Components/index.md",
-    "Contraptions/One Way Sequencer.md",
-    "Contraptions/index.md",
-    "Components/Alien Technology/Worldspike.md",
-    "Components/Alien Technology/Transporter.md",
-    "Components/Alien Technology/Tractor Beam.md",
     "Components/Alien Technology",
     "Miscellaneous",
     "Gamepasses",
@@ -219,7 +220,6 @@
     "Collectables",
     "Bosses/Boss Hub Weapons",
     "Bosses",
-    "Badges",
     "Attachments/inputreceiver.png",
     "Attachments/inputreceiver 1.png",
     "Attachments/centrifuge.gif",

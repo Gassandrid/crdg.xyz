@@ -58,16 +58,14 @@ Much of the time spent fighting Riel will be dedicated solely to dodging its att
 
 Spend the first few iterations of your fight honing your dodging skills. If you can't dodge every single attack, that's fine - focus on dodging the insta-kill moves first, and tank some hits from the continuous-damage moves if you need to. Don't stand still during the fight: just moving out of range can eliminate the need to roll out of a Ground Slam, buying you time to get some hits in.
 
-Try to hit more than one of Riel's body parts with one hit because each one does a tick of damage. You can do exactly two hits after the Homing Orbs attack, two hits after the Stomp, and two hits after the Ground Slam. This means you can (safely) land about 8 hits per attack cycle. (Old Wiki Info)
+Try to hit more than one of Riel's body parts with one hit because each one does a tick of damage. You can do exactly two hits after the Homing Orbs attack, two hits after the Stomp, and two hits after the Ground Slam. This means you can (safely) land about 8 hits per attack cycle. 
 
-> [!info] Uh oh! Missing Information!
-> "Please add more strategy regarding hit timing! I haven't defeated Riel yet!"
-> \- CactusHand
+Beating Riel is all about maintaining your rhythm. Anything that might break your focus can lead to death; so minimize distractions, and change your game settings. I set my camera sensitivity to be extremely high (2.6) to maximize the amount of times I could spin before lifting my mouse to readjust. Much of Riel's attacks are too quick to spontaneously react to - therefore, you need to predict the attacks before they show any signs. The best way to do this is by sticking to a specific rhythm, like `Q-Q-Q-Q-hit-hit-Q-Q-hit-hit-Q-Q-hit-hit-Q-hit` and repeat. Do whatever makes you comfortable. Don't wait for the opponent to make its move, or you'll be on the chopping block.
 
 ## Cheese Strategies
 While it is *possible* to cheat, it is not often practical...
 
-Using a well-timed macro to dodge for you seems to be an excellent strategy in theory. However, in practice, it becomes meaningless if the server lags behind even slightly: your perfect dodging streak, now stained by DEATH. Unless someone can create a macro that dodges based on Riel's visual cues, or has godlike ping, it is not feasible to macro against Riel's repetitive moveset.
+Using a well-timed macro to dodge for you seems to be an excellent strategy in theory. However, in practice, it becomes meaningless if the server lags behind even slightly: your perfect dodging streak, now stained by DEATH.
 
 When carrying a friend, you can tell them to climb the arches of the door from the inside the boss room, and Riel wont be able to teleport to them. Rather, it will teleport *below* them in the doorway. This way, you don't have to worry about who's being targeted. Keep in mind, however... the carried player is still not immune to homing orb attacks: they will still need to dodge and pay attention to Riel's attack pattern in order to survive.
 
