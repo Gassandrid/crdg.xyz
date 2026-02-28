@@ -1,4 +1,4 @@
-NOTE: A lot of information is missing!!! Please add the missing pictures, variants, and collectibles! Also, some collectibles may be in the wrong categories. Tell us everything in the [wiki-server](https://discord.gg/DrvumChdZe)!
+NOTE: A lot of informations is missing!!! Please add the missing pictures, variants, and collectibles! Also, some collectibles may be in the wrong categories. Tell us everything in the [wiki-server](https://discord.gg/DrvumChdZe)!
 > [!example]- Blimp Purchase
 > > Name | Variants | Image
 > > -- | -- | --
