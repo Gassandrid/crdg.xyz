@@ -1,5 +1,5 @@
 <div>  
-<script src="/three-runtime.js"></script>  
+<script src="/load-3d-scenes.js"></script>  
 </div>
 ```3D-scene
 {
