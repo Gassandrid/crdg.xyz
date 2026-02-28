@@ -1,4 +1,5 @@
 
+<script type="module" src="/three-runtime.js"></script>
 ```3D-scene
 {
   "models": [
