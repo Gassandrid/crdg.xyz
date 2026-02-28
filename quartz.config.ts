@@ -1,4 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
+import { ThreeDScene } from "./quartz/plugins/ThreeDScene"
 import * as Plugin from "./quartz/plugins"
 
 /**
@@ -57,6 +58,7 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
+      ThreeDScene(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
