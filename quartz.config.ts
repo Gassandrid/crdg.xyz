@@ -1,6 +1,4 @@
 import { QuartzConfig } from "./quartz/cfg"
-import "./quartz/public/load-3d-scenes.ts"
-import "./quartz/scripts/three-runtime.js"
 import { ThreeDScene } from "./quartz/plugins/ThreeDScene"
 import * as Plugin from "./quartz/plugins"
 
