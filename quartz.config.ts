@@ -1,4 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
+import "./scripts/load-3d-scenes"
 import { ThreeDScene } from "./quartz/plugins/ThreeDScene"
 import * as Plugin from "./quartz/plugins"
 
