@@ -40,3 +40,5 @@
 
 ---
 Vacuum was added on 2nd of October 2025
+It was a janitor exclusive item. It was later removed.
+<img width="621" height="435" alt="image" src="https://github.com/user-attachments/assets/6b93d694-3c2a-4b09-96aa-4910e40953bb" />
