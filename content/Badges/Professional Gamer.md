@@ -26,8 +26,8 @@
 > 
 > | Type | Bonus |
 > | --- | --- |
-> | **Requirements** | - None! |
-> | **Reward(s)** | - None. (currently) |
+> | **Requirements** | - Super Hubert Man collectible and any CRT TV collectible. |
+> | **Reward(s)** | - Golden Hubert Blabibo collectible, Hubert Vinyl Record, and hubert emote. |
 
 **Professional Gamer** is a badge added on August 17th, 2025 during the Big Blimp Update along with another badge, the [[Enlightning Experience]] badge. It is obtained by completing Super Hubert game using TV. There is currently no award.
 
