@@ -77,7 +77,7 @@ Anvil recipes:
 **Green Goblin Pumpkin Bomb**
 >`Pumpkin + Uranium Rod + Jerry Can`
 
-**2 weird alien balls???** `not sure what they do`
+**2 weird alien balls???** (not sure what they do)
 >`Wireless Signaler + Pointer`
 
 **Nuclear Bomb**
