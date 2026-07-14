@@ -11,14 +11,14 @@
 > 
 > ### Gamepass info
 > 
-> | Cost | Off Sale (Previous 600) |
+> | Cost | 600 |
 > | --- | --- |
 > | Gives | Manifests invenotry |
 
-Gives player Miracle of manifestation, which allows them to see, spawn and store [[content/Features/Manifests|Manifests]]. The supply of given items is limited, but can be increased by growing trees, either in public servers, or private servers.
+Gives player Miracle of manifestation, which allows them to see, spawn and store [[content/Features/Manifests|Manifests]]. The supply of given items is limited, but can be increased by growing trees, or fishing, either in public servers, or private servers.
 
 > [!Info] 
-> This game pass is only avaliable during black friday sale! Active from November 29 till December 3rd
+> This gamepass is currently 600 robux and USED to be only avaible during black friday but it is avaible at any time now
 
 ---
 
