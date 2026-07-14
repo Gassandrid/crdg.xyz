@@ -55,7 +55,7 @@
 > | --- | --- |
 > | **Usage** | - left click to lick  |
 
-i dont know how to obtain ice cream as of now, WIP.
+Ice Cream is obtained at cathedral on the first left side rail, WIP.
 
 ---
 
