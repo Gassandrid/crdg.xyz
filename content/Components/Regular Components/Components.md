@@ -58,6 +58,14 @@ Components are the primary in game objects that can be used for building with [[
 
 [[Tripwire]]
 
+[[Air Compressor]]
+
+[[Fuse]]
+
+[[Dart Shooter]]
+
+[[Component Factory]]
+
 ### Manifest Components
 
 [[Diode]]
