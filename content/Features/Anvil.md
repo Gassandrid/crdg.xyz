@@ -55,3 +55,30 @@ Anvil recipes:
 
 **Diamond Drill**
 > `diamond + drill`
+
+**HE Cannon Shell**
+> `Jerry Can + Straight Pipe`
+
+**AP Cannon Shell**
+> `Jerry can + Straight pipe + Gun`
+
+**Sawblade**
+> `Bearing + Sharpening Stone (found in gas station side room)`
+
+**Duck rod** (not sure if this is true)
+> `Fished Duck + Fishing rod`
+
+**Sniper Rifle**
+> `Gun + Dart Shooter + Lens`
+
+**Sniper Rifle w/ Bayonet**
+>`Gun + Dart Shooter + Lens + Fished Machette`
+
+**Green Goblin Pumpkin Bomb**
+>`Pumpkin + Uranium Rod + Jerry Can`
+
+**2 weird alien balls???** `not sure what they do`
+>`Wireless Signaler + Pointer`
+
+**Nuclear Bomb**
+>`2 Speakers, 4 Uranium, 2 Propellant 1 Ball of Oobletonium, 3 Metal Center Pieces of Decoupler, 1 Jerry Can`
