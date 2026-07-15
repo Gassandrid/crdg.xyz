@@ -1,3 +1,14 @@
+
+<div style="display:flex;align-items:center;margin:1em 0;">
+  <div style="color:#b2b7f2;font-size:3.3em;font-family:serif;font-weight:bold;line-height:.8;padding:4px 6px;">“</div>
+  <blockquote style="margin:0;font-style:italic;flex:1;text-align:center;background:none;border:none;padding:0;">
+	Profits Increase
+  </blockquote>
+  <div style="color:#b2b7f2;font-size:3.3em;font-family:serif;font-weight:bold;line-height:.8;padding:4px 6px;">„</div>
+</div>
+<div style="text-align:right;margin-top:.25em;">
+  <small>— Description of the <b> Cutting Costs </b> badge.</small>
+</div>
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -40,19 +51,22 @@
 
 > [!infobox|n-th]
 > 
-> ## Transporter
+> ## Cutting Costs
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > ![[Pasted image 20250829175859.png|center]]
+> > ![[Cutting Costs badge icon.png]]
 > > 
+> > Badge icon
 > > 
 > 
-> ### Component Info
+> ### Badge Info
 > 
-> | Type | Alien Technology |
+> | Type | Secret |
 > | --- | --- |
-> | **Usage** | If 2 or more of these exist on the map, when one is activated it will teleport to another. |
-> | **Date Added** | November 28th, 2024 |
+> | **Requirements** | - 7 badges in total |
+> | **Reward(s)** | - Chimp Friend <br>- Spray Bottle |
 
-![[Pasted image 20250829175859.png]]
+The Cutting Costs badge is obtained by first achieving 7 badges, then going to [[Cart_Dealership]], opening the door inside of the room past the gate, and placing a [[Rusty_Battery]] (Or the premium battery) to power it and fueling it with a drill outside converted into [[Diesel]] with a campfire. When it has power and fuel you need to go up to gas station, put the [[Money]] into the vending machine, and plant the seed it gives. Then wait till it grows and drops bamboo pulps, 1 you can take over to cart dealership, put in the Part of the powered machine that looks like a shredder, then you grab a trey out of the box in the corner and put it Infront of the [[Rusty_Battery]], then turn it on and wait for the liquified pulp to come out. After that you bring it outside of the gate room and into the sun for it to dry and wait a while, when it is dry it will be a white paper, you paint it green with the [[Spray_paint]], bring it up to [[Gas Station]], and put it in the vending machine.
+
+WIP Page, please add onto this if you can
