@@ -212,4 +212,6 @@ As for other rods, im not sure what each one is
 
 The first number (e.g. 360 in run autofish.lua 360) is the time it takes to catch a fish
 The second number is how long the failsafe lasts for
-The third number is how many times it casts i think 0 is inf idk i didnt make this
+The third number is how many times it casts I think 0 is inf idk I didn't make this
+
+The tutorial is on youtube. **[https://www.youtube.com/watch?v=19V1ShAZliA&](https://www.youtube.com/watch?v=19V1ShAZliA&t=11s)**
