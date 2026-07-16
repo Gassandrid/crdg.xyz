@@ -62,6 +62,12 @@ Anvil recipes:
 **AP Cannon Shell**
 > `Jerry can + Straight pipe + Gun`
 
+**Gas Cannon Shell**
+>`Jerry Can + Straight Pipe + Condensed Gas Water Balloon`
+
+**Firework Shell**
+>`Jerry Can + Straight Pipe + Firework`
+
 **Sawblade**
 > `Bearing + Sharpening Stone (found in gas station side room)`
 
