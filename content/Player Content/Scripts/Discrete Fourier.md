@@ -113,7 +113,7 @@ end
 
 ---
 
-## More Infor
+## More Info
 
 Displays visual frequency stuff 
 
