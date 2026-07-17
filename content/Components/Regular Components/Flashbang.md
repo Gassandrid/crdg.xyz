@@ -40,3 +40,4 @@ tags: [todo]
         </div>
     </div>
 </div>
+Flashbang is a component that destroys itself upon use, blinding surrounding players and muting all game audio except for a ringing sound.
