@@ -89,6 +89,24 @@ body:has(.wiki-editor-dialog[open]) {
   }
 }
 
+.wiki-editor-header {
+  grid-row: 1;
+}
+
+.wiki-editor-notice {
+  grid-row: 2;
+}
+
+.wiki-editor-workspace,
+.wiki-editor-review,
+.wiki-editor-success {
+  grid-row: 3;
+}
+
+.wiki-editor-footer {
+  grid-row: 4;
+}
+
 .wiki-editor-header,
 .wiki-editor-footer {
   display: flex;
