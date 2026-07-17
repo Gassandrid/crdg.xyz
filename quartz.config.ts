@@ -20,7 +20,6 @@ const config: QuartzConfig = {
     baseUrl: "crdg.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
-    generateSocialImages: true,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,

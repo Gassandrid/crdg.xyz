@@ -17,6 +17,10 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
+    "editor:dev": "wrangler dev --config worker/wrangler.jsonc --var ENVIRONMENT:development",
+    "editor:test": "node --import tsx --test worker/**/*.test.ts",
+    "editor:deploy": "wrangler deploy --config worker/wrangler.jsonc",
+    "editor:check": "wrangler deploy --dry-run --config worker/wrangler.jsonc",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
   "engines": {
@@ -36,11 +40,11 @@
   },
   "dependencies": {
     "@clack/prompts": "^1.6.0",
-    "@webgpu/types": "^0.1.71",
     "@floating-ui/dom": "^1.7.6",
     "@myriaddreamin/rehype-typst": "^0.7.0",
     "@napi-rs/simple-git": "1.0.0",
     "@tweenjs/tween.js": "^25.0.0",
+    "@webgpu/types": "^0.1.71",
     "ansi-truncate": "^1.4.0",
     "async-mutex": "^0.5.0",
     "chokidar": "^5.0.0",
@@ -110,6 +114,7 @@
     "esbuild": "^0.28.1",
     "prettier": "^3.9.3",
     "tsx": "^4.22.4",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "wrangler": "^4.109.0"
   }
 }

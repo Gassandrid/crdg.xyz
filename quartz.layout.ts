@@ -38,6 +38,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
+    Component.WikiEditor(),
     Component.TagList(),
   ],
   left: [

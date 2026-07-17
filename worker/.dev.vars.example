@@ -1,0 +1,4 @@
+# Copy to worker/.dev.vars for local development. Cloudflare publishes these test keys.
+GITHUB_TOKEN="a fine-grained token for the Gassandrid/crdg.xyz test target"
+TURNSTILE_SECRET_KEY="1x0000000000000000000000000000000AA"
+ENVIRONMENT="development"

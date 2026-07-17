@@ -10,5 +10,6 @@ private/
 replit.nix
 workspace.json
 content/.obsidian/workspace.json
+worker/.dev.vars
 
 /content/Computing/spritepainter.html
