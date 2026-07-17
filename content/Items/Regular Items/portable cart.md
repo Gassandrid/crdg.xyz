@@ -1,0 +1,1 @@
+The portable cart is an item you get from the [[content/Gamepasses/portable cart|portable cart]] gamepass. too lazy to add anything else to this page rn lwk cuz im a bum
