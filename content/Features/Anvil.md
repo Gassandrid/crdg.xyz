@@ -68,6 +68,9 @@ Anvil recipes:
 **Firework Shell**
 >`Jerry Can + Straight Pipe + Firework`
 
+**Tracer Shell**
+>`Jerry Can + Straight Pipe + Flashbang`
+
 **Sawblade**
 > `Bearing + Sharpening Stone (found in gas station side room)`
 
