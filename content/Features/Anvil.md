@@ -89,5 +89,8 @@ Anvil recipes:
 **2 weird alien balls???** (not sure what they do)
 >`Wireless Signaler + Pointer`
 
+**Diamond Gyro**
+>`Diamond + Gyro (teeth at cath)`
+
 **Nuclear Bomb**
 >`2 Speakers, 4 Uranium, 2 Propellant 1 Ball of Oobletonium, 3 Metal Center Pieces of Decoupler, 1 Jerry Can`
