@@ -2,7 +2,7 @@
 > This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
 
 The knife trap is a trap put in the [[Gas Station|Gas Station]] to impede players
-attempting to get to the [[Seeker|Seeker]]. It
+attempting to get to the seeking eye. It
 appears to be a knife taped to a crutch, with a small tripwire on the
 bottom. It is well concealed unless you look at it from the other side,
 where it is very obvious.
