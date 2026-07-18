@@ -10,3 +10,5 @@ dievy won\n
 rlnd won "
 ![Uploading image.png…]()
 Item
+
+dont forget the number lock incident
