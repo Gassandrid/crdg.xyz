@@ -305,16 +305,17 @@ server deaf until they rejoin the server.
 
 ## Fish Attributes
 
-| ![[BabyBass.png]]       | This attribute<br>Halves the size<br>of the fish it is<br>applied on.                                                                        | Baby Attribute                           |
+| ![[BabyBass.png]]  | This attribute <br>Halves the size <br>of the fish it is <br>applied on.                                                                        | Baby Attribute                           |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| ![[GargantuanBass.png]] | **This attribute**<br>**Doubles the size**<br>**of the fish it is**<br>**applied on.**                                                       | **Gargantuan**                           |
-| ![[Green Bass.png]]     | **This attribute** <br>**Turns the** <br>**fish it is applied**<br>**on a bright <br>green color**                                           | **Green**                                |
-| ![[LengthyBass.png]]    | **This attribute** <br>**Doubles the**<br>**length of the** <br>**fish it is applied**<br>**on**                                             | **Lengthy**                              |
-| ![[StubbyBass.png]]     | **This attribute** <br>**Halves the**<br>**length of the** <br>**fish it is applied**<br>**on**                                              | **Stubby**                               |
-| ![[WideBass.png]]       | **This attribute** <br>**Doubles the**<br>**Width of the** <br>**fish it is applied**<br>**on**                                              | **Wide**                                 |
-| ![[TallBass.png]]       | **This attribute** <br>**Doubles the**<br>**Height of the** <br>**fish it is applied**<br>**on**                                             | **Tall**                                 |
-| ![[golden bass.png]]    | **This attribute** <br>**Turns the** <br>**fish it is applied**<br>**on solid gold**                                                         | **Golden**                               |
-| ![[GhostBass.png]]      | **This attribute** <br>**Turns the** <br>**fish it is applied**<br>**on into a ghost,**<br>**making it translucent**<br>**and low gravity.** | **Ghostly** *(October Exclusive)*        |
-| ![[HolyCarp.png]]       | **This attribute** <br>**Turns the** <br>**fish it is applied**<br>**on a white neon color**                                                 | **Holy** *(Carp And Mackerel Exclusive)* |
-| <br>                    | **This attribute**<br>**encases the fish**<br>**its applied on**<br>**in a solid block**<br>**of ice**                                       | **Frozen** *(Winter Exclusive)*          |
+| ![[GargantuanBass.png]] | **This attribute** <br>**Doubles the size** <br>**of the fish it is** <br>**applied on.**                                                       | **Gargantuan**                           |
+| ![[Green Bass.png]]     | **This attribute** <br>**Turns the** <br>**fish it is applied** <br>**on a bright <br>green color**                                           | **Green**                                |
+| ![[LengthyBass.png]]    | **This attribute** <br>**Doubles the** <br>**length of the** <br>**fish it is applied** <br>**on**                                             | **Lengthy**                              |
+| ![[StubbyBass.png]]     | **This attribute** <br>**Halves the** <br>**length of the** <br>**fish it is applied** <br> **on**                                              | **Stubby**                               |
+| ![[WideBass.png]]       | **This attribute** <br>**Doubles the** <br>**Width of the** <br>**fish it is applied** <br>**on**                                              | **Wide**                                 |
+| ![[TallBass.png]]       | **This attribute** <br>**Doubles the** <br>**Height of the** <br>**fish it is applied** <br>**on**                                             | **Tall**                                 |
+| ![[golden bass.png]]    | **This attribute** <br>**Turns the** <br>**fish it is applied** <br>**on solid gold.**                                                         | **Golden**                               |
+| ![[GhostBass.png]]      | **This attribute** <br>**Turns the** <br>**fish it is applied** <br>**on into a ghost,** <br>**making it translucent** <br>**and low gravity.** | **Ghostly** *(October Exclusive)*        |
+| ![[HolyCarp.png]]       | **This attribute** <br>**Turns the** <br>**fish it is applied** <br>**on a white neon color.**                                                 | **Holy** *(Carp And Mackerel Exclusive)* |
+| ![[wiki-1784413736257-5fb5b3ab-FrozenBass.webp]]                  | **This attribute** <br>**encases the fish** <br>**its applied on** <br>**in a solid block**<br> **of ice.**                                       | **Frozen** *(Winter Exclusive)*          |
 |                         |                                                                                                                                              |                                          |
+
