@@ -28,9 +28,11 @@ function response(body: unknown, status = 200): Response {
 
 function submission(images: File[] = []): WikiSubmission {
   return {
+    operation: "edit",
     pagePath: "content/Items/Test Page.md",
     pageTitle: "Test Page",
     baseSha: "a".repeat(40),
+    lineEnding: "lf",
     content: `## Updated\n\nNew facts.${images.map((image) => `\n\n![[${image.name}]]`).join("")}`,
     summary: "Corrected the item description.",
     contributor: "Example editor",
@@ -56,6 +58,20 @@ test("validates an edit and its referenced images", () => {
   assert.equal(parsed.pagePath, candidate.pagePath)
   assert.equal(parsed.images.length, 1)
   assert.equal(parsed.images[0].name, image.name)
+})
+
+test("restores the page line endings after multipart form normalization", () => {
+  const form = new FormData()
+  const candidate = submission()
+  Object.entries(candidate).forEach(([key, value]) => {
+    if (key !== "images") form.set(key, String(value))
+  })
+  form.set("content", "first\r\nsecond\r\n")
+  form.set("website", "")
+
+  assert.equal(validateSubmissionForm(form).content, "first\nsecond\n")
+  form.set("lineEnding", "crlf")
+  assert.equal(validateSubmissionForm(form).content, "first\r\nsecond\r\n")
 })
 
 test("rejects paths outside the public content tree", () => {
@@ -140,4 +156,39 @@ test("stops before creating objects when the published page is newer", async () 
       error instanceof ApiError && error.status === 409 && error.code === "stale_page",
   )
   assert.equal(queued.length, 0)
+})
+
+test("creates a new page only when its target path is unused", async () => {
+  const candidate = { ...submission(), operation: "create" as const, baseSha: "" }
+  const calls: string[] = []
+  const queued = [
+    response({ object: { sha: "base-commit" } }),
+    response({ message: "Not Found" }, 404),
+    response({ tree: { sha: "base-tree" } }),
+    response({ sha: "markdown-blob" }, 201),
+    response({ sha: "new-tree" }, 201),
+    response({ sha: "new-commit" }, 201),
+    response({ object: { sha: "new-commit" } }, 201),
+    response({ number: 43, html_url: "https://github.com/Gassandrid/crdg.xyz/pull/43" }, 201),
+  ]
+  const githubFetch = async (input: string | URL | Request) => {
+    calls.push(String(input))
+    return queued.shift()!
+  }
+
+  const pull = await createReviewPullRequest(env, candidate, githubFetch)
+  assert.equal(pull.number, 43)
+  assert.equal(queued.length, 0)
+  assert.ok(calls.some((url) => url.includes("/contents/content/Items/Test%20Page.md")))
+})
+
+test("rejects a new page when its target path already exists", async () => {
+  const candidate = { ...submission(), operation: "create" as const, baseSha: "" }
+  const queued = [response({ object: { sha: "base-commit" } }), response({ sha: "b".repeat(40) })]
+
+  await assert.rejects(
+    () => createReviewPullRequest(env, candidate, async () => queued.shift()!),
+    (error: unknown) =>
+      error instanceof ApiError && error.status === 409 && error.code === "page_exists",
+  )
 })

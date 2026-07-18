@@ -10,9 +10,11 @@ export interface Env {
 }
 
 export type WikiSubmission = {
+  operation: "edit" | "create"
   pagePath: string
   pageTitle: string
   baseSha: string
+  lineEnding: "lf" | "crlf"
   content: string
   summary: string
   contributor: string
@@ -131,10 +133,17 @@ function validImageName(name: string): boolean {
 }
 
 export function validateSubmissionForm(form: FormData): WikiSubmission {
+  const operationValue = form.get("operation")
+  const operation = typeof operationValue === "string" && operationValue ? operationValue : "edit"
   const pagePath = field(form, "pagePath")
   const pageTitle = cleanSingleLine(field(form, "pageTitle"), 120)
   const baseSha = field(form, "baseSha").trim().toLowerCase()
-  const content = field(form, "content")
+  const lineEndingValue = form.get("lineEnding")
+  // Default to LF so cached copies of the pre-fix editor remain compatible during deployment.
+  const lineEnding = typeof lineEndingValue === "string" && lineEndingValue ? lineEndingValue : "lf"
+  const rawContent = field(form, "content")
+  const content =
+    lineEnding === "crlf" ? rawContent.replace(/\r?\n/g, "\r\n") : rawContent.replace(/\r\n/g, "\n")
   const summary = cleanSingleLine(field(form, "summary"), 500)
   const contributor = cleanSingleLine(field(form, "contributor"), 80)
   const discord = cleanSingleLine(field(form, "discord"), 80)
@@ -143,8 +152,15 @@ export function validateSubmissionForm(form: FormData): WikiSubmission {
   const images = form.getAll("images").filter((entry): entry is File => entry instanceof File)
 
   if (honeypot !== "") throw new ApiError(400, "Submission rejected.")
+  if (operation !== "edit" && operation !== "create")
+    throw new ApiError(400, "The submission operation is invalid.")
   if (!validPagePath(pagePath)) throw new ApiError(400, "That wiki page cannot be edited.")
-  if (!/^[a-f0-9]{40}$/.test(baseSha)) throw new ApiError(400, "The page version is invalid.")
+  if (operation === "edit" && !/^[a-f0-9]{40}$/.test(baseSha))
+    throw new ApiError(400, "The page version is invalid.")
+  if (operation === "create" && baseSha !== "")
+    throw new ApiError(400, "A new page cannot have an existing page version.")
+  if (lineEnding !== "lf" && lineEnding !== "crlf")
+    throw new ApiError(400, "The page line endings are invalid.")
   if (!/^[a-f0-9-]{36}$/.test(submissionId))
     throw new ApiError(400, "The submission ID is invalid.")
   if (pageTitle.length === 0) throw new ApiError(400, "The page title is missing.")
@@ -179,9 +195,11 @@ export function validateSubmissionForm(form: FormData): WikiSubmission {
   }
 
   return {
+    operation,
     pagePath,
     pageTitle,
     baseSha,
+    lineEnding,
     content,
     summary,
     contributor,
@@ -288,6 +306,40 @@ async function githubRequest<T>(
   return (await response.json()) as T
 }
 
+async function githubContentAt(
+  env: Env,
+  pagePath: string,
+  ref: string,
+  githubFetch: GitHubFetch,
+): Promise<GitHubContent | undefined> {
+  const path = `/contents/${pagePath.split("/").map(encodeURIComponent).join("/")}?ref=${ref}`
+  const response = await githubFetch(
+    `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}${path}`,
+    {
+      headers: {
+        Accept: "application/vnd.github+json",
+        Authorization: `Bearer ${env.GITHUB_TOKEN}`,
+        "User-Agent": "crdg-wiki-community-editor",
+        "X-GitHub-Api-Version": "2026-03-10",
+      },
+    },
+  )
+  if (response.status === 404) return undefined
+  if (!response.ok) {
+    const upstream = await response.text()
+    console.error("GitHub content lookup failed", response.status, path, upstream.slice(0, 500))
+    if (response.status === 401 || response.status === 403) {
+      throw new ApiError(
+        503,
+        "The maintainer review queue is temporarily unavailable.",
+        "github_auth",
+      )
+    }
+    throw new ApiError(502, "GitHub could not check the wiki page.", "github_error")
+  }
+  return (await response.json()) as GitHubContent
+}
+
 function bytesToBase64(bytes: Uint8Array): string {
   let binary = ""
   const chunkSize = 0x8000
@@ -368,13 +420,15 @@ export async function createReviewPullRequest(
     githubFetch,
   )
   const headSha = baseRef.object.sha
-  const currentFile = await githubRequest<GitHubContent>(
-    env,
-    `/contents/${submission.pagePath.split("/").map(encodeURIComponent).join("/")}?ref=${headSha}`,
-    {},
-    githubFetch,
-  )
-  if (currentFile.sha !== submission.baseSha) {
+  const currentFile = await githubContentAt(env, submission.pagePath, headSha, githubFetch)
+  if (submission.operation === "create" && currentFile) {
+    throw new ApiError(
+      409,
+      "A wiki page already exists at that path. Choose another page path.",
+      "page_exists",
+    )
+  }
+  if (submission.operation === "edit" && currentFile?.sha !== submission.baseSha) {
     throw new ApiError(
       409,
       "This page changed while you were editing. Reload it and apply your change again.",
@@ -421,7 +475,7 @@ export async function createReviewPullRequest(
     {
       method: "POST",
       body: JSON.stringify({
-        message: `wiki: edit ${submission.pageTitle}`,
+        message: `wiki: ${submission.operation} ${submission.pageTitle}`,
         tree: tree.sha,
         parents: [headSha],
       }),
@@ -448,7 +502,7 @@ export async function createReviewPullRequest(
       {
         method: "POST",
         body: JSON.stringify({
-          title: `Wiki edit: ${submission.pageTitle}`,
+          title: `Wiki ${submission.operation}: ${submission.pageTitle}`,
           head: branch,
           base: env.GITHUB_BASE_BRANCH,
           body: pullRequestBody(submission),

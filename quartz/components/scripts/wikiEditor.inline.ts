@@ -1,4 +1,5 @@
 import { toHtml } from "hast-util-to-html"
+import yaml from "js-yaml"
 import remarkFrontmatter from "remark-frontmatter"
 import remarkGfm from "remark-gfm"
 import remarkParse from "remark-parse"
@@ -9,10 +10,21 @@ import { FilePath, slugifyFilePath } from "../../util/path"
 type EditorData = {
   apiEndpoint: string
   baseSha: string
+  lineEnding: "lf" | "crlf"
   pagePath: string
   pageTitle: string
   source: string
   turnstileSiteKey: string
+}
+
+type EditorMode = "edit" | "create"
+
+type FrontmatterValues = {
+  title?: unknown
+  tags?: unknown
+  aliases?: unknown
+  description?: unknown
+  [key: string]: unknown
 }
 
 type StoredAttachment = {
@@ -24,6 +36,9 @@ type StoredAttachment = {
 
 type StoredDraft = {
   baseSha: string
+  mode?: EditorMode
+  pagePath?: string
+  pageTitle?: string
   content: string
   summary: string
   contributor: string
@@ -307,6 +322,34 @@ function countWords(source: string): number {
   return source.trim() === "" ? 0 : source.trim().split(/\s+/u).length
 }
 
+function splitFrontmatter(source: string): { yaml: string; body: string } {
+  const match = source.match(/^---\n([\s\S]*?)\n---(?:\n|$)/)
+  if (!match) return { yaml: "", body: source }
+  return { yaml: match[1], body: source.slice(match[0].length) }
+}
+
+function joinFrontmatter(frontmatter: string, body: string): string {
+  const normalized = frontmatter.replace(/^\n+|\n+$/g, "")
+  return normalized ? `---\n${normalized}\n---\n${body.replace(/^\n*/, "\n")}` : body
+}
+
+function parseFrontmatter(source: string): FrontmatterValues {
+  const parsed = yaml.load(splitFrontmatter(source).yaml, { schema: yaml.JSON_SCHEMA })
+  return parsed && typeof parsed === "object" && !Array.isArray(parsed)
+    ? (parsed as FrontmatterValues)
+    : {}
+}
+
+function stringList(value: unknown): string {
+  if (Array.isArray(value)) return value.map(String).join(", ")
+  return value == null ? "" : String(value)
+}
+
+function cleanPagePath(value: string): string {
+  const relative = value.trim().replace(/^\/+|^content\//i, "")
+  return `content/${relative}`
+}
+
 function imageExtension(type: string): string {
   const extensions: Record<string, string> = {
     "image/png": ".png",
@@ -372,6 +415,19 @@ function initializeEditor(root: HTMLElement): void {
   const submitButton = requiredElement<HTMLButtonElement>(dialog, "[data-review-submit]")
   const submitLabel = requiredElement<HTMLElement>(dialog, "[data-submit-label]")
   const submitSpinner = requiredElement<HTMLElement>(dialog, "[data-submit-spinner]")
+  const editorHeading = requiredElement<HTMLElement>(dialog, "[data-editor-heading]")
+  const frontmatterPanel = requiredElement<HTMLElement>(dialog, "[data-frontmatter-panel]")
+  const frontmatterTitle = requiredElement<HTMLInputElement>(dialog, "[data-frontmatter-title]")
+  const frontmatterTags = requiredElement<HTMLInputElement>(dialog, "[data-frontmatter-tags]")
+  const frontmatterAliases = requiredElement<HTMLInputElement>(dialog, "[data-frontmatter-aliases]")
+  const frontmatterDescription = requiredElement<HTMLTextAreaElement>(
+    dialog,
+    "[data-frontmatter-description]",
+  )
+  const frontmatterYaml = requiredElement<HTMLTextAreaElement>(dialog, "[data-frontmatter-yaml]")
+  const pagePath = requiredElement<HTMLInputElement>(dialog, "[data-page-path]")
+  const pagePathField = requiredElement<HTMLElement>(dialog, "[data-page-path-field]")
+  const reviewPage = requiredElement<HTMLElement>(dialog, "[data-review-page]")
 
   const attachments = new Map<string, File>()
   const attachmentUrls = new Map<string, string>()
@@ -381,8 +437,55 @@ function initializeEditor(root: HTMLElement): void {
   let turnstileWidget: string | undefined
   let turnstileToken = ""
   let submitted = false
+  let mode: EditorMode = "edit"
+  let activeBaseSha = data.baseSha
+  let activeLineEnding: "lf" | "crlf" = data.lineEnding
+  let currentPagePath = data.pagePath
+  let currentPageTitle = data.pageTitle
+  let syncingFrontmatter = false
 
   source.value = data.source
+
+  const updateFrontmatterFields = () => {
+    if (syncingFrontmatter) return
+    syncingFrontmatter = true
+    try {
+      const parts = splitFrontmatter(source.value)
+      frontmatterYaml.value = parts.yaml
+      const values = parseFrontmatter(source.value)
+      frontmatterTitle.value = values.title == null ? currentPageTitle : String(values.title)
+      frontmatterTags.value = stringList(values.tags)
+      frontmatterAliases.value = stringList(values.aliases)
+      frontmatterDescription.value = values.description == null ? "" : String(values.description)
+    } catch {
+      // Keep the last valid structured values while raw YAML is being corrected.
+    } finally {
+      syncingFrontmatter = false
+    }
+  }
+
+  const updateFrontmatter = (key: string, value: string | string[]) => {
+    if (syncingFrontmatter) return
+    try {
+      const parts = splitFrontmatter(source.value)
+      const values = parseFrontmatter(source.value)
+      if (Array.isArray(value) ? value.length === 0 : value.trim() === "") delete values[key]
+      else values[key] = value
+      const rendered = yaml.dump(values, { lineWidth: -1, noRefs: true, sortKeys: false }).trimEnd()
+      source.value = joinFrontmatter(rendered, parts.body)
+      frontmatterYaml.value = rendered
+      if (key === "title" && typeof value === "string" && value.trim()) {
+        currentPageTitle = value.trim()
+        editorHeading.textContent = `${mode === "create" ? "Create" : "Edit"} ${currentPageTitle}`
+        reviewPage.textContent = currentPageTitle
+      }
+      updateAfterEdit()
+    } catch (error) {
+      showNotice(
+        error instanceof Error ? `Frontmatter error: ${error.message}` : "Invalid frontmatter.",
+      )
+    }
+  }
 
   const showNotice = (message: string) => {
     notice.textContent = message
@@ -423,8 +526,11 @@ function initializeEditor(root: HTMLElement): void {
     saveState.textContent = "Saving draft…"
     saveState.classList.add("is-saving")
     try {
-      await writeDraft(data.pagePath, {
-        baseSha: data.baseSha,
+      await writeDraft(mode === "create" ? "new-page" : data.pagePath, {
+        baseSha: activeBaseSha,
+        mode,
+        pagePath: currentPagePath,
+        pageTitle: currentPageTitle,
         content: source.value,
         summary: summary.value,
         contributor: contributor.value,
@@ -455,7 +561,7 @@ function initializeEditor(root: HTMLElement): void {
     }, 650)
   }
 
-  const changed = () => source.value !== data.source || attachments.size > 0
+  const changed = () => mode === "create" || source.value !== data.source || attachments.size > 0
 
   const updateAfterEdit = () => {
     updateCounts()
@@ -657,15 +763,20 @@ function initializeEditor(root: HTMLElement): void {
     if (restoredDraft) return
     restoredDraft = true
     try {
-      const draft = await readDraft(data.pagePath)
+      const draft = await readDraft(mode === "create" ? "new-page" : data.pagePath)
       if (!draft) return
-      if (draft.baseSha !== data.baseSha) {
-        await deleteDraft(data.pagePath)
+      if (draft.baseSha !== activeBaseSha) {
+        await deleteDraft(mode === "create" ? "new-page" : data.pagePath)
         showNotice("The published page changed since your old draft, so the editor started fresh.")
         return
       }
       if (draft.content === data.source && draft.attachments.length === 0 && !draft.summary) return
       source.value = draft.content
+      currentPagePath = draft.pagePath ?? currentPagePath
+      currentPageTitle = draft.pageTitle ?? currentPageTitle
+      editorHeading.textContent = `${mode === "create" ? "Create" : "Edit"} ${currentPageTitle}`
+      reviewPage.textContent = currentPageTitle
+      pagePath.value = currentPagePath.replace(/^content\//, "")
       summary.value = draft.summary
       contributor.value = draft.contributor
       discord.value = draft.discord
@@ -678,6 +789,7 @@ function initializeEditor(root: HTMLElement): void {
         attachmentUrls.set(file.name, URL.createObjectURL(file))
       }
       renderAttachments()
+      updateFrontmatterFields()
       updateCounts()
       schedulePreview()
       showNotice(`Restored your draft from ${new Date(draft.updatedAt).toLocaleString()}.`)
@@ -695,6 +807,41 @@ function initializeEditor(root: HTMLElement): void {
     successActions.hidden = true
     updateCounts()
     schedulePreview()
+  }
+
+  const configureMode = (nextMode: EditorMode) => {
+    mode = nextMode
+    submitted = false
+    restoredDraft = false
+    attachments.clear()
+    attachmentUrls.forEach((url) => URL.revokeObjectURL(url))
+    attachmentUrls.clear()
+    summary.value = ""
+    if (mode === "create") {
+      activeBaseSha = ""
+      activeLineEnding = "lf"
+      currentPageTitle = "New page"
+      currentPagePath = "content/New page.md"
+      source.value = "---\ntitle: New page\n---\n\n"
+      pagePath.value = "New page.md"
+      pagePathField.hidden = false
+      frontmatterPanel.hidden = false
+      editorHeading.textContent = "Create a new page"
+    } else {
+      activeBaseSha = data.baseSha
+      activeLineEnding = data.lineEnding
+      currentPageTitle = data.pageTitle
+      currentPagePath = data.pagePath
+      source.value = data.source
+      pagePath.value = data.pagePath.replace(/^content\//, "")
+      pagePathField.hidden = true
+      frontmatterPanel.hidden = true
+      editorHeading.textContent = `Edit ${data.pageTitle}`
+    }
+    reviewPage.textContent = currentPageTitle
+    updateFrontmatterFields()
+    renderAttachments()
+    showEditor()
   }
 
   const ensureTurnstile = async () => {
@@ -735,6 +882,34 @@ function initializeEditor(root: HTMLElement): void {
       showNotice("Make a change before sending this page for review.")
       return
     }
+    try {
+      parseFrontmatter(source.value)
+    } catch (error) {
+      frontmatterPanel.hidden = false
+      showNotice(
+        error instanceof Error
+          ? `Fix the frontmatter YAML: ${error.message}`
+          : "Fix the frontmatter YAML before submitting.",
+      )
+      return
+    }
+    currentPageTitle = frontmatterTitle.value.trim()
+    if (!currentPageTitle) {
+      frontmatterPanel.hidden = false
+      showNotice("Add a page title before submitting.")
+      frontmatterTitle.focus()
+      return
+    }
+    if (mode === "create") {
+      currentPagePath = cleanPagePath(pagePath.value)
+      if (!currentPagePath.endsWith(".md")) {
+        frontmatterPanel.hidden = false
+        showNotice("The new page path must end in .md.")
+        pagePath.focus()
+        return
+      }
+    }
+    reviewPage.textContent = currentPageTitle
     workspace.hidden = true
     review.hidden = false
     success.hidden = true
@@ -765,9 +940,11 @@ function initializeEditor(root: HTMLElement): void {
     }
 
     const form = new FormData()
-    form.set("pagePath", data.pagePath)
-    form.set("pageTitle", data.pageTitle)
-    form.set("baseSha", data.baseSha)
+    form.set("operation", mode)
+    form.set("pagePath", currentPagePath)
+    form.set("pageTitle", currentPageTitle)
+    form.set("baseSha", activeBaseSha)
+    form.set("lineEnding", activeLineEnding)
     form.set("content", source.value)
     form.set("summary", summaryValue)
     form.set("contributor", contributor.value.trim())
@@ -784,11 +961,15 @@ function initializeEditor(root: HTMLElement): void {
       const endpoint = `${data.apiEndpoint.replace(/\/$/, "")}/api/submissions`
       const response = await fetch(endpoint, { method: "POST", body: form })
       const result = (await response.json().catch(() => ({}))) as {
+        code?: string
         error?: string
         reviewUrl?: string
       }
       if (!response.ok) {
         if (response.status === 409) {
+          if (result.code === "page_exists") {
+            throw new Error("A page already exists at that path. Go back and choose another path.")
+          }
           throw new Error(
             "This page changed while you were editing. Your draft is safe; reload the page before submitting it.",
           )
@@ -798,7 +979,7 @@ function initializeEditor(root: HTMLElement): void {
       if (!result.reviewUrl) throw new Error("The review was created, but its link was missing.")
 
       submitted = true
-      await deleteDraft(data.pagePath).catch(() => undefined)
+      await deleteDraft(mode === "create" ? "new-page" : data.pagePath).catch(() => undefined)
       reviewLink.href = result.reviewUrl
       workspace.hidden = true
       review.hidden = true
@@ -821,17 +1002,18 @@ function initializeEditor(root: HTMLElement): void {
     dialog.close()
   }
 
-  requiredElement<HTMLElement>(root, "[data-wiki-editor-open]").addEventListener(
-    "click",
-    () => {
-      submitted = false
-      showEditor()
-      dialog.showModal()
-      void restoreDraft()
-      source.focus()
-    },
-    { signal },
-  )
+  root.querySelectorAll<HTMLElement>("[data-wiki-editor-open]").forEach((button) => {
+    button.addEventListener(
+      "click",
+      () => {
+        configureMode(button.dataset.editorMode === "create" ? "create" : "edit")
+        dialog.showModal()
+        void restoreDraft()
+        source.focus()
+      },
+      { signal },
+    )
+  })
 
   dialog.querySelectorAll<HTMLElement>("[data-wiki-editor-close]").forEach((button) => {
     button.addEventListener("click", closeDialog, { signal })
@@ -852,7 +1034,14 @@ function initializeEditor(root: HTMLElement): void {
     { signal },
   )
 
-  source.addEventListener("input", updateAfterEdit, { signal })
+  source.addEventListener(
+    "input",
+    () => {
+      updateFrontmatterFields()
+      updateAfterEdit()
+    },
+    { signal },
+  )
   source.addEventListener(
     "keydown",
     (event) => {
@@ -897,6 +1086,81 @@ function initializeEditor(root: HTMLElement): void {
     "click",
     () => {
       guide.hidden = true
+    },
+    { signal },
+  )
+  requiredElement<HTMLElement>(dialog, "[data-frontmatter-toggle]").addEventListener(
+    "click",
+    () => {
+      frontmatterPanel.hidden = !frontmatterPanel.hidden
+    },
+    { signal },
+  )
+  frontmatterTitle.addEventListener(
+    "input",
+    () => {
+      const wasDefaultPath = pagePath.value === "New page.md"
+      updateFrontmatter("title", frontmatterTitle.value)
+      if (mode === "create" && wasDefaultPath && frontmatterTitle.value.trim()) {
+        pagePath.value = `${frontmatterTitle.value.trim().replace(/[\\/:*?"<>|]+/g, "-")}.md`
+      }
+    },
+    { signal },
+  )
+  frontmatterTags.addEventListener(
+    "input",
+    () =>
+      updateFrontmatter(
+        "tags",
+        frontmatterTags.value
+          .split(",")
+          .map((item) => item.trim())
+          .filter(Boolean),
+      ),
+    { signal },
+  )
+  frontmatterAliases.addEventListener(
+    "input",
+    () =>
+      updateFrontmatter(
+        "aliases",
+        frontmatterAliases.value
+          .split(",")
+          .map((item) => item.trim())
+          .filter(Boolean),
+      ),
+    { signal },
+  )
+  frontmatterDescription.addEventListener(
+    "input",
+    () => updateFrontmatter("description", frontmatterDescription.value),
+    { signal },
+  )
+  frontmatterYaml.addEventListener(
+    "input",
+    () => {
+      const parts = splitFrontmatter(source.value)
+      source.value = joinFrontmatter(frontmatterYaml.value, parts.body)
+      try {
+        yaml.load(frontmatterYaml.value, { schema: yaml.JSON_SCHEMA })
+        hideNotice()
+        updateFrontmatterFields()
+      } catch (error) {
+        showNotice(
+          error instanceof Error
+            ? `Frontmatter error: ${error.message}`
+            : "Invalid frontmatter YAML.",
+        )
+      }
+      updateAfterEdit()
+    },
+    { signal },
+  )
+  pagePath.addEventListener(
+    "input",
+    () => {
+      currentPagePath = cleanPagePath(pagePath.value)
+      scheduleSave()
     },
     { signal },
   )
@@ -959,6 +1223,7 @@ function initializeEditor(root: HTMLElement): void {
   window.addEventListener("beforeunload", beforeUnload, { signal })
 
   updateCounts()
+  updateFrontmatterFields()
   renderPreview(source.value, preview, attachmentUrls)
   window.addCleanup(() => {
     controller.abort()

@@ -12,6 +12,13 @@ function gitBlobSha(source: Buffer): string {
   return createHash("sha1").update(header).update(source).digest("hex")
 }
 
+function dominantLineEnding(source: Buffer): "lf" | "crlf" {
+  const text = source.toString("utf8")
+  const crlf = text.match(/\r\n/g)?.length ?? 0
+  const lf = (text.match(/\n/g)?.length ?? 0) - crlf
+  return crlf > lf ? "crlf" : "lf"
+}
+
 function safeJson(value: unknown): string {
   return JSON.stringify(value)
     .replace(/</g, "\\u003c")
@@ -34,6 +41,7 @@ export default (() => {
         process.env.WIKI_EDITOR_API_URL ??
         (isLocal ? "http://localhost:8787" : "https://edit.crdg.xyz"),
       baseSha: gitBlobSha(sourceBuffer),
+      lineEnding: dominantLineEnding(sourceBuffer),
       pagePath: `content/${fileData.relativePath}`,
       pageTitle: fileData.frontmatter?.title ?? fileData.slug ?? "Untitled page",
       source: sourceBuffer.toString("utf8"),
@@ -42,21 +50,45 @@ export default (() => {
 
     return (
       <div class="wiki-editor" data-wiki-editor-root>
-        <button class="wiki-editor-open" type="button" data-wiki-editor-open>
-          <svg
-            aria-hidden="true"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+        <div class="wiki-editor-entry-actions">
+          <button
+            class="wiki-editor-open"
+            type="button"
+            data-wiki-editor-open
+            data-editor-mode="edit"
           >
-            <path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
-            <path d="M18.4 2.6a2.1 2.1 0 0 1 3 3l-9 9a2 2 0 0 1-.9.5l-2.9.9a.5.5 0 0 1-.6-.6l.9-2.9a2 2 0 0 1 .5-.9z" />
-          </svg>
-          Edit this page
-        </button>
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+              <path d="M18.4 2.6a2.1 2.1 0 0 1 3 3l-9 9a2 2 0 0 1-.9.5l-2.9.9a.5.5 0 0 1-.6-.6l.9-2.9a2 2 0 0 1 .5-.9z" />
+            </svg>
+            Edit this page
+          </button>
+          <button
+            class="wiki-editor-open wiki-editor-create"
+            type="button"
+            data-wiki-editor-open
+            data-editor-mode="create"
+          >
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M12 5v14M5 12h14" />
+            </svg>
+            Create a new page
+          </button>
+        </div>
 
         <script
           type="application/json"
@@ -73,7 +105,9 @@ export default (() => {
             <div class="wiki-editor-header">
               <div>
                 <span class="wiki-editor-kicker">CRDG community editor</span>
-                <h2 id="wiki-editor-title">Edit {editorData.pageTitle}</h2>
+                <h2 id="wiki-editor-title" data-editor-heading>
+                  Edit {editorData.pageTitle}
+                </h2>
               </div>
               <div class="wiki-editor-header-actions">
                 <span class="wiki-editor-save-state" data-save-state>
@@ -179,7 +213,51 @@ export default (() => {
                 <button class="wiki-editor-guide-toggle" type="button" data-guide-toggle>
                   Markdown guide
                 </button>
+                <button class="wiki-editor-guide-toggle" type="button" data-frontmatter-toggle>
+                  Page settings
+                </button>
               </div>
+
+              <section class="wiki-editor-frontmatter" data-frontmatter-panel hidden>
+                <div class="wiki-editor-frontmatter-grid">
+                  <label>
+                    <span>Page title</span>
+                    <input data-frontmatter-title maxlength={120} />
+                  </label>
+                  <label data-page-path-field>
+                    <span>
+                      Page path <small>relative to the wiki, ending in .md</small>
+                    </span>
+                    <input data-page-path maxlength={292} placeholder="Items/Example page.md" />
+                  </label>
+                  <label>
+                    <span>
+                      Tags <small>comma-separated</small>
+                    </span>
+                    <input data-frontmatter-tags placeholder="items, tutorials/building" />
+                  </label>
+                  <label>
+                    <span>
+                      Aliases <small>comma-separated</small>
+                    </span>
+                    <input data-frontmatter-aliases placeholder="Alternate page name" />
+                  </label>
+                  <label class="wiki-editor-frontmatter-wide">
+                    <span>
+                      Description <small>used in search and link previews</small>
+                    </span>
+                    <textarea data-frontmatter-description maxlength={500}></textarea>
+                  </label>
+                  <details class="wiki-editor-frontmatter-wide">
+                    <summary>Advanced YAML</summary>
+                    <p>
+                      Edit any frontmatter property directly. Invalid YAML must be corrected before
+                      submission.
+                    </p>
+                    <textarea data-frontmatter-yaml spellcheck={false}></textarea>
+                  </details>
+                </div>
+              </section>
 
               <div class="wiki-editor-main" data-editor-main data-view="split">
                 <div class="wiki-editor-write-pane" data-drop-zone>
@@ -342,7 +420,7 @@ export default (() => {
                   <dl>
                     <div>
                       <dt>Page</dt>
-                      <dd>{editorData.pageTitle}</dd>
+                      <dd data-review-page>{editorData.pageTitle}</dd>
                     </div>
                     <div>
                       <dt>Words</dt>

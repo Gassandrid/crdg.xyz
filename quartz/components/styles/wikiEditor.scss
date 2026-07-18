@@ -2,6 +2,12 @@
   margin: -0.35rem 0 1rem;
 }
 
+.wiki-editor-entry-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
 .wiki-editor-open {
   display: inline-flex;
   align-items: center;
@@ -33,6 +39,12 @@
     width: 1.05rem;
     height: 1.05rem;
   }
+}
+
+.wiki-editor-create {
+  color: var(--darkgray);
+  background: transparent;
+  border-color: var(--lightgray);
 }
 
 body:has(.wiki-editor-dialog[open]) {
@@ -193,8 +205,71 @@ body:has(.wiki-editor-dialog[open]) {
 
 .wiki-editor-workspace {
   display: grid;
-  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
   min-height: 0;
+}
+
+.wiki-editor-frontmatter {
+  padding: 0.75rem;
+  overflow-y: auto;
+  background: color-mix(in srgb, var(--secondary) 5%, var(--light));
+  border-bottom: 1px solid var(--lightgray);
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.wiki-editor-frontmatter-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem 0.8rem;
+  max-width: 1100px;
+
+  label > span,
+  summary {
+    display: block;
+    margin-bottom: 0.28rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+
+  small,
+  details p {
+    color: var(--gray);
+    font-weight: 400;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.48rem 0.58rem;
+    color: var(--darkgray);
+    background: var(--light);
+    border: 1px solid var(--lightgray);
+    border-radius: 0.35rem;
+  }
+
+  textarea {
+    min-height: 4.5rem;
+    resize: vertical;
+  }
+
+  details p {
+    margin: 0 0 0.4rem;
+    font-size: 0.73rem;
+  }
+
+  details textarea {
+    min-height: 8rem;
+    font-family: var(--codeFont);
+    font-size: 0.78rem;
+  }
+}
+
+.wiki-editor-frontmatter-wide {
+  grid-column: 1 / -1;
 }
 
 .wiki-editor-toolbar {
@@ -885,6 +960,14 @@ body:has(.wiki-editor-dialog[open]) {
 
   .wiki-editor-save-state {
     display: none;
+  }
+
+  .wiki-editor-frontmatter-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wiki-editor-frontmatter-wide {
+    grid-column: 1;
   }
 
   .wiki-editor-main {

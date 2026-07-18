@@ -3,13 +3,17 @@
 The public editor removes Git and GitHub from the contributor experience while keeping the
 maintainer review process auditable:
 
-1. A reader opens **Edit this page**, edits the original Obsidian Markdown, adds images, and sends
-   one review package.
+1. A reader opens **Edit this page** or **Create a new page**, edits Obsidian Markdown and page
+   settings, adds images, and sends one review package.
 2. Cloudflare Turnstile is validated server-side by the editor Worker.
 3. The Worker verifies that the published page has not changed, creates one commit on a unique
    branch, and opens a pull request against `v4`.
 4. Maintainers review the normal Markdown/image diff in GitHub and merge or close it. A merge
    triggers the existing GitHub Pages deployment.
+
+The page settings panel manages the title, destination path for new pages, tags, aliases, and
+description. Advanced YAML remains available for less common Quartz frontmatter properties. New
+page submissions are rejected if their requested path already exists.
 
 Contributors do not need an account. The GitHub token and Turnstile secret exist only in the
 Worker; neither is included in the site bundle.
@@ -107,6 +111,8 @@ Quartz automatically uses Cloudflare's matching local Turnstile test site key wh
 
 - Treat every submission as untrusted. Review both Markdown and binary image changes before merge.
 - A stale page returns HTTP `409`; the contributor's IndexedDB draft remains intact.
+- Markdown line endings are preserved across multipart submission so ordinary edits remain normal
+  line-by-line GitHub diffs rather than whole-file replacements.
 - Failed PR creation attempts delete their temporary branch when possible.
 - Rotate `GITHUB_TOKEN` immediately if the endpoint behaves unexpectedly, then inspect Worker logs
   and GitHub's token audit trail.
