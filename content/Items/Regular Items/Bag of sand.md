@@ -15,7 +15,7 @@
 > | --- | --- |
 > | **Usage** | - Cutting cardboard |
 
- **Bag of sand** was added on 20th of August, 2022. It can be found behind [[Gas Station]]. It is also one of the only items in the game to be able to get multiple of.
+ **Bag of sand** was added on 20th of August, 2022. It can be found behind [[Gas Station]]. It is also one of the only items that you can have multiple copies of at once.
 
 >![[SandBagLocation.png|200]]
 >
