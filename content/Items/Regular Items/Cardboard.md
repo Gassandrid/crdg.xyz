@@ -33,4 +33,4 @@
 ---
 ## Usage
 
-Cardboard is a self-explanatory item, clicking while holding **cardboard** player will drop cardboard, which is able to be cut **once** using [[Box cutter]].
+Cardboard is a self-explanatory item, clicking while holding **cardboard** player will drop cardboard, which is able to be cut **once** using [[Box cutter]]. The cardboard will not come back on its own, you will need to click "debris" which any loose part not connected to anything counts as (e.g. [bananas](https://crdg.xyz/Components/Regular-Components/Banana), [rubber slabs](https://crdg.xyz/Components/Regular-Components/Rubber), and sand from the [bag of sand](https://crdg.xyz/Items/Regular-Items/Bag-of-sand))
