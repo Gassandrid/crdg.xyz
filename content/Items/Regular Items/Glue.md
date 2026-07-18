@@ -1,3 +1,5 @@
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
 
 > [!infobox|n-th]
 > 
@@ -28,3 +30,14 @@ Using left click while having your mouse in between two unanchored objects will 
 > **Shift + b** - will try to use glue on your current mouse position, **can be used without holding glue**
 > 
 > b - will try to remove glue based on your current mouse position, however, **you need to have glue equipped**
+
+## Additional information
+
+# Glue
+
+Glue is a gamepass used for sticking two parts (components) together and
+conduct a Signal ![[GLuepass.png|Gamepass for Glue]]
+![[2 springs held by GLUE.png|Two springs being held up by Glue]] ,
+they are mostly used by builders to glue stuff together and they are one
+of the most important parts. The [[Component Machine|Component Machine]] is mostly
+used w/glue.

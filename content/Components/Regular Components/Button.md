@@ -1,6 +1,10 @@
 ---
 tags: [todo]
 ---
+
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -43,3 +47,16 @@ tags: [todo]
 
 ![[Pasted image 20250722143935.png]]
 
+## Additional information
+
+The button is a [[Components|component]] in CRDG.
+It is a gray slab with a cylinder on the top, it can come in many
+colors.
+
+## Function
+
+When pressed, the button will power anything it is connected to. This
+power can be blocked by a [[rubber slab|rubber slab]]. It can also be used as a
+[[Bearing|Bearing]] because the circular part can
+spin freely. Different color buttons play different music and make
+different LED colors. \_\_INDEX\_\_

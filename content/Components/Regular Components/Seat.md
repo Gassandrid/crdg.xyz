@@ -1,6 +1,10 @@
 ---
 tags: [todo]
 ---
+
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -44,3 +48,23 @@ tags: [todo]
 ![[Pasted image 20250722144151.png]] 
 
 Works with [[Input Reciever]]
+
+## Additional information
+
+The seat is a component in CRDG. It is a yellow, plastic object with a
+plastic backrest. It's base can be sat in.
+
+## Function
+
+Having a seat part for a base, players that touch it will immediately
+sit in it. They are naturally found in all
+[[carts|carts]] and
+[[trailers|trailers]] except the [[Trailers#Fuel cart|fuel trailer]] and [[Portable Cart|Portable Cart]] (portable cart appears
+to have one, but it is nonfunctional).
+
+It can be used for a place to leave the character while they are AFK if
+anchored with [[Spikes|Spikes]], as well as keeping
+the player safe from falling off of things. It can be used to keep
+players in moving contraptions or carts. It can also be used in
+[[Makarov|Makarov]] clipping, eg. for
+[[Gold|Gold]].

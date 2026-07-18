@@ -48,8 +48,8 @@ tags: [todo, component]
 > 
 > | Component Type | Miscellaneous |
 > | --- | --- |
-> | **Inputs** | - [[Banana]]<br>- [[Seed]]<br>- [[miracle gro]] <br>- [Moray Eel](Moray_eel) <br>- [[content/Old Wiki/Lemon]] |
-> | **Outputs** | - [[Manifests]]<br>- [[Banana]]<br>- [[content/Old Wiki/Lemon]] <br>- [[Golden Lemon]]|
+> | **Inputs** | - [[Banana]]<br>- [[Seed]]<br>- miracle gro <br>- [Moray Eel](Moray_eel) <br>- [[Lemon]] |
+> | **Outputs** | - [[Manifests]]<br>- [[Banana]]<br>- [[Lemon]] <br>- [[Golden Lemon]]|
 
 The **Planter** is a **Miscellaneous**-type [Component](Components.md) spawned by the [[Component_Machine|Component Machine]]. They were added on August 27th, 2022. 
 
@@ -69,7 +69,7 @@ ___
 
 ## Trees
 
-There are four types (5 including Golden Lemon trees) of **Trees** in the game. Most of them are planted by [[Components]], but some are planted with **Miscellaneous** objects found on the map or [[content/Fish/Fishing]]. All of them take time to grow, with some being faster than others. 
+There are four types (5 including Golden Lemon trees) of **Trees** in the game. Most of them are planted by [[Components]], but some are planted with **Miscellaneous** objects found on the map or [[Fishing]]. All of them take time to grow, with some being faster than others. 
 
 ### Banana Trees
 
@@ -89,11 +89,11 @@ They take about 30 minutes to grow their first Lemon, and will generate a few mo
 
 #### Golden Lemon Trees
 
-**Golden Lemon Trees** are trees added along regular **Lemon Trees**. They are technically the same type of Tree, but however grow different types of Outputs. To make one, plant a [[content/Old Wiki/Lemon]] inside of a **Golden Planter**. **Golden Lemon Trees** follow the same growth speed as **Golden Planters** do, except the speed slows down exactly when **Golden Lemon Trees** finish growing their first [[Golden Lemon]].
+**Golden Lemon Trees** are trees added along regular **Lemon Trees**. They are technically the same type of Tree, but however grow different types of Outputs. To make one, plant a [[Lemon]] inside of a **Golden Planter**. **Golden Lemon Trees** follow the same growth speed as **Golden Planters** do, except the speed slows down exactly when **Golden Lemon Trees** finish growing their first [[Golden Lemon]].
 
 ### Palm Trees
 
-**Palm Trees** are a type of **Tree** added during Part 3 of the Fish Update, on February 14th, 2025. They are the only type of **Tree** to have no output, and use a different material for their bark. They are planted by a [Moray Eel](Moray_eel), a type of Fish. **Palm Trees** are the only type of **Tree** to have a [[content/Fish/Fishing]] as a **Seed**. 
+**Palm Trees** are a type of **Tree** added during Part 3 of the Fish Update, on February 14th, 2025. They are the only type of **Tree** to have no output, and use a different material for their bark. They are planted by a [Moray Eel](Moray_eel), a type of Fish. **Palm Trees** are the only type of **Tree** to have a [[Fishing]] as a **Seed**. 
 
 ___
 

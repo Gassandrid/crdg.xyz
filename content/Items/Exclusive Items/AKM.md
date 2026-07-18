@@ -1,3 +1,6 @@
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="--notice-height:100px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;
     text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);
@@ -58,3 +61,21 @@ Holding left click while having the **AKM** will automatically shoot out a burst
 > ![[Pasted image 20250827110322.png|500|500]]
 > 
 > The mark that shows when you get hit by an **AKM**.
+
+## Additional information
+
+The AKM is an admin weapon in CRDG. It appears similar to a real life
+rifle of the same name.
+
+## Function
+
+On use, the AKM fires a fast bullet towards the cursor with good
+accuracy. The bullet does high damage and can kill a player in 2-3
+shots. It is an all-purpose weapon good for most encounters. It has a
+large magazine before needing to reload, as well as a high firerate.
+
+## Gallery
+
+- View from the right side.
+- View from above.
+- Bullets on surface.

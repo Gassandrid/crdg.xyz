@@ -1,3 +1,6 @@
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 ---
 tags: [todo]
 ---
@@ -41,3 +44,24 @@ tags: [todo]
     </div>
 </div>
 Flashbang is a component that destroys itself upon use, blinding surrounding players and muting all game audio except for a ringing sound.
+
+## Additional information
+
+The flashbang is a component in CRDG. It appears very similar to the M84
+flashbang, a real life grenade.
+
+## Function
+
+Upon being activated it plays a loud sound and blinds all players in a
+20 stud radius. The blind effect wears off after a few seconds. The
+grenade is destroyed in the process of being activated.
+
+It can be used in simple traps to surprise unsuspecting players. Its
+effect does no damage and doesn't last long, so it is not particularly
+useful in actual combat (especially given that it takes a long time to
+glue it to a button or tripwire leaving you vulnerable in a fight). It
+is best used as a prank or to disorient players.
+
+Many people will instinctively back up while they are blinded. Keep this
+in mind. [[Spawnoid|Spawnoids]] can often be
+effectively delayed with flashbangs if they are used at the right times.

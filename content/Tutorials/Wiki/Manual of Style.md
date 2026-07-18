@@ -1,3 +1,6 @@
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 > [!Info] Title
 > **Please do NOT use any large-language model (AI) to edit any aspect of an articles. LLM hallucinations can depict various things as factual, when said things are not factual.*** Also, this _is_ a niche game. 
 More information can be found on https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)
@@ -33,7 +36,6 @@ Casual language is acceptable so long as it is sparingly used and does not inter
 ---
 ## Components and Templates
 
-Component articles should contain the <nowiki>{{ComponentInfo}}</nowiki> template. All applicable information should be filled out, and an image of the component in question if available.
 
 After the template a brief explanation explaining if it is a component machine object, manifest, or alien component should be added.
 
@@ -49,4 +51,22 @@ Examples of excellently formatted articles can be found here:
 - https://crdg.xyz/Components/Regular-Components/Planter
 - https://crdg.xyz/Bosses/QROT
 
-As is to be expected, all Wiki rules are to be followed with no exception. If a page contains misinformation or mistakes, it will be promptly corrected. 
+As is to be expected, all Wiki rules are to be followed with no exception. If a page contains misinformation or mistakes, it will be promptly corrected.
+
+## Additional information
+
+## General formatting {#general_formatting}
+
+## Component articles {#component_articles}
+
+For reference, a good example of a properly formatted component article
+can be seen [[Seeker|here]].
+
+## Item articles {#item_articles}
+
+Item articles are formatted similarly to a component article, instead
+using the item template rather than the componentinfo template.
+Obtainment should be clarified within the article.
+
+A good example of a properly formatted item article can be found
+[[Flintlock|here]].

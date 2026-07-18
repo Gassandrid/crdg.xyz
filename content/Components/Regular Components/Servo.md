@@ -1,6 +1,10 @@
 ---
 tags: [todo]
 ---
+
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -41,4 +45,13 @@ tags: [todo]
     </div>
 </div>
 
-![[Pasted image 20250722144208.png]] 
+![[Pasted image 20250722144208.png]]
+
+## Additional information
+
+The servo is used best for [[Fishing|fishing]] and can
+be used to rotate objects (needs glue for it to work).
+
+## Function
+
+Rotates 90-180° when a button is clicked or signaled.

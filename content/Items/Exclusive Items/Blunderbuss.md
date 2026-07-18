@@ -1,3 +1,6 @@
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="--notice-height:100px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;
     text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);
@@ -53,3 +56,8 @@ Left clicking while holding the **Blunderbuss** will shoot out multiple [[Flintl
 > ![[2025-08-2712-45-21-ezgif.com-video-to-gif-converter.gif|400]]
 > 
 > The **blunderbuss** being used.
+
+## Additional information
+
+obtainable in tycoon for 50k its just flintlock but with a bit longer
+cooldown and it shoots about 9-10 bullets

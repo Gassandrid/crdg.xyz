@@ -2,6 +2,10 @@
 tags: [todo]
 ---
 
+
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 The transistor is a logic gate component in CRDG. It is a black box with
 a blue input in the back, and a gray part on the front and front-sides.
 It has a single LED light on the top, as well as dashes at the top-front

@@ -1,3 +1,6 @@
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="--notice-height:80px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;
     text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);
@@ -60,3 +63,27 @@ Ventilation can be found behind **Bill's batteries**, it contains [[Lemon]] that
 
 ## Dumpster
 **Dumpster** has 3 total items around it. First one is **battery** it's inside the **dumpster** and is used for powering "Thunderbolt siren" and gate at [[Dealership]], second and third items are behind the **dumpster**, it's screw, which is used for alternative ending ([[Finality]] badge) and [[Rusty Fishing Rod]].
+
+## Additional information
+
+![[Bills batteries.jpg|Bill's in all it's glory]] Bills Batteries,
+owned by [[Bill|Bill]], is a unique and conventional
+battery shop located on the second island in CRDG.
+
+## Overview
+
+![[The Vent.png|The Vent - previously sent you to the tunnel]]
+![[Battery.png|The Battery]] ![[The Fishing rod and the screw.png|The Fishing rod and the Screw]]
+![[Billsbatteries1.png|Bill's Batteries, side view]]The island has
+spawners for [[Carts#Rusty Cart|rusty carts]]
+and [[Trailers#Rusty passenger cart|rusty passenger carts]],
+with a dumpster which has a [[Fishing Rods|fishing rod]] behind it and a
+[[Rusty Battery|rusty battery]] inside, as
+well as the [[Riel|screw]] next to it. There is a vent
+in the back of the store which leads to the
+[[Lemon|Lemon]] also you can screw in the vent so no
+one can open the vent.
+
+Although they are less common here,
+[[Spawnoid|spawnoids]] are seen frequently. Move
+up to later areas if you don't want to be bothered

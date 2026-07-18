@@ -1,6 +1,10 @@
 ---
 tags: [todo]
 ---
+
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -43,4 +47,13 @@ tags: [todo]
 
 ![[Pasted image 20250722144230.png]]
 
-Used with [[Planter]] to grow [[Trees]]
+Used with [[Planter]] to grow Trees
+
+## Additional information
+
+The seed is able to be planted in a
+[[Planter|Planter]] and takes approximately 24 hours
+to grow under normal conditions.
+
+More information on the drops can be found
+[[Manifests|here]].

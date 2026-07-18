@@ -1,3 +1,6 @@
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 > [!infobox|n-th]
 > 
 > ## RIEL
@@ -73,3 +76,46 @@ When carrying a friend, you can tell them to climb the arches of the door from t
 The icon for the Glory badge depicts one of Riel's wings, and the icon for the Finality badge is probably related to the Fumacrom server icon (?).
 
 Riel was likely trapped inside screaming man to contain the destruction they cause, driving screaming man insane. By killing screaming man, you release riel and cause them to start breaking reality.
+
+## Additional information
+
+## Description
+
+![[Riel boss.webp|Riel]] Riel is the
+second most difficult boss, being the finale of the Alternative ending.
+
+## Stats
+
+### Health
+
+### Damage
+
+Most of their attacks **instantly kill**, only some of his attacks being
+continuous (so if you dodge at the wrong time, you only take a portion
+of the damage.)
+
+## Move set {#move_set}
+
+### Teleport Slash {#teleport_slash}
+
+### Continuous Beam {#continuous_beam}
+
+### Ground Slam {#ground_slam}
+
+### Following Orbs {#following_orbs}
+
+### Shockwave
+
+## Reward
+
+Beating RIEL will give you the
+[[Flintlock|Flintlock]] item, the
+"[[Badges/index|Glory]]" Badge, the "Finality" Badge, the
+[[Marbles|Marbles]] item, and access to fighting
+[[QROT|QROT]]. You also get the Ipecac sword in
+bosshub.
+
+## General tips {#general_tips}
+
+Try to hit more than one of riel's body parts with one hit because each
+one does a tick of damage.

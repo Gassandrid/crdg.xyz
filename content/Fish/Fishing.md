@@ -1,3 +1,8 @@
+---
+tags:
+  - fish
+---
+
 <div style="--notice-height:80px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;
     text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);
@@ -39,7 +44,7 @@ During September 2024 the [[Floppy fish]] was added to CRDG, they originated fro
 
 Fishing is a very simple system only requiring a few short steps:
 #### Obtainment:
-Fishing requires [[content/Fish/Fishing Rods/index|Fishing Rods]] that can be found around the [[content/Map/index|Map]], caught from Fishing, or purchased from the [[Blimp]]. 
+Fishing requires [[Fishing Rods|Fishing Rods]] that can be found around the [[content/Map/index|Map]], caught from Fishing, or purchased from the [[Blimp]]. 
 #### Casting:
 Fishing Rods are casted when the Hook on the rod is moving at a fast enough speed, meaning you can flick the rod quickly to cast if you're not using a Fisher. once you cast the Fishing Rod the line will extend very far and the Hook will launch in the direction the Handle of the Fishing Rod was moving. after casting, the Reel on the Fishing Rod will spin for about 8 seconds.
 #### Catching:
@@ -138,7 +143,7 @@ The 2nd rarest kind of fish, even if you fish for a long time you will not find 
 - [[Zombie Fish]] *(October Exclusive)*
 - [[Ghost Shark]]*(October Exclusive)*
 - [[Pumpkin Anglerfish]]*(October Exclusive)*
-- [[Skeletal Sailfish]]*(October Exclusive)*
+- [[Skeletal Swordfish]]*(October Exclusive)*
 - [[Gem]]
 - [[Phone]]
 
@@ -148,7 +153,7 @@ Very rare, they are all very large. Some of them have special abilities.
 
 - [Oarfish](content/Old%20Wiki/Oarfish.md "Oarfish")
 - [Whale](Whale "Whale")
-- [[Whale Shark]]
+- Whale Shark
 - [Megalodon](content/Old%20Wiki/Megalodon.md "Megalodon")
 - [Lochness monster](Lochness_monster "Lochness monster")
 - [Leedsichthys](Leedsichthys "Leedsichthys")
@@ -161,25 +166,25 @@ Very rare, they are all very large. Some of them have special abilities.
 - [Dunkleostus](content/Old%20Wiki/Dunkleostus.md "Dunkleostus")
 - [Fin whale](Fin_whale "Fin whale")
 - [Stethacanthus](content/Old%20Wiki/Stethacanthus.md "Stethacanthus")
-- [[Pteraspis]]
-- [[Bowhead Whale]]
-- [[Brydes Whale]]
-- [[Cachalot Whale]]
-- [[Liopluerodon]]
-- [[Shonisaurus]]
+- Pteraspis
+- Bowhead Whale
+- Brydes Whale
+- Cachalot Whale
+- Liopluerodon
+- Shonisaurus
 
 
 ### Exotic
 
 Very rare, obtainable but most players will never see them.
 
-- [[Baliosaurus]]
-- [[Bloop]]
-- [[Cart Fish]]
+- Baliosaurus
+- Bloop
+- Cart Fish
 - [[Fur bearing trout]] *(winter Exclusive)*
 - [[Perucetus]] 
 - [[Pupfish]] 
-- [[Stellar Sea Cow]] 
+- Stellar Sea Cow
 - [[Poseidon]] *(exotic in private servers)*
 
 
@@ -210,7 +215,7 @@ Attributes on fish are random mutations that can happen:
 
 ### [Poseidon NPC](NPCs#Poseidon "Poseidon NPC")
 
-[[content/Old Wiki/Poseidon]] is a Mythical fish and is the only fishable [NPC](NPCs "NPC") If you talk to him he says *"Hi am am Poseidon"* and you can say hi or Goodbye. If you say hi, he says \"Do you want the miracle of the ocean\" and gives you the options \"no thanks\" or \"Yeah\" clicking no thanks will make him say \"suit yourself\" and the chat ends. Clicking \"Yeah\" will give you the Troutstanding Catch badge and unlock the miracle of the ocean.
+[[Poseidon]] is a Mythical fish and is the only fishable [NPC](NPCs "NPC") If you talk to him he says *"Hi am am Poseidon"* and you can say hi or Goodbye. If you say hi, he says \"Do you want the miracle of the ocean\" and gives you the options \"no thanks\" or \"Yeah\" clicking no thanks will make him say \"suit yourself\" and the chat ends. Clicking \"Yeah\" will give you the Troutstanding Catch badge and unlock the miracle of the ocean.
 
 ### Miracle of the Ocean
 

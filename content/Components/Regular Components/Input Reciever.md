@@ -1,6 +1,10 @@
 ---
 tags: [todo]
 ---
+
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -57,3 +61,8 @@ tags: [todo]
 > | --- | --- |
 
 The **Input Receiver** is a component that allows you to send signals by pressing keys on your keyboard when it is attached to a seat. By default, it comes configured with the **WASD keys** (<, ^, >, v) and one additional random letter key. Each key has its own output outlet, and you can disable any of them individually by clicking on the outlet.
+
+## Additional information
+
+uh thing you can attach to seats and press buttons with stuff(works best
+with cables)

@@ -1,6 +1,10 @@
 ---
 tags: [todo]
 ---
+
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -42,3 +46,13 @@ tags: [todo]
 </div>
 
  ![[Pasted image 20250722144112.png]]
+
+## Additional information
+
+The decopler is a [[Components|component]] in
+CRDG. It separates when powered.
+
+## Function
+
+When powered, the decoupler will separate a square from it's cylinder
+in the center. It cannot be reset in any way after this happens.

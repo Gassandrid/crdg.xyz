@@ -1,4 +1,4 @@
-Components are the primary in game objects that can be used for building with [[content/Old Wiki/Glue]]. There are a few sources of components, namely [[Component Machine]], [[Manifests]], [[Alien Summoning]], and [[Map]] items.
+Components are the primary in game objects that can be used for building with [[Glue]]. There are a few sources of components, namely [[Component Machine]], [[Manifests]], [[Alien Summoning]], and [[Map/index|Map]] items.
 
 ---
 
@@ -32,7 +32,7 @@ Components are the primary in game objects that can be used for building with [[
 > 
 > ![[Pasted image 20250722144112.png]]
 
-[[crdg.xyz/content/Components/Flashbang]]
+[[Flashbang]]
 
 [[content/Components/Regular Components/Gun]]
 
@@ -58,21 +58,21 @@ Components are the primary in game objects that can be used for building with [[
 
 [[Tripwire]]
 
-[[Air Compressor]]
+Air Compressor
 
-[[Fuse]]
+Fuse
 
-[[Dart Shooter]]
+Dart Shooter
 
-[[Component Factory]]
+Component Factory
 
 ### Manifest Components
 
 [[Diode]]
 
-[[Wireless Receiver]]
+Wireless Receiver
 
-[[Flamethrower Component]]
+Flamethrower Component
 
 > [[1911 Pistol]]
 > 
@@ -84,11 +84,11 @@ Components are the primary in game objects that can be used for building with [[
 > 
 > ![[Pasted image 20250722191241.png]]
 
-[[Fireworks]]
+Fireworks
 
 [[Propellant]]
 
-[[crdg.xyz/content/Old Wiki/Rocket]]
+[[Rocket]]
 
 
 > [!Note]+ Components

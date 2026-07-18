@@ -1,3 +1,6 @@
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -39,3 +42,23 @@
 </div>
 
 ![[Pasted image 20250829031308.png]]
+
+## Additional information
+
+The uranium rod is a [[Components|component]] in
+CRDG. it is a neon green, glowing rod which is used to power some
+machines.
+
+## Function
+
+Despite it's appearance, the uranium rod is inert on it's own, other
+than glowing. You can [[spray paint|spray paint]] it to change the color that
+it glows. It is often used so that people wishing to
+[[Fishing|Fishing]] can see where their hooks are.
+
+The uranium rod is used primarily to power the
+[[Fab|Fab]] and [[nuclear motor|nuclear motor]]. Printers use them to
+produce sheets of various materials, nuclear motors shake before
+exploding violently.
+
+Contrary to rumors, it does not in fact make nearby plants grow faster.

@@ -1,3 +1,6 @@
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="--notice-height:80px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;
     text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);
@@ -61,3 +64,72 @@ Gives player Miracle of alien diplomacy, also known as [[Alien Summoning]]. Allo
 To start the proccess of summoning aliens player must use the [[summon]] emote, and the symbol will increase in brightness depending on how close aliens are to being summoned. 
 
 More in depth information can be found on [[Alien Summoning]]
+
+## Additional information
+
+## Overview
+
+![[Alien diplomacy gamepass.png|Icon of the miracle of alien diplomacy gamepass]]
+The miracle of alien diplomacy was a miracle obtainable during the
+second black friday for 400 robux. This miracle gives you access to the
+/e summon emote which allows you to summon aliens to give you exclusive
+items.
+
+The aliens always come at predetermined times globally and you only need
+to be summoning at the time they are supposed to come to get an item.
+
+## Alien Items {#alien_items}
+
++--------------------+------------------------+-------------------------------------------------------------------------+
+| Item               | Usage                  | Images                                                                  |
++====================+========================+=========================================================================+
+| World spike        | spikes midair and      | ![[World spike.png|World spike]]                           |
+|                    | rotates                |                                                                         |
++--------------------+------------------------+-------------------------------------------------------------------------+
+| Alien rod          | can catch 3 fish at    | ![[Alienrod.png|Alien rod, unhooked]]              |
+|                    | once and automatically |                                                                         |
+|                    | reels                  |                                                                         |
++--------------------+------------------------+-------------------------------------------------------------------------+
+| Tractor beam       | people and objects in  | ![[Tracotbema.png|Tractor beam]]                          |
+|                    | its field are          |                                                                         |
+|                    | suspended midair       |                                                                         |
++--------------------+------------------------+-------------------------------------------------------------------------+
+| Radio              | allows you to send     | ![[Radio.png|Radio]]                                             |
+|                    | messages to all other  |                                                                         |
+|                    | radios in the same     |                                                                         |
+|                    | server or other        |                                                                         |
+|                    | servers                |                                                                         |
++--------------------+------------------------+-------------------------------------------------------------------------+
+| Teleporter         | requires 2 to work; is | ![[Teleporter1.png|Teleporter]]                             |
+|                    | able to teleport both  |                                                                         |
+|                    | players and objects to |                                                                         |
+|                    | the other teleporter   |                                                                         |
++--------------------+------------------------+-------------------------------------------------------------------------+
+| Laser cannon       | fires a purple laser   | ![[Laser cannon.png|Laser cannon when | | | that evaporates | idle]]![[Reload.png|Laser cannon whilst | | | anything in its path | reloading]]                  |
++--------------------+------------------------+-------------------------------------------------------------------------+
+| Alien egg          | can be hatched to      | ![[Alien egg.jpg|Alien egg]]                                 |
+|                    | produce a little alien |                                                                         |
+|                    | that will bite you     |                                                                         |
+|                    | which will make you    |                                                                         |
+|                    | birth an alien with a  |                                                                         |
+|                    | ray gun after a        |                                                                         |
+|                    | certain amount of time |                                                                         |
++--------------------+------------------------+-------------------------------------------------------------------------+
+| Bridge segment     | requires 2 to work,    | ![[Bridge.png|Bridge segment]]![[Bridge active.png|Bridge when activated | | | produces a blue light | between 2 | | | bridge that can be | segments]] |
+|                    | walked on              |                                                                         |
++--------------------+------------------------+-------------------------------------------------------------------------+
+| Cursor tracker     | tracks the movement of | ![[Cursor tracker.png|Cursor tracker]]                  |
+|                    | the players cursor who |                                                                         |
+|                    | activated it           |                                                                         |
++--------------------+------------------------+-------------------------------------------------------------------------+
+| Printer/fabricator | is able to produce a   | ![[Printer.png|Printer]]                                       |
+|                    | wide arrange of        |                                                                         |
+|                    | materials that have    |                                                                         |
+|                    | different uses. Uses   |                                                                         |
+|                    | uranium rods as fuel.  |                                                                         |
++--------------------+------------------------+-------------------------------------------------------------------------+
+| Alien engine       | when activated         | ![[Pyramsiid.webp|Alien engine]]                          |
+|                    | produces downwards     |                                                                         |
+|                    | thrust relative to the |                                                                         |
+|                    | base of the pyramid    |                                                                         |
++--------------------+------------------------+-------------------------------------------------------------------------+

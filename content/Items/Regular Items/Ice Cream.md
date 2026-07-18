@@ -1,3 +1,6 @@
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -62,3 +65,11 @@ Ice Cream is obtained at cathedral on the first left side rail, WIP.
 ## Usage
 
 (WIP, someone please do this)
+
+## Additional information
+
+![[Ice cream.png|ice cream]] Ice cream can be found at the
+Cathedral. It can be licked, but the second time you lick it you get a
+brainfreeze, taking 33% of your health. It has no lick cooldown.
+
+only on christmas

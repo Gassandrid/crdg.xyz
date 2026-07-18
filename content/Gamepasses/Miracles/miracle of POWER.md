@@ -1,3 +1,6 @@
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="--notice-height:100px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;
     text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);
@@ -81,3 +84,31 @@
 ### Usage
 
 When used, player plays on trumpet producing loud noise. It takes approximately 7 seconds for army of horses spawn in front of player running forward on high speed till they fall or despawn, pushing everything on their way.
+
+## Additional information
+
+## Overview
+
+The miracle of POWER was a miracle obtainable during the second black
+friday for 2000 robux. This miracle gives you the POWERFUL HORN item, a
+former admin exclusive item. ![[POWERRR.png|The miracle of POWER gamepass icon.]] Note: Like the
+miracle of ascension, this miracle will not be returning in subsequent
+black fridays.
+
+## POWERFUL HORN {#powerful_horn}
+
+The POWERFUL HORN is an item that usually appears in the last slot of
+your inventory. It appears as a yellow trumpet with blue fabric on the
+handle where it is held. Upon usage it is put up to your mouth and it
+plays a trumpet sound for a few seconds before spawning 12 horses in 2
+rows behind you. After a second or two the horses rush forward at an
+extreme speed, annihilating anyone or anything in their path.
+
+Each horse has a different name based off of the color of their torso,
+they also can be shot and killed.
+
+## Gallery
+
++----------------------------------------+------------------------------------------------------------------+
+| ![[Trumpet.png|The POWERFUL | ![Horses spawned from the POWERFUL HORN in | | HORN]] | game](Horse.png "Horses spawned from the POWERFUL HORN in game") |
++----------------------------------------+------------------------------------------------------------------+

@@ -1,3 +1,6 @@
+> [!note] Migrated article
+> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+
 <div style="--notice-height:80px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;
     text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);
@@ -71,3 +74,13 @@ This room is hidden closely to **furnace room**, sligtly closer to the first ste
 
 >[!warning]
 >Note that 8ball and 2ball do not respawn, meaning if you lost them or somebody else did you cannot get them on that server!
+
+## Additional information
+
+## Gallery
+
+- The cannon
+- 8 ball room
+- From the inside
+- Portal to Cart God
+- Furnace Room
