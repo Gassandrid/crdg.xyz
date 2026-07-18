@@ -134,6 +134,8 @@ The following list will contain a recipe for every potion, and will describe the
 > > **--- Orb + Ball of Oblotenium + Uranium Rod = Wormhole Potion** (-)
 > > After a small amount of time, teleports the user to a replica of the map exactly where they were, with a black fog added. After a few seconds, will teleport the user back.
 > > 
+> > **---  **Alien Juice** + **Alien Baby** + **Hagfish Slime** = Nausea Potion (-) Inverts your screen, inverts your movement and wobbles your screen for a long amount of time depending on how much the player drank or smelled the potion.
+> >
 > > ### Event Exclusive
 > > 
 > > **--- Pumpkin + Corn = Turkey Potion** (Halloween) (-)
