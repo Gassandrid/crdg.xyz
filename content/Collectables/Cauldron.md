@@ -98,6 +98,7 @@ The following list will contain a recipe for every potion, and will describe the
 > >
 > > **--- Rocket Cart + Gas = Rocket Potion**
 > > After consumption, will make the player launch into the air with a thruster particle emitter when ragdolled.
+> >
 > > **--- Banana + Uranium Rod = Dinnerbone Potion** (-)
 > > Flips the player's character upside down. Does not expire.
 > > 
@@ -107,6 +108,9 @@ The following list will contain a recipe for every potion, and will describe the
 > > **--- Linear Actuator + Spring = Long Legs**
 > > Gives the player long legs. Permanent.
 > > 
+> > **--- linear motor + spring = long arms**
+> > Gives the player long arms. Permanent.
+> >
 > > **--- Ball of Oblotenium + Uranium Rod = Strength Potion**
 > > Will give the player a huge increase in grabbing strength. However, it expires really fast at about 3 seconds.
 > > 
@@ -116,18 +120,24 @@ The following list will contain a recipe for every potion, and will describe the
 > > **--- Honey + Water = Honey Water** (-)
 > > Refreshing. Cures all current potion effects.
 > > 
+> > **--- pizza + stopwatch = regeneration potion (-)
+> >  Heals you overtime. regens a great amount.
+> >
+> > **--- vinegar + pickle = pickle potion (-)
+> > turns players into grabbable pickles
+> >
 > > ### 3+ Ingredients
 > > 
 > > **--- Flashbang + Gun + Jerry Can = Unfriend/Block Potion** (-)
 > > Will find all of the players in the server you are currently in that are friended to you, will randomly choose one of them and automatically prompt a Block User GUI. If there are no friended users in the server, nothing happens.
 > > 
-> > **--- Gas + Orb + Ball of Oblotenium + Uranium Rod = Wormhole Potion** (-)
-> > After a small amount of time, teleports the user to a replica of the map exactly where they were, with a black fog added. After a few minutes, will teleport the user back.
+> > **--- Orb + Ball of Oblotenium + Uranium Rod = Wormhole Potion** (-)
+> > After a small amount of time, teleports the user to a replica of the map exactly where they were, with a black fog added. After a few seconds, will teleport the user back.
 > > 
 > > ### Event Exclusive
 > > 
 > > **--- Pumpkin + Corn = Turkey Potion** (Halloween) (-)
-> > Will play a strange sound for about 30 seconds, then will turn the player into a turkey. If the player talks in the chat while being a turkey, it will simply say "gobble gobble" and cannot be deciphered unless using a [[Multidimensional Telecommunicator]].
+> > Will play a strange sound for about 30 seconds, then will turn the player into a turkey. If the player talks in the chat while being a turkey, it will simply say "gobble gobble" and cannot be deciphered unless using a voice receiver or [[Multidimensional Telecommunicator]].
 
 ---
 
