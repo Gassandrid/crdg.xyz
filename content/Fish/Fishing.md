@@ -148,11 +148,12 @@ Very rare, they are all very large. Some of them have special abilities.
 
 - [Oarfish](content/Old%20Wiki/Oarfish.md "Oarfish")
 - [Whale](Whale "Whale")
+- [[Whale Shark]]
 - [Megalodon](content/Old%20Wiki/Megalodon.md "Megalodon")
 - [Lochness monster](Lochness_monster "Lochness monster")
 - [Leedsichthys](Leedsichthys "Leedsichthys")
 - [Mosasaur](content/Old%20Wiki/Mosasaur.md "Mosasaur")
-- [Poseidon](content/Old%20Wiki/Poseidon.md "Poseidon")
+- [Poseidon](content/Old%20Wiki/Poseidon.md "Poseidon")   *(mythic in public servers)* 
 - [Tully monster](Tully_monster "Tully monster")
 - [Perucetus](Perucetus "Perucetus")
 - [Blue whale](Blue_whale "Blue whale")
@@ -160,12 +161,26 @@ Very rare, they are all very large. Some of them have special abilities.
 - [Dunkleostus](content/Old%20Wiki/Dunkleostus.md "Dunkleostus")
 - [Fin whale](Fin_whale "Fin whale")
 - [Stethacanthus](content/Old%20Wiki/Stethacanthus.md "Stethacanthus")
+- [[Pteraspis]]
+- [[Bowhead Whale]]
+- [[Brydes Whale]]
+- [[Cachalot Whale]]
+- [[Liopluerodon]]
+- [[Shonisaurus]]
+
 
 ### Exotic
 
 Very rare, obtainable but most players will never see them.
 
+- [[Baliosaurus]]
+- [[Bloop]]
+- [[Cart Fish]]
 - [[Fur bearing trout]] *(winter Exclusive)*
+- [[Perucetus]] 
+- [[Pupfish]] 
+- [[Stellar Sea Cow]] 
+- [[Poseidon]] *(exotic in private servers)*
 
 
 ### Admin
