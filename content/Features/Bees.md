@@ -40,5 +40,4 @@
 
 ---
 
-work in progress... however i'll put some gifs here so i dont have to record them later
-
+The bees attack you when you shoot or destroy their hive, and if you have [bee repellent](https://crdg.xyz/Gamepasses/bee-repellent), then they will not attack you. **Bees will follow you around the map if you do not have the [bee repellent](https://crdg.xyz/Gamepasses/bee-repellent) gamepass, and will kill you**.
