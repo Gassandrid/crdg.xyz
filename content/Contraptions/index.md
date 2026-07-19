@@ -5,7 +5,7 @@ title: Player Contraptions
 > [!note] Migrated article
 > This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
 
-For *player designed* creations/machines that have been found to be useful for some case. These can range from **computer** circuits to useful **fishing automation** devices.s
+For *player designed* creations/machines that have been found to be useful for some case. These can range from **computer** circuits to useful **fishing automation** devices.
 
 ## Additional information
 
@@ -19,7 +19,7 @@ should detail which parts are able to be swapped. If it's constructed
 in a completely different fashion but serves the same utility, then a
 separate article should still be written for it.
 
-## List of Assemblies {#list_of_assemblies}
+## List of Assemblies
 
 [[Actuator clock|Actuator Clock]]
 
