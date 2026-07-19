@@ -44,3 +44,20 @@ tags:
         </div>
     </div>
 </div>
+
+> [!infobox|n-th]
+> 
+> ## Bearing
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[wiki-1784496408028-ca9631ff-Screenshot 2026-07-19 172602.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Miscellaneous |
+> | --- | --- |
+> | **Usage** | Allows objects to move in a circular motion. |
+> | **Date Added** | DATE |
