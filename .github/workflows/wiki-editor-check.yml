@@ -1,0 +1,46 @@
+name: Check wiki editor
+
+on:
+  pull_request:
+    branches: [v5]
+    paths:
+      - "quartz/components/WikiEditor.tsx"
+      - "quartz/components/scripts/wikiEditor.inline.ts"
+      - "quartz/components/styles/wikiEditor.scss"
+      - "worker/**"
+      - "package.json"
+      - "package-lock.json"
+      - "tsconfig.json"
+  push:
+    branches: [v5]
+    paths:
+      - "quartz/components/WikiEditor.tsx"
+      - "quartz/components/scripts/wikiEditor.inline.ts"
+      - "quartz/components/styles/wikiEditor.scss"
+      - "worker/**"
+      - "package.json"
+      - "package-lock.json"
+      - "tsconfig.json"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx quartz plugin install --from-config
+      - run: npx tsc --noEmit
+      - run: npm run editor:test
+      - run: npm run editor:check
+      - run: npx quartz build
+        env:
+          WIKI_EDITOR_API_URL: https://edit.crdg.xyz
+          TURNSTILE_SITE_KEY: 1x00000000000000000000AA

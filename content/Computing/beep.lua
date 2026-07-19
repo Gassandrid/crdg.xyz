@@ -1,0 +1,7 @@
+beep(440, 0.5)
+wait(0.5)
+beep(523, 0.5)
+wait(0.5)
+beep(659, 0.5)
+wait(0.5)
+stop()

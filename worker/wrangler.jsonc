@@ -1,0 +1,23 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "crdg-wiki-editor",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-16",
+  "observability": {
+    "enabled": true,
+  },
+  "routes": [
+    {
+      "pattern": "edit.crdg.xyz",
+      "custom_domain": true,
+    },
+  ],
+  "vars": {
+    "GITHUB_OWNER": "Gassandrid",
+    "GITHUB_REPO": "crdg.xyz",
+    "GITHUB_BASE_BRANCH": "v5",
+    "ALLOWED_ORIGINS": "https://crdg.xyz,https://www.crdg.xyz,http://localhost:8080",
+    "TURNSTILE_HOSTNAMES": "crdg.xyz,www.crdg.xyz",
+    "ENVIRONMENT": "production",
+  },
+}
