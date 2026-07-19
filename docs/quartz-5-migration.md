@@ -8,6 +8,7 @@ The wiki now runs on Quartz 5 from the `v5` branch. The old `v4` branch remains 
 - `quartz.ts` adds the site-local `WikiEditor` to content pages and replaces Quartz's initially loaded page dispatcher with the resulting layout.
 - The editor UI remains in `quartz/components/WikiEditor.tsx`, with its client script and stylesheet beside it.
 - The editor Worker targets `v5`, so contributor submissions open pull requests against the deployed wiki branch.
+- New-page templates are registered in `PAGE_TEMPLATES` in `quartz/components/WikiEditor.tsx`. Each entry points to a Markdown template and owns its preferred destination folder.
 - GitHub Pages and editor workflows trigger from `v5`.
 
 ## Obsidian Bases
@@ -31,3 +32,9 @@ node --max-old-space-size=8192 quartz/bootstrap-cli.mjs build
 4. Submit a small editor test and confirm its pull request targets `v5`.
 
 Do not delete `v4` until the live site and one editor submission have both been verified.
+
+## Adding a page template
+
+1. Add the Markdown source under `content/Toolkits and Templates/`.
+2. Add one entry to `PAGE_TEMPLATES` with a stable ID, label, description, preferred folder, and source path.
+3. Build the site and confirm that changing the template resets the draft only after confirmation and that changing the title retains the preferred folder.

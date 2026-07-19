@@ -14,7 +14,16 @@ type EditorData = {
   pagePath: string
   pageTitle: string
   source: string
+  templates: PageTemplate[]
   turnstileSiteKey: string
+}
+
+type PageTemplate = {
+  id: string
+  label: string
+  description: string
+  preferredFolder: string
+  source: string
 }
 
 type EditorMode = "edit" | "create"
@@ -37,6 +46,7 @@ type StoredAttachment = {
 type StoredDraft = {
   baseSha: string
   mode?: EditorMode
+  templateId?: string
   pagePath?: string
   pageTitle?: string
   content: string
@@ -427,6 +437,12 @@ function initializeEditor(root: HTMLElement): void {
   const frontmatterYaml = requiredElement<HTMLTextAreaElement>(dialog, "[data-frontmatter-yaml]")
   const pagePath = requiredElement<HTMLInputElement>(dialog, "[data-page-path]")
   const pagePathField = requiredElement<HTMLElement>(dialog, "[data-page-path-field]")
+  const pageTemplate = requiredElement<HTMLSelectElement>(dialog, "[data-page-template]")
+  const pageTemplateField = requiredElement<HTMLElement>(dialog, "[data-page-template-field]")
+  const pageTemplateDescription = requiredElement<HTMLElement>(
+    dialog,
+    "[data-page-template-description]",
+  )
   const reviewPage = requiredElement<HTMLElement>(dialog, "[data-review-page]")
 
   const attachments = new Map<string, File>()
@@ -443,6 +459,40 @@ function initializeEditor(root: HTMLElement): void {
   let currentPagePath = data.pagePath
   let currentPageTitle = data.pageTitle
   let syncingFrontmatter = false
+  let activeTemplate = data.templates[0]
+
+  const pageNameFromTitle = (title: string) =>
+    `${title.trim().replace(/[\\/:*?"<>|]+/g, "-") || "New page"}.md`
+
+  const templatePagePath = (template: PageTemplate, title: string) => {
+    const name = pageNameFromTitle(title)
+    return template.preferredFolder ? `${template.preferredFolder}/${name}` : name
+  }
+
+  const defaultTemplatePath = () => templatePagePath(activeTemplate, currentPageTitle)
+
+  const templateInitialTitle = (template: PageTemplate) => {
+    try {
+      const title = parseFrontmatter(template.source).title
+      return typeof title === "string" && title.trim() ? title.trim() : "New page"
+    } catch {
+      return "New page"
+    }
+  }
+
+  const applyTemplate = (template: PageTemplate) => {
+    activeTemplate = template
+    currentPageTitle = templateInitialTitle(template)
+    source.value = template.source
+    pagePath.value = templatePagePath(template, currentPageTitle)
+    currentPagePath = cleanPagePath(pagePath.value)
+    pageTemplateDescription.textContent = template.description
+    editorHeading.textContent = `Create a new ${template.label.toLowerCase()}`
+    reviewPage.textContent = currentPageTitle
+    updateFrontmatterFields()
+    renderAttachments()
+    updateAfterEdit()
+  }
 
   source.value = data.source
 
@@ -529,6 +579,7 @@ function initializeEditor(root: HTMLElement): void {
       await writeDraft(mode === "create" ? "new-page" : data.pagePath, {
         baseSha: activeBaseSha,
         mode,
+        templateId: mode === "create" ? activeTemplate.id : undefined,
         pagePath: currentPagePath,
         pageTitle: currentPageTitle,
         content: source.value,
@@ -772,6 +823,12 @@ function initializeEditor(root: HTMLElement): void {
       }
       if (draft.content === data.source && draft.attachments.length === 0 && !draft.summary) return
       source.value = draft.content
+      if (mode === "create" && draft.templateId) {
+        activeTemplate =
+          data.templates.find((template) => template.id === draft.templateId) ?? activeTemplate
+        pageTemplate.value = activeTemplate.id
+        pageTemplateDescription.textContent = activeTemplate.description
+      }
       currentPagePath = draft.pagePath ?? currentPagePath
       currentPageTitle = draft.pageTitle ?? currentPageTitle
       editorHeading.textContent = `${mode === "create" ? "Create" : "Edit"} ${currentPageTitle}`
@@ -820,13 +877,17 @@ function initializeEditor(root: HTMLElement): void {
     if (mode === "create") {
       activeBaseSha = ""
       activeLineEnding = "lf"
-      currentPageTitle = "New page"
-      currentPagePath = "content/New page.md"
-      source.value = "---\ntitle: New page\n---\n\n"
-      pagePath.value = "New page.md"
+      activeTemplate =
+        data.templates.find((template) => template.id === pageTemplate.value) ?? data.templates[0]
+      currentPageTitle = templateInitialTitle(activeTemplate)
+      currentPagePath = cleanPagePath(templatePagePath(activeTemplate, currentPageTitle))
+      source.value = activeTemplate.source
+      pagePath.value = templatePagePath(activeTemplate, currentPageTitle)
       pagePathField.hidden = false
+      pageTemplateField.hidden = false
+      pageTemplateDescription.textContent = activeTemplate.description
       frontmatterPanel.hidden = false
-      editorHeading.textContent = "Create a new page"
+      editorHeading.textContent = `Create a new ${activeTemplate.label.toLowerCase()}`
     } else {
       activeBaseSha = data.baseSha
       activeLineEnding = data.lineEnding
@@ -835,6 +896,7 @@ function initializeEditor(root: HTMLElement): void {
       source.value = data.source
       pagePath.value = data.pagePath.replace(/^content\//, "")
       pagePathField.hidden = true
+      pageTemplateField.hidden = true
       frontmatterPanel.hidden = true
       editorHeading.textContent = `Edit ${data.pageTitle}`
     }
@@ -1099,11 +1161,29 @@ function initializeEditor(root: HTMLElement): void {
   frontmatterTitle.addEventListener(
     "input",
     () => {
-      const wasDefaultPath = pagePath.value === "New page.md"
+      const wasDefaultPath = pagePath.value === defaultTemplatePath()
       updateFrontmatter("title", frontmatterTitle.value)
       if (mode === "create" && wasDefaultPath && frontmatterTitle.value.trim()) {
-        pagePath.value = `${frontmatterTitle.value.trim().replace(/[\\/:*?"<>|]+/g, "-")}.md`
+        pagePath.value = templatePagePath(activeTemplate, frontmatterTitle.value)
+        currentPagePath = cleanPagePath(pagePath.value)
       }
+    },
+    { signal },
+  )
+  pageTemplate.addEventListener(
+    "change",
+    () => {
+      if (mode !== "create") return
+      const template = data.templates.find((candidate) => candidate.id === pageTemplate.value)
+      if (!template) return
+      if (
+        source.value !== activeTemplate.source &&
+        !window.confirm("Replace the current page draft with this template?")
+      ) {
+        pageTemplate.value = activeTemplate.id
+        return
+      }
+      applyTemplate(template)
     },
     { signal },
   )
@@ -1204,7 +1284,6 @@ function initializeEditor(root: HTMLElement): void {
     },
     { signal },
   )
-
   ;[summary, contributor, discord].forEach((field) =>
     field.addEventListener("input", scheduleSave, { signal }),
   )

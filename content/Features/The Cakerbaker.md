@@ -1,7 +1,8 @@
 > [!note] Migrated article
 > This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
 
-https://static.wikitide.net/crdgwiki/b/ba/Cakerbaker.webp
+![Uploading image.png…]()
+
 The Cakerbaker was added to
 CRDG to celebrate GraveGateKeeper's birthday. It is a machine that
 produces cake.

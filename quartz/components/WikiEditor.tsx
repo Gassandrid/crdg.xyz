@@ -7,6 +7,29 @@ import script from "./scripts/wikiEditor.inline"
 
 const LOCAL_TURNSTILE_SITE_KEY = "1x00000000000000000000AA"
 
+const PAGE_TEMPLATES = [
+  {
+    id: "blank",
+    label: "Blank page",
+    description: "Start with only a title.",
+    preferredFolder: "",
+  },
+  {
+    id: "person",
+    label: "Person",
+    description: "Player profile, creations, and notable information.",
+    preferredFolder: "Players",
+    sourcePath: "content/Toolkits and Templates/Person Template.md",
+  },
+  {
+    id: "component",
+    label: "Component",
+    description: "Component overview, properties, usage, and recipes.",
+    preferredFolder: "Components/Regular Components",
+    sourcePath: "content/Toolkits and Templates/Component Template.md",
+  },
+] as const
+
 function gitBlobSha(source: Buffer): string {
   const header = Buffer.from(`blob ${source.byteLength}\0`)
   return createHash("sha1").update(header).update(source).digest("hex")
@@ -28,7 +51,7 @@ function safeJson(value: unknown): string {
     .replace(/\u2029/g, "\\u2029")
 }
 
-export default (() => {
+export default () => {
   const WikiEditor: QuartzComponent = ({ fileData, ctx }: QuartzComponentProps) => {
     if (!fileData.filePath || !fileData.relativePath || !fileData.relativePath.endsWith(".md")) {
       return null
@@ -45,6 +68,13 @@ export default (() => {
       pagePath: `content/${fileData.relativePath}`,
       pageTitle: fileData.frontmatter?.title ?? fileData.slug ?? "Untitled page",
       source: sourceBuffer.toString("utf8"),
+      templates: PAGE_TEMPLATES.map((template) => ({
+        ...template,
+        source:
+          "sourcePath" in template
+            ? readFileSync(template.sourcePath, "utf8")
+            : "---\ntitle: New page\n---\n\n",
+      })),
       turnstileSiteKey: process.env.TURNSTILE_SITE_KEY ?? (isLocal ? LOCAL_TURNSTILE_SITE_KEY : ""),
     }
 
@@ -220,6 +250,17 @@ export default (() => {
 
               <section class="wiki-editor-frontmatter" data-frontmatter-panel hidden>
                 <div class="wiki-editor-frontmatter-grid">
+                  <label data-page-template-field>
+                    <span>
+                      Start from <small>sets the initial content and folder</small>
+                    </span>
+                    <select data-page-template>
+                      {PAGE_TEMPLATES.map((template) => (
+                        <option value={template.id}>{template.label}</option>
+                      ))}
+                    </select>
+                    <small data-page-template-description></small>
+                  </label>
                   <label>
                     <span>Page title</span>
                     <input data-frontmatter-title maxlength={120} />
@@ -494,4 +535,4 @@ export default (() => {
   WikiEditor.afterDOMLoaded = script
 
   return WikiEditor
-})
+}
