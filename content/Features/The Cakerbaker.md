@@ -1,7 +1,8 @@
 > [!note] Migrated article
 > This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
 
-![[Cakerbaker.webp|Cakerbaker]]The Cakerbaker was added to
+https://static.wikitide.net/crdgwiki/b/ba/Cakerbaker.webp
+The Cakerbaker was added to
 CRDG to celebrate GraveGateKeeper's birthday. It is a machine that
 produces cake.
 
@@ -20,5 +21,5 @@ track.
 
 The cakerbaker island is usually not in game. To get cakerbaker island
 you need to wait until the players birthday date in Roblox and enter the
-game, and the island will spawn! Or player can use the command
-;cakerbaker and the island and the cakerbaker will be created
+game, and the island will spawn. A private server manager can also use the command
+;cakerbaker and the island and the cakerbaker will be created.
