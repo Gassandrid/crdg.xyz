@@ -1,8 +1,9 @@
 ---
 class: component
+acquisition: Manifest
 tags:
   - components/manifest
-image: "Pasted image 20250826174920.png"
+image: "[[Pasted image 20250826174920.png]]"
 ---
 > [!infobox|n-th]
 > 

@@ -1,8 +1,9 @@
 ---
 class: component
+acquisition: Component machine
 tags:
   - components/component-machine
-image: "Pasted image 20250829032829.png"
+image: "[[Pasted image 20250829032829.png]]"
 ---
 
 <div style="display:flex;align-items:center;gap:10px;

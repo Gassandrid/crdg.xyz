@@ -1,5 +1,6 @@
 ---
 class: component
+acquisition: Alien technology
 tags:
   - components/alien
 ---

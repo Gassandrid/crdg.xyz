@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Diode Image.png"
+acquisition: Manifest
+image: "[[Diode Image.png]]"
 tags:
   - components/manifest
   - Logic

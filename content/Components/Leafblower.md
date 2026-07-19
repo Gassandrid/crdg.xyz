@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Leafblower Image.png"
+acquisition: Manifest
+image: "[[Leafblower Image.png]]"
 tags:
   - components/manifest
   - Fun

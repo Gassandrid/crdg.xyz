@@ -1,6 +1,7 @@
 ---
 title: New component
 class: component
+acquisition: Component machine
 defaultLocation: Components
 templateDescription: Component overview, properties, usage, and recipes.
 tags:

@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Seeker Image.png"
+acquisition: Manifest
+image: "[[Seeker Image.png]]"
 tags:
   - components/manifest
   - Building

@@ -1,8 +1,9 @@
 ---
 class: component
+acquisition: Alien technology
 tags:
   - components/alien
-image: "Pasted image 20250829180652.png"
+image: "[[Pasted image 20250829180652.png]]"
 ---
 > [!infobox|n-th]
 > 

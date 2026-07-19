@@ -1,8 +1,9 @@
 ---
 class: component
+acquisition: Alien technology
 tags:
   - components/alien
-image: "Pasted image 20250829175859.png"
+image: "[[Pasted image 20250829175859.png]]"
 ---
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;

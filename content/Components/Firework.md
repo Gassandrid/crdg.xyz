@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Firework Image.png"
+acquisition: Manifest
+image: "[[Firework Image.png]]"
 tags:
   - components/manifest
   - Fun

@@ -14,6 +14,7 @@ type EditorData = {
   pagePath: string
   pageTitle: string
   source: string
+  attachmentPaths: Record<string, string>
   templates: PageTemplate[]
   turnstileSiteKey: string
 }
@@ -236,7 +237,11 @@ function escapeMarkdownLabel(label: string): string {
   return label.replace(/([\\\[\]])/g, "\\$1")
 }
 
-function previewSource(source: string, attachmentUrls: Map<string, string>): string {
+function previewSource(
+  source: string,
+  attachmentUrls: Map<string, string>,
+  attachmentPaths: Record<string, string>,
+): string {
   return transformOutsideFences(source, (text) =>
     text
       .replace(
@@ -246,7 +251,7 @@ function previewSource(source: string, attachmentUrls: Map<string, string>): str
           const fileName = path.split("/").pop() ?? path
           const localUrl = attachmentUrls.get(fileName)
           const imagePath = path.includes("/") ? path : `Attachments/${path}`
-          const url = localUrl ?? `/${slugPath(imagePath)}`
+          const url = localUrl ?? attachmentPaths[fileName] ?? `/${slugPath(imagePath)}`
           const width = rawOptions?.match(/(?:^|\|)(\d{1,4})(?:x\d{1,4})?(?:$|\|)/)?.[1]
           const title = width ? ` \"obsidian-width=${width}\"` : ""
           return `![${escapeMarkdownLabel(fileName)}](<${url}>${title})`
@@ -276,6 +281,7 @@ function renderPreview(
   source: string,
   target: HTMLElement,
   attachmentUrls: Map<string, string>,
+  attachmentPaths: Record<string, string>,
 ): void {
   if (source.trim() === "") {
     target.innerHTML = '<p class="wiki-preview-empty">Nothing to preview yet.</p>'
@@ -283,7 +289,7 @@ function renderPreview(
   }
 
   try {
-    const transformed = previewSource(source, attachmentUrls)
+    const transformed = previewSource(source, attachmentUrls, attachmentPaths)
     const markdownTree = previewProcessor.parse(transformed)
     const htmlTree = previewProcessor.runSync(markdownTree)
     target.innerHTML = toHtml(htmlTree)
@@ -568,7 +574,7 @@ function initializeEditor(root: HTMLElement): void {
   const schedulePreview = () => {
     if (previewTimer !== undefined) window.clearTimeout(previewTimer)
     previewTimer = window.setTimeout(() => {
-      renderPreview(source.value, preview, attachmentUrls)
+      renderPreview(source.value, preview, attachmentUrls, data.attachmentPaths)
       previewTimer = undefined
     }, 120)
   }
@@ -1304,7 +1310,7 @@ function initializeEditor(root: HTMLElement): void {
 
   updateCounts()
   updateFrontmatterFields()
-  renderPreview(source.value, preview, attachmentUrls)
+  renderPreview(source.value, preview, attachmentUrls, data.attachmentPaths)
   window.addCleanup(() => {
     controller.abort()
     if (previewTimer !== undefined) window.clearTimeout(previewTimer)

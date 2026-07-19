@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Pasted image 20250823163945.png"
+acquisition: Manifest
+image: "[[Pasted image 20250823163945.png]]"
 tags:
   - components/manifest
   - Building

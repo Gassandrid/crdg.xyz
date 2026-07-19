@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Astroturf Image.png"
+acquisition: Manifest
+image: "[[Astroturf Image.png]]"
 tags:
   - components/manifest
   - Building

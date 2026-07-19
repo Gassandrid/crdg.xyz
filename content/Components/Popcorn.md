@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Pasted image 20250909204252.png"
+acquisition: Miscellaneous
+image: "[[Pasted image 20250909204252.png]]"
 tags:
   - components/miscellaneous
   - templates

@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Propellant Image.png"
+acquisition: Manifest
+image: "[[Propellant Image.png]]"
 tags:
   - components/manifest
   - Fun

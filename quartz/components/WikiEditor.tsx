@@ -2,6 +2,7 @@ import { createHash } from "crypto"
 import { readFileSync, readdirSync } from "fs"
 import { basename, join } from "path"
 import { dump, load } from "js-yaml"
+import { FilePath, slugifyFilePath } from "../util/path"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import style from "./styles/wikiEditor.scss"
 // @ts-ignore
@@ -9,6 +10,7 @@ import script from "./scripts/wikiEditor.inline"
 
 const LOCAL_TURNSTILE_SITE_KEY = "1x00000000000000000000AA"
 const PAGE_TEMPLATE_DIRECTORY = "content/Toolkits and Templates/Page Templates"
+const IMAGE_EXTENSIONS = new Set([".png", ".jpg", ".jpeg", ".gif", ".webp", ".avif", ".svg"])
 
 type PageTemplate = {
   id: string
@@ -69,6 +71,23 @@ function loadPageTemplates(): PageTemplate[] {
     .sort((left, right) => left.label.localeCompare(right.label))
 }
 
+function loadAttachmentPaths(directory = "content"): Record<string, string> {
+  const paths: Record<string, string> = {}
+  const walk = (current: string) => {
+    for (const entry of readdirSync(current, { withFileTypes: true })) {
+      const path = join(current, entry.name)
+      if (entry.isDirectory()) {
+        walk(path)
+      } else if (IMAGE_EXTENSIONS.has(entry.name.slice(entry.name.lastIndexOf(".")).toLowerCase())) {
+        const fileName = basename(entry.name)
+        paths[fileName] ??= `/${slugifyFilePath(path.replace(/^content\//, "") as FilePath)}`
+      }
+    }
+  }
+  walk(directory)
+  return paths
+}
+
 function gitBlobSha(source: Buffer): string {
   const header = Buffer.from(`blob ${source.byteLength}\0`)
   return createHash("sha1").update(header).update(source).digest("hex")
@@ -108,6 +127,7 @@ export default () => {
       pagePath: `content/${fileData.relativePath}`,
       pageTitle: fileData.frontmatter?.title ?? fileData.slug ?? "Untitled page",
       source: sourceBuffer.toString("utf8"),
+      attachmentPaths: loadAttachmentPaths(),
       templates: pageTemplates,
       turnstileSiteKey: process.env.TURNSTILE_SITE_KEY ?? (isLocal ? LOCAL_TURNSTILE_SITE_KEY : ""),
     }

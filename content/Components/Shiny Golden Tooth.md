@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Shiny golden tooth Image.png"
+acquisition: Manifest
+image: "[[Shiny golden tooth Image.png]]"
 tags:
   - components/manifest
   - Fun

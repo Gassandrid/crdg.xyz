@@ -1,6 +1,7 @@
 ---
 class: component
-image: "ContentDeleted.png"
+acquisition: Manifest
+image: "[[ContentDeleted.png]]"
 tags:
   - components/manifest
   - "#removed"

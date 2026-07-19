@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Attachment Image.png"
+acquisition: Manifest
+image: "[[Attachment Image.png]]"
 tags:
   - components/manifest
   - Building

@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Rocket Image.png"
+acquisition: Manifest
+image: "[[Rocket Image.png]]"
 tags:
   - components/manifest
   - Fun

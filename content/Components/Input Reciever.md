@@ -1,6 +1,7 @@
 ---
 class: component
-image: "inputreceiver 1.png"
+acquisition: Component machine
+image: "[[inputreceiver 1.png]]"
 tags:
   - components/component-machine
   - todo

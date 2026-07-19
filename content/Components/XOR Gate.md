@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Pasted image 20250823174215.png"
+acquisition: Component machine
+image: "[[Pasted image 20250823174215.png]]"
 tags:
   - components/component-machine
   - components/manifest

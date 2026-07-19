@@ -1,6 +1,7 @@
 ---
 class: component
-image: "ORB Image.png"
+acquisition: Manifest
+image: "[[ORB Image.png]]"
 tags:
   - components/manifest
   - Fun

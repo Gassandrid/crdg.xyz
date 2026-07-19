@@ -3,23 +3,18 @@ filters:
     - file.ext == "md"
     - file.inFolder("Components")
     - class == "component"
-formulas:
-  Cover: if(image, image(image), "")
-  acquisition: if(file.hasTag("components/alien"), "Alien technology", if(file.hasTag("components/component-machine"), "Component machine", if(file.hasTag("components/manifest"), "Manifest", "Miscellaneous")))
 views:
   - type: cards
-    name: All Components
+    name: Cards
     groupBy:
-      property: formula.acquisition
-      direction: ASC
+      property: acquisition
+      direction: DESC
     order:
       - file.name
-      - description
+      - acquisition
     sort:
-      - property: formula.Cover
-        direction: DESC
       - property: file.name
         direction: ASC
-    image: formula.Cover
+    image: image
     cardSize: 150
     imageAspectRatio: 1

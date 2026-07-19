@@ -1,8 +1,9 @@
 ---
 class: component
+acquisition: Miscellaneous
 tags:
   - components/miscellaneous
-image: "Mutated bee.png"
+image: "[[Mutated bee.png]]"
 ---
 > [!note] Migrated article
 > This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.

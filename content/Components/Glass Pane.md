@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Glasspane Image.png"
+acquisition: Manifest
+image: "[[Glasspane Image.png]]"
 tags:
   - components/manifest
   - Building

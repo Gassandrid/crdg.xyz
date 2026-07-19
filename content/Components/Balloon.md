@@ -1,8 +1,9 @@
 ---
 class: component
+acquisition: Component machine
 tags:
   - components/component-machine
-image: "Pasted image 20250831235424.png"
+image: "[[Pasted image 20250831235424.png]]"
 ---
 > [!infobox|n-th]
 > 

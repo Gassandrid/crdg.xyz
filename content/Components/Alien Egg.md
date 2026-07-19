@@ -1,8 +1,9 @@
 ---
 class: component
+acquisition: Alien technology
 tags:
   - components/alien
-image: "Alien Egg-1755338355499.png"
+image: "[[Alien Egg-1755338355499.png]]"
 ---
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;

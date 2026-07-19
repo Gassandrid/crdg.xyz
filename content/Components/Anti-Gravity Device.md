@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Anti-Gravity Device Image.png"
+acquisition: Manifest
+image: "[[Anti-Gravity Device Image.png]]"
 tags:
   - components/manifest
   - Building

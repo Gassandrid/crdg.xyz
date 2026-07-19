@@ -1,6 +1,7 @@
 ---
 class: component
-image: "Pasted image 20250722144151.png"
+acquisition: Component machine
+image: "[[Pasted image 20250722144151.png]]"
 tags:
   - components/component-machine
   - todo

@@ -513,20 +513,67 @@ body:has(.wiki-editor-dialog[open]) {
   }
 
   .wiki-preview-callout-infobox {
-    background: transparent;
-    border-color: var(--lightgray);
+    box-sizing: border-box;
+    float: right;
+    clear: right;
+    width: min(320px, 42%);
+    margin: 0 0 1rem 1.25rem;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid color-mix(in srgb, var(--gray) 35%, transparent);
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--light) 96%, var(--lightgray));
+    box-shadow: 0 8px 24px rgb(0 0 0 / 8%);
 
     > p:first-child {
       display: none;
     }
 
-    > h2,
+    > h2:first-of-type {
+      display: none;
+    }
+
     > h3 {
-      margin-top: 0;
-      padding: 0.35rem 0.5rem;
-      background: var(--lightgray);
-      border-radius: 0.25rem;
-      text-align: center;
+      margin: 0.8rem -0.9rem 0.4rem;
+      padding: 0.45rem 0.9rem;
+      border-block: 1px solid color-mix(in srgb, var(--gray) 35%, transparent);
+      background: color-mix(in srgb, var(--lightgray) 55%, transparent);
+      color: var(--darkgray);
+      font-size: 0.78rem;
+      letter-spacing: 0.05em;
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    > :not(.wiki-preview-callout-title) {
+      margin-inline: 0.9rem;
+    }
+
+    img {
+      max-height: 360px;
+      object-fit: contain;
+    }
+
+    table {
+      width: calc(100% - 1.8rem);
+      margin: 0.5rem 0.9rem 0.9rem;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+    }
+
+    thead {
+      display: none;
+    }
+
+    td {
+      padding: 0.45rem 0.35rem;
+      border: 0;
+      vertical-align: top;
+    }
+
+    td:first-child {
+      width: 42%;
+      color: var(--darkgray);
     }
   }
 
@@ -537,6 +584,18 @@ body:has(.wiki-editor-dialog[open]) {
 
     > p:first-child {
       display: none;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .wiki-preview-callout-infobox {
+      float: none;
+      width: 100%;
+      margin: 1rem 0 1.5rem;
+
+      img {
+        max-height: min(52vh, 320px);
+      }
     }
   }
 

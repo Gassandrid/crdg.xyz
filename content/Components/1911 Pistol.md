@@ -1,6 +1,7 @@
 ---
 class: component
-image: "1911 Pistol Image.png"
+acquisition: Manifest
+image: "[[1911 Pistol Image.png]]"
 tags:
   - components/manifest
   - Combat
