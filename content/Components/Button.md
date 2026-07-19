@@ -7,9 +7,6 @@ tags:
   - todo
 ---
 
-> [!note] Migrated article
-> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
-
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -50,18 +47,27 @@ tags:
     </div>
 </div>
 
-![[Pasted image 20250722143935.png]]
-
+> [!infobox|n-th]
+> 
+> ## Button
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[Pasted image 20250722143935.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Miscellaneous |
+> | --- | --- |
+> | **Usage** | Sends a signal when pressed. |
+> | **Date Added** | DATE |
 ## Additional information
 
-The button is a [[Components|component]] in CRDG.
-It is a gray slab with a cylinder on the top, it can come in many
-colors.
+The **Button** is a **Component** obtainable via the [[items/regular-items/component-machine|Component Machine]].
+It is a gray slab with a cylindrical button on top. The color of the Button is randomly generated when the Button is spawned.
 
 ## Function
 
-When pressed, the button will power anything it is connected to. This
-power can be blocked by a [[rubber slab|rubber slab]]. It can also be used as a
-[[Bearing|Bearing]] because the circular part can
-spin freely. Different color buttons play different music and make
-different LED colors. \_\_INDEX\_\_
+When pressed, the button will send a signal to anything it is connected to. Different color buttons play different music when attached to a [[components/speaker|Speaker]].
