@@ -46,4 +46,29 @@ tags:
     </div>
 </div>
 
-![[Pasted image 20250722182416.png]]
+> [!infobox|n-th]
+> 
+> ## Banana
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[Pasted image 20250722182416.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Miscellaneous |
+> | --- | --- |
+> | **Usage** | Flings players and objects. |
+> | **Date Added** | DATE |
+
+The **Banana** is a **Component** obtainable via the [[items/regular-items/component-machine|Component Machine]]. It is also used as an ingredient in the [[collectables/cauldron|Cauldron]].
+
+## Function
+
+The Banana's main use is to fling players and objects. Once a Banana comes in contact with an object or a player, the banana will play a slipping noise and that player or object will be flung in a random direction. 
+
+If the player was sitting down when coming in contact with the Banana, they will be forced to get out of their seat.
+
+After the Banana flings an object or player, the banana plays a laugh track audio before disappearing shortly thereafter. During this time the Banana does not fling objects or players.
