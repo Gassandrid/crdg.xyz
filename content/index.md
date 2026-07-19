@@ -26,4 +26,7 @@ Over time, the game evolved from just regular carting to genres like [[Fish|fish
 
 Due to the game's low popularity, no unofficial wiki had been able to create a complete source of information for the game. However, this wiki is aimed to achieve that goal and sprinkle on top additional information like advanced contraptions and tips to help you into fully understanding the game.
 
+## Components
+
+![[Components/Components.base]]
 

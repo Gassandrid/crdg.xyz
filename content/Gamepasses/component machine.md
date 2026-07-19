@@ -14,7 +14,7 @@
 > |---|---|
 > |Gives | Component machine item|
 
-Component machine allows player to summon various [[content/Components/Regular Components/index|components]] using points, which takes 15 seconds to regenerate. Player can use points to either roll the component list to get random component from the [[content/Components/Regular Components/index|component]] list (consumes 1 point), or by typing in the component name manually (cosnumes 2 points). 
+Component machine allows player to summon various [[content/Components/Regular Components|components]] using points, which takes 15 seconds to regenerate. Player can use points to either roll the component list to get random component from the [[content/Components/Regular Components|component]] list (consumes 1 point), or by typing in the component name manually (cosnumes 2 points). 
 Best used with [[content/Gamepasses/glue|glue]].
 
 More information can be found on [[content/Items/Regular Items/Component Machine|Component Machine]] page!

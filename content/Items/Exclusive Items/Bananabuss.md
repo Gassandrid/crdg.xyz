@@ -45,7 +45,7 @@ The **Bananabuss** is an exclusive **Combat**-type **Item** added on **November 
 
 ## Usage
 
-Using left click with the **Bananabuss** will shoot out 10 [[content/Components/Regular Components/Banana|Bananas]] that go in the direction your mouse is facing. If a banana hits someone or something, they will fling.
+Using left click with the **Bananabuss** will shoot out 10 [[content/Components/Banana|Bananas]] that go in the direction your mouse is facing. If a banana hits someone or something, they will fling.
 
 
 >![[2025-08-2700-16-13-ezgif.com-video-to-gif-converter.gif]]

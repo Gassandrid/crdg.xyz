@@ -1,10 +1,11 @@
 ---
 title: New component
 class: component
-defaultLocation: Components/Regular Components
+defaultLocation: Components
 templateDescription: Component overview, properties, usage, and recipes.
 tags:
-  - component
+  - components/component-machine
+image: Component image.png
 ---
 
 ## Overview

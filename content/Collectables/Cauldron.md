@@ -22,7 +22,7 @@ The **Cauldron** is a miscellaneous-type blimp decoration added on August 17th, 
 
 The **Cauldron** works by dropping ingredients into the pot and combining them to mix into a potion.
 - All components from the [[Component Machine]] aren't necessarily ingredients, as many of them do not work.
-	-  Instead, the list of ingredients can also extend to objects found around the world, [[Manifests]], [[content/Components/Alien Technology/index|Alien Technology]], Liquids and other miscellaneous objects such as [[Flintlock]] balls and [[Jerry Can|Jerry Cans]].
+	-  Instead, the list of ingredients can also extend to objects found around the world, [[Manifests]], [[content/Components/Alien Technology|Alien Technology]], Liquids and other miscellaneous objects such as [[Flintlock]] balls and [[Jerry Can|Jerry Cans]].
 - All liquids count as an ingredient.
 - Potions can range from two to four ingredients.
 	-  Ingredients can also be used twice in a potion, however this is restricted to only one ingredient. If we take into account this rule, potions can now range from two to five ingredients.
@@ -33,7 +33,7 @@ Below is a list of every ingredient able to be dropped inside of a **Cauldron**.
 
 > [!example]- List of Ingredients
 > > 
-> > ### [[content/Components/Regular Components/index|Regular Components]]
+> > ### [[content/Components/Regular Components|Regular Components]]
 > >
 > > - [[Pillow]]
 > > - [[Planter]]
@@ -49,11 +49,11 @@ Below is a list of every ingredient able to be dropped inside of a **Cauldron**.
 > > - [[Balloon]] (specifically the balloon itself, not the anchor)
 > > - [[Rope]]
 > > 
-> > ### [[content/Components/Manifest Components/index|Manifest Components]] 
+> > ### [[content/Components/Manifest Components|Manifest Components]] 
 > >
 > > - [[ORB]]
 > > 
-> > ### [[content/Components/Alien Technology/index|Alien Technology]] 
+> > ### [[content/Components/Alien Technology|Alien Technology]] 
 > >
 > > - [[Alien Egg]] (specifically the homunculus from it, not the egg)
 > > 

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+plugin_dir=".quartz/plugins/bases-page"
+patch_file="patches/bases-page-card-groups.patch"
+
+if git apply --reverse --check --directory="$plugin_dir" "$patch_file" 2>/dev/null; then
+  exit 0
+fi
+
+git apply --check --directory="$plugin_dir" "$patch_file"
+git apply --directory="$plugin_dir" "$patch_file"
+npm install --prefix "$plugin_dir" --include=dev --ignore-scripts
+npm run --prefix "$plugin_dir" build

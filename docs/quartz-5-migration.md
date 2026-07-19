@@ -13,7 +13,11 @@ The wiki now runs on Quartz 5 from the `v5` branch. The old `v4` branch remains 
 
 ## Obsidian Bases
 
-The `github:quartz-community/bases-page` plugin is enabled and pinned in `quartz.lock.json`. Add `.base` files anywhere under `content/`; Quartz renders them as database-style pages. A component catalogue can therefore live beside `content/Components/` and query component-note properties without adding custom site code.
+The `github:quartz-community/bases-page` plugin is enabled and pinned in `quartz.lock.json`. Add `.base` files anywhere under `content/`; Quartz renders them as database-style pages.
+
+Component notes are flat files directly under `content/Components/`. Every component has `class: component` and exactly one acquisition tag: `components/alien`, `components/component-machine`, `components/manifest`, or `components/miscellaneous`. The home-page card Base groups by those tags. Add an `image` property containing the attachment filename (without `![[...]]`) to supply its cover.
+
+Quartz's current Bases card renderer does not display `groupBy` headings, so `scripts/patch-bases-card-groups` applies the small pinned compatibility patch after plugin installation in CI. Remove that patch when the upstream plugin gains grouped cards.
 
 After changing plugin entries, refresh the lockfile and verify the site:
 
