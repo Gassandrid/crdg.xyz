@@ -1,5 +1,5 @@
 import { toHtml } from "hast-util-to-html"
-import yaml from "js-yaml"
+import * as yaml from "js-yaml"
 import remarkFrontmatter from "remark-frontmatter"
 import remarkGfm from "remark-gfm"
 import remarkParse from "remark-parse"
