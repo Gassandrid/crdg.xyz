@@ -1,5 +1,5 @@
 import { toHtml } from "hast-util-to-html"
-import * as yaml from "js-yaml"
+import { dump, JSON_SCHEMA, load } from "js-yaml"
 import remarkFrontmatter from "remark-frontmatter"
 import remarkGfm from "remark-gfm"
 import remarkParse from "remark-parse"
@@ -334,7 +334,7 @@ function joinFrontmatter(frontmatter: string, body: string): string {
 }
 
 function parseFrontmatter(source: string): FrontmatterValues {
-  const parsed = yaml.load(splitFrontmatter(source).yaml, { schema: yaml.JSON_SCHEMA })
+  const parsed = load(splitFrontmatter(source).yaml, { schema: JSON_SCHEMA })
   return parsed && typeof parsed === "object" && !Array.isArray(parsed)
     ? (parsed as FrontmatterValues)
     : {}
@@ -471,7 +471,7 @@ function initializeEditor(root: HTMLElement): void {
       const values = parseFrontmatter(source.value)
       if (Array.isArray(value) ? value.length === 0 : value.trim() === "") delete values[key]
       else values[key] = value
-      const rendered = yaml.dump(values, { lineWidth: -1, noRefs: true, sortKeys: false }).trimEnd()
+      const rendered = dump(values, { lineWidth: -1, noRefs: true, sortKeys: false }).trimEnd()
       source.value = joinFrontmatter(rendered, parts.body)
       frontmatterYaml.value = rendered
       if (key === "title" && typeof value === "string" && value.trim()) {
@@ -1142,7 +1142,7 @@ function initializeEditor(root: HTMLElement): void {
       const parts = splitFrontmatter(source.value)
       source.value = joinFrontmatter(frontmatterYaml.value, parts.body)
       try {
-        yaml.load(frontmatterYaml.value, { schema: yaml.JSON_SCHEMA })
+        load(frontmatterYaml.value, { schema: JSON_SCHEMA })
         hideNotice()
         updateFrontmatterFields()
       } catch (error) {
