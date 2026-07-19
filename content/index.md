@@ -5,7 +5,7 @@ tags: [templates]
 
 
 > [!note] Migrated article
-> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+> This second half of this page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged. Please merge the two articles.
 
 This is a new **work in progress** project to create a real, complete wiki for the game.
 
