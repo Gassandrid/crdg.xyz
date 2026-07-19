@@ -1,5 +1,8 @@
 ---
 title: New component
+class: component
+defaultLocation: Components/Regular Components
+templateDescription: Component overview, properties, usage, and recipes.
 tags:
   - component
 ---

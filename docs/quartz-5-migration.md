@@ -8,7 +8,7 @@ The wiki now runs on Quartz 5 from the `v5` branch. The old `v4` branch remains 
 - `quartz.ts` adds the site-local `WikiEditor` to content pages and replaces Quartz's initially loaded page dispatcher with the resulting layout.
 - The editor UI remains in `quartz/components/WikiEditor.tsx`, with its client script and stylesheet beside it.
 - The editor Worker targets `v5`, so contributor submissions open pull requests against the deployed wiki branch.
-- New-page templates are registered in `PAGE_TEMPLATES` in `quartz/components/WikiEditor.tsx`. Each entry points to a Markdown template and owns its preferred destination folder.
+- New-page templates are discovered automatically from `content/Toolkits and Templates/Page Templates/`. Each template owns its class, display metadata, and preferred destination folder in YAML frontmatter.
 - GitHub Pages and editor workflows trigger from `v5`.
 
 ## Obsidian Bases
@@ -35,6 +35,20 @@ Do not delete `v4` until the live site and one editor submission have both been 
 
 ## Adding a page template
 
-1. Add the Markdown source under `content/Toolkits and Templates/`.
-2. Add one entry to `PAGE_TEMPLATES` with a stable ID, label, description, preferred folder, and source path.
-3. Build the site and confirm that changing the template resets the draft only after confirmation and that changing the title retains the preferred folder.
+1. Add a Markdown file under `content/Toolkits and Templates/Page Templates/`.
+2. Give it a `class` and `defaultLocation`. Optional `templateName` and `templateDescription` properties control how it appears in the editor.
+3. Put the initial page frontmatter and body in that file. `class` remains on created pages; `defaultLocation`, `templateName`, and `templateDescription` are editor-only and are removed from the new page source.
+4. Build the site and confirm that changing the template resets the draft only after confirmation and that changing the title retains the preferred folder. The suggested path remains editable.
+
+Example:
+
+```yaml
+---
+title: New person
+class: person
+defaultLocation: Players
+templateDescription: Player profile and creations.
+tags:
+  - person
+---
+```

@@ -21,8 +21,9 @@ type EditorData = {
 type PageTemplate = {
   id: string
   label: string
+  className: string
   description: string
-  preferredFolder: string
+  defaultLocation: string
   source: string
 }
 
@@ -466,7 +467,7 @@ function initializeEditor(root: HTMLElement): void {
 
   const templatePagePath = (template: PageTemplate, title: string) => {
     const name = pageNameFromTitle(title)
-    return template.preferredFolder ? `${template.preferredFolder}/${name}` : name
+    return template.defaultLocation ? `${template.defaultLocation}/${name}` : name
   }
 
   const defaultTemplatePath = () => templatePagePath(activeTemplate, currentPageTitle)

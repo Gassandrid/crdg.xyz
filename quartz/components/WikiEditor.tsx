@@ -1,34 +1,73 @@
 import { createHash } from "crypto"
-import { readFileSync } from "fs"
+import { readFileSync, readdirSync } from "fs"
+import { basename, join } from "path"
+import { dump, load } from "js-yaml"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import style from "./styles/wikiEditor.scss"
 // @ts-ignore
 import script from "./scripts/wikiEditor.inline"
 
 const LOCAL_TURNSTILE_SITE_KEY = "1x00000000000000000000AA"
+const PAGE_TEMPLATE_DIRECTORY = "content/Toolkits and Templates/Page Templates"
 
-const PAGE_TEMPLATES = [
-  {
-    id: "blank",
-    label: "Blank page",
-    description: "Start with only a title.",
-    preferredFolder: "",
-  },
-  {
-    id: "person",
-    label: "Person",
-    description: "Player profile, creations, and notable information.",
-    preferredFolder: "Players",
-    sourcePath: "content/Toolkits and Templates/Person Template.md",
-  },
-  {
-    id: "component",
-    label: "Component",
-    description: "Component overview, properties, usage, and recipes.",
-    preferredFolder: "Components/Regular Components",
-    sourcePath: "content/Toolkits and Templates/Component Template.md",
-  },
-] as const
+type PageTemplate = {
+  id: string
+  label: string
+  className: string
+  description: string
+  defaultLocation: string
+  source: string
+}
+
+function titleCase(value: string): string {
+  return value.replace(/[-_]+/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase())
+}
+
+function loadPageTemplates(): PageTemplate[] {
+  return readdirSync(PAGE_TEMPLATE_DIRECTORY, { withFileTypes: true })
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
+    .map((entry) => {
+      const raw = readFileSync(join(PAGE_TEMPLATE_DIRECTORY, entry.name), "utf8")
+      const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/)
+      if (!match) throw new Error(`Page template ${entry.name} needs YAML frontmatter.`)
+
+      const frontmatter = (load(match[1]) ?? {}) as Record<string, unknown>
+      const className = typeof frontmatter.class === "string" ? frontmatter.class.trim() : ""
+      if (!className) throw new Error(`Page template ${entry.name} needs a class property.`)
+
+      if (typeof frontmatter.defaultLocation !== "string") {
+        throw new Error(`Page template ${entry.name} needs a defaultLocation property.`)
+      }
+      const defaultLocation = frontmatter.defaultLocation.replace(/^\/?content\/?|^\/+|\/+$/g, "")
+      if (defaultLocation.split("/").includes("..")) {
+        throw new Error(`Page template ${entry.name} has an invalid defaultLocation.`)
+      }
+      const label =
+        typeof frontmatter.templateName === "string" && frontmatter.templateName.trim()
+          ? frontmatter.templateName.trim()
+          : titleCase(className)
+      const description =
+        typeof frontmatter.templateDescription === "string"
+          ? frontmatter.templateDescription.trim()
+          : `Create a ${label.toLowerCase()} page.`
+
+      delete frontmatter.defaultLocation
+      delete frontmatter.templateName
+      delete frontmatter.templateDescription
+
+      return {
+        id: basename(entry.name, ".md")
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-"),
+        label,
+        className,
+        description,
+        defaultLocation,
+        source: `---\n${dump(frontmatter, { lineWidth: -1, noRefs: true }).trimEnd()}\n---\n\n${match[2]}`,
+      }
+    })
+    .sort((left, right) => left.label.localeCompare(right.label))
+}
 
 function gitBlobSha(source: Buffer): string {
   const header = Buffer.from(`blob ${source.byteLength}\0`)
@@ -59,6 +98,7 @@ export default () => {
 
     const sourceBuffer = readFileSync(fileData.filePath)
     const isLocal = Boolean(ctx.argv.serve)
+    const pageTemplates = loadPageTemplates()
     const editorData = {
       apiEndpoint:
         process.env.WIKI_EDITOR_API_URL ??
@@ -68,13 +108,7 @@ export default () => {
       pagePath: `content/${fileData.relativePath}`,
       pageTitle: fileData.frontmatter?.title ?? fileData.slug ?? "Untitled page",
       source: sourceBuffer.toString("utf8"),
-      templates: PAGE_TEMPLATES.map((template) => ({
-        ...template,
-        source:
-          "sourcePath" in template
-            ? readFileSync(template.sourcePath, "utf8")
-            : "---\ntitle: New page\n---\n\n",
-      })),
+      templates: pageTemplates,
       turnstileSiteKey: process.env.TURNSTILE_SITE_KEY ?? (isLocal ? LOCAL_TURNSTILE_SITE_KEY : ""),
     }
 
@@ -255,7 +289,7 @@ export default () => {
                       Start from <small>sets the initial content and folder</small>
                     </span>
                     <select data-page-template>
-                      {PAGE_TEMPLATES.map((template) => (
+                      {pageTemplates.map((template) => (
                         <option value={template.id}>{template.label}</option>
                       ))}
                     </select>
