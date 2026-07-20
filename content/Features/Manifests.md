@@ -2,8 +2,7 @@
 tags:
   - components/manifest
 ---
-**Manifests**, also known as **Miracle Items** are **Components** storable by the [miracle of manifestation](https://www.roblox.com/game-pass/652433606/miracle-of-manifestation) game pass only available during Black Friday sales. 
-
+**Manifests**, also known as **Miracle Items** are **Components** storable by the [miracle of manifestation](https://www.roblox.com/game-pass/652433606/miracle-of-manifestation) gamepass.
 ---
 
 ## Information
