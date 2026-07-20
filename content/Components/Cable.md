@@ -1,7 +1,7 @@
 ---
 class: component
 acquisition: Component machine
-image: "[[Pasted image 20250722144356.png]]"
+image: "[[wiki-1784572890535-175df744-Screenshot 2026-07-20 142201.png]]"
 tags:
   - components/component-machine
   - todo
@@ -46,4 +46,32 @@ tags:
     </div>
 </div>
 
-![[Pasted image 20250722144356.png]]
+> [!infobox|n-th]
+> 
+> ## Cable
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[wiki-1784572890535-175df744-Screenshot 2026-07-20 142201.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Miscellaneous |
+> | --- | --- |
+> | **Usage** | Send signals from one end to the other. |
+> | **Date Added** | DATE |.
+
+The **Cable** is a **Component** obtainable through the
+[[items/regular-items/component-machine|Component Machine]]. It has two cable ends—male and female—and is connected by rope. The Cable is
+approximately 15 studs long when fully stretched.
+
+## Function
+
+The Cable is mainly used for sending signals to specific
+components. If one end of the cable receives a signal, the
+opposite end will then send out a signal (regardless of
+whether the male or female end was signaled).
+
+The Cable can also be used as a rope, although the [[components/rope|Rope]] would probably be better for most builds due to its adjustable length.
