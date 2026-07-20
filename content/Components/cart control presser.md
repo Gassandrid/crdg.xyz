@@ -51,7 +51,7 @@ tags:
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > ![[wiki-1784575099533-586aed15-Screenshot 2026-07-20 151303.png|center]]
+> > ![[wiki-1784585132254-8a38501e-Screenshot 2026-07-20 151303.png|center]]
 > > 
 > > 
 > 
