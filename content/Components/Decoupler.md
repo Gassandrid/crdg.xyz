@@ -7,9 +7,6 @@ tags:
   - todo
 ---
 
-> [!note] Migrated article
-> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
-
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -50,14 +47,26 @@ tags:
     </div>
 </div>
 
- ![[Pasted image 20250722144112.png]]
 
-## Additional information
+> [!infobox|n-th]
+> 
+> ## Decoupler
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[Pasted image 20250722144112.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Miscellaneous |
+> | --- | --- |
+> | **Usage** | Separate connected objects when activated. |
+> | **Date Added** | DATE |
 
-The decopler is a [[Components|component]] in
-CRDG. It separates when powered.
+The **Decoupler** is a **Component** obtainable through the [[items/regular-items/component-machine|Component Machine]]. It separates permanently when activated.
 
 ## Function
 
-When powered, the decoupler will separate a square from it's cylinder
-in the center. It cannot be reset in any way after this happens.
+When activated, the cylinder in the middle disconnects from the two attached square parts. It cannot be reset in any way after activation.
