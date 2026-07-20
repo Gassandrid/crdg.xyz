@@ -6,7 +6,7 @@ tags: [templates]
 
 This is a new **work in progress** project to create a real, complete wiki for the game.
 
-If you would like to contribute, open any page and select **Edit this page**. You can edit the Obsidian Markdown, add images, preview the result, and send it to the maintainers without a GitHub account. See [[Editing the wiki]] for the short guide. If you're above the legal age in your country, the CRDG Discord server is available for help and other things at https://discord.gg/McECseE4aD, and the Discord server focused on the wiki can be found at https://discord.gg/DrvumChdZe.
+If you would like to contribute, open any page and select **Edit this page**. You can edit the Obsidian Markdown, add images, preview the result, and send it to the maintainers without a GitHub account. See [[Editing the wiki]] for the short guide. If you're on or above the legal age in your country, the official CRDG Discord server can be found at https://discord.gg/McECseE4aD, and the Discord server focused on the wiki can be found at https://discord.gg/DrvumChdZe.
 
 ---
 
