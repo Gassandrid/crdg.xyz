@@ -7,9 +7,6 @@ tags:
   - todo
 ---
 
-> [!note] Migrated article
-> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
-
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -50,12 +47,24 @@ tags:
     </div>
 </div>
 
-![[Pasted image 20250722144101.png]]
+> [!infobox|n-th]
+> 
+> ## Cannon
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[Pasted image 20250722144101.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Miscellaneous |
+> | --- | --- |
+> | **Usage** | Launch objects and players. |
+> | **Date Added** | DATE |
 
-## Additional information
-
-The Cannon is a component item produced by the Component Machine in
-CRDG. It resembles a black large cannon
+The **Cannon** is a **Component** obtainable through the [[items/regular-items/component-machine|Component Machine]]. It is also used a crafting ingredient in the [[features/anvil|Anvil]].
 
 ## Function
 
@@ -65,14 +74,13 @@ the cannon will fire any objects that are touching its inside or the rim
 of the barrel in the direction it is facing.
 
 Any unanchored object is able to be fired as long as it is placed close
-to the rim of the cannon, even if it can't actually fit in. Players
+to the rim of the cannon, even if it can't actually fit inside. Players
 fired by the cannon are forced to sit when they are launched. Explosives
 can be fired from the cannon but this often results in them detonating
 in the barrel.
 
 It is an effective way to traverse between specific islands, especially
-if the player has the [[Makarov|Makarov]] and
-[[miracle of momentum|miracle of momentum]]. It may
-take several tries to aim it properly, however. It can be used to lob
-objects to other close islands, particularly from [[Bill's Batteries|Bill's Batteries]] or [[Cart Dealership|cart dealership]] to the
-[[Spawn|Spawn]]
+if the player has the [[items/regular-items/makarov|Makarov]] and
+[[gamepasses/miracles/miracle-of-momentum|miracle of momentum]]. It can be used to lob
+objects to other close islands, particularly from [[map/bill's-batteries|Bill's Batteries]] or [[map/cart-dealership|Cart Dealership]] to the
+[[map/spawn|Spawn]].
