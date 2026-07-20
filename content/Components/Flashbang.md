@@ -3,12 +3,7 @@ class: component
 acquisition: Component machine
 tags:
   - components/component-machine
----
-> [!note] Migrated article
-> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
-
----
-tags: [todo]
+  - todo
 ---
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
@@ -49,25 +44,35 @@ tags: [todo]
         </div>
     </div>
 </div>
-Flashbang is a component that destroys itself upon use, blinding surrounding players and muting all game audio except for a ringing sound.
 
-## Additional information
+> [!infobox|n-th]
+> 
+> ## Flashbang
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[wiki-1784579324533-fa465989-Screenshot 2026-07-20 162623.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Miscellaneous |
+> | --- | --- |
+> | **Usage** | Blinds nearby players when activated. |
+> | **Date Added** | DATE |
 
-The flashbang is a component in CRDG. It appears very similar to the M84
-flashbang, a real life grenade.
+The **Flashbang** is a **Component** obtainable through the [[items/regular-items/component-machine|Component Machine]].
 
 ## Function
 
-Upon being activated it plays a loud sound and blinds all players in a
-20 stud radius. The blind effect wears off after a few seconds. The
-grenade is destroyed in the process of being activated.
+Upon activation the Flashbang plays a loud ringing sound and blinds all players in a
+20 stud radius. After a few seconds, the blindness dissipates and the Flashbang is destroyed.
 
 It can be used in simple traps to surprise unsuspecting players. Its
 effect does no damage and doesn't last long, so it is not particularly
-useful in actual combat (especially given that it takes a long time to
-glue it to a button or tripwire leaving you vulnerable in a fight). It
-is best used as a prank or to disorient players.
+useful in actual combat. It is best used as a prank or to disorient players.
 
-Many people will instinctively back up while they are blinded. Keep this
-in mind. [[Spawnoid|Spawnoids]] can often be
-effectively delayed with flashbangs if they are used at the right times.
+## Additional Information
+
+The Flashbang is modeled after the M84 stun grenade.
