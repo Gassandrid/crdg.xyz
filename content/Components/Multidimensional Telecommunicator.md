@@ -47,7 +47,8 @@ image: "[[Radio-1755336748936.png]]"
 > | **Usage** | Able to communicate messages in between servers. |
 > | **Date Added** | November 28th, 2024 |
 
-The **Multidimensional Telecommunicator**, also known as the **Radio** is a removed **Miscellaneous**-type **Alien Technology** added on **November 28th, 2024**. It was mainly used as a form of communication in a "global chat", meaning that a message sent in one server can be broadcasted to another. 
+The **Multidimensional Telecommunicator**, also known as the **Radio** was a **Miscellaneous**-type **Alien Technology** added on **November 28th, 2024**. It was mainly used as a form of communication in a "global chat", meaning that a message sent in one server can be broadcasted to another. 
+It was removed due to a change in Roblox's TOS and API.
 
 ---
 
