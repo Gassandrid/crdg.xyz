@@ -7,9 +7,6 @@ tags:
   - todo
 ---
 
-> [!note] Migrated article
-> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
-
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -50,19 +47,35 @@ tags:
     </div>
 </div>
 
-![[Pasted image 20250722144301.png]]
+> [!infobox|n-th]
+> 
+> ## Gun
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[wiki-1784580807507-c7bba590-Screenshot 2026-07-20 163437.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Miscellaneous |
+> | --- | --- |
+> | **Usage** | Shoot bullets at players or objects. Multifunctional. |
+> | **Date Added** | DATE |
 
-## Additional information
-
-The gun is a component machine object in CRDG. It resembles a simplified
+The **Gun** is a **Component** obtainable through the [[items/regular-items/component-machine|Component Machine]]. It resembles a simplified
 shotgun.
 
 ## Function
 
-Upon use, the gun fires a very fast bullet with high drop in the
-direction it is pointing, before ejecting a cartridge and taking time to
-reload. The bullet will destroy any part that it hits that isn't part
+When activated, the gun fires a very fast bullet with high drop in the
+direction it is pointing, before ejecting a cartridge and 12 seconds. The bullet will destroy any part that it hits that isn't part
 of the map. This means it can easily kill players by destroying their
 head or torso. A similar, but faster reloading version can be seen on a
-[[Traps#Gun Traps|gun trap]]. If it hits a fuel
+[[features/traps|gun trap]]. If it hits a fuel
 tank, jerry can, or other explosive it will detonate it.
+
+## Additional Information
+
+The Gun model appears to be modeled after a Remington 870, a popular shotgun.
