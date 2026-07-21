@@ -7,9 +7,6 @@ tags:
   - todo
 ---
 
-> [!note] Migrated article
-> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
-
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 
@@ -56,18 +53,26 @@ tags:
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> >![[inputreceiver 1.png]]
+> > ![[inputreceiver 1.png|center]]
 > > 
-> > An keyboard input receiver
+> > 
 > 
 > ### Component Info
 > 
-> | Component Type | Miscellaneous |
+> | Type | Miscellaneous |
 > | --- | --- |
+> | **Usage** | Sends signals based on player input. |
+> | **Date Added** | DATE |
 
-The **Input Receiver** is a component that allows you to send signals by pressing keys on your keyboard when it is attached to a seat. By default, it comes configured with the **WASD keys** (<, ^, >, v) and one additional random letter key. Each key has its own output outlet, and you can disable any of them individually by clicking on the outlet.
+The **Input Receiver** is a **Component** obtainable through the [[items/regular-items/component-machine|Component Machine]]. 
 
-## Additional information
+## Function
 
-uh thing you can attach to seats and press buttons with stuff(works best
-with cables)
+When the Input Receiver is connected to a seat and a player is sat down, the Input Receiver will send signals depending on what keys are pressed down. 
+
+The Input Receiver has 5 outputs; 4 of these outputs correspond to the arrow keys (or **WASD** keys) and the last output is a randomized letter.
+
+Each key has its own corresponding output outlet, which can be disabled clicking on the outlet. (For example, if you did not want the Input Receiver to send signals when pressing the up arrow, you would click that outlet to disable it.)
+
+> [!Tip] Tip
+> The **Input Receiver** works best in conjunction with [[components/cable|Cables]], as the individual outlets on the Input Receiver are extremely close together. 
