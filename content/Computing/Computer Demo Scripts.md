@@ -2,7 +2,7 @@
 tags: [computer/demos]
 ---
 
-The **Commodiesel 64** comes bundled with several demo scripts that showcase the computer's capabilities. These scripts demonstrate various features including graphics, sound, sprites, and controller input.
+The **Commodiesel 75** comes bundled with several demo scripts that showcase the computer's capabilities. These scripts demonstrate various features including graphics, sound, sprites, and controller input.
 
 ---
 
@@ -120,7 +120,7 @@ A procedurally generated music composition with bass, chords, and percussion.
 A fully-featured Pong game with single-player (vs AI) and two-player modes.
 
 **What it demonstrates:**
-- Game development on the Commodiesel 64
+- Game development on the Commodiesel 75
 - Controller input handling with `control:Connect()`
 - Pixel-perfect collision detection
 - Custom text rendering system
@@ -183,7 +183,7 @@ A simple sprite demonstration with random movement.
 
 ## Running Demo Scripts
 
-All demo scripts are pre-installed on the Commodiesel 64. To run any demo:
+All demo scripts are pre-installed on the Commodiesel 75. To run any demo:
 
 1. Open the computer terminal
 2. Type: `run [script-name].lua`
@@ -202,4 +202,4 @@ These demo scripts are excellent learning resources. You can:
 - Use them as templates for your own projects
 - Combine techniques from multiple demos
 
-For more information on programming the Commodiesel 64, see the [[Features/Commodiesel 64|Commodiesel 64 documentation]].
+For more information on programming the Commodiesel 75, see the [[Features/Commodiesel 64|Commodiesel 64 documentation]].
