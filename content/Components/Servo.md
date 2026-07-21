@@ -50,7 +50,7 @@ tags:
     </div>
 </div>
 
-![[Pasted image 20250722144208.png]]
+![[wiki-1784653353810-bee1d106-Screenshot 2026-07-18 143859.png]]
 
 ## Additional information
 
