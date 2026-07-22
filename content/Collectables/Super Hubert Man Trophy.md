@@ -4,7 +4,7 @@
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > 
+> > <img width="361" height="359" alt="image" src="https://github.com/user-attachments/assets/eb530437-5c6c-4beb-98d7-7d7040b61b8a" />
 > > 
 > > 
 > 
