@@ -86,6 +86,7 @@ NOTE: A lot of informations is missing!!! Please add the missing pictures, varia
 > > -- | -- | --
 > > [[QROT Hunting Trophy]] | [Defeat QROT](https://www.roblox.com/badges/2128947618/Defeat-QROT) | placeholder
 > > Hubert Vinyl Record | [Professional Gamer](https://www.roblox.com/badges/2686028403226155/Professional-Gamer) | placeholder
+> > [[Golden Hubert Blabibo]] | [Professional Gamer](https://www.roblox.com/badges/2686028403226155/Professional-Gamer) | placeholder
 
 > [!quote]- Other
 > > Name | Obtainment | Image
