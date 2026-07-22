@@ -61,7 +61,7 @@ tags:
 > | Type | Miscellaneous |
 > | --- | --- |
 > | **Usage** | Flings players and objects. |
-> | **Date Added** | DATE |
+> | **Date Added** | Somewhere between 2021-2022 |
 
 The **Banana** is a **Component** obtainable via the [[items/regular-items/component-machine|Component Machine]]. It is also used as an ingredient in the [[collectables/cauldron|Cauldron]].
 
