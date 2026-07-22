@@ -1,24 +1,31 @@
 ---
 class: component
 acquisition: Component machine
+image: "[[wiki-1784736820169-17833936-rubber slab.png]]"
 tags:
   - components/component-machine
 ---
-> [!note] Migrated article
-> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+> [!infobox|n-th]
+> 
+> ## Rubber Slab
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[wiki-1784736820169-17833936-rubber slab.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Miscellaneous |
+> | --- | --- |
+> | **Usage** | Prevents signals from passing through. |
+> | **Date Added** | DATE |
 
-The rubber slab is a [[Components|component]] in
-CRDG. It is a simple black slab made of rubber.
+The **Rubber Slab** is a **Component** obtainable through the [[items/regular-items/component-machine|Component Machine]]. It resembles a black slab made of rubber.
 
 ## Function
 
-The rubber slab can do two main things.
+The Rubber Slab has the ability to block signals. For example, if you glued a [[components/button|Button]] to one side of the slab and a [[components/speaker|Speaker]] to the other side, when the Button is clicked the Speaker will not activate even though both are technically connected.
 
-First, it will block electrical signals. This lets you separate
-contraptions from the spikes holding them and make the machine stay
-anchored, among other things.
-
-Second, they have very high friction when moving across the ground. This
-makes it so machines with rubber on the ground are harder to move.
-Because of it's inert nature, sometimes it is used as a spacer or to
-prop things up.
+Another useful feature of the Rubber Slab is its high friction. This can be used for many things, such as keeping unanchored machines in place.
