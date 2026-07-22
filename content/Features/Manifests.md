@@ -3,7 +3,6 @@ tags:
   - components/manifest
 ---
 **Manifests**, also known as **Miracle Items** are **Components** storable by the [miracle of manifestation](https://www.roblox.com/game-pass/652433606/miracle-of-manifestation) gamepass.
----
 
 ## Information
 
@@ -26,7 +25,6 @@ There are three ways to obtain manifest components;
 As of right now, you’re only able to get **Fireworks** from fishing, as growing trees won’t grow them and aren’t in the starter components you get.
 
 ---
-
 # Components
 
 Below is a list of all twenty manifest components in the game.
@@ -35,6 +33,10 @@ Below is a list of all twenty manifest components in the game.
 | ------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | 1911 Pistol         | No                           | An upgraded version of the [[content/Components/Gun\|Gun]] component, having no cooldown.                                                                  | ![[Pasted image 20250722191128.png\|200\|200]]                                               |
 | Astroturf           | No                           | A solid replacement to cardboard. Has barely any weight.                                                                                                                      | ![[Pasted image 20250809110543.png\|200\|200]]                                               |
+| Nuclear Lamp | Yes | When inserting an uranium rod from above, it will produce a bright light source with no shadows and a long range. | ![[wiki-1784673188748-9de0eaa5-Captura de pantalla 2026-07-21 162359.png\|200\|200]] |
+| Palette Card | Yes | Will adopt and save any color when painted with [[Spray paint\|Spray paint]], and display the color's Hex value above. | ![[wiki-1784673853715-facc3733-image.png\|200\|200]] |
+| Fluid Entangloporter | No | A hose that transports any liquid or gas instantly over any distance, without requiring a physical connection between both ends. | ![[wiki-1784674486189-d2361da2-image.png\|200\|200]] |
+| Pine Cone | Yes | When planted in a [[Planter\|Planter]], it will grow into a Pine Tree, which produces more Pine Cones. | ![[wiki-1784675004661-c7be7e96-image.png\|200\|200]] |
 | Attachment          | Yes                          | A detachable attachment. On use, splits itself into two parts. Activating a part of the Attachment while having both parts close to one another will merge them.              | ![[Pasted image 20250809110620.png\|200\|200]]![[Pasted image 20250722191228.png\|200\|200]] |
 | Diode               | Yes                          | A one way input capable of creating complex contraptions.                                                                                                                     | ![[Pasted image 20250809110705.png\|200\|200]]                                               |
 | Firework            | No                           | On use, will fly up the sky and play a firework effect.                                                                                                                       | ![[Pasted image 20250809110746.png\|200\|200]]                                               |
@@ -53,3 +55,11 @@ Below is a list of all twenty manifest components in the game.
 | seeker              | Yes                          | Seeks the nearest Player and faces towards it.                                                                                                                                | ![[Pasted image 20250809112039.png\|200\|200]]                                               |
 | shiny golden tooth  | No                           | Shares the same use as the glass pane.                                                                                                                                        | ![[Pasted image 20250809112113.png\|200\|200]]                                               |
 | Lightning Rod       | Yes                          | If a lightning bolt strikes nearby, it automatically redirects to it. <br><br>Adds an extra spot to strike in the pool of available lightning striking spots.                 | ![[Pasted image 20250826174920.png\|200\|200]]                                               |
+
+<!--
+These are here because I couldn't get rid of the images that I uploaded by accident, sorry!
+![[wiki-1784672640980-9e33a10b-Captura de pantalla 2026-07-21 162359.png]]
+![[wiki-1784672795055-c6b0e7e2-imagen_2026-07-21_162635046.png]]
+![[wiki-1784673062206-0eea5cc1-Captura de pantalla 2026-07-21 162359.png]]
+![[wiki-1784674454870-bc163035-makesweet-c9xnjf.gif]]
+-->
