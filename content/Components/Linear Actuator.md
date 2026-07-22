@@ -3,6 +3,7 @@ class: component
 acquisition: Component machine
 tags:
   - components/component-machine
+  - todo
 image: "[[Pasted image 20250829032652.png]]"
 ---
 
@@ -45,6 +46,27 @@ image: "[[Pasted image 20250829032652.png]]"
         </div>
     </div>
 </div>
-![[Pasted image 20250829032652.png]]
 
-![[Pasted image 20250829032728.png]]
+
+> [!infobox|n-th]
+> 
+> ## Linear Actuator
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[Pasted image 20250829032728.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Miscellaneous |
+> | --- | --- |
+> | **Usage** | Sends a piston forward when activated. |
+> | **Date Added** | DATE |
+
+The **Linear Actuator** is a **Component** obtainable through the [[items/regular-items/component-machine|Component Machine]].
+
+## Function
+
+When the Linear Actuator is activated, the internal piston extends approximately 2.5 studs out. When activated again in this position, the piston retracts.
