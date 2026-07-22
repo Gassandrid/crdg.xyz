@@ -4,4 +4,5 @@ acquisition: Miscellaneous
 tags:
   - components/miscellaneous
 ---
-![[wiki-1784659365232-005b0931-Screenshot 2026-07-21 134229.png]]
+
+![[wiki-1784697238725-bc0d7354-Screenshot 2026-07-21 235640-no-bg.png]]
