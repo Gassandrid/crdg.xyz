@@ -45,6 +45,8 @@ tags:
     </div>
 </div>
 
+
+
 > [!infobox|n-th]
 > 
 > ## Bearing
@@ -59,5 +61,17 @@ tags:
 > 
 > | Type | Miscellaneous |
 > | --- | --- |
-> | **Usage** | Allows objects to move in a circular motion. |
+> | **Usage** | It allows objects, once attached, the ability to move freely in a circular motion. |
 > | **Date Added** | Somewhere Around 2022 |
+## Additional Information
+
+The **Bearing** is a **Component** obtainable via the [[items/regular-items/component-machine|Component Machine]].
+It is a light grey cylinder with two darker attached cylinders on its top and bottom. It is also used as a crafting ingredient in the Anvil.
+
+## Function
+Has two parts that rotate in a circular motion freely attached to the center.
+This can be used for many things but an alternative could be the [[components/button|Button]], due to it having a similar function to half a bearing.
+
+
+
+
