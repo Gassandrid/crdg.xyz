@@ -11,7 +11,7 @@ tags:
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > ![[wiki-1784676269284-3aa39d8a-Screenshot 2026-07-21 185635.png|center]]
+> > ![[wiki-1784741177224-5ddc24a4-Screenshot 2026-07-22 122436-no-bg.png|center]]
 > > 
 > > 
 > 
