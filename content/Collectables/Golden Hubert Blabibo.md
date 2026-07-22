@@ -1,6 +1,6 @@
 > [!infobox|n-th]
 > 
-> ## Super Hubert Man Trophy
+> ## Golden Hubert Blabibo
 > 
 > > [!caption|center wfull txt-s]
 > > 
@@ -15,4 +15,4 @@
 > | **Obtainment Method** | Completing Super Hubert Man |
 > | **Date Added** | August 18th, 2025 |
 
-The **Super Hubert Man Trophy** is an **Exclusive** collectable added on **August 18th, 2025**. It is awarded when the person gets the [Professional Gamer] badge.
+The **Golden Hubert Blabibo** is an **Exclusive** collectable added on **August 18th, 2025**. It is awarded when the person gets the [[Professional Gamer]] badge.
