@@ -1,7 +1,7 @@
 ---
 class: component
 acquisition: Component machine
-image: "[[Pasted image 20250722182416.png]]"
+image: "![[wiki-1784740793991-df1139dd-Screenshot_2026-07-22_121606-no-bg.png]]"
 tags:
   - components/component-machine
   - todo
@@ -52,7 +52,7 @@ tags:
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > ![[Pasted image 20250722182416.png|center]]
+> > ![[wiki-1784740793991-df1139dd-Screenshot_2026-07-22_121606-no-bg.png|center]]
 > > 
 > > 
 > 
