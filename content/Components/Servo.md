@@ -4,59 +4,40 @@ acquisition: Component machine
 image: "[[wiki-1784741527240-74036d4a-Screenshot 2026-07-22 123035-no-bg.png]]"
 tags:
   - components/component-machine
-  - todo
 ---
 
-> [!note] Migrated article
-> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+> [!infobox|n-th]
+> 
+> ## Servo
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[wiki-1784741527240-74036d4a-Screenshot 2026-07-22 123035-no-bg.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Miscellaneous |
+> | --- | --- |
+> | **Usage** | Move objects at a fixed speed and direction. |
+> | **Date Added** | DATE |
 
-<div style="display:flex;align-items:center;gap:10px;
-    margin:10px 5px 5px 5px;
-    padding:0; 
-    overflow:visible;
-    font-family:sans-serif;
-    font-size:1.05rem;
-    color:#FFFFFF;
-    text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);
-    border-radius:0.5px;
-    border:2px solid #777777;
-    box-shadow:2px 2px #777777;
-    background:none;">
-    <div style="display:flex;align-items:center;gap:10px;
-        height:80px;
-        border-radius:0.5px;
-        background:
-            linear-gradient(to bottom,rgba(238,220,52,0.85),rgba(15,16,1,0.85)),
-            repeating-linear-gradient(-45deg,#ced211,#ced211 20px,#010100 20px,#010100 40px);
-        flex-grow:1;
-        overflow:visible;">
-        <div style="position:relative;width:120px;height:120px;flex-shrink:0;display:flex;align-items:center;justify-content:center;">
-            <img src="https://tr.rbxcdn.com/180DAY-5efd399b8a1e6ce4892b0afeef910591/420/420/Tshirt/Webp/noFilter"
-                 alt="Notice Icon"
-                 style="width:120px;height:120px;object-fit:contain;
-                 filter:drop-shadow(2px 4px 4px rgba(0,0,0,0.5));
-                 transform:rotate(8deg);">
-        </div>
-        <div style="display:flex;flex-direction:column;justify-content:center;">
-            <div style="font-size:2rem;color:#ffffff;">
-                <span style="color:#ced211;">WORK</span>
-                <span style="color:#010100;">IN</span>
-                <span style="color:#ced211;">PROGRESS!</span>
-            </div>
-            <div style="font-size:1rem;color:#ffffff;font-style:italic;margin-top:4px;">
-                This page is under construction, but you’re able to help us make it!
-            </div>
-        </div>
-    </div>
-</div>
-
-![[wiki-1784741527240-74036d4a-Screenshot 2026-07-22 123035-no-bg.png]]
-
-## Additional information
-
-The servo is used best for [[Fishing|fishing]] and can
-be used to rotate objects (needs glue for it to work).
+The **Servo** is a **Component** obtainable through the [[items/regular-items/component-machine|Component Machine]]. It resembles a rectangular machine with two buttons—red and blue—at the back and a plate in the front.
 
 ## Function
 
-Rotates 90-180° when a button is clicked or signaled.
+The two buttons at the back of the Servo are used to control the rotation of the front plate. The Servo's front plate has a point that juts outward—this can be used to determine the plate's current angle.
+
+When first spawned in and looking at the servo directly from the front, the Servo will be in the 180° position. When the red button is pressed, the Servo will rotate counter-clockwise to the 90° position. Likewise, when the blue button is pressed, the Servo will rotate clockwise to the 270° position.
+
+If the red button is clicked when the Servo is already in the 90° position, the Servo will instead rotate clockwise to the 180°. Likewise, if the blue button is clicked when the Servo is already in the 270° position, the Servo will instead rotate counter-clockwise to the 180° position.
+
+> [!Note] Note
+> The Servo will never rotate to the 0° position.
+
+
+## Additional Information
+
+> [!Tip] Tip
+> The buttons on the back of the Servo can receive signals as well as be clicked manually—for example, if a [[components/button|Button]] was glued to the blue button of a Servo, activating the Button would have the same effect as clicking the blue button.
