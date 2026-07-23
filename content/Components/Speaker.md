@@ -2,10 +2,10 @@
 title: Speaker
 class: component
 acquisition: Component machine
+image: "[[wiki-1784831959863-f4eda593-speaker.png]]"
 tags:
   - components/component-machine
   - todo
-image: Component image.png
 ---
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
@@ -53,7 +53,7 @@ image: Component image.png
 > 
 > > [!caption|center wfull txt-s]
 > > 
-> > ![[wiki-1784497719065-1d4e8985-Screenshot 2026-07-19 174807.png|center]]
+> > ![[wiki-1784831959863-f4eda593-speaker.png|center]]
 > > 
 > > 
 > 
@@ -64,5 +64,9 @@ image: Component image.png
 > | **Usage** | Plays music. |
 > | **Date Added** | DATE |
 
-The **Speaker** is a **Component** obtainable via the [[items/regular-items/Component-Machine|Component Machine]]. When activated with a [[components/Button|Button]], the music will change depending on the color of the Button.
 
+The **Speaker** is a **Component** obtainable via the [[items/regular-items/Component-Machine|Component Machine]]. It resembles a gray rectangular subwoofer.
+
+## Function
+
+When activated, the Speaker will play music. The music the Speaker plays depends on the color of the activation source.
