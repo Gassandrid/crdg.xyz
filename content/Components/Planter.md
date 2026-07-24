@@ -54,8 +54,8 @@ tags:
 > 
 > | Component Type | Miscellaneous |
 > | --- | --- |
-> | **Inputs** | - [[Banana]]<br>- [[Seed]]<br>- miracle gro <br>- [Moray Eel](Moray_eel) <br>- [[Lemon]] |
-> | **Outputs** | - [[Manifests]]<br>- [[Banana]]<br>- [[Lemon]] <br>- [[Golden Lemon]]|
+> | **Inputs** | - [[Banana]]<br>- [[Seed]]<br>- miracle gro <br>- [Moray Eel](Moray_eel) <br>- [[Lemon]] <br>- Pine Cone |
+> | **Outputs** | - [[Manifests]]<br>- [[Banana]]<br>- [[Lemon]] <br>- [[Golden Lemon]] <br>- Pine Cone |
 
 The **Planter** is a **Miscellaneous**-type [Component](Components.md) spawned by the [[Component_Machine|Component Machine]]. They were added on August 27th, 2022. 
 
