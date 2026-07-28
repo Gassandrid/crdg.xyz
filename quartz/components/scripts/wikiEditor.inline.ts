@@ -339,22 +339,57 @@ function countWords(source: string): number {
   return source.trim() === "" ? 0 : source.trim().split(/\s+/u).length
 }
 
-function splitFrontmatter(source: string): { yaml: string; body: string } {
-  const match = source.match(/^---\n([\s\S]*?)\n---(?:\n|$)/)
-  if (!match) return { yaml: "", body: source }
-  return { yaml: match[1], body: source.slice(match[0].length) }
+type FrontmatterParts = {
+  yaml: string
+  body: string
+  hasFrontmatter: boolean
+  isClosed: boolean
+}
+
+function splitFrontmatter(source: string): FrontmatterParts {
+  const normalizedSource = source.startsWith("\uFEFF") ? source.slice(1) : source
+  const opening = normalizedSource.match(/^---[ \t]*(?:\r?\n|$)/)
+  if (!opening) {
+    return { yaml: "", body: source, hasFrontmatter: false, isClosed: true }
+  }
+
+  const remainder = normalizedSource.slice(opening[0].length)
+  const closing = /(?:^|\r?\n)---[ \t]*(?:\r?\n|$)/.exec(remainder)
+  if (!closing) {
+    return {
+      yaml: remainder.replace(/\r\n?/g, "\n"),
+      body: "",
+      hasFrontmatter: true,
+      isClosed: false,
+    }
+  }
+
+  return {
+    yaml: remainder.slice(0, closing.index).replace(/\r\n?/g, "\n"),
+    body: remainder.slice(closing.index + closing[0].length),
+    hasFrontmatter: true,
+    isClosed: true,
+  }
 }
 
 function joinFrontmatter(frontmatter: string, body: string): string {
-  const normalized = frontmatter.replace(/^\n+|\n+$/g, "")
+  const normalized = frontmatter.replace(/\r\n?/g, "\n").replace(/^\n+|\n+$/g, "")
   return normalized ? `---\n${normalized}\n---\n${body.replace(/^\n*/, "\n")}` : body
 }
 
 function parseFrontmatter(source: string): FrontmatterValues {
-  const parsed = load(splitFrontmatter(source).yaml, { schema: JSON_SCHEMA })
-  return parsed && typeof parsed === "object" && !Array.isArray(parsed)
-    ? (parsed as FrontmatterValues)
-    : {}
+  const parts = splitFrontmatter(source)
+  if (!parts.hasFrontmatter) return {}
+  if (!parts.isClosed) {
+    throw new Error('YAML frontmatter is missing its closing "---" delimiter.')
+  }
+
+  const parsed = load(parts.yaml, { schema: JSON_SCHEMA })
+  if (parsed == null) return {}
+  if (typeof parsed !== "object" || Array.isArray(parsed)) {
+    throw new Error("YAML frontmatter must be a key-value mapping.")
+  }
+  return parsed as FrontmatterValues
 }
 
 function stringList(value: unknown): string {
@@ -1229,7 +1264,7 @@ function initializeEditor(root: HTMLElement): void {
       const parts = splitFrontmatter(source.value)
       source.value = joinFrontmatter(frontmatterYaml.value, parts.body)
       try {
-        load(frontmatterYaml.value, { schema: JSON_SCHEMA })
+        parseFrontmatter(source.value)
         hideNotice()
         updateFrontmatterFields()
       } catch (error) {
