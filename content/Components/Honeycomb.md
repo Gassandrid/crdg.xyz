@@ -2,6 +2,7 @@
 class: component
 acquisition: Miscellaneous
 tags:
+  - needs-work/ai-migration
   - components/miscellaneous
 image: "[[Mutated bee.png]]"
 ---

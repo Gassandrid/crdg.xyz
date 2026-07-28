@@ -1,5 +1,7 @@
 ---
 title: Player Contraptions
+tags:
+  - needs-work/ai-migration
 ---
 
 > [!note] Migrated article

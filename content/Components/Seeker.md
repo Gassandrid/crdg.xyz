@@ -3,6 +3,7 @@ class: component
 acquisition: Manifest
 image: "[[Seeker Image.png]]"
 tags:
+  - needs-work/ai-migration
   - components/manifest
   - Building
 ---

@@ -78,7 +78,9 @@ function loadAttachmentPaths(directory = "content"): Record<string, string> {
       const path = join(current, entry.name)
       if (entry.isDirectory()) {
         walk(path)
-      } else if (IMAGE_EXTENSIONS.has(entry.name.slice(entry.name.lastIndexOf(".")).toLowerCase())) {
+      } else if (
+        IMAGE_EXTENSIONS.has(entry.name.slice(entry.name.lastIndexOf(".")).toLowerCase())
+      ) {
         const fileName = basename(entry.name)
         paths[fileName] ??= `/${slugifyFilePath(path.replace(/^content\//, "") as FilePath)}`
       }
@@ -187,7 +189,7 @@ export default () => {
         >
           <div class="wiki-editor-shell">
             <div class="wiki-editor-header">
-              <div>
+              <div class="wiki-editor-heading">
                 <span class="wiki-editor-kicker">CRDG community editor</span>
                 <h2 id="wiki-editor-title" data-editor-heading>
                   Edit {editorData.pageTitle}
@@ -248,30 +250,54 @@ export default () => {
                 </div>
                 <div class="wiki-editor-toolbar-group">
                   <button type="button" data-editor-action="bullets" title="Bulleted list">
-                    • List
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      •
+                    </span>{" "}
+                    List
                   </button>
                   <button type="button" data-editor-action="numbered" title="Numbered list">
-                    1. List
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      1.
+                    </span>{" "}
+                    List
                   </button>
                   <button type="button" data-editor-action="task" title="Task list">
-                    ☐ Task
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      ☐
+                    </span>{" "}
+                    Task
                   </button>
                   <button type="button" data-editor-action="quote" title="Quote">
-                    ❯ Quote
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      &gt;
+                    </span>{" "}
+                    Quote
                   </button>
                 </div>
                 <div class="wiki-editor-toolbar-group">
                   <button type="button" data-editor-action="wikilink" title="Wiki link">
-                    [[ Link ]]
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      [[]]
+                    </span>{" "}
+                    Wiki
                   </button>
                   <button type="button" data-editor-action="link" title="Web link">
-                    🔗 Web
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      ↗
+                    </span>{" "}
+                    Link
                   </button>
                   <button type="button" data-editor-action="callout" title="Obsidian callout">
-                    ▣ Callout
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      !
+                    </span>{" "}
+                    Callout
                   </button>
                   <button type="button" data-editor-action="table" title="Table">
-                    ▦ Table
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      ▦
+                    </span>{" "}
+                    Table
                   </button>
                   <button class="wiki-editor-image-button" type="button" data-editor-action="image">
                     <svg aria-hidden="true" viewBox="0 0 24 24">
@@ -295,7 +321,7 @@ export default () => {
                   </button>
                 </div>
                 <button class="wiki-editor-guide-toggle" type="button" data-guide-toggle>
-                  Markdown guide
+                  Syntax guide
                 </button>
                 <button class="wiki-editor-guide-toggle" type="button" data-frontmatter-toggle>
                   Page settings
