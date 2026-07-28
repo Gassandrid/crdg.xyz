@@ -27,7 +27,9 @@ jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Install Quartz plugins
-        run: npx quartz plugin install --from-config
+        # Use the committed lockfile. --from-config fetches plugin HEADs and
+        # rewrites the lockfile, which makes otherwise identical deploys drift.
+        run: npx quartz plugin install
       - name: Add grouped card support to Bases
         run: bash scripts/patch-bases-card-groups
       - name: Build Quartz
