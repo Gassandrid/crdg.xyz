@@ -78,58 +78,17 @@ items.
 The aliens always come at predetermined times globally and you only need
 to be summoning at the time they are supposed to come to get an item.
 
-## Alien Items {#alien_items}
-
-+--------------------+------------------------+-------------------------------------------------------------------------+
-| Item               | Usage                  | Images                                                                  |
-+====================+========================+=========================================================================+
-| World spike        | spikes midair and      | ![[World spike.png|World spike]]                           |
-|                    | rotates                |                                                                         |
-+--------------------+------------------------+-------------------------------------------------------------------------+
-| Alien rod          | can catch 3 fish at    | ![[Alienrod.png|Alien rod, unhooked]]              |
-|                    | once and automatically |                                                                         |
-|                    | reels                  |                                                                         |
-+--------------------+------------------------+-------------------------------------------------------------------------+
-| Tractor beam       | people and objects in  | ![[Tracotbema.png|Tractor beam]]                          |
-|                    | its field are          |                                                                         |
-|                    | suspended midair       |                                                                         |
-+--------------------+------------------------+-------------------------------------------------------------------------+
-| Radio              | allows you to send     | ![[Radio.png|Radio]]                                             |
-|                    | messages to all other  |                                                                         |
-|                    | radios in the same     |                                                                         |
-|                    | server or other        |                                                                         |
-|                    | servers                |                                                                         |
-+--------------------+------------------------+-------------------------------------------------------------------------+
-| Teleporter         | requires 2 to work; is | ![[Teleporter1.png|Teleporter]]                             |
-|                    | able to teleport both  |                                                                         |
-|                    | players and objects to |                                                                         |
-|                    | the other teleporter   |                                                                         |
-+--------------------+------------------------+-------------------------------------------------------------------------+
-| Laser cannon       | fires a purple laser   | ![[Laser cannon.png|Laser cannon when | | | that evaporates | idle]]![[Reload.png|Laser cannon whilst | | | anything in its path | reloading]]                  |
-+--------------------+------------------------+-------------------------------------------------------------------------+
-| Alien egg          | can be hatched to      | ![[Alien egg.jpg|Alien egg]]                                 |
-|                    | produce a little alien |                                                                         |
-|                    | that will bite you     |                                                                         |
-|                    | which will make you    |                                                                         |
-|                    | birth an alien with a  |                                                                         |
-|                    | ray gun after a        |                                                                         |
-|                    | certain amount of time |                                                                         |
-+--------------------+------------------------+-------------------------------------------------------------------------+
-| Bridge segment     | requires 2 to work,    | ![[Bridge.png|Bridge segment]]![[Bridge active.png|Bridge when activated | | | produces a blue light | between 2 | | | bridge that can be | segments]] |
-|                    | walked on              |                                                                         |
-+--------------------+------------------------+-------------------------------------------------------------------------+
-| Cursor tracker     | tracks the movement of | ![[Cursor tracker.png|Cursor tracker]]                  |
-|                    | the players cursor who |                                                                         |
-|                    | activated it           |                                                                         |
-+--------------------+------------------------+-------------------------------------------------------------------------+
-| Printer/fabricator | is able to produce a   | ![[Printer.png|Printer]]                                       |
-|                    | wide arrange of        |                                                                         |
-|                    | materials that have    |                                                                         |
-|                    | different uses. Uses   |                                                                         |
-|                    | uranium rods as fuel.  |                                                                         |
-+--------------------+------------------------+-------------------------------------------------------------------------+
-| Alien engine       | when activated         | ![[Pyramsiid.webp|Alien engine]]                          |
-|                    | produces downwards     |                                                                         |
-|                    | thrust relative to the |                                                                         |
-|                    | base of the pyramid    |                                                                         |
-+--------------------+------------------------+-------------------------------------------------------------------------+
+| Alien Component   | Description                                                                                                                                                                                 | Use Cases             | Image                                          |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ---------------------------------------------- |
+| Worldspike        | An upgraded version of the [[content/Components/Spikes\|Spike]] component able to be toggled anywhere.                                                                   | Sky Islands, Fishers  | ![[Pasted image 20250829180139.png\|200\|200]] |
+| Radio             | Allows for communication between other radios in different servers.                                                                                                                         | Communication         | ![[Radio-1755336748936.png\|200\|200]]         |
+| Transporter       | On use, transports items to another transporter. Another transporter must be present for this to happen, as transportation between other servers is impossible.                             | Building, Sky Islands | ![[Pasted image 20250829175859.png\|200\|200]] |
+| Light Bridge      | On use, creates a solid bridge of any size between two points. Another light bridge must be present for this to work. Only one light bridge must be activated for the bridge to be created. | Building              | ![[Light Bridge-1755336789426.png\|200\|200]]  |
+| Alien Engine      | A powerful engine able to float in the air. It's usages are unknown, but it is an extremely complex object.                                                                                 | Fishers, Sky Islands  | ![[Pasted image 20250829175158.png\|200\|200]] |
+| Alien Fishing Rod | Acts like a regular Fishing Rod, however having a shorter cooldown and can fish up to three fish at a time.                                                                                 | Fishers               | ![[Pasted image 20250830120606.png\|200\|200]] |
+| Fab               | Uses a binary input system to print out specific tiles depending on the combination of inputs. Uses **Uranium Rods** as fuel.                                                               | Building              | ![[Pasted image 20250829180537.png\|200\|200]] |
+| Laser             | On use, charges the laser. Activating it again powers a high range beam towards where it’s facing.                                                                                          | Combat, Building      | ![[Plasma_cannon.PNG\|200\|200]]               |
+| Alien Egg         | An egg created by Martians. How it was made was unknown, but sources say the alien came before the egg.                                                                                     | Building              | ![[Alien Egg-1755338355499.png\|200\|200]]     |
+| Tractor Beam      | On use, will vacuum up any unanchored item near it and begin to place them all above the tractor.                                                                                           | Building              | ![[Pasted image 20250907175258.png\|200\|200]] |
+| Pointer           | On use, grabs the nearest player’s mouse position and will point towards it. Activating it again will toggle it off.                                                                        | Building              | ![[Pasted image 20250829180652.png\|200\|200]] |
+| Crafter           | Acts as an anvil when activated, combining the items inside the crafter, into any of the valid anvil recipes with the items used.                                                  | Building              | ![[wiki-1784408086843-468d1001-image_2026-07-18_135446838.png]]
