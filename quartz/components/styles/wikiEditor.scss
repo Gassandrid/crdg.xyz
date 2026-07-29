@@ -5,18 +5,19 @@
 .wiki-editor-entry-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.55rem;
+  gap: 0.5rem;
 }
 
 .wiki-editor-open {
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
-  padding: 0.45rem 0.72rem;
+  gap: 0.4rem;
+  min-height: 2.25rem;
+  padding: 0.42rem 0.7rem;
   color: var(--secondary);
   background: color-mix(in srgb, var(--secondary) 8%, transparent);
   border: 1px solid color-mix(in srgb, var(--secondary) 28%, transparent);
-  border-radius: 0.45rem;
+  border-radius: 0.25rem;
   font: inherit;
   font-size: 0.92rem;
   font-weight: 600;
@@ -52,8 +53,8 @@ body:has(.wiki-editor-dialog[open]) {
 }
 
 .wiki-editor-dialog {
-  width: min(96vw, 1480px);
-  height: min(94dvh, 960px);
+  width: min(92vw, 1180px);
+  height: min(88dvh, 860px);
   max-width: none;
   max-height: none;
   margin: auto;
@@ -61,8 +62,8 @@ body:has(.wiki-editor-dialog[open]) {
   color: var(--darkgray);
   background: var(--light);
   border: 1px solid var(--lightgray);
-  border-radius: 1rem;
-  box-shadow: 0 28px 90px rgb(0 0 0 / 38%);
+  border-radius: 0.2rem;
+  box-shadow: 0 22px 64px rgb(0 0 0 / 32%);
   overflow: hidden;
 
   &::backdrop {
@@ -124,8 +125,8 @@ body:has(.wiki-editor-dialog[open]) {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
-  padding: 0.85rem 1.15rem;
+  gap: 0.8rem;
+  padding: 0.72rem 0.9rem;
   background: var(--light);
 }
 
@@ -135,7 +136,7 @@ body:has(.wiki-editor-dialog[open]) {
   border-bottom: 1px solid var(--lightgray);
 
   h2 {
-    max-width: min(72vw, 920px);
+    max-width: min(68vw, 760px);
     margin: 0 !important;
     overflow: hidden;
     font-size: clamp(1.05rem, 2vw, 1.35rem);
@@ -164,7 +165,7 @@ body:has(.wiki-editor-dialog[open]) {
 .wiki-editor-footer-actions {
   display: flex;
   align-items: center;
-  gap: 0.65rem;
+  gap: 0.5rem;
 }
 
 .wiki-editor-save-state {
@@ -186,7 +187,7 @@ body:has(.wiki-editor-dialog[open]) {
   color: var(--darkgray);
   background: transparent;
   border: 1px solid transparent;
-  border-radius: 0.4rem;
+  border-radius: 0.22rem;
   cursor: pointer;
 
   &:hover {
@@ -204,7 +205,7 @@ body:has(.wiki-editor-dialog[open]) {
 }
 
 .wiki-editor-notice {
-  padding: 0.65rem 1.1rem;
+  padding: 0.58rem 0.9rem;
   color: color-mix(in srgb, var(--darkgray) 90%, #7a5200);
   background: color-mix(in srgb, #f4b740 16%, var(--light));
   border-bottom: 1px solid color-mix(in srgb, #f4b740 35%, var(--lightgray));
@@ -218,7 +219,7 @@ body:has(.wiki-editor-dialog[open]) {
 }
 
 .wiki-editor-frontmatter {
-  padding: 0.75rem;
+  padding: 0.7rem 0.75rem;
   overflow-y: auto;
   background: color-mix(in srgb, var(--secondary) 5%, var(--light));
   border-bottom: 1px solid var(--lightgray);
@@ -231,7 +232,7 @@ body:has(.wiki-editor-dialog[open]) {
 .wiki-editor-frontmatter-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.65rem 0.8rem;
+  gap: 0.6rem 0.7rem;
   max-width: 1100px;
 
   label > span,
@@ -256,7 +257,7 @@ body:has(.wiki-editor-dialog[open]) {
     color: var(--darkgray);
     background: var(--light);
     border: 1px solid var(--lightgray);
-    border-radius: 0.35rem;
+    border-radius: 0.2rem;
   }
 
   textarea {
@@ -283,8 +284,8 @@ body:has(.wiki-editor-dialog[open]) {
 .wiki-editor-toolbar {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.55rem 0.75rem;
+  gap: 0.4rem;
+  padding: 0.48rem 0.65rem;
   overflow-x: auto;
   background: color-mix(in srgb, var(--light) 94%, var(--lightgray));
   border-bottom: 1px solid var(--lightgray);
@@ -300,7 +301,7 @@ body:has(.wiki-editor-dialog[open]) {
   padding: 0.14rem;
   background: var(--light);
   border: 1px solid var(--lightgray);
-  border-radius: 0.48rem;
+  border-radius: 0.24rem;
 
   button {
     display: inline-flex;
@@ -312,7 +313,7 @@ body:has(.wiki-editor-dialog[open]) {
     color: var(--darkgray);
     background: transparent;
     border: 1px solid transparent;
-    border-radius: 0.35rem;
+    border-radius: 0.2rem;
     font-size: 0.76rem;
     white-space: nowrap;
     cursor: pointer;
@@ -373,7 +374,7 @@ body:has(.wiki-editor-dialog[open]) {
   color: var(--secondary);
   background: transparent;
   border: 1px solid transparent;
-  border-radius: 0.35rem;
+  border-radius: 0.2rem;
   font-size: 0.76rem;
   font-weight: 600;
   white-space: nowrap;
@@ -419,7 +420,7 @@ body:has(.wiki-editor-dialog[open]) {
 
   > label,
   > .wiki-editor-pane-label {
-    padding: 0.45rem 0.85rem;
+    padding: 0.42rem 0.72rem;
     color: var(--gray);
     background: color-mix(in srgb, var(--light) 92%, var(--lightgray));
     border-bottom: 1px solid var(--lightgray);
@@ -438,7 +439,7 @@ body:has(.wiki-editor-dialog[open]) {
     height: 100%;
     min-height: 0;
     margin: 0;
-    padding: 1.15rem 1.25rem 35vh;
+    padding: 1rem 1.05rem clamp(8rem, 24vh, 14rem);
     resize: none;
     color: var(--darkgray);
     background: color-mix(in srgb, var(--light) 98%, var(--lightgray));
@@ -477,7 +478,7 @@ body:has(.wiki-editor-dialog[open]) {
   padding: 0.75rem 1rem;
   color: var(--light);
   background: var(--secondary);
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   font-size: 0.9rem;
   font-weight: 650;
   transform: translate(-50%, -50%);
@@ -491,7 +492,7 @@ body:has(.wiki-editor-dialog[open]) {
 .wiki-editor-preview {
   max-width: none;
   margin: 0;
-  padding: 1.15rem 1.4rem 35vh;
+  padding: 1rem 1.15rem clamp(8rem, 24vh, 14rem);
   overflow: auto;
   overflow-wrap: anywhere;
   line-height: 1.6;
@@ -505,7 +506,7 @@ body:has(.wiki-editor-dialog[open]) {
     max-width: 100%;
     height: auto;
     margin: 0.8rem auto;
-    border-radius: 0.35rem;
+    border-radius: 0.2rem;
   }
 
   table {
@@ -525,7 +526,7 @@ body:has(.wiki-editor-dialog[open]) {
     background: color-mix(in srgb, var(--secondary) 9%, var(--light));
     border: 1px solid color-mix(in srgb, var(--secondary) 22%, var(--lightgray));
     border-left: 4px solid var(--secondary);
-    border-radius: 0.35rem;
+    border-radius: 0.2rem;
   }
 
   .wiki-preview-callout-title {
@@ -539,12 +540,12 @@ body:has(.wiki-editor-dialog[open]) {
     box-sizing: border-box;
     float: right;
     clear: right;
-    width: min(320px, 42%);
+    width: min(300px, 38%);
     margin: 0 0 1rem 1.25rem;
     padding: 0;
     overflow: hidden;
     border: 1px solid color-mix(in srgb, var(--gray) 35%, transparent);
-    border-radius: 12px;
+    border-radius: 0.15rem;
     background: color-mix(in srgb, var(--light) 96%, var(--lightgray));
     box-shadow: 0 8px 24px rgb(0 0 0 / 8%);
 
@@ -635,7 +636,7 @@ body:has(.wiki-editor-dialog[open]) {
   top: 0;
   right: 0;
   bottom: 0;
-  width: min(94%, 390px);
+  width: min(88%, 360px);
   padding: 1rem;
   overflow-y: auto;
   background: var(--light);
@@ -657,7 +658,7 @@ body:has(.wiki-editor-dialog[open]) {
     gap: 0;
     margin: 1rem 0;
     border: 1px solid var(--lightgray);
-    border-radius: 0.4rem;
+    border-radius: 0.22rem;
     overflow: hidden;
   }
 
@@ -701,8 +702,8 @@ body:has(.wiki-editor-dialog[open]) {
 .wiki-editor-attachments {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  padding: 0.55rem 0.8rem;
+  gap: 0.75rem;
+  padding: 0.48rem 0.65rem;
   overflow-x: auto;
   background: color-mix(in srgb, var(--tertiary) 7%, var(--light));
   border-top: 1px solid var(--lightgray);
@@ -739,13 +740,13 @@ body:has(.wiki-editor-dialog[open]) {
   padding: 0.25rem;
   background: var(--light);
   border: 1px solid var(--lightgray);
-  border-radius: 0.4rem;
+  border-radius: 0.22rem;
 
   img {
     width: 2.3rem;
     height: 2.3rem;
     object-fit: cover;
-    border-radius: 0.25rem;
+    border-radius: 0.15rem;
   }
 
   span {
@@ -762,7 +763,7 @@ body:has(.wiki-editor-dialog[open]) {
     color: var(--gray);
     background: transparent;
     border: 0;
-    border-radius: 0.25rem;
+    border-radius: 0.15rem;
     cursor: pointer;
 
     &:hover {
@@ -802,8 +803,8 @@ body:has(.wiki-editor-dialog[open]) {
 
 .wiki-editor-review-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(240px, 0.5fr);
-  gap: clamp(1rem, 4vw, 3rem);
+  grid-template-columns: minmax(0, 1fr) minmax(230px, 0.42fr);
+  gap: clamp(1rem, 3vw, 2.25rem);
   max-width: 1040px;
 }
 
@@ -827,11 +828,11 @@ body:has(.wiki-editor-dialog[open]) {
   textarea {
     width: 100%;
     box-sizing: border-box;
-    padding: 0.68rem 0.75rem;
+    padding: 0.62rem 0.68rem;
     color: var(--darkgray);
     background: var(--light);
     border: 1px solid var(--lightgray);
-    border-radius: 0.42rem;
+    border-radius: 0.22rem;
   }
 
   textarea {
@@ -859,7 +860,7 @@ body:has(.wiki-editor-dialog[open]) {
   color: #b42318;
   background: color-mix(in srgb, #b42318 8%, var(--light));
   border: 1px solid color-mix(in srgb, #b42318 24%, var(--lightgray));
-  border-radius: 0.4rem;
+  border-radius: 0.22rem;
   font-size: 0.82rem;
 }
 
@@ -868,7 +869,7 @@ body:has(.wiki-editor-dialog[open]) {
   padding: 1rem;
   background: color-mix(in srgb, var(--secondary) 6%, var(--light));
   border: 1px solid color-mix(in srgb, var(--secondary) 18%, var(--lightgray));
-  border-radius: 0.55rem;
+  border-radius: 0.25rem;
 
   h4 {
     margin: 0 0 0.75rem;
@@ -930,7 +931,7 @@ body:has(.wiki-editor-dialog[open]) {
     padding: 0.55rem 0.8rem;
     color: var(--secondary);
     border: 1px solid color-mix(in srgb, var(--secondary) 30%, var(--lightgray));
-    border-radius: 0.4rem;
+    border-radius: 0.22rem;
     font-weight: 650;
   }
 }
@@ -966,7 +967,7 @@ body:has(.wiki-editor-dialog[open]) {
 .wiki-editor-secondary {
   min-height: 2.35rem;
   padding: 0.48rem 0.78rem;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   font-size: 0.82rem;
   font-weight: 650;
   cursor: pointer;
@@ -1039,7 +1040,7 @@ body:has(.wiki-editor-dialog[open]) {
 
   .wiki-editor-header,
   .wiki-editor-footer {
-    padding: 0.68rem 0.75rem;
+    padding: 0.62rem 0.68rem;
   }
 
   .wiki-editor-save-state {
