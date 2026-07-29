@@ -190,7 +190,6 @@ export default () => {
           <div class="wiki-editor-shell">
             <div class="wiki-editor-header">
               <div class="wiki-editor-heading">
-                <span class="wiki-editor-kicker">CRDG community editor</span>
                 <h2 id="wiki-editor-title" data-editor-heading>
                   Edit {editorData.pageTitle}
                 </h2>
@@ -216,7 +215,30 @@ export default () => {
             <div class="wiki-editor-notice" data-editor-notice hidden></div>
 
             <section class="wiki-editor-workspace" data-editor-workspace>
-              <div class="wiki-editor-toolbar" role="toolbar" aria-label="Markdown formatting">
+              <div class="wiki-editor-toolbar" role="toolbar" aria-label="Editing tools">
+                <div class="wiki-editor-mode-tabs" role="tablist" aria-label="Editing mode">
+                  <button
+                    type="button"
+                    role="tab"
+                    id="wiki-editor-visual-tab"
+                    data-editor-view="visual"
+                    class="is-active"
+                    aria-selected="true"
+                    aria-controls="wiki-editor-visual-panel"
+                  >
+                    Visual
+                  </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    id="wiki-editor-source-tab"
+                    data-editor-view="source"
+                    aria-selected="false"
+                    aria-controls="wiki-editor-source-panel"
+                  >
+                    Source
+                  </button>
+                </div>
                 <div class="wiki-editor-toolbar-group">
                   <button type="button" data-editor-action="undo" title="Undo (Ctrl/⌘ Z)">
                     <span aria-hidden="true">↶</span>
@@ -309,17 +331,6 @@ export default () => {
                   </button>
                 </div>
                 <div class="wiki-editor-toolbar-spacer"></div>
-                <div class="wiki-editor-view-switch" aria-label="Editor view">
-                  <button type="button" data-editor-view="write">
-                    Write
-                  </button>
-                  <button type="button" data-editor-view="split" class="is-active">
-                    Split
-                  </button>
-                  <button type="button" data-editor-view="preview">
-                    Preview
-                  </button>
-                </div>
                 <button class="wiki-editor-guide-toggle" type="button" data-guide-toggle>
                   Syntax guide
                 </button>
@@ -380,28 +391,45 @@ export default () => {
                 </div>
               </section>
 
-              <div class="wiki-editor-main" data-editor-main data-view="split">
-                <div class="wiki-editor-write-pane" data-drop-zone>
-                  <label for="wiki-editor-source">Obsidian Markdown</label>
+              <div class="wiki-editor-main" data-editor-main data-drop-zone data-view="visual">
+                <div
+                  class="wiki-editor-visual-pane"
+                  id="wiki-editor-visual-panel"
+                  role="tabpanel"
+                  aria-labelledby="wiki-editor-visual-tab"
+                >
+                  <article
+                    id="wiki-editor-visual"
+                    class="wiki-editor-visual"
+                    data-editor-visual
+                    contenteditable="true"
+                    role="textbox"
+                    aria-multiline="true"
+                    aria-label="Visual page editor"
+                    spellcheck={true}
+                  ></article>
+                </div>
+                <div
+                  class="wiki-editor-source-pane"
+                  id="wiki-editor-source-panel"
+                  role="tabpanel"
+                  aria-labelledby="wiki-editor-source-tab"
+                >
                   <textarea
                     id="wiki-editor-source"
                     data-editor-source
                     spellcheck={true}
-                    aria-label="Page source in Obsidian Markdown"
+                    aria-label="Page source"
                   ></textarea>
-                  <div class="wiki-editor-drop-message" aria-hidden="true">
-                    Drop images here to upload them
-                  </div>
                 </div>
-                <div class="wiki-editor-preview-pane">
-                  <span class="wiki-editor-pane-label">Preview</span>
-                  <article class="wiki-editor-preview" data-editor-preview></article>
+                <div class="wiki-editor-drop-message" aria-hidden="true">
+                  Drop images here to upload them
                 </div>
                 <aside class="wiki-editor-guide" data-editor-guide hidden>
                   <div class="wiki-editor-guide-header">
                     <div>
                       <span class="wiki-editor-kicker">Quick reference</span>
-                      <h3>Obsidian Markdown</h3>
+                      <h3>Source syntax</h3>
                     </div>
                     <button
                       class="wiki-editor-icon-button"
