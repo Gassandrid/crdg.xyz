@@ -152,12 +152,7 @@ body:has(.wiki-editor-dialog[open]) {
 }
 
 .wiki-editor-kicker {
-  color: var(--secondary);
-  font-size: 0.68rem;
-  font-weight: 750;
-  letter-spacing: 0.09em;
-  line-height: 1.1;
-  text-transform: uppercase;
+  display: none;
 }
 
 .wiki-editor-header-actions,
@@ -412,21 +407,14 @@ body:has(.wiki-editor-dialog[open]) {
 .wiki-editor-preview-pane {
   position: relative;
   display: grid;
-  grid-template-rows: auto minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
   min-width: 0;
   min-height: 0;
   background: var(--light);
 
   > label,
   > .wiki-editor-pane-label {
-    padding: 0.45rem 0.85rem;
-    color: var(--gray);
-    background: color-mix(in srgb, var(--light) 92%, var(--lightgray));
-    border-bottom: 1px solid var(--lightgray);
-    font-size: 0.68rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    display: none;
   }
 }
 
