@@ -29,7 +29,7 @@ type PageTemplate = {
 }
 
 type EditorMode = "edit" | "create"
-type EditorView = "visual" | "source"
+type EditorView = "visual" | "source" | "split"
 
 type FrontmatterValues = {
   title?: unknown
@@ -688,6 +688,7 @@ function initializeEditor(root: HTMLElement): void {
   let currentPageTitle = data.pageTitle
   let syncingFrontmatter = false
   let activeView: EditorView = "visual"
+  let splitFocus: "visual" | "source" = "visual"
   let visualDirty = false
   let visualSelection: Range | undefined
   let activeTemplate = data.templates[0]
@@ -798,7 +799,7 @@ function initializeEditor(root: HTMLElement): void {
   const scheduleVisualRender = () => {
     if (visualTimer !== undefined) window.clearTimeout(visualTimer)
     visualTimer = window.setTimeout(() => {
-      if (activeView === "visual") {
+      if (activeView === "visual" || activeView === "split") {
         visualDirty = false
         renderVisualEditor(source.value, visual, attachmentUrls, data.attachmentPaths)
       }
@@ -909,7 +910,9 @@ function initializeEditor(root: HTMLElement): void {
   }
 
   const setView = (view: EditorView) => {
-    if (activeView === "visual" && view === "source") syncVisualToSource()
+    if ((activeView === "visual" || activeView === "split") && visualDirty) {
+      syncVisualToSource()
+    }
     activeView = view
     editorMain.dataset.view = view
     dialog.querySelectorAll<HTMLElement>("[data-editor-view]").forEach((button) => {
@@ -919,11 +922,19 @@ function initializeEditor(root: HTMLElement): void {
       button.tabIndex = selected ? 0 : -1
     })
     if (view === "visual") {
+      splitFocus = "visual"
       visualDirty = false
       visualSelection = undefined
       renderVisualEditor(source.value, visual, attachmentUrls, data.attachmentPaths)
       visual.focus()
+    } else if (view === "source") {
+      splitFocus = "source"
+      source.focus()
     } else {
+      visualDirty = false
+      visualSelection = undefined
+      renderVisualEditor(source.value, visual, attachmentUrls, data.attachmentPaths)
+      splitFocus = "source"
       source.focus()
     }
   }
@@ -1040,6 +1051,9 @@ function initializeEditor(root: HTMLElement): void {
     updateAfterVisualEdit()
   }
 
+  const visualPaneIsActive = () =>
+    activeView === "visual" || (activeView === "split" && splitFocus === "visual")
+
   const addImages = (incoming: File[]) => {
     hideNotice()
     const accepted: File[] = []
@@ -1072,7 +1086,7 @@ function initializeEditor(root: HTMLElement): void {
       attachments.set(file.name, file)
       attachmentUrls.set(file.name, URL.createObjectURL(file))
     }
-    if (activeView === "visual") {
+    if (visualPaneIsActive()) {
       const images = accepted
         .map((file) => {
           const url = attachmentUrls.get(file.name) ?? ""
@@ -1090,7 +1104,7 @@ function initializeEditor(root: HTMLElement): void {
   }
 
   const handleAction = (action: string) => {
-    if (activeView === "visual") {
+    if (visualPaneIsActive()) {
       switch (action) {
         case "undo":
           runVisualCommand("undo")
@@ -1483,7 +1497,7 @@ function initializeEditor(root: HTMLElement): void {
   }
 
   const closeDialog = () => {
-    if (activeView === "visual") syncVisualToSource()
+    if (activeView === "visual" || activeView === "split") syncVisualToSource()
     if (!submitted) void persistDraft()
     dialog.close()
   }
@@ -1496,6 +1510,8 @@ function initializeEditor(root: HTMLElement): void {
         dialog.showModal()
         void restoreDraft()
         if (activeView === "visual") visual.focus()
+        else if (activeView === "source") source.focus()
+        else if (splitFocus === "visual") visual.focus()
         else source.focus()
       },
       { signal },
@@ -1517,6 +1533,21 @@ function initializeEditor(root: HTMLElement): void {
     "click",
     (event) => {
       if (event.target === dialog) closeDialog()
+    },
+    { signal },
+  )
+
+  source.addEventListener(
+    "focus",
+    () => {
+      splitFocus = "source"
+    },
+    { signal },
+  )
+  visual.addEventListener(
+    "focus",
+    () => {
+      splitFocus = "visual"
     },
     { signal },
   )
@@ -1579,7 +1610,7 @@ function initializeEditor(root: HTMLElement): void {
     button.addEventListener(
       "mousedown",
       (event) => {
-        if (activeView === "visual") {
+        if (visualPaneIsActive()) {
           captureVisualSelection()
           event.preventDefault()
         }
