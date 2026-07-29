@@ -5,22 +5,21 @@ tags:
   - components/component-machine
 ---
 
-> [!infobox|n-th]
-> 
+> [!infobox] >
 > ## Cart Control Presser
-> 
-> > [!caption|center wfull txt-s]
-> > 
-> > ![[wiki-1784585132254-8a38501e-Screenshot 2026-07-20 151303.png|center]]
-> > 
-> > 
-> 
+>
+>
+> > [!caption] > >
+> > ![[wiki-1784585132254-8a38501e-Screenshot 2026-07-20 151303.png]]
+>
+>
 > ### Component Info
-> 
+>
+>
 > | Type | Miscellaneous |
 > | --- | --- |
-> | **Usage** | Clicks any clickable components or cart buttons touching it.  |
-> | **Date Added** | DATE |
+> | **Usage** | Clicks any clickable components or cart buttons touching it. |
+> | **Date Added** | 2024-5-17 |
 
 The **Cart Control Presser** is a **Component** obtainable through the [[items/regular-items/component-machine|Component Machine]]. It resembles a small device with a pointed glowing end.
 
