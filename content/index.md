@@ -13,11 +13,13 @@ If you would like to contribute, open any page and select **Edit this page**. Yo
 > ## Cart Ride Around a 75kW Diesel Generator
 >
 >
-> > [!caption] > >
-> > ![[Pasted image 20250813101048.png]]
 >
 >
-> The game Logo.
+>
+> ![[wiki-1785330293364-9f284b11-image.png]]
+> The game's logo
+>
+>
 
 **cart ride around a 75 KW Diesel Generator**, abbreviated as **CRDG** is a game on Roblox, released on November 3rd, 2021 marketed as a cart ride game with the goal of turning back on a diesel generator protected by a [[Cart God|cart god]]. However, the game takes a turn on the genre and adds many additional content aimed around the grabbing mechanic that it often deviates from the regular carting experience and experiments with other genres such as building and boss fighting. After the addition of the [[Component Machine]], most of the game's active players switched from carting and building barebones machinery out of the game's objects to building actual technological contraptions, attracting many players due to how unique the building style of the game was.
 
