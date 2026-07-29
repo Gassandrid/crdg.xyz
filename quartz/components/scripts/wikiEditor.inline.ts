@@ -29,6 +29,7 @@ type PageTemplate = {
 }
 
 type EditorMode = "edit" | "create"
+type EditorView = "visual" | "source"
 
 type FrontmatterValues = {
   title?: unknown
@@ -237,33 +238,26 @@ function escapeMarkdownLabel(label: string): string {
   return label.replace(/([\\\[\]])/g, "\\$1")
 }
 
-function previewSource(
-  source: string,
-  attachmentUrls: Map<string, string>,
-  attachmentPaths: Record<string, string>,
-): string {
-  return transformOutsideFences(source, (text) =>
+function visualSource(source: string): string {
+  const body = splitFrontmatter(source).body
+  return transformOutsideFences(body, (text) =>
     text
       .replace(
         /!\[\[([^\]|]+?)(?:\|([^\]]+))?\]\]/g,
         (_match, rawPath: string, rawOptions: string | undefined) => {
           const path = rawPath.trim()
           const fileName = path.split("/").pop() ?? path
-          const localUrl = attachmentUrls.get(fileName)
-          const imagePath = path.includes("/") ? path : `Attachments/${path}`
-          const url = localUrl ?? attachmentPaths[fileName] ?? `/${slugPath(imagePath)}`
           const width = rawOptions?.match(/(?:^|\|)(\d{1,4})(?:x\d{1,4})?(?:$|\|)/)?.[1]
           const title = width ? ` \"obsidian-width=${width}\"` : ""
-          return `![${escapeMarkdownLabel(fileName)}](<${url}>${title})`
+          return `![${escapeMarkdownLabel(fileName)}](</__wiki_editor_image__/${encodeURIComponent(path)}>${title})`
         },
       )
       .replace(
         /\[\[([^\]|#]+)(#[^\]|]+)?(?:\|([^\]]+))?\]\]/g,
         (_match, rawPath, anchor, alias) => {
-          const path = String(rawPath).trim()
-          const label = String(alias ?? `${path}${anchor ?? ""}`).trim()
-          const href = `/${slugPath(path)}${anchor ?? ""}`
-          return `[${escapeMarkdownLabel(label)}](<${href}>)`
+          const target = `${String(rawPath).trim()}${anchor ?? ""}`
+          const label = String(alias ?? target).trim()
+          return `[${escapeMarkdownLabel(label)}](</__wiki_editor_link__/${encodeURIComponent(target)}>)`
         },
       )
       .replace(
@@ -273,66 +267,258 @@ function previewSource(
           return `${quotePrefix}**CRDG_CALLOUT_${String(type).toLowerCase()}::${label}**`
         },
       )
-      .replace(/==([^=\n]+)==/g, "**$1**"),
+      .replace(/==([^=\n]+)==/g, "**CRDG_HIGHLIGHT::$1**"),
   )
 }
 
-function renderPreview(
+function renderVisualEditor(
   source: string,
   target: HTMLElement,
   attachmentUrls: Map<string, string>,
   attachmentPaths: Record<string, string>,
 ): void {
-  if (source.trim() === "") {
-    target.innerHTML = '<p class="wiki-preview-empty">Nothing to preview yet.</p>'
+  const body = splitFrontmatter(source).body
+  if (body.trim() === "") {
+    target.replaceChildren()
     return
   }
 
   try {
-    const transformed = previewSource(source, attachmentUrls, attachmentPaths)
+    const transformed = visualSource(source)
     const markdownTree = previewProcessor.parse(transformed)
     const htmlTree = previewProcessor.runSync(markdownTree)
     target.innerHTML = toHtml(htmlTree)
 
+    target.querySelectorAll<HTMLAnchorElement>('a[href^="/__wiki_editor_link__/"]').forEach((link) => {
+      const raw = link.getAttribute("href")?.slice("/__wiki_editor_link__/".length) ?? ""
+      const wikiTarget = decodeURIComponent(raw)
+      const anchorIndex = wikiTarget.indexOf("#")
+      const path = anchorIndex === -1 ? wikiTarget : wikiTarget.slice(0, anchorIndex)
+      const anchor = anchorIndex === -1 ? "" : wikiTarget.slice(anchorIndex)
+      link.dataset.wikiTarget = wikiTarget
+      link.href = `/${slugPath(path)}${anchor}`
+    })
     target.querySelectorAll<HTMLAnchorElement>("a").forEach((link) => {
-      link.target = "_blank"
-      link.rel = "noopener"
+      link.addEventListener("click", (event) => event.preventDefault())
+    })
+
+    target.querySelectorAll<HTMLImageElement>('img[src^="/__wiki_editor_image__/"]').forEach((image) => {
+      const raw = image.getAttribute("src")?.slice("/__wiki_editor_image__/".length) ?? ""
+      const path = decodeURIComponent(raw)
+      const fileName = path.split("/").pop() ?? path
+      const imagePath = path.includes("/") ? path : `Attachments/${path}`
+      image.dataset.wikiImage = path
+      image.src = attachmentUrls.get(fileName) ?? attachmentPaths[fileName] ?? `/${slugPath(imagePath)}`
     })
     target.querySelectorAll<HTMLImageElement>('img[title^="obsidian-width="]').forEach((image) => {
       const width = Number(image.title.split("=")[1])
-      if (Number.isFinite(width)) image.style.width = `${Math.min(width, 1400)}px`
+      if (Number.isFinite(width)) {
+        image.style.width = `${Math.min(width, 1400)}px`
+        image.dataset.wikiWidth = String(Math.min(width, 1400))
+      }
       image.removeAttribute("title")
     })
+
     const decorateCallout = (title: HTMLElement, type: string) => {
       title.classList.add("wiki-preview-callout-title")
       const callout = title.closest("blockquote")
       callout?.classList.add("wiki-preview-callout", `wiki-preview-callout-${type}`)
+      if (callout instanceof HTMLElement) callout.dataset.calloutType = type
     }
-    target.querySelectorAll<HTMLElement>("strong").forEach((title) => {
-      const match = title.textContent?.match(/^CRDG_CALLOUT_([\w-]+)::/)
-      if (!match) return
-      title.textContent = title.textContent?.replace(match[0], "") ?? ""
-      decorateCallout(title, match[1])
+    target.querySelectorAll<HTMLElement>("strong").forEach((element) => {
+      const callout = element.textContent?.match(/^CRDG_CALLOUT_([\w-]+)::/)
+      if (callout) {
+        element.textContent = element.textContent?.replace(callout[0], "") ?? ""
+        decorateCallout(element, callout[1])
+        return
+      }
+      const highlight = element.textContent?.match(/^CRDG_HIGHLIGHT::/)
+      if (!highlight) return
+      const mark = document.createElement("mark")
+      mark.dataset.wikiHighlight = "true"
+      mark.textContent = element.textContent?.replace(highlight[0], "") ?? ""
+      element.replaceWith(mark)
     })
 
-    // A nested blockquote can occasionally keep the emphasis markers literal. Clean that fallback
-    // so editor-only preview sentinels are never visible to contributors.
     const textWalker = document.createTreeWalker(target, NodeFilter.SHOW_TEXT)
     const textNodes: Text[] = []
     while (textWalker.nextNode()) textNodes.push(textWalker.currentNode as Text)
     textNodes.forEach((node) => {
-      const match = node.data.match(/\*\*CRDG_CALLOUT_([\w-]+)::(.+?)\*\*/)
-      if (!match || !node.parentElement) return
-      const title = document.createElement("strong")
-      title.textContent = match[2]
-      node.replaceWith(title)
-      decorateCallout(title, match[1])
+      const callout = node.data.match(/\*\*CRDG_CALLOUT_([\w-]+)::(.+?)\*\*/)
+      if (callout && node.parentElement) {
+        const title = document.createElement("strong")
+        title.textContent = callout[2]
+        node.replaceWith(title)
+        decorateCallout(title, callout[1])
+        return
+      }
+      const highlight = node.data.match(/\*\*CRDG_HIGHLIGHT::(.+?)\*\*/)
+      if (!highlight || !node.parentElement) return
+      const mark = document.createElement("mark")
+      mark.dataset.wikiHighlight = "true"
+      mark.textContent = highlight[1]
+      node.replaceWith(mark)
     })
   } catch (error) {
-    console.error("Could not render wiki editor preview", error)
-    target.innerHTML =
-      '<p class="wiki-preview-empty">Preview unavailable. Your Markdown is still safe.</p>'
+    console.error("Could not render wiki visual editor", error)
+    target.innerHTML = '<p class="wiki-preview-empty">Visual editing is unavailable. Switch to Source to continue.</p>'
   }
+}
+
+function escapeMarkdownText(value: string): string {
+  return value
+    .replace(/\u00a0/g, " ")
+    .replace(/\\/g, "\\\\")
+    .replace(/([*_\[\]])/g, "\\$1")
+}
+
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;")
+}
+
+function inlineMarkdown(node: Node): string {
+  if (node.nodeType === Node.TEXT_NODE) return escapeMarkdownText(node.textContent ?? "")
+  if (!(node instanceof HTMLElement)) return ""
+
+  const children = () => [...node.childNodes].map(inlineMarkdown).join("")
+  switch (node.tagName) {
+    case "BR":
+      return "\n"
+    case "STRONG":
+    case "B":
+      return `**${children()}**`
+    case "EM":
+    case "I":
+      return `*${children()}*`
+    case "MARK":
+      return `==${children()}==`
+    case "CODE": {
+      const content = (node.textContent ?? "").replace(/`/g, "\\`")
+      return `\`${content}\``
+    }
+    case "A": {
+      const label = children() || node.textContent || "link"
+      const wikiTarget = node.dataset.wikiTarget
+      if (wikiTarget) return label === wikiTarget ? `[[${wikiTarget}]]` : `[[${wikiTarget}|${label}]]`
+      return `[${label}](${node.getAttribute("href") ?? ""})`
+    }
+    case "IMG": {
+      const wikiImage = node.dataset.wikiImage
+      const width = node.dataset.wikiWidth
+      if (wikiImage) return `![[${wikiImage}${width ? `|${width}` : ""}]]`
+      return `![${escapeMarkdownLabel(node.getAttribute("alt") ?? "image")}](${node.getAttribute("src") ?? ""})`
+    }
+    case "INPUT":
+      return ""
+    default:
+      return children()
+  }
+}
+
+function listMarkdown(list: HTMLElement, depth = 0): string {
+  const ordered = list.tagName === "OL"
+  return [...list.children]
+    .filter((child): child is HTMLLIElement => child instanceof HTMLLIElement)
+    .map((item, index) => {
+      const checkbox = item.querySelector<HTMLInputElement>(":scope > input[type=checkbox]")
+      const nestedLists = [...item.children].filter(
+        (child): child is HTMLElement => child instanceof HTMLElement && ["UL", "OL"].includes(child.tagName),
+      )
+      const contentNodes = [...item.childNodes].filter(
+        (child) => !(child instanceof HTMLInputElement) && !(child instanceof HTMLElement && ["UL", "OL"].includes(child.tagName)),
+      )
+      const content = contentNodes.map(inlineMarkdown).join("").replace(/\s+/g, " ").trim() || "item"
+      const marker = checkbox ? `- [${checkbox.checked ? "x" : " "}] ` : ordered ? `${index + 1}. ` : "- "
+      const indent = "  ".repeat(depth)
+      const nested = nestedLists.map((nestedList) => listMarkdown(nestedList, depth + 1)).join("")
+      return `${indent}${marker}${content}\n${nested}`
+    })
+    .join("")
+}
+
+function tableMarkdown(table: HTMLTableElement): string {
+  const rows = [...table.rows]
+  if (rows.length === 0) return ""
+  const values = rows.map((row) =>
+    [...row.cells].map((cell) =>
+      [...cell.childNodes]
+        .map(inlineMarkdown)
+        .join("")
+        .replace(/\|/g, "\\|")
+        .replace(/\s*\n\s*/g, " ")
+        .trim(),
+    ),
+  )
+  const width = Math.max(...values.map((row) => row.length))
+  const normalized = values.map((row) => [...row, ...Array(Math.max(0, width - row.length)).fill("")])
+  const renderRow = (row: string[]) => `| ${row.join(" | ")} |`
+  return `${renderRow(normalized[0])}\n${renderRow(Array(width).fill("---"))}\n${normalized
+    .slice(1)
+    .map(renderRow)
+    .join("\n")}\n\n`
+}
+
+function blockMarkdown(node: Node): string {
+  if (node.nodeType === Node.TEXT_NODE) return escapeMarkdownText(node.textContent ?? "")
+  if (!(node instanceof HTMLElement)) return ""
+
+  const inlineChildren = () => [...node.childNodes].map(inlineMarkdown).join("").trim()
+  const blockChildren = () => [...node.childNodes].map(blockMarkdown).join("")
+  switch (node.tagName) {
+    case "H1":
+    case "H2":
+    case "H3":
+    case "H4":
+    case "H5":
+    case "H6":
+      return `${"#".repeat(Number(node.tagName[1]))} ${inlineChildren()}\n\n`
+    case "P":
+      return `${inlineChildren()}\n\n`
+    case "DIV":
+      return `${blockChildren() || inlineChildren()}\n\n`
+    case "UL":
+    case "OL":
+      return `${listMarkdown(node)}\n`
+    case "BLOCKQUOTE": {
+      const calloutType = node.dataset.calloutType
+      const title = node.querySelector<HTMLElement>(".wiki-preview-callout-title")
+      const clone = node.cloneNode(true) as HTMLElement
+      clone.querySelector(".wiki-preview-callout-title")?.remove()
+      const body = [...clone.childNodes].map(blockMarkdown).join("").trim()
+      if (calloutType) {
+        const header = `> [!${calloutType}]${title?.textContent?.trim() ? ` ${title.textContent.trim()}` : ""}`
+        const quoted = body ? body.split("\n").map((line) => `> ${line}`).join("\n") : ""
+        return `${header}${quoted ? `\n${quoted}` : ""}\n\n`
+      }
+      return `${body.split("\n").map((line) => `> ${line}`).join("\n")}\n\n`
+    }
+    case "PRE": {
+      const code = node.textContent?.replace(/\n+$/, "") ?? ""
+      return `\`\`\`\n${code}\n\`\`\`\n\n`
+    }
+    case "TABLE":
+      return tableMarkdown(node as HTMLTableElement)
+    case "HR":
+      return "---\n\n"
+    case "BR":
+      return "\n"
+    default:
+      return blockChildren() || inlineMarkdown(node)
+  }
+}
+
+function markdownFromVisual(root: HTMLElement): string {
+  return [...root.childNodes]
+    .map(blockMarkdown)
+    .join("")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim()
 }
 
 function countWords(source: string): number {
@@ -439,7 +625,7 @@ function initializeEditor(root: HTMLElement): void {
   const data = JSON.parse(rawData) as EditorData
   const dialog = requiredElement<HTMLDialogElement>(root, "[data-wiki-editor-dialog]")
   const source = requiredElement<HTMLTextAreaElement>(dialog, "[data-editor-source]")
-  const preview = requiredElement<HTMLElement>(dialog, "[data-editor-preview]")
+  const visual = requiredElement<HTMLElement>(dialog, "[data-editor-visual]")
   const editorMain = requiredElement<HTMLElement>(dialog, "[data-editor-main]")
   const workspace = requiredElement<HTMLElement>(dialog, "[data-editor-workspace]")
   const review = requiredElement<HTMLElement>(dialog, "[data-editor-review]")
@@ -489,7 +675,7 @@ function initializeEditor(root: HTMLElement): void {
 
   const attachments = new Map<string, File>()
   const attachmentUrls = new Map<string, string>()
-  let previewTimer: number | undefined
+  let visualTimer: number | undefined
   let saveTimer: number | undefined
   let restoredDraft = false
   let turnstileWidget: string | undefined
@@ -501,6 +687,9 @@ function initializeEditor(root: HTMLElement): void {
   let currentPagePath = data.pagePath
   let currentPageTitle = data.pageTitle
   let syncingFrontmatter = false
+  let activeView: EditorView = "visual"
+  let visualDirty = false
+  let visualSelection: Range | undefined
   let activeTemplate = data.templates[0]
 
   const pageNameFromTitle = (title: string) =>
@@ -533,7 +722,7 @@ function initializeEditor(root: HTMLElement): void {
     reviewPage.textContent = currentPageTitle
     updateFrontmatterFields()
     renderAttachments()
-    updateAfterEdit()
+    updateAfterSourceEdit()
   }
 
   source.value = data.source
@@ -571,7 +760,7 @@ function initializeEditor(root: HTMLElement): void {
         editorHeading.textContent = `${mode === "create" ? "Create" : "Edit"} ${currentPageTitle}`
         reviewPage.textContent = currentPageTitle
       }
-      updateAfterEdit()
+      updateAfterSourceEdit()
     } catch (error) {
       showNotice(
         error instanceof Error ? `Frontmatter error: ${error.message}` : "Invalid frontmatter.",
@@ -606,12 +795,23 @@ function initializeEditor(root: HTMLElement): void {
     imageCount.textContent = attachments.size.toLocaleString()
   }
 
-  const schedulePreview = () => {
-    if (previewTimer !== undefined) window.clearTimeout(previewTimer)
-    previewTimer = window.setTimeout(() => {
-      renderPreview(source.value, preview, attachmentUrls, data.attachmentPaths)
-      previewTimer = undefined
+  const scheduleVisualRender = () => {
+    if (visualTimer !== undefined) window.clearTimeout(visualTimer)
+    visualTimer = window.setTimeout(() => {
+      if (activeView === "visual") {
+        visualDirty = false
+        renderVisualEditor(source.value, visual, attachmentUrls, data.attachmentPaths)
+      }
+      visualTimer = undefined
     }, 120)
+  }
+
+  const syncVisualToSource = () => {
+    if (!visualDirty) return
+    const parts = splitFrontmatter(source.value)
+    source.value = joinFrontmatter(parts.yaml, markdownFromVisual(visual))
+    visualDirty = false
+    updateFrontmatterFields()
   }
 
   const persistDraft = async () => {
@@ -656,9 +856,16 @@ function initializeEditor(root: HTMLElement): void {
 
   const changed = () => mode === "create" || source.value !== data.source || attachments.size > 0
 
-  const updateAfterEdit = () => {
+  const updateAfterSourceEdit = () => {
     updateCounts()
-    schedulePreview()
+    scheduleVisualRender()
+    scheduleSave()
+  }
+
+  const updateAfterVisualEdit = () => {
+    visualDirty = true
+    syncVisualToSource()
+    updateCounts()
     scheduleSave()
   }
 
@@ -670,7 +877,7 @@ function initializeEditor(root: HTMLElement): void {
       source.setSelectionRange(start + selectStart, start + (selectEnd ?? selectStart))
     }
     source.focus()
-    updateAfterEdit()
+    updateAfterSourceEdit()
   }
 
   const wrapSelection = (before: string, after: string, placeholder: string) => {
@@ -701,12 +908,24 @@ function initializeEditor(root: HTMLElement): void {
     insertText(`${prefix}${selected}`, prefix.length, prefix.length + selected.length)
   }
 
-  const setView = (view: "write" | "split" | "preview") => {
+  const setView = (view: EditorView) => {
+    if (activeView === "visual" && view === "source") syncVisualToSource()
+    activeView = view
     editorMain.dataset.view = view
     dialog.querySelectorAll<HTMLElement>("[data-editor-view]").forEach((button) => {
-      button.classList.toggle("is-active", button.dataset.editorView === view)
+      const selected = button.dataset.editorView === view
+      button.classList.toggle("is-active", selected)
+      button.setAttribute("aria-selected", String(selected))
+      button.tabIndex = selected ? 0 : -1
     })
-    if (view !== "write") schedulePreview()
+    if (view === "visual") {
+      visualDirty = false
+      visualSelection = undefined
+      renderVisualEditor(source.value, visual, attachmentUrls, data.attachmentPaths)
+      visual.focus()
+    } else {
+      source.focus()
+    }
   }
 
   const renderAttachments = () => {
@@ -739,7 +958,11 @@ function initializeEditor(root: HTMLElement): void {
             .filter((line) => line.trim() !== embed)
             .join("\n")
           renderAttachments()
-          updateAfterEdit()
+          if (activeView === "visual") {
+            visualDirty = false
+            renderVisualEditor(source.value, visual, attachmentUrls, data.attachmentPaths)
+          }
+          updateAfterSourceEdit()
         },
         { signal },
       )
@@ -747,6 +970,74 @@ function initializeEditor(root: HTMLElement): void {
       attachmentList.append(item)
     }
     updateCounts()
+  }
+
+  const captureVisualSelection = () => {
+    const selection = window.getSelection()
+    if (!selection || selection.rangeCount === 0) return
+    const range = selection.getRangeAt(0)
+    if (!visual.contains(range.commonAncestorContainer)) return
+    visualSelection = range.cloneRange()
+  }
+
+  const restoreVisualSelection = () => {
+    visual.focus()
+    const selection = window.getSelection()
+    if (!selection) return
+    selection.removeAllRanges()
+    if (visualSelection && visual.contains(visualSelection.commonAncestorContainer)) {
+      selection.addRange(visualSelection)
+      return
+    }
+    const range = document.createRange()
+    range.selectNodeContents(visual)
+    range.collapse(false)
+    selection.addRange(range)
+  }
+
+  const insertVisualHtml = (html: string) => {
+    restoreVisualSelection()
+    document.execCommand("insertHTML", false, html)
+    captureVisualSelection()
+    updateAfterVisualEdit()
+  }
+
+  const selectedVisualText = () => {
+    restoreVisualSelection()
+    return window.getSelection()?.toString().trim() ?? ""
+  }
+
+  const runVisualCommand = (command: string, value?: string) => {
+    restoreVisualSelection()
+    document.execCommand(command, false, value)
+    captureVisualSelection()
+    updateAfterVisualEdit()
+  }
+
+  const wrapVisualSelection = (tagName: "code" | "mark", placeholder: string) => {
+    restoreVisualSelection()
+    const selection = window.getSelection()
+    if (!selection || selection.rangeCount === 0) return
+    const range = selection.getRangeAt(0)
+    const wrapper = document.createElement(tagName)
+    if (tagName === "mark") wrapper.dataset.wikiHighlight = "true"
+    if (range.collapsed) {
+      wrapper.textContent = placeholder
+      range.insertNode(wrapper)
+    } else {
+      try {
+        range.surroundContents(wrapper)
+      } catch {
+        wrapper.append(range.extractContents())
+        range.insertNode(wrapper)
+      }
+    }
+    selection.removeAllRanges()
+    const next = document.createRange()
+    next.selectNodeContents(wrapper)
+    selection.addRange(next)
+    captureVisualSelection()
+    updateAfterVisualEdit()
   }
 
   const addImages = (incoming: File[]) => {
@@ -781,22 +1072,111 @@ function initializeEditor(root: HTMLElement): void {
       attachments.set(file.name, file)
       attachmentUrls.set(file.name, URL.createObjectURL(file))
     }
-    const embeds = accepted.map((file) => `![[${file.name}]]`).join("\n")
-    const prefix =
-      source.selectionStart > 0 && source.value[source.selectionStart - 1] !== "\n" ? "\n" : ""
-    insertText(`${prefix}${embeds}\n`)
+    if (activeView === "visual") {
+      const images = accepted
+        .map((file) => {
+          const url = attachmentUrls.get(file.name) ?? ""
+          return `<p><img src="${escapeHtml(url)}" alt="${escapeHtml(file.name)}" data-wiki-image="${escapeHtml(file.name)}"></p>`
+        })
+        .join("")
+      insertVisualHtml(images)
+    } else {
+      const embeds = accepted.map((file) => `![[${file.name}]]`).join("\n")
+      const prefix =
+        source.selectionStart > 0 && source.value[source.selectionStart - 1] !== "\n" ? "\n" : ""
+      insertText(`${prefix}${embeds}\n`)
+    }
     renderAttachments()
   }
 
   const handleAction = (action: string) => {
+    if (activeView === "visual") {
+      switch (action) {
+        case "undo":
+          runVisualCommand("undo")
+          break
+        case "redo":
+          runVisualCommand("redo")
+          break
+        case "h2":
+          runVisualCommand("formatBlock", "h2")
+          break
+        case "h3":
+          runVisualCommand("formatBlock", "h3")
+          break
+        case "bold":
+          runVisualCommand("bold")
+          break
+        case "italic":
+          runVisualCommand("italic")
+          break
+        case "highlight":
+          wrapVisualSelection("mark", "highlighted text")
+          break
+        case "code":
+          wrapVisualSelection("code", "code")
+          break
+        case "bullets":
+          runVisualCommand("insertUnorderedList")
+          break
+        case "numbered":
+          runVisualCommand("insertOrderedList")
+          break
+        case "task":
+          insertVisualHtml('<ul><li><input type="checkbox" disabled> Task</li></ul>')
+          break
+        case "quote":
+          runVisualCommand("formatBlock", "blockquote")
+          break
+        case "wikilink": {
+          const label = selectedVisualText() || "Page name"
+          const target = window.prompt("Wiki page name", label)
+          if (!target) break
+          const anchorIndex = target.indexOf("#")
+          const path = anchorIndex === -1 ? target : target.slice(0, anchorIndex)
+          const anchor = anchorIndex === -1 ? "" : target.slice(anchorIndex)
+          insertVisualHtml(
+            `<a href="/${escapeHtml(slugPath(path))}${escapeHtml(anchor)}" data-wiki-target="${escapeHtml(target)}">${escapeHtml(label)}</a>`,
+          )
+          break
+        }
+        case "link": {
+          const label = selectedVisualText() || "link label"
+          const url = window.prompt("Web address", "https://")?.trim()
+          if (!url) break
+          if (!/^(?:https?:\/\/|mailto:|\/|#)/i.test(url)) {
+            showNotice("Use an http, https, mailto, relative, or anchor link.")
+            break
+          }
+          insertVisualHtml(`<a href="${escapeHtml(url)}">${escapeHtml(label)}</a>`)
+          break
+        }
+        case "callout":
+          insertVisualHtml(
+            '<blockquote class="wiki-preview-callout wiki-preview-callout-info" data-callout-type="info"><strong class="wiki-preview-callout-title">Title</strong><p>Callout text</p></blockquote>',
+          )
+          break
+        case "table":
+          insertVisualHtml(
+            '<table><thead><tr><th>Name</th><th>Value</th></tr></thead><tbody><tr><td>Item</td><td>Detail</td></tr></tbody></table><p><br></p>',
+          )
+          break
+        case "image":
+          captureVisualSelection()
+          fileInput.click()
+          break
+      }
+      return
+    }
+
     switch (action) {
       case "undo":
         document.execCommand("undo")
-        updateAfterEdit()
+        updateAfterSourceEdit()
         break
       case "redo":
         document.execCommand("redo")
-        updateAfterEdit()
+        updateAfterSourceEdit()
         break
       case "h2":
         heading(2)
@@ -835,8 +1215,7 @@ function initializeEditor(root: HTMLElement): void {
         wrapSelection("[[", "]]", "Page name")
         break
       case "link": {
-        const selected =
-          source.value.slice(source.selectionStart, source.selectionEnd) || "link label"
+        const selected = source.value.slice(source.selectionStart, source.selectionEnd) || "link label"
         insertText(`[${selected}](https://example.com)`, selected.length + 3, selected.length + 22)
         break
       }
@@ -890,7 +1269,7 @@ function initializeEditor(root: HTMLElement): void {
       renderAttachments()
       updateFrontmatterFields()
       updateCounts()
-      schedulePreview()
+      scheduleVisualRender()
       showNotice(`Restored your draft from ${new Date(draft.updatedAt).toLocaleString()}.`)
     } catch (error) {
       console.warn("Could not restore wiki editor draft", error)
@@ -905,7 +1284,7 @@ function initializeEditor(root: HTMLElement): void {
     reviewActions.hidden = true
     successActions.hidden = true
     updateCounts()
-    schedulePreview()
+    scheduleVisualRender()
   }
 
   const configureMode = (nextMode: EditorMode) => {
@@ -945,6 +1324,7 @@ function initializeEditor(root: HTMLElement): void {
     reviewPage.textContent = currentPageTitle
     updateFrontmatterFields()
     renderAttachments()
+    setView("visual")
     showEditor()
   }
 
@@ -980,6 +1360,7 @@ function initializeEditor(root: HTMLElement): void {
   }
 
   const openReview = () => {
+    if (activeView === "visual") syncVisualToSource()
     hideNotice()
     hideReviewError()
     if (!changed()) {
@@ -1102,6 +1483,7 @@ function initializeEditor(root: HTMLElement): void {
   }
 
   const closeDialog = () => {
+    if (activeView === "visual") syncVisualToSource()
     if (!submitted) void persistDraft()
     dialog.close()
   }
@@ -1113,7 +1495,8 @@ function initializeEditor(root: HTMLElement): void {
         configureMode(button.dataset.editorMode === "create" ? "create" : "edit")
         dialog.showModal()
         void restoreDraft()
-        source.focus()
+        if (activeView === "visual") visual.focus()
+        else source.focus()
       },
       { signal },
     )
@@ -1142,7 +1525,32 @@ function initializeEditor(root: HTMLElement): void {
     "input",
     () => {
       updateFrontmatterFields()
-      updateAfterEdit()
+      updateAfterSourceEdit()
+    },
+    { signal },
+  )
+  visual.addEventListener(
+    "input",
+    () => {
+      captureVisualSelection()
+      updateAfterVisualEdit()
+    },
+    { signal },
+  )
+  visual.addEventListener(
+    "keydown",
+    (event) => {
+      const command = event.metaKey || event.ctrlKey
+      if (command && event.key.toLowerCase() === "b") {
+        event.preventDefault()
+        handleAction("bold")
+      } else if (command && event.key.toLowerCase() === "i") {
+        event.preventDefault()
+        handleAction("italic")
+      } else if (command && event.key === "Enter") {
+        event.preventDefault()
+        openReview()
+      }
     },
     { signal },
   )
@@ -1168,14 +1576,38 @@ function initializeEditor(root: HTMLElement): void {
   )
 
   dialog.querySelectorAll<HTMLElement>("[data-editor-action]").forEach((button) => {
+    button.addEventListener(
+      "mousedown",
+      (event) => {
+        if (activeView === "visual") {
+          captureVisualSelection()
+          event.preventDefault()
+        }
+      },
+      { signal },
+    )
     button.addEventListener("click", () => handleAction(button.dataset.editorAction ?? ""), {
       signal,
     })
   })
-  dialog.querySelectorAll<HTMLElement>("[data-editor-view]").forEach((button) => {
+  const viewTabs = [...dialog.querySelectorAll<HTMLButtonElement>("[data-editor-view]")]
+  viewTabs.forEach((button) => {
     button.addEventListener(
       "click",
-      () => setView((button.dataset.editorView ?? "split") as "write" | "split" | "preview"),
+      () => setView((button.dataset.editorView ?? "visual") as EditorView),
+      { signal },
+    )
+    button.addEventListener(
+      "keydown",
+      (event) => {
+        if (!["ArrowLeft", "ArrowRight"].includes(event.key)) return
+        event.preventDefault()
+        const direction = event.key === "ArrowRight" ? 1 : -1
+        const index = viewTabs.indexOf(button)
+        const next = viewTabs[(index + direction + viewTabs.length) % viewTabs.length]
+        setView((next.dataset.editorView ?? "visual") as EditorView)
+        next.focus()
+      },
       { signal },
     )
   })
@@ -1274,7 +1706,7 @@ function initializeEditor(root: HTMLElement): void {
             : "Invalid frontmatter YAML.",
         )
       }
-      updateAfterEdit()
+      updateAfterSourceEdit()
     },
     { signal },
   )
@@ -1292,6 +1724,23 @@ function initializeEditor(root: HTMLElement): void {
     () => {
       addImages([...(fileInput.files ?? [])])
       fileInput.value = ""
+    },
+    { signal },
+  )
+  visual.addEventListener(
+    "paste",
+    (event) => {
+      const images = [...(event.clipboardData?.files ?? [])].filter((file) =>
+        file.type.startsWith("image/"),
+      )
+      event.preventDefault()
+      if (images.length > 0) {
+        captureVisualSelection()
+        addImages(images)
+        return
+      }
+      document.execCommand("insertText", false, event.clipboardData?.getData("text/plain") ?? "")
+      updateAfterVisualEdit()
     },
     { signal },
   )
@@ -1337,6 +1786,8 @@ function initializeEditor(root: HTMLElement): void {
   })
   submitButton.addEventListener("click", () => void submit(), { signal })
 
+  document.addEventListener("selectionchange", captureVisualSelection, { signal })
+
   const beforeUnload = (event: BeforeUnloadEvent) => {
     if (dialog.open && changed() && saveState.classList.contains("is-saving"))
       event.preventDefault()
@@ -1345,10 +1796,10 @@ function initializeEditor(root: HTMLElement): void {
 
   updateCounts()
   updateFrontmatterFields()
-  renderPreview(source.value, preview, attachmentUrls, data.attachmentPaths)
+  renderVisualEditor(source.value, visual, attachmentUrls, data.attachmentPaths)
   window.addCleanup(() => {
     controller.abort()
-    if (previewTimer !== undefined) window.clearTimeout(previewTimer)
+    if (visualTimer !== undefined) window.clearTimeout(visualTimer)
     if (saveTimer !== undefined) window.clearTimeout(saveTimer)
     attachmentUrls.forEach((url) => URL.revokeObjectURL(url))
   })
