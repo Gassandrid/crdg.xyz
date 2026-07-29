@@ -1,12 +1,9 @@
 .wiki-editor {
-  width: 100%;
-  max-width: none;
   margin: -0.35rem 0 1rem;
 }
 
 .wiki-editor-entry-actions {
   display: flex;
-  width: 100%;
   flex-wrap: wrap;
   gap: 0.55rem;
 }
@@ -55,9 +52,8 @@ body:has(.wiki-editor-dialog[open]) {
 }
 
 .wiki-editor-dialog {
-  box-sizing: border-box;
-  width: min(calc(100vw - 2rem), 1320px);
-  height: calc(100dvh - 1.5rem);
+  width: min(96vw, 1480px);
+  height: min(94dvh, 960px);
   max-width: none;
   max-height: none;
   margin: auto;
@@ -65,8 +61,8 @@ body:has(.wiki-editor-dialog[open]) {
   color: var(--darkgray);
   background: var(--light);
   border: 1px solid var(--lightgray);
-  border-radius: 0;
-  box-shadow: 0 18px 56px rgb(0 0 0 / 32%);
+  border-radius: 1rem;
+  box-shadow: 0 28px 90px rgb(0 0 0 / 38%);
   overflow: hidden;
 
   &::backdrop {
