@@ -1,9 +1,12 @@
 .wiki-editor {
+  width: 100%;
+  max-width: none;
   margin: -0.35rem 0 1rem;
 }
 
 .wiki-editor-entry-actions {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
   gap: 0.55rem;
 }
@@ -52,8 +55,9 @@ body:has(.wiki-editor-dialog[open]) {
 }
 
 .wiki-editor-dialog {
-  width: min(96vw, 1480px);
-  height: min(94dvh, 960px);
+  box-sizing: border-box;
+  width: min(calc(100vw - 2rem), 1320px);
+  height: calc(100dvh - 1.5rem);
   max-width: none;
   max-height: none;
   margin: auto;
@@ -61,8 +65,8 @@ body:has(.wiki-editor-dialog[open]) {
   color: var(--darkgray);
   background: var(--light);
   border: 1px solid var(--lightgray);
-  border-radius: 1rem;
-  box-shadow: 0 28px 90px rgb(0 0 0 / 38%);
+  border-radius: 0;
+  box-shadow: 0 18px 56px rgb(0 0 0 / 32%);
   overflow: hidden;
 
   &::backdrop {
@@ -210,7 +214,9 @@ body:has(.wiki-editor-dialog[open]) {
 .wiki-editor-workspace {
   display: grid;
   grid-template-rows: auto auto minmax(0, 1fr) auto;
+  height: 100%;
   min-height: 0;
+  overflow: hidden;
 }
 
 .wiki-editor-frontmatter {
@@ -417,6 +423,9 @@ body:has(.wiki-editor-dialog[open]) {
   position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
+  width: 100%;
+  height: 100%;
+  min-width: 0;
   min-height: 0;
   overflow: hidden;
   background: var(--light);
@@ -478,6 +487,7 @@ body:has(.wiki-editor-dialog[open]) {
 
 .wiki-editor-source-pane,
 .wiki-editor-visual-pane {
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
   min-width: 0;
@@ -486,12 +496,25 @@ body:has(.wiki-editor-dialog[open]) {
   background: var(--light);
 }
 
+/* Keep source-only editing on the full available canvas. */
+.wiki-editor-main[data-view="source"] {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.wiki-editor-main[data-view="source"] .wiki-editor-source-pane {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
 .wiki-editor-source-pane textarea {
+  display: block;
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
   min-height: 0;
   margin: 0;
-  padding: 1.25rem 1.4rem 35vh;
+  padding: 1.25rem 1.4rem;
+  overflow: auto;
   resize: none;
   color: var(--darkgray);
   background: color-mix(in srgb, var(--light) 98%, var(--lightgray));
@@ -1162,7 +1185,7 @@ body:has(.wiki-editor-dialog[open]) {
   }
 
   .wiki-editor-source-pane textarea {
-    padding: 1rem 0.9rem 30vh;
+    padding: 1rem 0.9rem;
   }
 
   .wiki-editor-review-grid {
