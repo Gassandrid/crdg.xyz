@@ -511,8 +511,7 @@ export default () => {
                     </dd>
                   </dl>
                   <p>
-                    Write as you would in Obsidian. The preview covers common syntax; the published
-                    page is rendered by the wiki’s full Obsidian-compatible pipeline.
+                    This guide covers basic syntax. All Markdown syntax is supported.
                   </p>
                 </aside>
               </div>
@@ -537,9 +536,9 @@ export default () => {
             <section class="wiki-editor-review" data-editor-review hidden>
               <div class="wiki-editor-review-copy">
                 <span class="wiki-editor-kicker">One last step</span>
-                <h3>Send this edit to the maintainers</h3>
+                <h3>Confirm and submit this edit</h3>
                 <p>
-                  No GitHub account is needed. Your edit becomes a review request; the wiki changes
+                  Your edit becomes a review request; the wiki changes
                   only after a maintainer approves and merges it.
                 </p>
               </div>
@@ -553,7 +552,7 @@ export default () => {
                       data-review-summary
                       maxlength={500}
                       required
-                      placeholder="For example: corrected the component cost and added a screenshot."
+                      placeholder="For example: added component info and an image."
                     ></textarea>
                   </label>
                   <label>
@@ -591,7 +590,7 @@ export default () => {
                     </div>
                   </dl>
                   <p>
-                    Maintainers receive a normal line-by-line diff and can comment, approve, or ask
+                    Maintainers receive a line-by-line diff and can comment, approve, or ask
                     for changes before publishing.
                   </p>
                 </div>
@@ -604,7 +603,7 @@ export default () => {
               </div>
               <span class="wiki-editor-kicker">Sent for review</span>
               <h3>Thanks for improving the wiki.</h3>
-              <p>Your edit is now in the maintainer review queue.</p>
+              <p>Your edit is now in the  review queue.</p>
               <a data-review-link target="_blank" rel="noopener">
                 View review request
               </a>
