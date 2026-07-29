@@ -238,6 +238,16 @@ export default () => {
                   >
                     Source
                   </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    id="wiki-editor-split-tab"
+                    data-editor-view="split"
+                    aria-selected="false"
+                    aria-controls="wiki-editor-source-panel wiki-editor-visual-panel"
+                  >
+                    Side by side
+                  </button>
                 </div>
                 <div class="wiki-editor-toolbar-group">
                   <button type="button" data-editor-action="undo" title="Undo (Ctrl/⌘ Z)">
