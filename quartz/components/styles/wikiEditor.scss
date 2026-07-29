@@ -419,6 +419,8 @@ body:has(.wiki-editor-dialog[open]) {
 
 .wiki-editor-main {
   position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
   min-height: 0;
   overflow: hidden;
   background: var(--light);
@@ -432,6 +434,32 @@ body:has(.wiki-editor-dialog[open]) {
   &[data-view="source"] {
     .wiki-editor-visual-pane {
       display: none;
+    }
+  }
+
+  &[data-view="split"] {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+
+    .wiki-editor-source-pane {
+      grid-column: 1;
+      grid-row: 1;
+      border-right: 1px solid var(--lightgray);
+    }
+
+    .wiki-editor-visual-pane {
+      grid-column: 2;
+      grid-row: 1;
+      overflow: hidden;
+    }
+
+    .wiki-editor-visual {
+      width: 100%;
+      height: 100%;
+      min-height: 0;
+      margin: 0;
+      padding: 1.25rem 1.4rem 35vh;
+      overflow-y: auto;
+      border-inline: 0;
     }
   }
 
@@ -1108,6 +1136,27 @@ body:has(.wiki-editor-dialog[open]) {
 
   .wiki-editor-frontmatter-wide {
     grid-column: 1;
+  }
+
+  .wiki-editor-main[data-view="split"] {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+
+    .wiki-editor-source-pane {
+      grid-column: 1;
+      grid-row: 1;
+      border-right: 0;
+      border-bottom: 1px solid var(--lightgray);
+    }
+
+    .wiki-editor-visual-pane {
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+    .wiki-editor-visual {
+      padding: 1rem 0.9rem 30vh;
+    }
   }
 
   .wiki-editor-visual {
