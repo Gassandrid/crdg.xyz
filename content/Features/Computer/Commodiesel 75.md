@@ -2,9 +2,9 @@
 tags: [computer/docs]
 ---
 
-The **Commodiesel 64** is a personal computer added to the game. Designed for hobbyists and Lua programmers of varying skill levels, the Commodiesel 64 is ideal for creating games, controlling components, and automating tasks.
+The **Commodiesel 75** is a personal computer added to the game. Designed for hobbyists and Lua programmers of varying skill levels, the Commodiesel 75 is ideal for creating games, controlling components, and automating tasks.
 
-Your Commodiesel 64 is bundled with everything you need to begin computing immediately:
+Your Commodiesel 75 is bundled with everything you need to begin computing immediately:
 
 - PC Monitor
 - PC Speaker
@@ -15,7 +15,7 @@ Your Commodiesel 64 is bundled with everything you need to begin computing immed
 
 ## Overview
 
-The **Commodiesel 64** runs code in a modified Lua sandbox environment, featuring lots of added libraries and functionality designed to make it as simple as possible to interface with the computer hardware.
+The **Commodiesel 75** runs code in a modified Lua sandbox environment, featuring lots of added libraries and functionality designed to make it as simple as possible to interface with the computer hardware.
 
 ### Specifications
 
@@ -45,7 +45,7 @@ It is recommended that you have baseline knowledge of the Lua programming langua
 
 ### Demo Scripts
 
-The Commodiesel 64 comes pre-loaded with several demo scripts that showcase its capabilities. These include:
+The Commodiesel 75 comes pre-loaded with several demo scripts that showcase its capabilities. These include:
 
 - **beep.lua** - Simple audio demonstration
 - **demo.lua** - Rainbow gradient animation
