@@ -32,7 +32,7 @@ Drank liquids
 
 Licked solids
 
-1. Used car battery: It tastes like 12 volts☺️
+1. Realistic cart battery: It tastes like 12 volts☺️
 2. Uranium rod: It tastes sweet and sour ☺️
 3. Pizza: yummy!
 4. [[Bill's Batteries|Walmart battery]]: it tastes like battery acid ☺️
