@@ -23,6 +23,7 @@ In CRDG, a fluid is a liquid or a gas. Liquids can be heated with a water cooler
 | Liquid gold | Obtained by melting gold in the furnace at cathedral. | Unknown/Unknown |
 | Lemonade | Obtained by squeezing lemons. | Unknown/Unknown |
 | Gold lemonade | Obtained by squeezing golden lemons. | Unknown/Unknown |
+| Electric lemonade | Obtained by squeezing electric lemons. | Unknown/Unknown |
 | Avocado oil | A mysterious oil obtained through the computer cart brewer. Even though most liquids from it are AI generated, avocado oil is hardcoded into the cart. | Unknown/Unknown |
 | AI coffee | Coffee from the computer cart with an AI generated taste and appearance. | Unknown/Unknown |
 
