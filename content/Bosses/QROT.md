@@ -2,22 +2,21 @@
 tags: [templates]
 ---
 
-> [!infobox|n-th]
-> 
+> [!infobox] >
 > ## QROT
-> 
-> > [!caption|center wfull txt-s]
-> > 
-> > ![[QROT.png|]]
-> > 
+>
+>
+> > [!caption] > >
 > > This boss is accessible after beating the alternate ending.
-> 
+>
+>
 > ### Boss Info
-> 
+>
+>
 > | **Lives** | 4 |
 > | --- | --- |
 > | **Requirement** | Obtain the [[Finality]] and [[Glory]] badges |
-> | **Rewards** | - [[Cacsepi]]<br>- [[dansen]]<br>- [[Defeat QROT]] <br>- [[QROT Hunting Trophy]]|
+> | **Rewards** | - [[Cacsepi]]- [[dansen]]- [[Defeat QROT]] - [[QROT Hunting Trophy]] |
 > | **Pronouns** | it / its |
 > | **Date Added** | October 11th, 2022 |
 
@@ -49,27 +48,25 @@ Even though **QROT** may look difficult, he has the least amount of health in th
 
 **QROT** dives from the air and lands right next to you. This is the only attack that cannot directly deal damage to you, instead slowing you down for four seconds. To counter it, simply move back when you're slowed down. You'll be spaced out enough so that **QROT** can't deal damage to you.
 
-> [!Tip] 
-> If **QROT** starts his dive when he's across the map, the slow down will be basically cancelled, as the slow starts when the dive begins.
+> [!tip] > If QROT starts his dive when he's across the map, the slow down will be basically cancelled, as the slow starts when the dive begins.
 
 ### Pillar Summon
 
 **QROT** creates a pillar of light, doing absolutely nothing. This is the only attack that doesn't give you any downside, but instead is used to mark where **QROT** lands. These pillars are also able to cause lag spikes due to how many there are after a while.
 
-> [!Tip]
-> You can determine what cycle you're on depending on how many pillars **QROT** creates. If he creates one pillar after his **Leap**, it will always indicate that the next cycle will be Cycle 2 or Cycle 4. If he creates two pillars, the next cycle will be Cycle 1 or Cycle 3.
+> [!tip] > You can determine what cycle you're on depending on how many pillars QROT creates. If he creates one pillar after his Leap, it will always indicate that the next cycle will be Cycle 2 or Cycle 4. If he creates two pillars, the next cycle will be Cycle 1 or Cycle 3.
 
 ---
 
 ## Attack Cycles
 
-**QROT** has the most **attack cycles** out of any boss in the game, having four. This makes the boss insanely difficult to memorize, adding on to the original difficulty. Unlike [[content/Bosses/RIEL|RIEL]]'s attack patterns, most of **QROT**'s have barely any coordination to each other and are really tricky to time, adding on even more. 
+**QROT** has the most **attack cycles** out of any boss in the game, having four. This makes the boss insanely difficult to memorize, adding on to the original difficulty. Unlike [[content/Bosses/RIEL|RIEL]]'s attack patterns, most of **QROT**'s have barely any coordination to each other and are really tricky to time, adding on even more.
 
 ### Cycle 1
 
 **Two Slashes, Orb Summon + Dash, 2x Dash and Orb Summon.** Keep in mind that **Orb Summon + Dash** means that the attacks are done at the same time, and that **2x Dash** means that dashes are done two times in the same rhythm.
 
-> [!Note] Note
+> [!note] Note
 > The first **Dash** done in the cycle shares the same rhythm as the other two **Dashes**. The timing is pretty tricky, but you're able to get used to it pretty quickly.
 
 ### Cycle 2
@@ -79,17 +76,21 @@ Even though **QROT** may look difficult, he has the least amount of health in th
 ### Cycle 3
 
 **Two Slaps (with the second one delayed a bit), Orb Summon + Dash, 2x Dash, 2x Dash and Orb Summon + Dash.** This is the hardest attack cycle to learn due to it's length. Keep in mind that:
+
 - The two dashes next to each other **DON'T** follow the same rhythm, as there is a small gap in between.
 - The second slap is slightly delayed from the first slap unlike the first 2 attack cycles, allowing you to deal more damage.
 
 ### Cycle 4
 
-**Dash, Slap, 2x Dash and Orb Summon**. This is debatably harder to learn than Cycle 2 due to the switch up on the **Slap** and **Dash**, but is also pretty easy to dodge when you've learned it fully. 
+**Dash, Slap, 2x Dash and Orb Summon**. This is debatably harder to learn than Cycle 2 due to the switch up on the **Slap** and **Dash**, but is also pretty easy to dodge when you've learned it fully.
+
+> [!info] Tip!
+> For this cycle, all you need to do is roll for every attack. This is the best thing to do, because you can't do damage to QROT without dying on this cycle.
 
 ---
 
 ## Trivia
 
-- [This is the music used in the QROT boss fight.](https://www.youtube.com/watch?v=34cob339SyY) 
+- [This is the music used in the QROT boss fight.](https://www.youtube.com/watch?v=34cob339SyY)
 - The [[Defeat QROT]] badge was featured in a badger called **Ultra Hard Badge List: Reborn** composed of solely difficult badges. The badge was rated as 1-star, until it was removed to due a "Problematic Developer" and that the bossfight was given it's difficulty from it's bugs.
 - The old QROT arena had non-transparent spawn locations placed around it.
