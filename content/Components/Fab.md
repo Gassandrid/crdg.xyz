@@ -70,14 +70,14 @@ The printer has a bunch of combinations that give flat blocks called **slabs**. 
 | **Manure** | `III_I_II_I` |  | ![[Pasted image 20250907204328.png\\|200]] |
 | **Butter** | `II_II_I` | Almost no friction compared to [[Skate]], meaning a pretty good alternative to ice. | ![[Pasted image 20250907204656.png\\|200]] |
 | **Wood** | `I_II_III` |  | ![[Pasted image 20250907204749.png\\|200]] |
-| **Bluesteel** | `I_I_I_I_I` | Really heavy, like [[Ball Of Oblotenium]]. | ![[Pasted image 20250907204901.png\\|200]] |
+| **Osmium** | `I_I_I_I_I` | Really heavy, like [[Ball Of Oblotenium]]. | ![[Pasted image 20250907204901.png\\|200]] |
 | **Wood Planks** | `I_III_III` |  | ![[Pasted image 20250907205241.png\\|200]] |
 | **Aerogel** | `IIII_II_I` | Just like **Cellophane**, really bouncy. | ![[Pasted image 20250907205459.png\\|200]] |
 | **Plaster** | `IIII_I_II` |  | ![[Pasted image 20250911155836.png\\|200]] |
 | **Metal Disc** | `I_I_I_IIII` |  | ![[Pasted image 20250911160035.png\\|200]] |
 | **Decaying Matter** | `III_I_III` | One of the few slabs in the game with a particle effect. | ![[Pasted image 20250911160138.png\\|200]] |
 | **Face of Mars** | `IIII_I_III` |  | ![[Pasted image 20250911160241.png\\|200]] |
-| **Metal** | `IIIII_III` |  | ![[Pasted image 20250911160351.png\\|200]] |
+| **Nickel** | `IIIII_III` |  | ![[Pasted image 20250911160351.png\\|200]] |
 | **Sponge** | `I_IIIIIII` |  | ![[Pasted image 20250911160449.png\\|200]] |
 | **Concrete** | `I_IIII_I` |  | ![[Pasted image 20250911160614.png\\|200]] |
 | **Mosaic Tiles** | `I_I_III_I` |  | ![[Pasted image 20250911160746.png\\|200]] |
