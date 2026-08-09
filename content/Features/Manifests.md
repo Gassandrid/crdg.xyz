@@ -9,7 +9,7 @@ tags:
 
 There are a total of twenty (ninety excluding Fireworks) manifests, with the majority of them being able to be grown by **Seed Trees**. They serve different uses and are overall better than regular **Components** from the **Component Machine**. They are also able to be stored using the **miracle of manifestation** menu, opened by an icon in the **Roblox Menu**.
 
-> ![[wiki-1785994849906-de983a4a-image.png]]
+> ![[wiki-1785994849906-de983a4a-image.png|500]]
 >
 >
 > The **miracle of manifestation** menu being opened.
@@ -37,10 +37,10 @@ Below is a list of all twenty manifest components in the game.
 
 | Name | Growable in Private Servers? | Description | Image |
 | --- | --- | --- | --- |
-| 1911 Pistol | No | An upgraded version of the [[content/Components/Gun\\\\|Gun]] component, having no cooldown. | ![[Pasted image 20250722191128.png]] |
+| 1911 Pistol | No | An upgraded version of the [[content/Components/Gun\\\|Gun]] component, having no cooldown. | ![[Pasted image 20250722191128.png]] |
 | Astroturf | No | A solid replacement to cardboard. Has barely any weight. | ![[Pasted image 20250809110543.png]] |
 | Nuclear Lamp | Yes | When inserting an uranium rod from above, it will produce a bright light source with no shadows and a long range. | ![[wiki-1784673188748-9de0eaa5-Captura de pantalla 2026-07-21 162359.png]] |
-| Palette Card | Yes | Will adopt and save any color when painted with [[Spray paint\\\\|Spray paint]], and display the color's Hex value above. | ![[wiki-1784673853715-facc3733-image.png]] |
+| Palette Card | Yes | Will adopt and save any color when painted with [[Spray paint\\\|Spray paint]], and display the color's Hex value above. | ![[wiki-1784673853715-facc3733-image.png]] |
 | Fluid Entangloporter | No | A hose that transports any liquid or gas instantly over any distance, without requiring a physical connection between both ends. | ![[wiki-1784674486189-d2361da2-image.png]] |
 | Pine Cone | Yes | When planted in a [[Planter\\\|Planter]], it will grow into a Pine Tree, which produces more Pine Cones. | ![[wiki-1784675004661-c7be7e96-image.png]] |
 | Gem Corn | No | A manifest exclusive to the 2025 Halloween and Thanks Giving event. It could be found at Bill's Batteries and is no longer obtainable. It can be used in potions and, when heated, produces popcorn. | ![[wiki-1784846509908-52789f78-Captura de pantalla 2026-07-23 161434.png]] |
