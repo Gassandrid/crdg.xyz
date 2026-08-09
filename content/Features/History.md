@@ -5,54 +5,37 @@ tags:
 
 > [!note] Migrated article
 > This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
-> [!note] Graphic language alert
+> **Graphic language alert**
 > This page has graphic language. Do not read if you are sensitive to such language.
 
 # CRDG's entire history, 2021 - now
 
 This page will just be covering the main topics and updates throughout
-the years that CRDG has been up for. ![[Earliest picture from main game.png|Earliest picture from main game\|332x332px]]
+the years that CRDG has been up for. ![[Earliest picture from main game.png]]
 
 ## 2021
 
 ### The creation of CRDG
 
-\- On October 11th, 2021 CRDG was created. The game would be called
-"*cart ride around a 75 KW Diesel Generator*" created under a group
-named "*75KW Diesel Generator Studios*" and is still named the same
-today. The earliest known group shout was created by "quinowenryanjen"
-and stated "I truly believe that there is a Diesel Generator at the
-center of the earth.". The game had 4
-[[Badges/index|badges]], they were called: "winner, beat
-the game", "dedicated realist, bring the money", "Finality, complete
-the alternate ending" and "Glory, defeat RIEL". All of these badges
-are self-explanatory or went into full detail on other pages.
+- On October 11th, 2021 CRDG was created. The game would be called "*cart ride around a 75 KW Diesel Generator*" created under a group named "*75KW Diesel Generator Studios*" and is still named the same today. The earliest known group shout was created by "quinowenryanjen" and stated "I truly believe that there is a Diesel Generator at the center of the earth.". The game had 4 [[Badges/index|badges]], they were called: "winner, beat the game", "dedicated realist, bring the money", "Finality, complete the alternate ending" and "Glory, defeat RIEL". All of these badges are self-explanatory or went into full detail on other pages.
 
 ## The early updates -
 
-\- Most early updates were bug patches and adding minor stuff that would
-create the game, this would consist of adding new traps, fixing flying
-bugs, adding minor details like the wind you hear when you are high up
-(at the Gas Station or past it.), and overall just starting off the game
-before any of the big updates. These early days are just bug fixes and
-adding minor stuff so they can set up for adding new big updates.
+- Most early updates were bug patches and adding minor stuff that would create the game, this would consist of adding new traps, fixing flying bugs, adding minor details like the wind you hear when you are high up (at the Gas Station or past it.), and overall just starting off the game before any of the big updates. These early days are just bug fixes and adding minor stuff so they can set up for adding new big updates.
 
 More info down here for later
 
 ## 2022
 
-a
-
-write
-
-write
+fumacrom's darkest year
 
 ## 2023
 
-g
+fumacrom's darkest year
 
-## 2024 
-### Bug fixes, small updates and details 
+## 2024
+
+### Bug fixes, small updates and details
 
 From January - April, it was added that you could now use an "acetone"
 mode to unglue things you have glued, crash fixes, dupe fixes,
@@ -62,7 +45,7 @@ and sit in-game whenever you felt like it. This time period had many
 small improvements to fix the game, making the game more accessible to
 mobile and Xbox players.
 
-### Tetanus Day 
+### Tetanus Day
 
 On 4th September, 2024 Austin said in the update log "-disabled hot
 explosions", meaning he has removed all explosions in the game due to
@@ -94,7 +77,7 @@ futile efforts as Austin started saying it at one point. Then
 > distraught. I realized that I would have to restart to change to C4,
 > the offsale item only oldgens have. As the janitors walk away out of
 > my vision, I would have to face the dreaded janitors again.
-> \@TronZonBomb
+> @TronZonBomb
 
 After this was sent, the chat was spammed with this over 100 times.
 Explosions were removed at 4:08 PM PST, and only 1 hour and 27 minutes
@@ -122,7 +105,7 @@ even if the group chat was leaked. Eventually all of these members would
 rejoin (except for Ewan leaving again) but for Jimmy, he would have
 several hiatuses.
 
-### New components and more fixes 
+### New components and more fixes
 
 From May to June 1st, we had 3 new components (2 later on) one being the
 gyroscope, the second being a spike you can use to anchor objects to the
@@ -137,7 +120,7 @@ fixes.
 
 Then from June - end of September,
 
-## 2025 {#section_4}
+## 2025 {#section\_4}
 
 ### New fish, dev returning to CRDG, and bug fixes + moon phases
 
@@ -149,15 +132,16 @@ more bug fixes and inprovements and added moon phases. Moon phases were
 added just as an extra detail, to make the game stand out (these phases
 are synced to real life moon phases).
 
-#### Quin returning to CRDG as a developer + new fishes and modifiers 
+#### Quin returning to CRDG as a developer + new fishes and modifiers
 
 From January 11th - February 19th, Quin or "duckymomo360" added paper
 towels, did bug fixes, patched three dupes, and added a fire
-extinguisher. While Garg added 35\~ new fish, valentines day exclusive
+extinguisher. While Garg added 35~ new fish, valentines day exclusive
 fish, 2 new fish modifiers and a February fish, and changed the
 Furnace's material.
 
 This years Black Friday had Commodiesel, 925 Defender, /e summon, Manifest, and Leap.
-## 2026
-To be written @Please Write
 
+## 2026
+
+To be written @Please Write
