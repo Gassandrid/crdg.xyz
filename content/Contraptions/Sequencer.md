@@ -76,7 +76,7 @@ Because each transistor changes state at a different rate, the circuit effective
 
 If the input signal has a frequency $f$, the output frequency of transistor $n$ can be represented as:
 
-> $f\_n = \\frac{f}{2^n}$
+> $f_n = \frac{f}{2^n}$
 
 # Uses
 
