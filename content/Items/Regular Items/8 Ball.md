@@ -1,11 +1,3 @@
----
-tags:
-  - needs-work/ai-migration
----
-
-> [!note] Migrated article
-> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
-
 The 8 ball is found under the stairs of cathedral, upon picking up the
 item and clicking it will give you text. The texts can be, "yes"
 "no" "perchance", "ask again", "the answer is not clear", "the
