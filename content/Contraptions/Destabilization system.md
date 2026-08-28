@@ -1,11 +1,3 @@
----
-tags:
-  - needs-work/ai-migration
----
-
-> [!note] Migrated article
-> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
-
 The destabilization system is a major mechanic in CRDG.
 
 ## Function
