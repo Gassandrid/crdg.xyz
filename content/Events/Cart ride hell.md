@@ -3,16 +3,16 @@ tags:
   - needs-work/ai-migration
 ---
 
-> [!note] Migrated article
-> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+> [!note] This feature no longer exists (as its traditional form).
 
 ## Description
 
-![[Spawn cart ride hell.webp|Spawn of cart ride hell]] All banned
+![[wiki-1787885719527-382ab767-image.png]]
+ All banned
 players go there. It is a baseplate with a red sky. There is a portal at
 the back, but it's made of cardboard. There's also an endless ride.
 There's a merchant next to the endless ride. He sells unbans for every
-time. Unban price = 50 \> 300 \> 800 \> 2000 \> no more unban. In the
+time. Unban price = 50 > 300 > 800 > 2000 > no more unban. In the
 corner of the map there is a rainbow jail (baby jail) in which the
 "baby" is located. When you try to talk to him, he will say, "im gotta
 get out of here!!". There is a trash can with the inscription "car
@@ -27,15 +27,15 @@ banned and got here by error, the merchant will say "hey you don't
 seem to be banned. or there was an error. this may have been a mistake.
 you can leave".
 
-### Ways to get there {#ways_to_get_there}
+### Ways to get there
 
-1.  Get banned (By admins or exploit)
-2.  Get kicked in VIP server or just get kicked (this only bans you from
-    the VIP server)
+1. Used to be by getting banned by an admin, but this no longer works.
+2. Get kicked in VIP server or just get kicked (this only bans you from the VIP server)
 
 ## Gallery
 
-![[Merchant in cart ride hell.webp\|**Merchant in cart ride hell**]]
+![[Merchant in cart ride hell.webp\]]
+
 - **Battery inserter**
 - **Rainbow jail (GBJ, means "gay baby jail")**
 - **Trash can in cart ride hell**
