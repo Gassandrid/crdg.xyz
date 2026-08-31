@@ -19,7 +19,7 @@
         flex-grow:1;
         overflow:visible;">
         <div style="position:relative;width:120px;height:120px;flex-shrink:0;display:flex;align-items:center;justify-content:center;">
-            <img src="https://tr.rbxcdn.com/180DAY-5efd399b8a1e6ce4892b0afeef910591/420/420/Tshirt/Webp/noFilter"
+            <img src="https://files.catbox.moe/8oxid7.webp"
                  alt="Notice Icon"
                  style="width:120px;height:120px;object-fit:contain;
                  filter:drop-shadow(2px 4px 4px rgba(0,0,0,0.5));
