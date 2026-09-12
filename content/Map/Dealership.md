@@ -1,13 +1,13 @@
 ## Brief description
 
-**Dealership** is **third island** and the halfway of the game, you even get awarded with [[HALF WAY!!!!!]] badge. **Dealership** itself contains **screaming man** (used for alternative ending, [[Finality]] badge), **thunderbolt siren (is powerable with battery, during storms has a chance of playing **["i'm thunderbolt"](https://www.youtube.com/watch?v=xUuz018HTRg)), and a **gate** that both can be powered using **battery** and dealership building with two carts inside, as well as salesman selling **premium batteries (non rusted batteries that work the same as rusted ones)**
+**Dealership** is **third island** and the halfway of the game, you even get awarded with [[HALF WAY!!!!!]] badge. **Dealership** itself contains **screaming man** (used for alternative ending, [[Finality]] badge), \*\*thunderbolt siren (is powerable with battery, during storms has a chance of playing \*\*["i'm thunderbolt"](https://www.youtube.com/watch?v=xUuz018HTRg)), and a **gate** that both can be powered using **battery** and dealership building with two carts inside, as well as salesman selling **premium batteries (non rusted batteries that work the same as rusted ones)**
 
 > ![[Dealership.png|450]]
 >
 >
 > **Dealership** in-game
 
-> [!warning] >Premium batteries give no advantage compared to rusty batteries!
+> [!warning] >Premium batteries hold the doors open for longer than a rusty battery!
 
 ## Beehive spots
 
