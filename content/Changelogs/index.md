@@ -1,0 +1,1 @@
+This category documents all of the updates found on CRDG. These are meant for archival purposes, and they can be found in the **update-logs** channel on the fumacrom server and the Update Logs setting in the game. If any small QOL updates were made after a "content update", they will be included on their respective update's page after the main one.

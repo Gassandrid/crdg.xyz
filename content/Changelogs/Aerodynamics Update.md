@@ -1,0 +1,55 @@
+# (11/09/26)
+-enabled aerodynamics (you can now make planes, helicopters, and more!)
+-5 new components (Mixing Tank, Liquid Electrolyzer, Steel Beam, Target, Steering Wheel)
+-12 new anvil recipes
+-1 new fish attribute
+-1 new fish-esc
+-1 new alien technology
+-1 new secret manifest
+-2 new collectibles
+-2 new woodchipper results (one input)
+-1 new boss reward
+-1 new ocean mode exclusive component (Water Wheel)
+-1 new build mode exclusive component (Electric Motor)
+-12 new alien related anvil recipes
+-removed many items from the tycoon
+-reworked tool dropping and added mobile and gamepad binds for dropping tools (Gamepad: (DPad Right + Right Thumbstick Down) Mobile: (Button on screen))
+-reworked Smart Fluid Filter to use real pipe logic and gave it the ability to filter gases aswell as liquids
+-re-added trigger to component machine
+-re-added copper rod to component machine
+-added air traffic system
+-added new crazy jim options
+-added dark mode setting for the update log
+-added new keybinds to the dragger for moving in / out and slowing manipulation (PC: (F, R, LeftAlt) Gamepad: (DPad Left, DPad Right, None sorry) Mobile: (None sorry, None sorry, None sorry))
+-added fuel carts back to spawn
+-added captions to all topbar icons
+-added the harvest moon
+-added rare albino martians
+-added verity
+-added PVC
+-added case to emergency button
+-added a contribution indicator for glasses inside crates
+-enabled DPad for mobile
+-the gasoline engine is now much stronger and has faster acceleration
+-air compressor will now output air when it's not extracting from a gas container
+-air compressor is now louder
+-increased barrel fluid capacity: 360 > 480
+-fixed hats falling through the floor when you drop them
+-fixed sunken chest VFX not being destroyed when you throw the chest off the map while it is opening
+-fixed objects being highlighted when dragged into the settings menu
+-you can no longer turn in first person / shift lock while ragdolled
+-you can now create salt water by shaking a salt shaker over water
+-seed trees vip server and public server fruiting time has been flipped. fruiting times are now: VIP Server: 19h > 24h Public Server: 24h > 19h
+-improved anti exploitative mechanisms
+-improved build mode component machine
+-flamethrower now emits light
+-made the nuke countdown louder
+-fixed the alien crafter not being obtainable via summoning
+-update logs can now have icons
+-bug fixes
+# (12/09/26)
+-ultra cart speedometer displays its own speed instead of the carts speed
+-aerodynamics limited to certain things only
+-small trigger nerf
+-big bug fixes
+-qol for mixing tank
