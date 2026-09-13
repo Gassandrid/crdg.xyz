@@ -3,6 +3,6 @@ class: component
 acquisition: Miscellaneous
 tags:
   - components/miscellaneous
-image: "[[Pasted image 20250915195414.png]]"
+image: "![[wiki-1784697180940-39151e16-Screenshot 2026-07-22 000342-no-bg.png]]"
 ---
-![[Pasted image 20250915195414.png]]
+![[wiki-1784697180940-39151e16-Screenshot 2026-07-22 000342-no-bg.png]]

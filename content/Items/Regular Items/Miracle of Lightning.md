@@ -1,3 +1,7 @@
+---
+---
+---
+
 <div style="display:flex;align-items:center;margin:1em 0;">
   <div style="color:#b2b7f2;font-size:3.3em;font-family:serif;font-weight:bold;line-height:.8;padding:4px 6px;">“</div>
   <blockquote style="margin:0;font-style:italic;flex:1;text-align:center;background:none;border:none;padding:0;">
@@ -8,8 +12,6 @@
 <div style="text-align:right;margin-top:.25em;">
   <small>— Tooltip of the <b>Miracle of Lightning</b> item.</small>
 </div>
-
----
 
 > [!infobox|n-th]
 > 
@@ -33,7 +35,7 @@ The **Miracle of Lightning** is a multi-use Combat item added on August 17th, 20
 
 ## Abilities
 
-**Abilities** are the main premise of the tool and they are mostly used for different purposes. They are contained inside of two modes, and inside of those two modes are two abilities. One of them is activated by pressing the F key or the B Button, and the other one is activated by left clicking or Right Trigger. These four abilities are themed around the shocking mechanic previously introduced by the [[Thunderbuss]], and were recycled to be used in a now-obtainable item.
+**Abilities** are the main premise of the tool and they are mostly used for different purposes. They are contained inside of two modes, and inside of those two modes are two abilities. One of them is activated by pressing the F key or the B Button, and the other one is activated by left clicking or Right Trigger. The sets of abilities can be switched between by pressing the E key. These four abilities are themed around the shocking mechanic previously introduced by the [[Thunderbuss]], and were recycled to be used in a now-obtainable item.
 
 ### Shock Punch
 *You kick into the air with a striking force.*

@@ -1,49 +1,36 @@
 ---
 class: component
 acquisition: Component machine
+image: "[[wiki-1784914351186-140f510c-tripwire.png]]"
 tags:
   - components/component-machine
-  - todo
 ---
-<div style="display:flex;align-items:center;gap:10px;
-    margin:10px 5px 5px 5px;
-    padding:0; 
-    overflow:visible;
-    font-family:sans-serif;
-    font-size:1.05rem;
-    color:#FFFFFF;
-    text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);
-    border-radius:0.5px;
-    border:2px solid #777777;
-    box-shadow:2px 2px #777777;
-    background:none;">
-    <div style="display:flex;align-items:center;gap:10px;
-        height:80px;
-        border-radius:0.5px;
-        background:
-            linear-gradient(to bottom,rgba(238,220,52,0.85),rgba(15,16,1,0.85)),
-            repeating-linear-gradient(-45deg,#ced211,#ced211 20px,#010100 20px,#010100 40px);
-        flex-grow:1;
-        overflow:visible;">
-        <div style="position:relative;width:120px;height:120px;flex-shrink:0;display:flex;align-items:center;justify-content:center;">
-            <img src="https://tr.rbxcdn.com/180DAY-5efd399b8a1e6ce4892b0afeef910591/420/420/Tshirt/Webp/noFilter"
-                 alt="Notice Icon"
-                 style="width:120px;height:120px;object-fit:contain;
-                 filter:drop-shadow(2px 4px 4px rgba(0,0,0,0.5));
-                 transform:rotate(8deg);">
-        </div>
-        <div style="display:flex;flex-direction:column;justify-content:center;">
-            <div style="font-size:2rem;color:#ffffff;">
-                <span style="color:#ced211;">WORK</span>
-                <span style="color:#010100;">IN</span>
-                <span style="color:#ced211;">PROGRESS!</span>
-            </div>
-            <div style="font-size:1rem;color:#ffffff;font-style:italic;margin-top:4px;">
-                This page is under construction, but you’re able to help us make it!
-            </div>
-        </div>
-    </div>
-</div>
 
-<img width="596" height="387" alt="image" src="https://github.com/user-attachments/assets/3d16bc5a-2781-4d4e-a49b-9977e8dd8c6a" />
+> [!infobox|n-th]
+> 
+> ## Tripwire
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[wiki-1784914351186-140f510c-tripwire.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Miscellaneous |
+> | --- | --- |
+> | **Usage** | Sends signal when tripwire is touched by a player or object. |
+> | **Date Added** | DATE |
 
+The **Tripwire** is a **Component** obtainable through the [[items/regular-items/component-machine|Component Machine]]. Visually, it is two supporting parts connected by a wire, with buttons attached.
+
+## Function
+
+The Tripwire has the ability to send a signal when something or someone crosses over its wire.
+
+When first spawned in, the Tripwire will be slack, and the distance between both ends of the Tripwire can be adjusted, up to approximately 15 studs. In this state, crossing the wire will not send a signal.
+
+However, once the green button on the side of the Tripwire is pressed, the wire will "harden," making it so the two ends will remain at fixed distance. In this state, the wire portion of the Tripwire will take on a darker color, and crossing over it *will* send a signal.
+
+Pressing the red button will return the Tripwire to its slack state.

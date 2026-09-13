@@ -21,13 +21,15 @@ jobs:
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0 # Fetch all history for git info
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
       - name: Install Dependencies
         run: npm ci
       - name: Install Quartz plugins
-        run: npx quartz plugin install --from-config
+        # Use the committed lockfile. --from-config fetches plugin HEADs and
+        # rewrites the lockfile, which makes otherwise identical deploys drift.
+        run: npx quartz plugin install
       - name: Add grouped card support to Bases
         run: bash scripts/patch-bases-card-groups
       - name: Build Quartz

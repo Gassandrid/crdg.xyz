@@ -1,86 +1,37 @@
 ---
 class: component
 acquisition: Component machine
+image: "[[wiki-1784838197945-acedbfeb-stopwatch.png]]"
 tags:
   - components/component-machine
-  - todo
 ---
 
-> [!note] Migrated article
-> This page was ported from the old MediaWiki and cleaned with AI. It may still contain formatting or factual issues; edits are encouraged.
+> [!infobox|n-th]
+> 
+> ## Stopwatch
+> 
+> > [!caption|center wfull txt-s]
+> > 
+> > ![[wiki-1784838197945-acedbfeb-stopwatch.png|center]]
+> > 
+> > 
+> 
+> ### Component Info
+> 
+> | Type | Miscellaneous |
+> | --- | --- |
+> | **Usage** | Keep track of time or send signals at specific times. |
+> | **Date Added** | DATE |
 
-<div style="display:flex;align-items:center;gap:10px;
-    margin:10px 5px 5px 5px;
-    padding:0; 
-    overflow:visible;
-    font-family:sans-serif;
-    font-size:1.05rem;
-    color:#FFFFFF;
-    text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);
-    border-radius:0.5px;
-    border:2px solid #777777;
-    box-shadow:2px 2px #777777;
-    background:none;">
-    <div style="display:flex;align-items:center;gap:10px;
-        height:80px;
-        border-radius:0.5px;
-        background:
-            linear-gradient(to bottom,rgba(238,220,52,0.85),rgba(15,16,1,0.85)),
-            repeating-linear-gradient(-45deg,#ced211,#ced211 20px,#010100 20px,#010100 40px);
-        flex-grow:1;
-        overflow:visible;">
-        <div style="position:relative;width:120px;height:120px;flex-shrink:0;display:flex;align-items:center;justify-content:center;">
-            <img src="https://tr.rbxcdn.com/180DAY-5efd399b8a1e6ce4892b0afeef910591/420/420/Tshirt/Webp/noFilter"
-                 alt="Notice Icon"
-                 style="width:120px;height:120px;object-fit:contain;
-                 filter:drop-shadow(2px 4px 4px rgba(0,0,0,0.5));
-                 transform:rotate(8deg);">
-        </div>
-        <div style="display:flex;flex-direction:column;justify-content:center;">
-            <div style="font-size:2rem;color:#ffffff;">
-                <span style="color:#ced211;">WORK</span>
-                <span style="color:#010100;">IN</span>
-                <span style="color:#ced211;">PROGRESS!</span>
-            </div>
-            <div style="font-size:1rem;color:#ffffff;font-style:italic;margin-top:4px;">
-                This page is under construction, but you’re able to help us make it!
-            </div>
-        </div>
-    </div>
-</div>
-
-## Additional information
-
-The stopwatch is a component in CRDG. It is a large black rectangle with
-a timer on the front and an outlet on the back.
+The **Stopwatch** is a **Component** obtainable through the [[items/regular-items/component-machine|Component Machine]]. It resembles a black rectangular device with a digital display in the front and an outlet in the back. The digital display is a counter in **HH:MM:SS** format.
 
 ## Function
 
-The stopwatch does various things depending on how much times it has
-been powered.
+The Stopwatch has multiple functions depending on how many times it has received a signal.
 
-The first time, it will start counting up at a rate of 1 per second
-after resetting the time saved.
+For example, after receiving one signal the Stopwatch will begin counting upward. If another signal is sent to the Stopwatch, the timer will pause, rounding to the nearest second. Lastly, sending a third signal will make the Stopwatch begin counting downward from where it was paused.
 
-The second time, it will pause the timer.
+In this state, when the timer reaches "00:00:00" an electronic beep will play and the Stopwatch will send out a signal from the back outlet. After this, sending a signal to the Stopwatch will cause it to start counting upward again.
 
-The third time, it will start the timer counting down at 1 per second.
-Once it reaches zero the outlet port on the back is powered.
-
-The fourth time only happens if you power the stopwatch again before it
-reaches zero. It causes the clock to pause again. After this, the next
-powering will reset the clock and start step 1 again.
-
-The clock isn't conductive to it's outlet under normal circumstances
-so it won't trigger it unless it reaches 0 in countdown mode.
-
-## Uses in contraptions {#uses_in_contraptions}
-
-It can be used to make things activate on a timer using the countdown
-function, activating bombs or other things. It can also be used to count
-time although this doesn't work as well because it will forget it's
-time if any other steps are triggered after it is set to count-up mode.
-
-In building, note that the stopwatch is the right way up when the socket
-is placed like a normal three pin socket. Three pin sockets have 1 hole
-at the top and 2 at the bottom.
+> [!Note] Note
+> Sending a signal to the Stopwatch while it is counting down will simply pause the timer. Then, sending another signal will make it start counting upward again.

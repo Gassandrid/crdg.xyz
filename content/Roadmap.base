@@ -1,0 +1,49 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.hasTag("needs-work")
+formulas:
+  work_type: |
+    if(file.hasTag("needs-work/ai-migration"), "AI migration review", "General")
+  updated: file.mtime.relative()
+properties:
+  formula.work_type:
+    displayName: Work needed
+  formula.updated:
+    displayName: Updated
+  file.folder:
+    displayName: Section
+views:
+  - type: table
+    name: All work
+    groupBy:
+      property: formula.work_type
+      direction: ASC
+    order:
+      - file.name
+      - formula.work_type
+      - file.folder
+      - formula.updated
+      - tags
+    sort:
+      - property: formula.work_type
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 260
+      formula.work_type: 180
+      file.folder: 220
+      formula.updated: 120
+  - type: table
+    name: AI migration
+    filters:
+      and:
+        - file.hasTag("needs-work/ai-migration")
+    order:
+      - file.name
+      - file.folder
+      - formula.updated
+    sort:
+      - property: file.name
+        direction: ASC

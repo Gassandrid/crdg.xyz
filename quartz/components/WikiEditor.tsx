@@ -78,7 +78,9 @@ function loadAttachmentPaths(directory = "content"): Record<string, string> {
       const path = join(current, entry.name)
       if (entry.isDirectory()) {
         walk(path)
-      } else if (IMAGE_EXTENSIONS.has(entry.name.slice(entry.name.lastIndexOf(".")).toLowerCase())) {
+      } else if (
+        IMAGE_EXTENSIONS.has(entry.name.slice(entry.name.lastIndexOf(".")).toLowerCase())
+      ) {
         const fileName = basename(entry.name)
         paths[fileName] ??= `/${slugifyFilePath(path.replace(/^content\//, "") as FilePath)}`
       }
@@ -187,8 +189,7 @@ export default () => {
         >
           <div class="wiki-editor-shell">
             <div class="wiki-editor-header">
-              <div>
-                <span class="wiki-editor-kicker">CRDG community editor</span>
+              <div class="wiki-editor-heading">
                 <h2 id="wiki-editor-title" data-editor-heading>
                   Edit {editorData.pageTitle}
                 </h2>
@@ -214,7 +215,40 @@ export default () => {
             <div class="wiki-editor-notice" data-editor-notice hidden></div>
 
             <section class="wiki-editor-workspace" data-editor-workspace>
-              <div class="wiki-editor-toolbar" role="toolbar" aria-label="Markdown formatting">
+              <div class="wiki-editor-toolbar" role="toolbar" aria-label="Editing tools">
+                <div class="wiki-editor-mode-tabs" role="tablist" aria-label="Editing mode">
+                  <button
+                    type="button"
+                    role="tab"
+                    id="wiki-editor-visual-tab"
+                    data-editor-view="visual"
+                    class="is-active"
+                    aria-selected="true"
+                    aria-controls="wiki-editor-visual-panel"
+                  >
+                    Visual
+                  </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    id="wiki-editor-source-tab"
+                    data-editor-view="source"
+                    aria-selected="false"
+                    aria-controls="wiki-editor-source-panel"
+                  >
+                    Source
+                  </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    id="wiki-editor-split-tab"
+                    data-editor-view="split"
+                    aria-selected="false"
+                    aria-controls="wiki-editor-source-panel wiki-editor-visual-panel"
+                  >
+                    Side by side
+                  </button>
+                </div>
                 <div class="wiki-editor-toolbar-group">
                   <button type="button" data-editor-action="undo" title="Undo (Ctrl/⌘ Z)">
                     <span aria-hidden="true">↶</span>
@@ -248,30 +282,54 @@ export default () => {
                 </div>
                 <div class="wiki-editor-toolbar-group">
                   <button type="button" data-editor-action="bullets" title="Bulleted list">
-                    • List
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      •
+                    </span>{" "}
+                    List
                   </button>
                   <button type="button" data-editor-action="numbered" title="Numbered list">
-                    1. List
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      1.
+                    </span>{" "}
+                    List
                   </button>
                   <button type="button" data-editor-action="task" title="Task list">
-                    ☐ Task
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      ☐
+                    </span>{" "}
+                    Task
                   </button>
                   <button type="button" data-editor-action="quote" title="Quote">
-                    ❯ Quote
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      &gt;
+                    </span>{" "}
+                    Quote
                   </button>
                 </div>
                 <div class="wiki-editor-toolbar-group">
                   <button type="button" data-editor-action="wikilink" title="Wiki link">
-                    [[ Link ]]
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      [[]]
+                    </span>{" "}
+                    Wiki
                   </button>
                   <button type="button" data-editor-action="link" title="Web link">
-                    🔗 Web
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      ↗
+                    </span>{" "}
+                    Link
                   </button>
                   <button type="button" data-editor-action="callout" title="Obsidian callout">
-                    ▣ Callout
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      !
+                    </span>{" "}
+                    Callout
                   </button>
                   <button type="button" data-editor-action="table" title="Table">
-                    ▦ Table
+                    <span class="wiki-editor-tool-mark" aria-hidden="true">
+                      ▦
+                    </span>{" "}
+                    Table
                   </button>
                   <button class="wiki-editor-image-button" type="button" data-editor-action="image">
                     <svg aria-hidden="true" viewBox="0 0 24 24">
@@ -283,19 +341,8 @@ export default () => {
                   </button>
                 </div>
                 <div class="wiki-editor-toolbar-spacer"></div>
-                <div class="wiki-editor-view-switch" aria-label="Editor view">
-                  <button type="button" data-editor-view="write">
-                    Write
-                  </button>
-                  <button type="button" data-editor-view="split" class="is-active">
-                    Split
-                  </button>
-                  <button type="button" data-editor-view="preview">
-                    Preview
-                  </button>
-                </div>
                 <button class="wiki-editor-guide-toggle" type="button" data-guide-toggle>
-                  Markdown guide
+                  Syntax guide
                 </button>
                 <button class="wiki-editor-guide-toggle" type="button" data-frontmatter-toggle>
                   Page settings
@@ -354,28 +401,45 @@ export default () => {
                 </div>
               </section>
 
-              <div class="wiki-editor-main" data-editor-main data-view="split">
-                <div class="wiki-editor-write-pane" data-drop-zone>
-                  <label for="wiki-editor-source">Obsidian Markdown</label>
+              <div class="wiki-editor-main" data-editor-main data-drop-zone data-view="visual">
+                <div
+                  class="wiki-editor-visual-pane"
+                  id="wiki-editor-visual-panel"
+                  role="tabpanel"
+                  aria-labelledby="wiki-editor-visual-tab"
+                >
+                  <article
+                    id="wiki-editor-visual"
+                    class="wiki-editor-visual"
+                    data-editor-visual
+                    contenteditable="true"
+                    role="textbox"
+                    aria-multiline="true"
+                    aria-label="Visual page editor"
+                    spellcheck={true}
+                  ></article>
+                </div>
+                <div
+                  class="wiki-editor-source-pane"
+                  id="wiki-editor-source-panel"
+                  role="tabpanel"
+                  aria-labelledby="wiki-editor-source-tab"
+                >
                   <textarea
                     id="wiki-editor-source"
                     data-editor-source
                     spellcheck={true}
-                    aria-label="Page source in Obsidian Markdown"
+                    aria-label="Page source"
                   ></textarea>
-                  <div class="wiki-editor-drop-message" aria-hidden="true">
-                    Drop images here to upload them
-                  </div>
                 </div>
-                <div class="wiki-editor-preview-pane">
-                  <span class="wiki-editor-pane-label">Preview</span>
-                  <article class="wiki-editor-preview" data-editor-preview></article>
+                <div class="wiki-editor-drop-message" aria-hidden="true">
+                  Drop images here to upload them
                 </div>
                 <aside class="wiki-editor-guide" data-editor-guide hidden>
                   <div class="wiki-editor-guide-header">
                     <div>
                       <span class="wiki-editor-kicker">Quick reference</span>
-                      <h3>Obsidian Markdown</h3>
+                      <h3>Source syntax</h3>
                     </div>
                     <button
                       class="wiki-editor-icon-button"
@@ -447,8 +511,7 @@ export default () => {
                     </dd>
                   </dl>
                   <p>
-                    Write as you would in Obsidian. The preview covers common syntax; the published
-                    page is rendered by the wiki’s full Obsidian-compatible pipeline.
+                    This guide covers basic syntax. All Markdown syntax is supported.
                   </p>
                 </aside>
               </div>
@@ -473,9 +536,9 @@ export default () => {
             <section class="wiki-editor-review" data-editor-review hidden>
               <div class="wiki-editor-review-copy">
                 <span class="wiki-editor-kicker">One last step</span>
-                <h3>Send this edit to the maintainers</h3>
+                <h3>Confirm and submit this edit</h3>
                 <p>
-                  No GitHub account is needed. Your edit becomes a review request; the wiki changes
+                  Your edit becomes a review request; the wiki changes
                   only after a maintainer approves and merges it.
                 </p>
               </div>
@@ -489,7 +552,7 @@ export default () => {
                       data-review-summary
                       maxlength={500}
                       required
-                      placeholder="For example: corrected the component cost and added a screenshot."
+                      placeholder="For example: added component info and an image."
                     ></textarea>
                   </label>
                   <label>
@@ -527,7 +590,7 @@ export default () => {
                     </div>
                   </dl>
                   <p>
-                    Maintainers receive a normal line-by-line diff and can comment, approve, or ask
+                    Maintainers receive a line-by-line diff and can comment, approve, or ask
                     for changes before publishing.
                   </p>
                 </div>
@@ -540,7 +603,7 @@ export default () => {
               </div>
               <span class="wiki-editor-kicker">Sent for review</span>
               <h3>Thanks for improving the wiki.</h3>
-              <p>Your edit is now in the maintainer review queue.</p>
+              <p>Your edit is now in the  review queue.</p>
               <a data-review-link target="_blank" rel="noopener">
                 View review request
               </a>
