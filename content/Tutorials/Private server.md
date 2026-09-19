@@ -9,24 +9,23 @@ tags:
 Private servers are made for people who are struggling at publics or
 want to build in peace.
 
-## Additional info {#additional_info}
+## Additional info {#additional\_info}
 
-There is NPC named [[NPCs|Crazy Jim]]. (**ONLY
-OBTAINABLE WHEN YOU0 BEAT CART GOD**) When talking to him, he gives
-options for modifiers. These modifiers include hardcore mode, making all
+There is an NPC named [[NPCs|Crazy Jim]]. (**ONLY
+OBTAINABLE WHEN YOU BEAT CART GOD**) When talking to him, he gives
+options for modifiers; These modifiers include hardcore mode, making all
 rails 1000 degrees, disabling persistent tools and entering building
 mode.
 
-## Building mode {#building_mode}
+## Building mode {#building\_mode}
 
-Most of all, you get infinite component's machine points, and unlock
-some of manifest items. Also, you can turn on object freezing mode,
-which will freeze objects in air until you go far away or press F (on
-pc).
+Most of all, you get infinite component machine points, and unlock
+some manifest items. Also, you can turn on object freezing mode,
+which will freeze objects in air until you go far away or press F (on PC).
 
 ## Commands
 
-There are some private servers only commands, but ill state these which
+There are some private server only commands, but ill state these which
 you can use in publics too.
 
 **!Avataritem** (roblox accessories' id)
@@ -51,3 +50,8 @@ You can complete it for temporary rewards.
 
 Very useful command, you can bind commands on keybinds (for example,
 !tps on numpad 1 and etc)
+
+;**Cmds**
+
+Shows a list of commands which you can use,
+its always a good idea to check whether there are commands that are not shown here.
