@@ -14,7 +14,11 @@ tags:
 > > ![[Pasted image 20250914144340.png]]
 >
 >
-> ### Boss Info
+> ### RIEL
+>
+> ![[wiki-1790461273138-ff03caf9-image.png]]
+>
+>
 >
 >
 > | **Lives** | 6 (formerly 7) |
@@ -46,7 +50,7 @@ The attack pattern is always the same, and repeats indefinitely until the end of
 > As their first attack, they will teleport to you and slash, killing the player **instantly** if not dodged. This is indicated by a sparkle on the player's character and a slash noise.
 
 > [!example] Red Laser-Beam
-> For their second attack, they will shoot a laser-beam, indicated by a red flash on his sword. The beam does continuous damage. You **CANNOT **roll to dodge this attack, so  you have to move out of the way of the beam to avoid getting hit.
+> For their second attack, they will shoot a laser-beam, indicated by a red flash on his sword. The beam does continuous damage. You \*\*CANNOT \*\*roll to dodge this attack, so  you have to move out of the way of the beam to avoid getting hit.
 
 > [!example] Ground Slam
 > After the Red Laser-Beam, Riel will do a ground slam indicated by Riel facing your character. The ground slam has a large distance.
