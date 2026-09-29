@@ -4,6 +4,9 @@ acquisition: Component machine
 image: "[[Pasted image 20250831234321.png]]"
 tags:
   - components/component-machine
+type: Miscellaneous
+usage: Can add additional weight to builds to make them way heavier.
+dateAdded: August 28th, 2022
 ---
 
 > [!infobox|n-th]

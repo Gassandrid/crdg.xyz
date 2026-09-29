@@ -4,6 +4,9 @@ acquisition: Alien technology
 tags:
   - components/alien
 image: "[[Pasted image 20250829180652.png]]"
+type: Alien Technology
+usage: On activation, will orient itself to the mouse of the player that activated it.
+dateAdded: November 28th, 2024
 ---
 
 > [!infobox] >

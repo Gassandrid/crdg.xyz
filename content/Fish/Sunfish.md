@@ -2,6 +2,12 @@
 tags:
   - needs-work/ai-migration
   - fish/fishable/epic
+class: fish
+image: "[[Sunfush.png]]"
+rarity: Epic
+acquisition: Fishable
+usage:
+dateAdded:
 ---
 
 

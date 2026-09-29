@@ -4,6 +4,10 @@ acquisition: Manifest
 tags:
   - components/manifest
 image: "[[Pasted image 20250826174920.png]]"
+type: Miscellaneous
+usage: Redirects lightning strikes to it's position.
+dateAdded: August 17th, 2025
+growableInPrivateServers: Yes
 ---
 > [!infobox|n-th]
 > 

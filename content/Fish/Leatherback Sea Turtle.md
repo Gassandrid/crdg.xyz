@@ -2,6 +2,12 @@
 tags:
   - needs-work/ai-migration
   - fish/fishable/legendary
+class: fish
+image: "[[Turtle.png]]"
+rarity: Legendary
+acquisition: Fishable
+usage:
+dateAdded:
 ---
 
 

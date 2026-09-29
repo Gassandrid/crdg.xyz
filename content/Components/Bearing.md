@@ -4,6 +4,10 @@ acquisition: Component machine
 tags:
   - components/component-machine
   - todo
+image: "[[wiki-1784496408028-ca9631ff-Screenshot 2026-07-19 172602.png]]"
+type: Miscellaneous
+usage: It allows objects, once attached, the ability to move freely in a circular motion.
+dateAdded: Somewhere Around 2022
 ---
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;

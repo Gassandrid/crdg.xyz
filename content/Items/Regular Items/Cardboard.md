@@ -1,3 +1,13 @@
+---
+class: item
+image: "[[cropped_circle_image.png]]"
+type:
+acquisition: Regular
+requirements: "[[Delicious Citrus]] badge"
+obtainment:
+usage: "- Cheap building material"
+dateAdded:
+---
 
 <div style="display:flex;align-items:center;margin:1em 0;">
   <div style="color:#b2b7f2;font-size:3.3em;font-family:serif;font-weight:bold;line-height:.8;padding:4px 6px;">“</div>

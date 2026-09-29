@@ -4,6 +4,9 @@ acquisition: Alien technology
 tags:
   - components/alien
 image: "[[Radio-1755336748936.png]]"
+type: Alien Technology
+usage: Able to communicate messages in between servers.
+dateAdded: November 28th, 2024
 ---
 <div style="--notice-height:100px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;

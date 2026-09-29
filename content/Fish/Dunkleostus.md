@@ -2,6 +2,12 @@
 tags:
   - needs-work/ai-migration
   - fish/fishable/mythical
+class: fish
+image: "[[Dunkleostus.png]]"
+rarity: Mythical
+acquisition: Fishable
+usage:
+dateAdded:
 ---
 
 

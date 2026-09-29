@@ -5,6 +5,9 @@ image: "![[wiki-1784740793991-df1139dd-Screenshot_2026-07-22_121606-no-bg.png]]"
 tags:
   - components/component-machine
   - todo
+type: Miscellaneous
+usage: Flings players and objects.
+dateAdded: Somewhere between 2021-2022
 ---
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;

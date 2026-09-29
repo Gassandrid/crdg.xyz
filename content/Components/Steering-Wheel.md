@@ -8,6 +8,9 @@ image: Component image.png
 aliases:
   - steering wheel
 description: The Steering Wheel is a component added in the Aerodynamics Update on the 11th of September. As expected, it allows you to steer anything you attach it to.
+type:
+usage:
+dateAdded:
 ---
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;

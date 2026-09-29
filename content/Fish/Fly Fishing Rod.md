@@ -1,6 +1,14 @@
 ---
 tags:
   - fish/fishing-rod
+class: fishing-rod
+image: "[[Pasted image 20250916204949.png]]"
+dateAdded:
+spawnTime:
+spawnLocation:
+luck:
+castTime:
+hooks:
 ---
 
 ![[Pasted image 20250916204949.png]]

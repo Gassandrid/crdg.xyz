@@ -1,3 +1,16 @@
+---
+class: item
+image: "[[Pasted image 20250827002203.png]]"
+type: Combat
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded: August 4th, 2022
+damage: Flame Damage
+accuracy: 10 Studs (width and height)
+ammo: N/A
+---
 <div style="--notice-height:100px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;
     text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);

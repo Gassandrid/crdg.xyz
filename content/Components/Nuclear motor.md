@@ -3,6 +3,10 @@ class: component
 acquisition: Component machine
 tags:
   - components/component-machine
+image: "[[wiki-1784741177224-5ddc24a4-Screenshot 2026-07-22 122436-no-bg.png]]"
+type: Miscellaneous
+usage: Spin objects at variable speeds.
+dateAdded:
 ---
 
 > [!infobox|n-th]

@@ -5,6 +5,9 @@ image: "[[wiki-1784585074272-580ffc08-Screenshot 2026-07-20 142201.png]]"
 tags:
   - components/component-machine
   - todo
+type: Miscellaneous
+usage: Send signals from one end to the other.
+dateAdded: DATE |.
 ---
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;

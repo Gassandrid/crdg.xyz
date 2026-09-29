@@ -5,6 +5,9 @@ image: "[[Pasted image 20250722144101.png]]"
 tags:
   - components/component-machine
   - todo
+type: Miscellaneous
+usage: Launch objects and players.
+dateAdded:
 ---
 
 <div style="display:flex;align-items:center;gap:10px;

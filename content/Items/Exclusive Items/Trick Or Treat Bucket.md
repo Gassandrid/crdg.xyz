@@ -1,6 +1,14 @@
 ---
 tags:
   - needs-work/ai-migration
+class: item
+image: "[[CandyBucketGear.webp]]"
+type:
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded:
 ---
 
 > [!note] Migrated article

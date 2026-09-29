@@ -2,6 +2,12 @@
 tags:
   - needs-work/ai-migration
   - fish/fishable/mythical
+class: fish
+image: "[[Stethacantus.png]]"
+rarity: Mythical
+acquisition: Fishable
+usage:
+dateAdded:
 ---
 
 

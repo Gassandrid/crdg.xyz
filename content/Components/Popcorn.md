@@ -5,6 +5,9 @@ image: "[[Pasted image 20250909204252.png]]"
 tags:
   - components/miscellaneous
   - templates
+type: Edible
+usage: None, but edible.
+dateAdded: October 12th, 2024
 ---
 > [!infobox|n-th]
 > 

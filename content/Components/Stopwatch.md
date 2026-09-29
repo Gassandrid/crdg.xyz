@@ -4,6 +4,9 @@ acquisition: Component machine
 image: "[[wiki-1784838197945-acedbfeb-stopwatch.png]]"
 tags:
   - components/component-machine
+type: Miscellaneous
+usage: Keep track of time or send signals at specific times.
+dateAdded:
 ---
 
 > [!infobox|n-th]

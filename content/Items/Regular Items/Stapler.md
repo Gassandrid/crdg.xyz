@@ -1,6 +1,14 @@
 ---
 tags:
   - needs-work/ai-migration
+class: item
+image: "[[Stapler.png]]"
+type:
+acquisition: Regular
+requirements:
+obtainment: "[[Pressing matter]] badge"
+usage: "- Stapling together unanchored parts"
+dateAdded:
 ---
 
 > [!note] Migrated article

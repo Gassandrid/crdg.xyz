@@ -1,0 +1,42 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.inFolder("Fish")
+    - class == "fish"
+properties:
+  file.name:
+    displayName: Fish
+  dateAdded:
+    displayName: Date Added
+views:
+  - type: cards
+    name: Fish
+    groupBy:
+      property: rarity
+      direction: ASC
+    order:
+      - file.name
+      - rarity
+      - acquisition
+      - usage
+      - dateAdded
+    sort:
+      - property: file.name
+        direction: ASC
+    image: image
+    cardSize: 240
+    imageAspectRatio: 1
+  - type: table
+    name: Properties
+    groupBy:
+      property: rarity
+      direction: ASC
+    order:
+      - file.name
+      - rarity
+      - acquisition
+      - usage
+      - dateAdded
+    sort:
+      - property: file.name
+        direction: ASC

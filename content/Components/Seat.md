@@ -4,6 +4,9 @@ acquisition: Component machine
 image: "[[wiki-1784758917817-a6540b7b-Seat.png]]"
 tags:
   - components/component-machine
+type: Miscellaneous
+usage: Allows players to sit down.
+dateAdded:
 ---
 > [!infobox|n-th]
 > 

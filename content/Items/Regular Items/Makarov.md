@@ -1,6 +1,18 @@
 ---
 tags:
   - needs-work/ai-migration
+class: item
+image: "[[Makarov.png]]"
+type:
+acquisition: Regular
+requirements: makarov gamepass
+obtainment:
+usage: "- Boosting yourself and shooting other players"
+dateAdded:
+damage: "15"
+headshotMultiplier: 1.5x
+ammo: "8"
+reloadSpeed: 1.2 seconds
 ---
 
 > [!note] Migrated article

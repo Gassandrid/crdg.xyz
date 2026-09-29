@@ -4,6 +4,9 @@ acquisition: Alien technology
 tags:
   - components/alien
 image: "[[Alien Egg-1755338355499.png]]"
+type: Miscellaneous
+usage:
+dateAdded:
 ---
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;

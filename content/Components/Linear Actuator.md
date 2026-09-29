@@ -5,6 +5,9 @@ tags:
   - components/component-machine
   - todo
 image: "[[Pasted image 20250829032652.png]]"
+type: Miscellaneous
+usage: Sends a piston forward when activated.
+dateAdded:
 ---
 
 <div style="display:flex;align-items:center;gap:10px;

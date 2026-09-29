@@ -6,6 +6,9 @@ tags:
   - needs-work/ai-migration
   - components/manifest
   - Building
+type:
+usage:
+dateAdded:
 ---
 
 > [!note] Migrated article

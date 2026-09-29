@@ -1,6 +1,14 @@
 ---
 tags:
   - needs-work/ai-migration
+class: item
+image: "[[Boxcutter.png]]"
+type:
+acquisition: Regular
+requirements: "[[Delicious Citrus]] badge"
+obtainment:
+usage: "- Cutting cardboard"
+dateAdded:
 ---
 
 > [!note] Migrated article

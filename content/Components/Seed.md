@@ -4,6 +4,9 @@ acquisition: Component machine
 image: "[[wiki-1784772012888-843b52da-seed.png]]"
 tags:
   - components/component-machine
+type: Miscellaneous
+usage: Use with the Planter to grow Trees.
+dateAdded:
 ---
 
 > [!infobox|n-th]

@@ -1,6 +1,14 @@
 ---
 tags:
   - fish/fishing-rod
+class: fishing-rod
+image: "[[Pasted image 20250916201209.png]]"
+dateAdded: September 28th, 2024
+spawnTime: 10 minutes
+spawnLocation: "[[Bill's batteries]]"
+luck: Worse than Average
+castTime: 240-300 seconds
+hooks: "1"
 ---
 
 > [!infobox|n-th]

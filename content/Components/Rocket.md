@@ -7,6 +7,9 @@ tags:
   - components/manifest
   - Fun
   - Building
+type:
+usage:
+dateAdded:
 ---
 
 > [!note] Migrated article

@@ -1,3 +1,11 @@
+---
+class: component
+image: "[[daylight sensor.png]]"
+type: Manifest
+usage: Controls signals going through itself depending on the time of day.
+dateAdded: July 14th, 2026
+acquisition: Manifest
+---
 > [!infobox|n-th]
 > 
 > ## daylight sensor

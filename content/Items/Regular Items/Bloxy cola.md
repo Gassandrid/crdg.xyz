@@ -1,3 +1,13 @@
+---
+class: item
+image: "[[BloxyCola.png]]"
+type:
+acquisition: Regular
+requirements:
+obtainment: "[[Gas Station]] vending machine"
+usage: "- None"
+dateAdded:
+---
 > [!infobox|n-th]
 > 
 > ## Bloxy cola

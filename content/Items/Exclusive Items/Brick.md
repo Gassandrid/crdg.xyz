@@ -1,3 +1,14 @@
+---
+class: item
+image: "[[Pasted image 20250826234305.png]]"
+type: Miscellaneous
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded:
+reloadSpeed: 5s
+---
 
 <div style="--notice-height:100px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;

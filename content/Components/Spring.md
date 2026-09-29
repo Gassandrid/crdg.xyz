@@ -4,6 +4,9 @@ acquisition: Component machine
 tags:
   - components/component-machine
 image: "[[wiki-1784832592775-0d33bc5b-spring.png]]"
+type: Miscellaneous
+usage: Does anything a spring can do.
+dateAdded:
 ---
 
 > [!infobox|n-th]

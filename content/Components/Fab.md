@@ -4,6 +4,9 @@ acquisition: Alien technology
 tags:
   - components/alien
 image: "[[Pasted image 20250829180537.png]]"
+type: Alien Technology
+usage: Prints out tiles using a binary-like input system.
+dateAdded: November 28th, 2024
 ---
 
 > [!infobox] >

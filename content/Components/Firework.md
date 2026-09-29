@@ -5,6 +5,9 @@ image: "[[Firework Image.png]]"
 tags:
   - components/manifest
   - Fun
+type:
+usage:
+dateAdded:
 ---
 The **Firework** is a [[content/Features/Manifests|Manifests]] item that can be obtained through **Fishing**. It was also available as a spawnable item during New Year’s eve. Its appearance is similar to the [[Propellant]].
 

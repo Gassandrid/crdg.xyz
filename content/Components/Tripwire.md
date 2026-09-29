@@ -4,6 +4,9 @@ acquisition: Component machine
 image: "[[wiki-1784914351186-140f510c-tripwire.png]]"
 tags:
   - components/component-machine
+type: Miscellaneous
+usage: Sends signal when tripwire is touched by a player or object.
+dateAdded:
 ---
 
 > [!infobox|n-th]

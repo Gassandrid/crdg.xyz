@@ -1,5 +1,13 @@
 ---
 tags: [items/unobtainable]
+class: item
+image: "[[Pasted image 20250826204023.png]]"
+type:
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded:
 ---
 
 The **Thunderbuss** is an Exclusive version of the [[content/Items/Exclusive Items/Blunderbuss]] given to **THUNDERTOILET**. Visually, it is a retexture of said gun with a yellow neon color.

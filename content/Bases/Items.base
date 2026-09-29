@@ -1,0 +1,46 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.inFolder("Items")
+    - class == "item"
+properties:
+  file.name:
+    displayName: Item
+  dateAdded:
+    displayName: Date Added
+views:
+  - type: cards
+    name: Items
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - acquisition
+      - requirements
+      - obtainment
+      - usage
+      - dateAdded
+    sort:
+      - property: file.name
+        direction: ASC
+    image: image
+    cardSize: 240
+    imageAspectRatio: 1
+  - type: table
+    name: Properties
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - acquisition
+      - requirements
+      - obtainment
+      - usage
+      - dateAdded
+    sort:
+      - property: file.name
+        direction: ASC

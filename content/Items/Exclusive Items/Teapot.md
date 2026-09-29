@@ -1,3 +1,13 @@
+---
+class: item
+image: "[[Pasted image 20250827005656.png]]"
+type:
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded:
+---
 The Teapot item was awarded to the winner of the "Technically A Water Heater" category in the 2025 water heater competition.
 
 ![[Pasted image 20250827005656.png]]

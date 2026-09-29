@@ -1,5 +1,13 @@
 ---
 tags: [todo, items/unobtainable]
+class: item
+image: "[[Pasted image 20250724190737.png]]"
+type:
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded:
 ---
 
 The **POWERFUL HELMET** is an unobtainable Combat item. It was awarded to the 5th place winner of the 2025 water heater competition, because the water heater looked like it had a cool helmet on it. Clicking while holding the item summons a rideable horse, having double the walk speed of a regular player. It also removes all of your Accessories. It is inspired by the **POWERFUL HORN**, a Miracle item.

@@ -6,6 +6,9 @@ tags:
   - components/manifest
   - Building
   - Logic
+type:
+usage:
+dateAdded:
 ---
 The **Wireless Signaler** is a [[content/Features/Manifests|Manifests]] item that can be acquired through **Fishing** or by planting seeds in the [[Planter]] and waiting 19 or 24 hours. It is essentially a cable without a limit.
 

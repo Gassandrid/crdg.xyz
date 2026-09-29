@@ -3,6 +3,10 @@ class: component
 acquisition: Miscellaneous
 tags:
   - components/miscellaneous
+image: "[[WaterHeater.png]]"
+type: Piping
+usage: Heating up various liquids, concentrating potions.
+dateAdded: October 23rd, 2025
 ---
 > [!infobox|n-th]
 > 

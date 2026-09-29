@@ -1,6 +1,14 @@
 ---
 tags:
   - needs-work/ai-migration
+class: item
+image: "[[Glue.png]]"
+type:
+acquisition: Regular
+requirements: Glue gamepass
+obtainment:
+usage: "- Gluing to gether unanchored parts"
+dateAdded:
 ---
 
 > [!note] Migrated article

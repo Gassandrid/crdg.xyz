@@ -1,6 +1,17 @@
 ---
 tags:
   - needs-work/ai-migration
+class: item
+image: "[[JerryCan.png]]"
+type:
+acquisition: Regular
+requirements: "[[winner]] badge"
+obtainment:
+usage: "- Refuelling carts, exploding buildings and players"
+dateAdded:
+cooldownAfterSpawn: 50 seconds
+cooldownAfterUse: 150 seconds
+explosionRadius: 25 studs
 ---
 
 > [!note] Migrated article

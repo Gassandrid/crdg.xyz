@@ -1,3 +1,11 @@
+---
+class: component
+image: "[[LiquidElectrolyzer.png]]"
+type:
+usage:
+dateAdded:
+acquisition:
+---
 > [!infobox|n-th]
 > 
 > ## Liquid Electrolyzer

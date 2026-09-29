@@ -4,6 +4,9 @@ acquisition: Component machine
 image: "[[wiki-1784913753987-253f16b4-treadmill.png]]"
 tags:
   - components/component-machine
+type: Miscellaneous
+usage: Move players and objects autonomously.
+dateAdded:
 ---
 
 > [!infobox|n-th]

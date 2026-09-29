@@ -5,6 +5,9 @@ image: "[[1911 Pistol Image.png]]"
 tags:
   - components/manifest
   - Combat
+type:
+usage:
+dateAdded:
 ---
 The **1911 Pistol** is a [[content/Features/Manifests|Manifests]] item that can acquired through **Fishing** in a public or planting seeds in a [[Planter]] in a public server and waiting 24 hours. It is essentially a faster gun.
 

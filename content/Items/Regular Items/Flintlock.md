@@ -1,3 +1,13 @@
+---
+class: item
+image: "[[flintlock.png]]"
+type:
+acquisition: Regular
+requirements: "[[Glory]] badge"
+obtainment:
+usage: "- shooting off parts"
+dateAdded:
+---
 
 > [!infobox|n-th]
 > 

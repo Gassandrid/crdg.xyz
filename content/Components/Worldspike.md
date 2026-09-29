@@ -4,6 +4,9 @@ acquisition: Alien technology
 tags:
   - components/alien
 image: "[[Pasted image 20250829180139.png]]"
+type: Alien Technology
+usage: Able to simultaneously be used as a gyroscope and anchor.
+dateAdded: November 28th, 2024
 ---
 
 > [!infobox|n-th]

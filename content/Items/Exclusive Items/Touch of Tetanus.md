@@ -1,3 +1,13 @@
+---
+class: item
+image: "[[Roblox-2025-08-09T10_43_08.583.gif]]"
+type:
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded:
+---
 The **Touch of Tetanus** is an Exclusive Item obtained by the holder of the “**Worst Installation**” category in the Water Heater contest. It cannot be dropped. Unlike most other items, it doesn’t have a Handle, meaning holding it won’t show anything while held.
 
 ---

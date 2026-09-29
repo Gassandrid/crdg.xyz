@@ -4,6 +4,9 @@ acquisition: Component machine
 image: "[[wiki-1784579324533-fa465989-Screenshot 2026-07-20 162623.png]]"
 tags:
   - components/component-machine
+type: Miscellaneous
+usage: Blinds nearby players when activated.
+dateAdded:
 ---
 
 > [!infobox|n-th]

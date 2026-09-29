@@ -2,6 +2,12 @@
 tags:
   - needs-work/ai-migration
   - fish/fishable/mythical
+class: fish
+image: "[[Loch_ness.png]]"
+rarity: Mythical
+acquisition: Fishable
+usage:
+dateAdded:
 ---
 
 

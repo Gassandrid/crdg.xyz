@@ -1,6 +1,14 @@
 ---
 tags:
   - needs-work/ai-migration
+class: item
+image: "[[Pasted image 20250827003309.png]]"
+type:
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded:
 ---
 
 > [!note] Migrated article

@@ -2,6 +2,12 @@
 tags:
   - needs-work/ai-migration
   - fish/fishable/common
+class: fish
+image: "[[Flounder2.0.png]]"
+rarity: Common
+acquisition: Fishable
+usage:
+dateAdded:
 ---
 
 

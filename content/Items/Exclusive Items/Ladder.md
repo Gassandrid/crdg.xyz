@@ -1,3 +1,13 @@
+---
+class: item
+image:
+type:
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded:
+---
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;
     padding:0; 

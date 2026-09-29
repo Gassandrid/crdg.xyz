@@ -1,6 +1,14 @@
 ---
 tags:
   - needs-work/ai-migration
+class: item
+image: "[[Battery.png]]"
+type:
+acquisition: Regular
+requirements:
+obtainment:
+usage:
+dateAdded:
 ---
 
 > [!note] Migrated article

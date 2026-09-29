@@ -1,6 +1,14 @@
 ---
 tags:
   - fish/fishing-rod
+class: fishing-rod
+image: "[[Pasted image 20251005220711.png]]"
+dateAdded: August 17th, 2025
+spawnTime: N/A (Fishable)
+spawnLocation: N/A
+luck: Best
+castTime: 10 seconds
+hooks: "4"
 ---
 
 > [!infobox|n-th]

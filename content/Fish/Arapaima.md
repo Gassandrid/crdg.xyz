@@ -2,6 +2,12 @@
 tags:
   - needs-work/ai-migration
   - fish/fishable/rare
+class: fish
+image: "[[Arapima.png]]"
+rarity: Rare
+acquisition: Fishable
+usage:
+dateAdded:
 ---
 
 

@@ -4,6 +4,9 @@ acquisition: Component machine
 image: "[[wiki-1784741527240-74036d4a-Screenshot 2026-07-22 123035-no-bg.png]]"
 tags:
   - components/component-machine
+type: Miscellaneous
+usage: Move objects at a fixed speed and direction.
+dateAdded:
 ---
 
 > [!infobox|n-th]

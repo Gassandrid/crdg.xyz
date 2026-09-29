@@ -5,6 +5,9 @@ image: "[[Diode Image.png]]"
 tags:
   - components/manifest
   - Logic
+type:
+usage:
+dateAdded:
 ---
 The **Diode** is a [[content/Features/Manifests|Manifests]] item that can be acquired through **Fishing** or by planting seeds in the [[Planter]] and waiting 19 or 24 hours. Mostly used in tech builds.
 

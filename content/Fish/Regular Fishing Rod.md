@@ -1,6 +1,14 @@
 ---
 tags:
   - fish/fishing-rod
+class: fishing-rod
+image: "[[Pasted image 20250916183456.png]]"
+dateAdded: September 28th, 2024
+spawnTime: 5 minutes (formerly 20 and 3)
+spawnLocation: "[[Gas Station]]"
+luck: Average
+castTime: 120-180 seconds
+hooks: "1"
 ---
 
 > [!infobox|n-th]

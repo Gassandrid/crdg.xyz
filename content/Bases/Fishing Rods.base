@@ -1,0 +1,50 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.inFolder("Fish")
+    - class == "fishing-rod"
+properties:
+  file.name:
+    displayName: Fishing Rod
+  dateAdded:
+    displayName: Date Added
+  spawnTime:
+    displayName: Spawn Time
+  spawnLocation:
+    displayName: Spawn Location
+  castTime:
+    displayName: Cast Time
+views:
+  - type: cards
+    name: Cards
+    groupBy:
+      property: luck
+      direction: ASC
+    order:
+      - file.name
+      - luck
+      - castTime
+      - hooks
+      - spawnTime
+      - spawnLocation
+      - dateAdded
+    sort:
+      - property: file.name
+        direction: ASC
+    image: image
+    cardSize: 240
+    imageAspectRatio: 1
+  - type: table
+    name: Fishing Rods
+    order:
+      - file.name
+      - image
+      - dateAdded
+      - spawnTime
+      - spawnLocation
+      - luck
+      - castTime
+      - hooks
+    sort:
+      - property: file.name
+        direction: ASC

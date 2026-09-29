@@ -1,6 +1,14 @@
 ---
 tags:
   - needs-work/ai-migration
+class: item
+image: "[[IceCream.png]]"
+type:
+acquisition: Regular
+requirements: none! (Found on map)
+obtainment:
+usage: "- left click to lick"
+dateAdded:
 ---
 
 > [!note] Migrated article

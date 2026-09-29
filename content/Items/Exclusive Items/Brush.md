@@ -2,6 +2,14 @@
 tags:
   - items/unobtainable
   - Building
+class: item
+image: "[[Brush-1755358918766.png]]"
+type:
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded:
 ---
 
 The **Brush** is an Exclusive item obtained by the holder of the "**Best Installation**" category in the Water Heater contest. It can be dropped, however when dropped it cannot be picked up again. Visually, the item resembles a wire brush. This item is essentially the opposite of the [[Touch of Tetanus]] item, cleaning things instead of rusting things.

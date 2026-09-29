@@ -5,6 +5,10 @@ tags:
   - needs-work/ai-migration
   - components/component-machine
   - todo
+image:
+type:
+usage:
+dateAdded:
 ---
 
 

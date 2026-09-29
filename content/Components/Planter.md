@@ -6,6 +6,11 @@ tags:
   - components/component-machine
   - todo
   - component
+type: Miscellaneous
+usage:
+dateAdded:
+inputs: "- [[Banana]]<br>- [[Seed]]<br>- miracle gro <br>- [Moray Eel](Moray_eel) <br>- [[Lemon]] <br>- Pine Cone"
+outputs: "- [[Manifests]]<br>- [[Banana]]<br>- [[Lemon]] <br>- [[Golden Lemon]] <br>- Pine Cone"
 ---
 
 <div style="--notice-height:80px; position:relative; margin:10px 5px 5px 5px; padding:10px;

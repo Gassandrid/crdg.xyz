@@ -1,3 +1,17 @@
+---
+class: item
+image: "[[Pasted image 20250826233846.png]]"
+type: Combat
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded:
+firerate: None
+ammo: "1"
+reloadSpeed: 1.5s
+damage: 30 (Point Blank)
+---
 <div style="--notice-height:100px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;
     text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);

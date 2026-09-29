@@ -5,6 +5,9 @@ image: "[[Pasted image 20250722144301.png]]"
 tags:
   - components/component-machine
   - todo
+type: Miscellaneous
+usage: Shoot bullets at players or objects. Multifunctional.
+dateAdded:
 ---
 
 <div style="display:flex;align-items:center;gap:10px;

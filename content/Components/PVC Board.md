@@ -1,3 +1,11 @@
+---
+class: component
+image: "[[PVCBoard.png]]"
+type:
+usage:
+dateAdded:
+acquisition:
+---
 > [!infobox|n-th]
 > 
 > ## PVC Board

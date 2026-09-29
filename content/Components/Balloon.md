@@ -4,6 +4,9 @@ acquisition: Component machine
 tags:
   - components/component-machine
 image: "[[Pasted image 20250831235424.png]]"
+type: Miscellaneous
+usage: Can be used to add less weight to builds with a major downside.
+dateAdded: "- May 6th, 2023 <br>- July 29th, 2024 (Temporarily)"
 ---
 > [!infobox|n-th]
 > 

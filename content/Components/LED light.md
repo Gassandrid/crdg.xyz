@@ -3,6 +3,10 @@ class: component
 acquisition: Component machine
 tags:
   - components/component-machine
+image: "[[wiki-1784662354041-024723b7-Screenshot 2026-07-21 153046.png]]"
+type: Miscellaneous
+usage: Create multicolored lights.
+dateAdded:
 ---
 
 > [!infobox|n-th]

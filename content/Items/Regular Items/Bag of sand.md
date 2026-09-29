@@ -1,6 +1,14 @@
 ---
 tags:
   - needs-work/ai-migration
+class: item
+image: "[[BagOfSand.png]]"
+type:
+acquisition: Regular
+requirements: Found on gas station
+obtainment:
+usage: "- Cutting cardboard"
+dateAdded:
 ---
 
 > [!note] Migrated article

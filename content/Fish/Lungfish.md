@@ -2,6 +2,12 @@
 tags:
   - needs-work/ai-migration
   - fish/fishable/uncommon
+class: fish
+image: "[[The_silly_friend.png]]"
+rarity: Uncommon
+acquisition: Fishable
+usage:
+dateAdded:
 ---
 
 

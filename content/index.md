@@ -29,4 +29,16 @@ Due to the game's low popularity, no unofficial wiki had been able to create a c
 
 ## Components
 
-![[Components/Components.base]]
+![[Bases/Components.base]]
+
+## Fish
+
+![[Bases/Fish.base]]
+
+## Items
+
+![[Bases/Items.base]]
+
+## Fishing Rods
+
+![[Bases/Fishing Rods.base]]

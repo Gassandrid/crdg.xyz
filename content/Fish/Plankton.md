@@ -2,6 +2,12 @@
 tags:
   - needs-work/ai-migration
   - fish/fishable/legendary
+class: fish
+image: "[[Plasn.png]]"
+rarity: Legendary
+acquisition: Fishable
+usage:
+dateAdded:
 ---
 
 

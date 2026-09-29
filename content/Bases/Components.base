@@ -1,0 +1,42 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.inFolder("Components")
+    - class == "component"
+properties:
+  file.name:
+    displayName: Component
+  dateAdded:
+    displayName: Date Added
+views:
+  - type: cards
+    name: Cards
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - acquisition
+      - usage
+      - dateAdded
+    sort:
+      - property: file.name
+        direction: ASC
+    image: image
+    cardSize: 240
+    imageAspectRatio: 1
+  - type: table
+    name: Properties
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - acquisition
+      - usage
+      - dateAdded
+    sort:
+      - property: file.name
+        direction: ASC

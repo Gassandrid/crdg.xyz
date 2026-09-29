@@ -5,6 +5,9 @@ image: "[[Pasted image 20250907125312.png]]"
 tags:
   - components/component-machine
   - todo
+type: Miscellaneous
+usage: Attaches to most parts upon activation.
+dateAdded: May 15th, 2024
 ---
 > [!infobox|n-th]
 > 

@@ -3,6 +3,10 @@ class: component
 acquisition: Component machine
 tags:
   - components/component-machine
+image: "[[wiki-1784585132254-8a38501e-Screenshot 2026-07-20 151303.png]]"
+type: Miscellaneous
+usage: Clicks any clickable components or cart buttons touching it.
+dateAdded: 2024-5-17
 ---
 
 > [!infobox] >

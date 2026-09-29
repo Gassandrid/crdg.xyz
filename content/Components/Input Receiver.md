@@ -4,6 +4,9 @@ acquisition: Component machine
 image: "[[inputreceiver 1.png]]"
 tags:
   - components/component-machine
+type: Miscellaneous
+usage: Sends signals based on player input.
+dateAdded:
 ---
 
 > [!infobox|n-th]

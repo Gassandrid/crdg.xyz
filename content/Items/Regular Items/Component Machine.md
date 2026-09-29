@@ -1,3 +1,15 @@
+---
+class: item
+image: "[[ComponentMachine.png]]"
+type:
+acquisition: Regular
+requirements: Component Machine gamepass
+obtainment:
+usage: "- Spawning various components"
+dateAdded:
+pointGain: 15 seconds
+spawnTime: 5 seconds
+---
 
 > [!infobox|n-th]
 > 

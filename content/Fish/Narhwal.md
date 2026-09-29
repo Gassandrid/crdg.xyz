@@ -2,6 +2,12 @@
 tags:
   - needs-work/ai-migration
   - fish/fishable/epic
+class: fish
+image: "[[narwhal.png]]"
+rarity: Epic
+acquisition: Fishable
+usage:
+dateAdded:
 ---
 
 

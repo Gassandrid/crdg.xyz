@@ -1,6 +1,18 @@
 ---
 tags:
   - needs-work/ai-migration
+class: item
+image: "[[Pasted image 20250827103338.png]]"
+type: Combat
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded:
+firerate: 0.125s per shot
+ammo: "31"
+reloadSpeed: 2.5s
+damage: "31"
 ---
 
 > [!note] Migrated article

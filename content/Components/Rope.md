@@ -4,6 +4,9 @@ acquisition: Component machine
 image: "[[wiki-1784733495863-458730fc-rope.png]]"
 tags:
   - components/component-machine
+type: Miscellaneous
+usage: Connect objects via rope.
+dateAdded:
 ---
 > [!infobox|n-th]
 > 

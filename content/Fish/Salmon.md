@@ -2,6 +2,12 @@
 tags:
   - needs-work/ai-migration
   - fish/fishable/common
+class: fish
+image: "[[Salmonnn.png]]"
+rarity: Common
+acquisition: Fishable
+usage:
+dateAdded:
 ---
 
 

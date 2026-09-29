@@ -2,6 +2,14 @@
 tags:
   - needs-work/ai-migration
   - fish/fishing-rod
+class: fishing-rod
+image: "[[Pasted image 20251005220459.png]]"
+dateAdded: October 4th, 2024
+spawnTime: N/A (Fishable)
+spawnLocation: N/A
+luck: Great
+castTime: 30 seconds
+hooks: "2"
 ---
 
 

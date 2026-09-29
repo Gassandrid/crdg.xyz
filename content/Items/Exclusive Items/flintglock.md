@@ -1,3 +1,16 @@
+---
+class: item
+image: "[[Pasted image 20250827095419.png]]"
+type: Combat
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded: June 4th, 2022
+accuracy: 5 Studs (width and height)
+ammo: Bullets
+firerate: 0.1 seconds
+---
 <div style="--notice-height:100px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;
     text-shadow:0 2px 6px rgba(0,0,0,1),0 3px 6px rgba(0,0,0,0.23);

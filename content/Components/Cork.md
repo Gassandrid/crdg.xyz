@@ -5,6 +5,9 @@ acquisition: Component machine
 tags:
   - components/component-machine
 image: "[[wiki-1784735236862-7a446e7c-cork.png]]"
+type: Miscellaneous
+usage: Close a pipe outlet.
+dateAdded:
 ---
 
 > [!infobox|n-th]

@@ -2,6 +2,12 @@
 tags:
   - needs-work/ai-migration
   - fish/fishable/uncommon
+class: fish
+image: "[[Beaf.png]]"
+rarity: Uncommon
+acquisition: Fishable
+usage:
+dateAdded:
 ---
 
 

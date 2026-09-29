@@ -1,3 +1,13 @@
+---
+class: item
+image: "[[Lays.png]]"
+type:
+acquisition: Regular
+requirements:
+obtainment: "[[Gas Station]] vending machine"
+usage: "- Heals"
+dateAdded:
+---
 > [!infobox|n-th]
 > 
 > ## Lays

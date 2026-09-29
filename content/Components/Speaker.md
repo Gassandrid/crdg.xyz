@@ -6,6 +6,9 @@ image: "[[wiki-1784831959863-f4eda593-speaker.png]]"
 tags:
   - components/component-machine
   - todo
+type: Miscellaneous
+usage: Plays music.
+dateAdded:
 ---
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;

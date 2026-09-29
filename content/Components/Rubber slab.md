@@ -4,6 +4,9 @@ acquisition: Component machine
 image: "[[wiki-1784736820169-17833936-rubber slab.png]]"
 tags:
   - components/component-machine
+type: Miscellaneous
+usage: Prevents signals from passing through.
+dateAdded:
 ---
 > [!infobox|n-th]
 > 

@@ -6,18 +6,31 @@ defaultLocation: Components
 templateDescription: Component overview, properties, usage, and recipes.
 tags:
   - components/component-machine
-image: Component image.png
+image:
+type:
+usage:
+dateAdded:
 ---
 
 ## Overview
 
 Describe what the component does and where it is found.
 
+Copy its infobox values into the matching frontmatter properties, and set image to an image wikilink. Keep type separate from acquisition, which describes how the component is obtained. Leave unknown values blank.
+
 ## Properties
 
-| Property | Value             |
-| -------- | ----------------- |
-| Type     | Regular component |
+> [!infobox|n-th]
+> ## New component
+>
+> ![[Component image.png]]
+>
+> ### Component Info
+>
+> | Type | |
+> | --- | --- |
+> | **Usage** | |
+> | **Date Added** | |
 
 ## Usage
 

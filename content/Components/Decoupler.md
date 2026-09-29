@@ -5,6 +5,9 @@ image: "[[Pasted image 20250722144112.png]]"
 tags:
   - components/component-machine
   - todo
+type: Miscellaneous
+usage: Separate connected objects when activated.
+dateAdded:
 ---
 
 <div style="display:flex;align-items:center;gap:10px;

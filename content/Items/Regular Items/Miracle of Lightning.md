@@ -1,5 +1,14 @@
 ---
 ---
+class: item
+image: "[[Pasted image 20250924181801.png]]"
+type: Multi-Use Combat
+acquisition: Regular
+requirements:
+obtainment: Getting the [[Enlightning Experience]] badge
+usage:
+dateAdded: August 17th, 2025
+abilities: "4"
 ---
 
 <div style="display:flex;align-items:center;margin:1em 0;">

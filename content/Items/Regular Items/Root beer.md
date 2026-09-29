@@ -1,3 +1,13 @@
+---
+class: item
+image: "[[RootBeer.png]]"
+type:
+acquisition: Regular
+requirements:
+obtainment: "[[Gas Station]] vending machine"
+usage: "- Heals you"
+dateAdded:
+---
 > [!infobox|n-th]
 > 
 > ## Root beer

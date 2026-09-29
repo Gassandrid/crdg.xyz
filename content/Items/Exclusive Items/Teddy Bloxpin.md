@@ -2,6 +2,14 @@
 title: Teddy Bloxpin
 type: Item
 status: Unobtainable
+class: item
+image: "[[TeddyBloxpin.png]]"
+acquisition: Exclusive
+requirements:
+obtainment: "[[Dedicated Realist]] (Formerly)"
+usage:
+dateAdded:
+effect: 30% chance to explode upon use
 ---
 
 > [!infobox|n-th]

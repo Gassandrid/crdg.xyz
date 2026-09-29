@@ -4,6 +4,9 @@ acquisition: Component machine
 tags:
   - components/component-machine
 image: "[[wiki-1784916719705-2aad0573-uranium rod.png]]"
+type: Miscellaneous
+usage: Fuel specific components and use with Cauldron and Anvil.
+dateAdded:
 ---
 
 > [!infobox|n-th]

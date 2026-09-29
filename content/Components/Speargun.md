@@ -5,6 +5,9 @@ image: "[[Pasted image 20250823154005.png]]"
 tags:
   - components/manifest
   - Fun
+type:
+usage:
+dateAdded:
 ---
 The **name** is a [[content/Features/Manifests|Manifests]] item that can be acquired through **Fishing** or by planting seeds in the [[Planter]] and waiting 19 or 24 hours. They were once originally used to make flyers just that has since now been patched.
 

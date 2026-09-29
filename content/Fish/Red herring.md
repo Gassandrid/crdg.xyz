@@ -2,6 +2,12 @@
 tags:
   - needs-work/ai-migration
   - fish/fishable/epic
+class: fish
+image: "[[Herring.png]]"
+rarity: Epic
+acquisition: Fishable
+usage:
+dateAdded:
 ---
 
 

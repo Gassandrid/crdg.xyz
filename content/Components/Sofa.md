@@ -3,6 +3,10 @@ class: component
 acquisition: Miscellaneous
 tags:
   - components/miscellaneous
+image: "[[Couch.png]]"
+type: Decoration
+usage:
+dateAdded: June 23rd, 2024
 ---
 > [!infobox|n-th]
 > 

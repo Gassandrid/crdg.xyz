@@ -4,6 +4,9 @@ acquisition: Alien technology
 tags:
   - components/alien
 image: "[[Pasted image 20250829175859.png]]"
+type: Alien Technology
+usage: If 2 or more of these exist on the map, when one is activated it will teleport to another.
+dateAdded: November 28th, 2024
 ---
 <div style="display:flex;align-items:center;gap:10px;
     margin:10px 5px 5px 5px;

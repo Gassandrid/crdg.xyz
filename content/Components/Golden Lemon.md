@@ -3,6 +3,10 @@ class: component
 acquisition: Miscellaneous
 tags:
   - components/miscellaneous
+image: "[[wiki-1784659050556-051af822-Screenshot 2026-07-21 123547.png]]"
+type:
+usage:
+dateAdded:
 ---
 
 ![[wiki-1784659050556-051af822-Screenshot 2026-07-21 123547.png]]

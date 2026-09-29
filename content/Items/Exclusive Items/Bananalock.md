@@ -1,5 +1,13 @@
 ---
 tags: [todo, items/unobtainable]
+class: item
+image: "[[Pasted image 20250826203428.png]]"
+type:
+acquisition: Exclusive
+requirements:
+obtainment:
+usage:
+dateAdded:
 ---
 <div style="--notice-height:100px; position:relative; margin:10px 5px 5px 5px; padding:10px;
     font-family:sans-serif; font-size:1.05rem; color:#FFFFFF;

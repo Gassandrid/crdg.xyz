@@ -5,6 +5,9 @@ image: "[[wiki-1784674180033-1dd92793-trigger.png]]"
 tags:
   - components/manifest
   - "#removed"
+type: Miscellaneous
+usage: Attach and hold components in your hand.
+dateAdded:
 ---
 
 > [!infobox] >
