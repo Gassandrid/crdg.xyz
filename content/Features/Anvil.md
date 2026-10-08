@@ -73,7 +73,7 @@ When struck, the Anvil produces a metallic hammering sound and briefly releases 
 | Split a Steel Beam in half | Steel Beam, Gun | Splits the Steel Beam exactly in half. | ![[wiki-1789251994593-6760726e-image.png]] |
 | Change a Steel Beam's size | Steel Beam | Each time the Steel Beam is struck, it randomizes it's size | PENDING |
 | Chauchat | 1911 x2, Sniper Rifle x2 | Fires bullets rapidly, although its bullets damage parts rather than destroying them outright. The first few shots push the part, followed by rusting it, and after several hits, eventually destroying it. | ![[wiki-1789919755246-517ba86d-imagem_2026-09-20_125555025.png]] |
-| Cardboard Box | Cardboard x6 | It's just a cardboard box, except without the part where you have to manually build it yourself which is a very frustrating process. | ![[wiki-1790515185004-1ecc4eea-1000016079.jpg]] |
+| Cardboard Box | Cardboard x6 | It's just a cardboard box, except without the part where you have to manually build it yourself which is a very frustrating process. | ![[wiki-1791499974755-4c64fbf0-image.png]] |
 | Nuclear Bomb | Jerry Can, Propeller x2, Uranium Rod x4, Ball Of Oblotenium, Decoupler, Speaker x2 | The Nuclear Bomb is perhaps one of the most destructive devices in all of CRDG, capable of devastating an entire island in most cases. When activated, it begins a two-minute countdown sequence. Despite its destructive power, it can be deactivated relatively easily before detonation. Upon exploding, players within the blast radius experience a blinding flash and are killed instantly. The explosion also produces a tall mushroom cloud, almost half the height of the [[Cathedral]]. | ![[wiki-1787886794306-6d37a4d7-Captura de pantalla 2026-08-27 210706.png]] |
 
 > [!tip] Quick Tip
