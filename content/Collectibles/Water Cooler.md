@@ -1,0 +1,1 @@
+The water cooler is a collectible obtained from the blimp if emptied you can add any fluid into it via piping it into the top![[wiki-1791650633581-e9668b14-image_2026-10-10_174353494.png]]
