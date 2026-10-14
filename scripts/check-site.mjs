@@ -1,6 +1,7 @@
 import assert from "node:assert/strict"
 import { readFileSync } from "node:fs"
 import { resolve, sep } from "node:path"
+import { checkEditor } from "./check-editor.mjs"
 
 // Accept a local build directory or a production URL and optional expected SHA.
 const target = process.argv[2] || "public"
@@ -43,17 +44,7 @@ const assets = new Set(
 )
 assert.ok(assets.size > 0, "No local scripts or stylesheets found")
 await Promise.all([...assets].map(read))
-if (remote) {
-  const response = await fetch("https://edit.crdg.xyz/api/health", {
-    signal: AbortSignal.timeout(30_000),
-    cache: "no-store",
-  })
-  assert.ok(response.ok, `Editor health: HTTP ${response.status}`)
-  const health = await response.json()
-  assert.equal(health.githubBaseBranch, "v5", "Editor is targeting a different branch")
-  assert.equal(health.githubConfigured, true)
-  assert.equal(health.turnstileConfigured, true)
-}
+if (remote) await checkEditor()
 console.log(
   `Verified ${target}: Quartz ${info.quartzVersion}, ${info.commit}, ${Object.keys(index).length} indexed pages, ${assets.size} assets`,
 )
