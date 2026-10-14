@@ -553,6 +553,7 @@ export async function handleRequest(request: Request, env: Env): Promise<Respons
   if (request.method === "GET" && url.pathname === "/api/health") {
     return json({
       status: "ok",
+      githubBaseBranch: env.GITHUB_BASE_BRANCH,
       githubConfigured: Boolean(env.GITHUB_TOKEN),
       turnstileConfigured: Boolean(env.TURNSTILE_SECRET_KEY),
     })

@@ -4,6 +4,7 @@ import {
   ApiError,
   createReviewPullRequest,
   Env,
+  handleRequest,
   validateImageContents,
   validateSubmissionForm,
   WikiSubmission,
@@ -18,6 +19,18 @@ const env: Env = {
   ALLOWED_ORIGINS: "https://crdg.xyz",
   TURNSTILE_HOSTNAMES: "crdg.xyz",
 }
+
+test("health exposes the deployed review branch without exposing secrets", async () => {
+  const response = await handleRequest(new Request("https://edit.crdg.xyz/api/health"), env)
+  assert.equal(response.status, 200)
+  assert.equal(response.headers.get("Cache-Control"), "no-store")
+  assert.deepEqual(await response.json(), {
+    status: "ok",
+    githubBaseBranch: "v5",
+    githubConfigured: true,
+    turnstileConfigured: true,
+  })
+})
 
 function response(body: unknown, status = 200): Response {
   return new Response(body === undefined ? null : JSON.stringify(body), {

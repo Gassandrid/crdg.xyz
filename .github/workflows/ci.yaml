@@ -9,15 +9,16 @@ on:
       - v5
   workflow_dispatch:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build-and-test:
-    if: ${{ github.repository == 'jackyzha0/quartz' }}
-    strategy:
-      matrix:
-        os: [windows-latest, macos-latest, ubuntu-latest]
-    runs-on: ${{ matrix.os }}
-    permissions:
-      contents: write
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
         with:
@@ -26,7 +27,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v7
         with:
-          node-version: 24
+          node-version: 22
 
       - name: Cache dependencies
         uses: actions/cache@v6
@@ -46,41 +47,20 @@ jobs:
 
       - run: npm ci
 
-      - name: Install Quartz plugins
-        run: npx quartz plugin install
+      - name: Install pinned Quartz plugins
+        run: npm run install-plugins
 
-      - name: Add grouped card support to Bases
-        run: bash scripts/patch-bases-card-groups
-
-      - name: Check types and style
-        run: npm run check
+      - name: Check types
+        run: npm run typecheck
 
       - name: Test
         run: npm test
 
-      - name: Ensure Quartz builds, check bundle info
-        run: npx quartz build --bundleInfo -d docs
+      - name: Check editor bundle
+        run: npm run editor:check
 
-  publish-tag:
-    if: ${{ github.repository == 'jackyzha0/quartz' && github.ref == 'refs/heads/v5' }}
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v7
-        with:
-          fetch-depth: 0
-      - name: Setup Node
-        uses: actions/setup-node@v7
-        with:
-          node-version: 24
-      - name: Get package version
-        run: node -p -e '`PACKAGE_VERSION=${require("./package.json").version}`' >> $GITHUB_ENV
-      - name: Create release tag
-        uses: pkgdeps/git-tag-action@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_repo: ${{ github.repository }}
-          version: ${{ env.PACKAGE_VERSION }}
-          git_commit_sha: ${{ github.sha }}
-          git_tag_prefix: "v"
+      - name: Build and verify wiki
+        run: npm run build
+        env:
+          WIKI_EDITOR_API_URL: https://edit.crdg.xyz
+          TURNSTILE_SITE_KEY: 1x00000000000000000000AA

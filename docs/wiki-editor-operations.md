@@ -83,7 +83,7 @@ curl https://edit.crdg.xyz/api/health
 Expected production state:
 
 ```json
-{ "status": "ok", "githubConfigured": true, "turnstileConfigured": true }
+{ "status": "ok", "githubBaseBranch": "v5", "githubConfigured": true, "turnstileConfigured": true }
 ```
 
 Re-run the Pages deployment after setting `TURNSTILE_SITE_KEY`. Open a low-risk wiki page, make a

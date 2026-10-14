@@ -14,6 +14,10 @@
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
     "docs": "npx quartz build --serve -d docs",
+    "build": "node --max-old-space-size=8192 quartz/bootstrap-cli.mjs build",
+    "postbuild": "node scripts/build-info.mjs && npm run site:check",
+    "site:check": "node scripts/check-site.mjs",
+    "typecheck": "tsc --noEmit",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
@@ -22,7 +26,7 @@
     "editor:deploy": "wrangler deploy --config worker/wrangler.jsonc",
     "editor:check": "wrangler deploy --dry-run --config worker/wrangler.jsonc",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
-    "install-plugins": "npx tsx ./quartz/plugins/loader/install-plugins.ts",
+    "install-plugins": "node quartz/bootstrap-cli.mjs plugin install && bash scripts/patch-bases-card-groups",
     "prebuild": "npm run install-plugins"
   },
   "engines": {
@@ -68,7 +72,7 @@
     "remark-rehype": "^11.1.2",
     "rfdc": "^1.4.1",
     "serve-handler": "^6.1.6",
-    "sharp": "^0.34.5",
+    "sharp": "^0.35.5",
     "source-map-support": "^0.5.21",
     "to-vfile": "^8.0.0",
     "unified": "^11.0.5",
@@ -80,8 +84,8 @@
     "yargs": "^18.0.0"
   },
   "devDependencies": {
-    "@quartz-community/types": "github:quartz-community/types",
-    "@quartz-community/utils": "github:quartz-community/utils",
+    "@quartz-community/types": "github:quartz-community/types#d413569b02ff0cd9a7e8d74dee125d20a5e5ec72",
+    "@quartz-community/utils": "github:quartz-community/utils#e09d8b0bbccb46073b23c00affaf3e40a2c3b0c4",
     "@types/hast": "^3.0.4",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^25.0.10",
@@ -89,7 +93,7 @@
     "@types/source-map-support": "^0.5.10",
     "@types/ws": "^8.18.1",
     "@types/yargs": "^17.0.35",
-    "esbuild": "^0.27.2",
+    "esbuild": "^0.28.2",
     "prettier": "^3.8.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
