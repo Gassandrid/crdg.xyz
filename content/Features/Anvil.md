@@ -1,9 +1,15 @@
-The Anvil can be found in the furnace room of the Cathederal. It is used to combine/merge items together.
+---
+title: Anvil
+tags:
+  - Features
+---
+
+The Anvil can be found in the furnace room of the Cathedral. It is used to combine/merge items together.
 Anvil recipes:
 
 **Jumbo Fishing Rod**
 > `10x fishing rod`
-> Catch time: 3 mins.
++ Catch time: 3 mins.
 
 **Golden Fishing Rod**
 > `gold bar + fishing rod`
@@ -81,7 +87,7 @@ Anvil recipes:
 > `Gun + Dart Shooter + Lens`
 
 **Sniper Rifle w/ Bayonet**
->`Gun + Dart Shooter + Lens + Fished Machette`
+>`Gun + Dart Shooter + Lens + Fished Machete`
 
 **Green Goblin Pumpkin Bomb**
 >`Pumpkin + Uranium Rod + Jerry Can`
@@ -90,7 +96,7 @@ Anvil recipes:
 >`Wireless Signaler + Pointer`
 
 **Diamond Gyro**
->`Diamond + Gyro (teeth at cath)`
+>`Diamond + Gyro (teeth at cathedral)`
 
 **Nuclear Bomb**
->`2 Speakers, 4 Uranium, 2 Propellant 1 Ball of Oobletonium, 3 Metal Center Pieces of Decoupler, 1 Jerry Can`
+>`2 Speakers, 4 Uranium, 2 Propellant 1 Ball of oblotenium, 3 Metal Center Pieces of Decoupler, 1 Jerry Can`
