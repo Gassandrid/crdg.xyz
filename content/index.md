@@ -5,7 +5,7 @@ tags: [templates]
 
 This is a new **work in progress** project to create a real, complete wiki for the game.
 
-If you would like to contribute, open any page and select **Edit this page**. You can edit the Markdown, add images, preview the result, and send it to the maintainers without a GitHub account. See [[Editing the wiki]] for the short guide. If you're on or above the legal age in your country, the official CRDG Discord server can be found at [https://discord.gg/McECseE4aD](https://discord.gg/McECseE4aD), and the Discord server focused on the wiki can be found at [https://discord.gg/DrvumChdZe](https://discord.gg/DrvumChdZe).
+If you would like to contribute, open any page and select **Edit this page**. You can edit the Markdown, add images, preview the result, and send it to the maintainers without a GitHub account. See [[Editing the wiki]] for a short guide. If you're on or above the legal age in your country, the official CRDG Discord server can be found at [https://discord.gg/McECseE4aD](https://discord.gg/McECseE4aD), and the Discord server focused on the wiki can be found at [https://discord.gg/DrvumChdZe](https://discord.gg/DrvumChdZe).
 
 ---
 
@@ -13,13 +13,8 @@ If you would like to contribute, open any page and select **Edit this page**. Yo
 > ## Cart Ride Around a 75kW Diesel Generator
 >
 >
->
->
->
 > ![[wiki-1785330293364-9f284b11-image.png]]
 > The game's logo
->
->
 
 **cart ride around a 75 KW Diesel Generator**, abbreviated as **CRDG** is a game on Roblox, released on November 3rd, 2021 marketed as a cart ride game with the goal of turning back on a diesel generator protected by a [[Cart God|cart god]]. However, the game takes a turn on the genre and adds many additional content aimed around the grabbing mechanic that it often deviates from the regular carting experience and experiments with other genres such as building and boss fighting. After the addition of the [[Component Machine]], most of the game's active players switched from carting and building barebones machinery out of the game's objects to building actual technological contraptions, attracting many players due to how unique the building style of the game was.
 
