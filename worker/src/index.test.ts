@@ -39,6 +39,77 @@ function response(body: unknown, status = 200): Response {
   })
 }
 
+const readinessRequest = () => new Request("https://edit.crdg.xyz/api/health?check=github")
+
+test("readiness verifies the deployed token and branch with a read-only GitHub request", async (t) => {
+  const github = t.mock.method(
+    globalThis,
+    "fetch",
+    async (input: string | URL | Request, init?: RequestInit) => {
+      assert.equal(
+        String(input),
+        "https://api.github.com/repos/Gassandrid/crdg.xyz/git/ref/heads/v5",
+      )
+      assert.equal(init?.method ?? "GET", "GET")
+      assert.equal(new Headers(init?.headers).get("Authorization"), "Bearer test-token")
+      assert.ok(init?.signal instanceof AbortSignal)
+      return response({ object: { sha: "base-commit" } })
+    },
+  )
+  const result = await handleRequest(readinessRequest(), env)
+  assert.equal(result.status, 200)
+  assert.equal(result.headers.get("Cache-Control"), "no-store")
+  assert.deepEqual(await result.json(), {
+    status: "ok",
+    githubBaseBranch: "v5",
+    githubConfigured: true,
+    turnstileConfigured: true,
+    githubAccessible: true,
+  })
+  assert.equal(github.mock.callCount(), 1)
+})
+
+for (const status of [401, 403, 404]) {
+  test(`readiness fails when GitHub returns ${status} despite a configured token`, async (t) => {
+    t.mock.method(globalThis, "fetch", async () => response({ message: "Rejected" }, status))
+    const result = await handleRequest(readinessRequest(), env)
+    assert.equal(result.status, 503)
+    assert.deepEqual(await result.json(), {
+      status: "unavailable",
+      githubBaseBranch: "v5",
+      githubConfigured: true,
+      turnstileConfigured: true,
+      githubAccessible: false,
+      code: status === 404 ? "github_error" : "github_auth",
+    })
+  })
+}
+
+test("readiness handles a GitHub timeout without exposing the upstream error", async (t) => {
+  t.mock.method(globalThis, "fetch", async () => {
+    throw new DOMException("sensitive upstream detail", "TimeoutError")
+  })
+  const result = await handleRequest(readinessRequest(), env)
+  assert.equal(result.status, 503)
+  const body = (await result.json()) as { code: string; githubAccessible: boolean }
+  assert.equal(body.code, "github_unreachable")
+  assert.equal(body.githubAccessible, false)
+  assert.ok(!JSON.stringify(body).includes("sensitive upstream detail"))
+})
+
+test("readiness does not call GitHub when either secret is missing", async (t) => {
+  const github = t.mock.method(globalThis, "fetch", async () => {
+    throw new Error("Unexpected GitHub request")
+  })
+  for (const key of ["GITHUB_TOKEN", "TURNSTILE_SECRET_KEY"]) {
+    const result = await handleRequest(readinessRequest(), { ...env, [key]: "" })
+    assert.equal(result.status, 503)
+    const body = (await result.json()) as { code: string }
+    assert.equal(body.code, "not_configured")
+  }
+  assert.equal(github.mock.callCount(), 0)
+})
+
 function submission(images: File[] = []): WikiSubmission {
   return {
     operation: "edit",

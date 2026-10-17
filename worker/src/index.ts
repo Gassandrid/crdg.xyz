@@ -551,12 +551,38 @@ export async function handleRequest(request: Request, env: Env): Promise<Respons
   }
 
   if (request.method === "GET" && url.pathname === "/api/health") {
-    return json({
+    const health = {
       status: "ok",
       githubBaseBranch: env.GITHUB_BASE_BRANCH,
       githubConfigured: Boolean(env.GITHUB_TOKEN),
       turnstileConfigured: Boolean(env.TURNSTILE_SECRET_KEY),
-    })
+    }
+    // Keep the liveness probe cheap; deployment checks also verify the credential
+    // against GitHub. Presence alone does not detect an expired or revoked token.
+    if (url.searchParams.get("check") !== "github") return json(health)
+    if (!health.githubConfigured || !health.turnstileConfigured) {
+      return json(
+        { ...health, status: "unavailable", githubAccessible: false, code: "not_configured" },
+        503,
+      )
+    }
+    try {
+      const branch = env.GITHUB_BASE_BRANCH.split("/").map(encodeURIComponent).join("/")
+      await githubRequest<GitHubRef>(env, `/git/ref/heads/${branch}`, {
+        signal: AbortSignal.timeout(5_000),
+      })
+      return json({ ...health, githubAccessible: true })
+    } catch (error) {
+      return json(
+        {
+          ...health,
+          status: "unavailable",
+          githubAccessible: false,
+          code: error instanceof ApiError ? error.code : "github_unreachable",
+        },
+        503,
+      )
+    }
   }
 
   if (request.method !== "POST" || url.pathname !== "/api/submissions") {

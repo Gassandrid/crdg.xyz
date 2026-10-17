@@ -86,6 +86,18 @@ Expected production state:
 { "status": "ok", "githubBaseBranch": "v5", "githubConfigured": true, "turnstileConfigured": true }
 ```
 
+This fast liveness check only confirms secret presence. To verify that GitHub accepts the
+deployed credential and can read the review branch, run:
+
+```bash
+node scripts/check-editor.mjs
+# Or: curl -i 'https://edit.crdg.xyz/api/health?check=github'
+```
+
+The deeper probe returns HTTP `503` and `code: "github_auth"` for an expired, revoked,
+or unauthorized token, even when `githubConfigured` is true. A passing probe verifies
+branch read access; a real submission is still needed to verify write permissions.
+
 Re-run the Pages deployment after setting `TURNSTILE_SITE_KEY`. Open a low-risk wiki page, make a
 small correction, submit it, confirm that exactly one pull request appears, inspect its diff, and
 close or merge it.
@@ -108,6 +120,23 @@ Quartz automatically uses Cloudflare's matching local Turnstile test site key wh
 `--serve`.
 
 ## Review and incident handling
+
+- If submissions report “The maintainer review queue is temporarily unavailable,” inspect
+  the Worker logs for GitHub's status. `401 Bad credentials` means the stored token is
+  invalid; retrying the form or rebuilding the site cannot repair it. Create a replacement
+  fine-grained token with access only to `Gassandrid/crdg.xyz` and **Contents** and
+  **Pull requests** read/write permissions. Update the existing Worker secret privately:
+
+  ```bash
+  npx wrangler login
+  npx wrangler secret put GITHUB_TOKEN --config worker/wrangler.jsonc
+  node scripts/check-editor.mjs
+  ```
+
+  Enter the token at Wrangler's private prompt. Do not put it in shell arguments, chat,
+  source files, or Actions variables. Record its expiry and rotation date. Replacing this
+  secret updates the deployed Worker; a Pages rebuild is unnecessary. After the probe
+  passes, retry the saved edit and inspect the resulting review request.
 
 - Treat every submission as untrusted. Review both Markdown and binary image changes before merge.
 - A stale page returns HTTP `409`; the contributor's IndexedDB draft remains intact.
