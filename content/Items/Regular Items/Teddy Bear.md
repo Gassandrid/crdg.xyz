@@ -13,8 +13,7 @@ dateAdded:
 
 The Teddy Bear in the Hotbar.
 
-The Teddy Bear could have been permanently obtained by getting the
-Dedicated Realist [[Badges/index|badge]], which can no
+The Teddy Bear could have been permanently obtained by getting the [[Dedicated Realist]] [[Badges/index|badge]], which can no
 longer be obtained.
 You can hug it by clicking anywhere. It has a 20% to
 [[Explosion|explode]] when you hug it
