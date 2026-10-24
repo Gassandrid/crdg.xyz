@@ -10,6 +10,10 @@ Your Commodiesel 75 is bundled with everything you need to begin computing immed
 - PC Speaker
 - 10 GPIO Expansions
 - 2 Computer Joysticks
+- 10 Network Expansions
+- 3 Position Sensors
+- 3 Angle Sensors
+- 3 Distance Sensors
 
 ---
 
@@ -40,8 +44,7 @@ Then execute your code by running the file.
 
 It is recommended that you have baseline knowledge of the Lua programming language before continuing.
 
-> [!Note]
-> Loops can only run 60 times a second, and may slow down according to server TPS. Nested loops may also cause slowdown.
+> [!note] > Loops can only run 60 times a second, and may slow down according to server TPS. Nested loops may also cause slowdown.
 
 ### Demo Scripts
 
@@ -90,7 +93,7 @@ Module scripts are separate Lua files that packages code into table for use with
 
 **Example module "mod.lua":**
 
-```lua
+```
 local module = {}
 module.hi = "hello"
 function module.testfunc(str)
@@ -101,7 +104,7 @@ return module
 
 **Example usage:**
 
-```lua
+```
 local module = require("mod.lua")
 print(module.hi)
 module.testfunc("world")
@@ -121,13 +124,13 @@ Below is the colour palette formatted into a 16x16 table, this is ideal for repr
 
 Before creating graphics you may want to turn off the text rendering.
 
-```lua
+```
 render.text = false
 ```
 
 You can now test colours by changing the graphics background
 
-```lua
+```
 render.graphicsbg = 0xa8
 ```
 
@@ -141,13 +144,13 @@ Textures have a max size of 8x128.
 
 To create a texture, use
 
-```lua
+```
 texture.new(size: vector2, pixeldata: {number})
 ```
 
 **Example usage:**
 
-```lua
+```
 local C = 0x0f
 local t = texture.new(vector2.new(4, 4), {
 C,0,0,C,
@@ -163,7 +166,7 @@ C,0,0,C,
 
 Updates pixels at runtime.
 
-```lua
+```
 texture.new(vector2.new(6, 1))
 wait(1)
 t:SetPixels({0x20, 0x40, 0x60, 0x80, 0xa0, 0xc0})
@@ -183,13 +186,13 @@ Sprites have a max size of 8x82
 
 To create a sprite, use
 
-```lua
+```
 sprite.new(texture, size: Vector2, position: Vector2)
 ```
 
 **Example usage:**
 
-```lua
+```
 render.text = false
 local C = 0x70
 local t = texture.new(vector2.new(4, 4), {
@@ -217,7 +220,7 @@ Changes the pixel offset of the texture area to be displayed. Sprite sheets can 
 
 **Example usage:**
 
-```lua
+```
 render.text = false
 local c = 0x0f
 local tex = texture.new(vector2.new(2, 8), {
@@ -294,7 +297,7 @@ The computer has a 5 channel sound chip.
 
 Notes can be either a frequency (hz) or a string. Providing a blank note will end the note playing in the channel.
 
-```lua
+```
 sound.Play(1, 440, 1, 2) -- play 440hz on channel 1
 sound.Play(3, "c3") -- play note c3 on channel 3
 wait(2)
@@ -306,7 +309,7 @@ sound.Play(3) -- stop playing channel 3 (triangle wave)
 
 This is much like play, except that it will not start any new notes from playing. All arguments are optional except for channel.
 
-```lua
+```
 sound.Play(1, 220)
 for i=1, 220 do
     sound.Mod(1, 220+i) -- change pitch
@@ -320,7 +323,7 @@ Sets the sound to be played in the 5th channel. Sample must be a roblox sound as
 
 The sound will not loop if oneshot is set to true.
 
-```lua
+```
 sound.SetSample(117171737399928)
 sound.Play(5, 440, 1)
 ```
@@ -353,6 +356,14 @@ Creates or overwrites a file on the system.
 
 Returns the contents of a file. Returns 'false' if file is not found on the system.
 
+#### `os.setline(row: number, text: any)`
+
+Replaces a line of text output. Row 1 is the first line after os.cls(), up to row 500.
+
+#### `os.input(prompt: any?)`
+
+Prints the prompt, then waits for a line typed into the shell and types it.
+
 ---
 
 ## GPIO
@@ -367,7 +378,7 @@ Red is output, Blue is input.
 
 **Example usage:**
 
-```lua
+```
 while wait(.1) do
 gpio.power(1)
 wait(.1)
@@ -379,7 +390,7 @@ end
 
 **Example usage:**
 
-```lua
+```
 gpio:Connect(1, function()
     print("input 1")
     beep(440, 0.2)
@@ -390,8 +401,7 @@ gpio:Connect(2, function()
 end)
 ```
 
-> [!Note]
-> Voltage is currently unused and is for forwards compatibility with the building overhaul.
+> [!note] > Voltage is currently unused and is for forwards compatibility with the building overhaul.
 
 ---
 
@@ -415,7 +425,7 @@ Valid Input Types are:
 
 **Input handler example:**
 
-```lua
+```
 local joystick_direction = vector2.zero
 control:Connect(1, function(input_type, value)
     if input_type == "Joystick" then
