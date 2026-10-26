@@ -10,6 +10,8 @@ description: float
 
 The balloon stick, also known as the float stick, is a contraption made in the recent aerodynamics update using the trigger that has returned.
 
+(This has been removed)
+
 ## Components
 
 1x Skate
