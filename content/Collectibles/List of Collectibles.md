@@ -48,7 +48,7 @@ NOTE: A lot of informations is missing!!! Please add the missing pictures, varia
 > > | Party Streamers | Pink, Blue | placeholder |
 > > | Piano Bench | Mahogany, Grey, Oak, Walnut | placeholder |
 > > | Picket Fence | Wood, White | placeholder |
-> > | [[Pickle Jar]] |  | placeholder |
+> > | [[Pickle Jar]] |  | ![[wiki-1793481241947-e98d0387-Screenshot 2026-10-31 150220.png]] |
 > > | Picnic Table | Stone, White | placeholder |
 > > | Piggy Bank |  | placeholder |
 > > | Pinball Machine |  | placeholder |
