@@ -19,7 +19,7 @@ Drank liquids
 
 1. Water: It tastes refreshing
 2. Hot water: It tastes refreshing but makes my mouth hurt 😡
-3. Diesel: It tastes bad for me 😡
+3. Diesel: It tastes bad for me ☺️
 4. Gold: Taste good, but mouth hurt 😡
 5. Lemonade: It tastes Delicious!
 6. Gold lemonade: It tastes impossible!
@@ -27,6 +27,8 @@ Drank liquids
 8. Hagfish slime: It tastes like salty egg whites
 9. Still water: It tastes still and infected 😡
 10. Liquid smoke: It tastes resinous and ashy and makes my mouth hurt 😡
+11. Liquid Nitrogen: It tastes cold.☺️
+12. Gasoline: It tastes extremely bitter and painful .☺️
 
 ---
 
@@ -35,7 +37,7 @@ Licked solids
 1. Realistic cart battery: It tastes like 12 volts☺️
 2. Uranium rod: It tastes sweet and sour ☺️
 3. Pizza: yummy!
-4. [[Bill's Batteries|Walmart battery]]: it tastes like battery acid ☺️
+4. [[Bill's Batteries|Walmart battery]]: it tastes like battery acid .☺️
 
 ---
 
