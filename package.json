@@ -55,15 +55,15 @@
     "esbuild-sass-plugin": "^3.6.0",
     "github-slugger": "^2.0.0",
     "globby": "^16.1.0",
-    "hast-util-to-html": "^9.0.5",
-    "hast-util-to-jsx-runtime": "^2.3.6",
-    "isomorphic-git": "^1.36.3",
-    "js-yaml": "^5.2.1",
+    "hast-util-to-html": "^9.0.6",
+    "hast-util-to-jsx-runtime": "^2.3.7",
+    "isomorphic-git": "^1.44.8",
+    "js-yaml": "^5.5.0",
     "lightningcss": "^1.31.1",
     "micromorph": "^0.4.5",
     "minimatch": "^10.1.1",
     "preact": "^10.28.2",
-    "preact-render-to-string": "^6.6.5",
+    "preact-render-to-string": "^6.8.2",
     "pretty-bytes": "^7.1.0",
     "pretty-time": "^1.1.0",
     "remark-frontmatter": "^5.0.0",
@@ -76,10 +76,10 @@
     "source-map-support": "^0.5.21",
     "to-vfile": "^8.0.0",
     "unified": "^11.0.5",
-    "unist-util-visit": "^5.1.0",
+    "unist-util-visit": "^5.2.0",
     "vfile": "^6.0.3",
     "workerpool": "^10.0.1",
-    "ws": "^8.19.0",
+    "ws": "^8.22.1",
     "yaml": "^2.8.2",
     "yargs": "^18.0.0"
   },
@@ -97,6 +97,6 @@
     "prettier": "^3.8.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "wrangler": "^4.112.0"
+    "wrangler": "^4.156.0"
   }
 }
