@@ -8,11 +8,11 @@
 > > 
 > > 
 > 
-> ### Collectable Info
+> ### Collectible Info
 > 
 > | Type | Exclusive |
 > | --- | --- |
 > | **Obtainment Method** | Completing Super Hubert Man |
 > | **Date Added** | August 18th, 2025 |
 
-The **Golden Hubert Blabibo** is an **Exclusive** collectable added on **August 18th, 2025**. It is awarded when the person gets the [[Professional Gamer]] badge.
+The **Golden Hubert Blabibo** is an **Exclusive** collectible added on **August 18th, 2025**. It is awarded when the person gets the [[Professional Gamer]] badge.

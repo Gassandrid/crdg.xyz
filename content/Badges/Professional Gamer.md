@@ -33,7 +33,7 @@
 
 # Guide
 
-First steps of obtaining this badge is getting "**TV**" and "**Super Hubert Man**"  [[content/Collectables/index|collectibles]], it is obtainable thru [[Blimp]] shop. After connecting joystic to the TV player will be met with "**Super Hubert Man**" game. The game itself consists of 3 unique levels, and to get the badge player simply has to complete the game.
+First steps of obtaining this badge is getting "**TV**" and "**Super Hubert Man**"  [[Collectibles/List of Collectibles|collectibles]], it is obtainable thru [[Blimp]] shop. After connecting joystic to the TV player will be met with "**Super Hubert Man**" game. The game itself consists of 3 unique levels, and to get the badge player simply has to complete the game.
 
 > [!Tip] 
 > Badge will be awarded to the player that has entered the very last door that leads to victory screen, so you could theoretically get another player this badge!

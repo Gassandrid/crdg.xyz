@@ -8,7 +8,7 @@
 > > 
 > > 
 > 
-> ### Collectable Info
+> ### Collectible Info
 > 
 > | Type | Miscellaneous |
 > | --- | --- |
@@ -57,7 +57,7 @@ Below is a list of every ingredient able to be dropped inside of a **Cauldron**.
 > >
 > > - [[Alien Egg]] (specifically the homunculus from it, not the egg)
 > > 
-> > ### [[content/Collectables/index|Collectibles]]
+> > ### [[Collectibles/List of Collectibles|Collectibles]]
 > > 
 > > - [[Pickle Jar]] (and liquid)
 > > 
@@ -149,6 +149,7 @@ This section refers to the [[Water Heater]] mechanic where inputting select poti
 
 > ![[Pasted image 20251221192438.png]]
 >
+> A comparison between three strength potions, with one of them being concentrated and another one being in a compressed form from gas.
 
 ## Recipe source notes
 
