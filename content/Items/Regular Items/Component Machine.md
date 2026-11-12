@@ -4,9 +4,9 @@ image: "[[ComponentMachine.png]]"
 type:
 acquisition: Regular
 requirements: Component Machine gamepass
-obtainment:
+obtainment: "[[HALF WAY!!!!!]] Badge"
 usage: "- Spawning various components"
-dateAdded:
+dateAdded: August 26th, 2022
 pointGain: 15 seconds
 spawnTime: 5 seconds
 ---
@@ -33,7 +33,7 @@ spawnTime: 5 seconds
 >| --- | --- |
 >| **Spawn time** | **5** seconds |
 
-**Component Machine** was added on the August 26st, 2022 as a gamepass.
+**Component Machine** was added on the August 26th, 2022 as a gamepass.
 
 ---
 ## Usage

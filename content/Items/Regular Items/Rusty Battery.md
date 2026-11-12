@@ -3,11 +3,11 @@ tags:
   - needs-work/ai-migration
 class: item
 image: "[[Battery.png]]"
-type:
+type: Item
 acquisition: Regular
 requirements:
 obtainment:
-usage:
+usage: Opening the gate
 dateAdded:
 ---
 
