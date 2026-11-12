@@ -155,8 +155,6 @@ This section refers to the [[Water Heater]] mechanic where inputting select poti
 
 [Source notes](https://docs.google.com/document/d/1e596lGtcqha5UJ0B3TbnV4otxj5TkY13zfzx_dPbkro/edit) (last updated 11/9/2026).
 
-These notes preserve the source recipes and effects, including entries that differ from the recipes above.
-
 | Potion | Ingredients | Effect |
 | --- | --- | --- |
 | [[Features/Potions/Balloon potion\|Balloon potion]] | [[Components/Balloon\|Balloon]] / [[Gumball\|gumball]] | Makes things lighter |

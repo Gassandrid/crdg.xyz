@@ -84,8 +84,6 @@ When struck, the Anvil produces a metallic hammering sound and briefly releases 
 
 [Source notes](https://docs.google.com/document/d/1e596lGtcqha5UJ0B3TbnV4otxj5TkY13zfzx_dPbkro/edit) (last updated 11/9/2026).
 
-These notes use the names and recipes in the source document; some differ from the table above.
-
 ### Size increase by crafting with two of the same thing
 
 - [[Components/Ball Of Oblotenium|Ball of oblotenium]]
