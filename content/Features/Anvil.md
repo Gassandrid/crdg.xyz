@@ -79,3 +79,385 @@ When struck, the Anvil produces a metallic hammering sound and briefly releases 
 
 > [!tip] Quick Tip
 > If you're having trouble crafting an item, remember that the Anvil only detects components within a relatively small area. Make sure all required items are placed close together so the recipe can register correctly.
+
+## Recipe source notes
+
+[Source notes](https://docs.google.com/document/d/1e596lGtcqha5UJ0B3TbnV4otxj5TkY13zfzx_dPbkro/edit) (last updated 11/9/2026).
+
+These notes use the names and recipes in the source document; some differ from the table above.
+
+### Size increase by crafting with two of the same thing
+
+- [[Components/Ball Of Oblotenium|Ball of oblotenium]]
+- [[Copper rod|Copper rod]]
+- [[Electromagnet ball|Electromagnet ball]]
+- [[Components/Linear Actuator|Linear actuator]]
+- [[Linear motor|Linear motor]]
+- [[Magnet|Magnet]]
+- [[Magnet ball|Magnet ball]]
+- [[Scale|Scale]]
+- [[Components/Spring|Spring]]
+- [[Steel beam|Steel beam]]
+- [[Straight pipe|Straight pipe]]
+
+### Size decrease by crafting with something and a gun
+
+- [[Copper rod|Copper rod]]
+- [[Electromagnet ball|Electromagnet ball]]
+- [[Components/Linear Actuator|Linear actuator]]
+- [[Linear motor|Linear motor]]
+- [[Magnet|Magnet]]
+- [[Magnet ball|Magnet ball]]
+- [[Scale|Scale]]
+- [[Components/Spring|Spring]]
+- [[Steel beam|Steel beam]]
+- [[Straight pipe|Straight pipe]]
+
+### Can be changed by crafting on its own
+
+- [[Components/Bearing|Bearing]]
+  Cycles between 5 different bearing types (Bearing, Square bearing, Ball bearing, Small bearing, Door bearing)
+- [[Cog|Cog]]
+  Changes size
+- [[Electromagnet ball|Electromagnet ball]]
+  Cycles between North, South or both poles
+- [[Components/Input Receiver|Input receiver]]
+  Changes lettered input
+- [[Magnet ball|Magnet ball]]
+  Cycles between North, South or both poles
+- [[Steel beam|Steel beam]]
+  Changes size
+- [[Tire|Tire]]
+  Cycles between 4 different sizes (Tire, Large wheel, Little wheel, Medium wheel)
+
+### Can be combined with anything
+
+- [[Items/Regular Items/Cardboard|Cardboard]]
+  Changes material state
+- [[Palette card|Palette card]]
+  Changes object color to match the palette card hex value
+- [[PVC|PVC]]
+  Changes material state
+- [[Scoped tripwire|Scoped tripwire]] / [[Components/Tripwire|Tripwire]]
+  Makes tripwire detection selective to a certain part
+
+### Alien tech
+
+#### [[Alien fishing rod|Alien fishing rod]]
+
+- [[Fluxirivation crystal|Fluxirivation crystal]]
+- [[Fish/Poseidon's Rod|Poseidon’s fishing rod]]
+
+#### [[Forcefield|Forcefield]]
+
+- [[Fluxirivation crystal|Fluxirivation crystal]]
+- [[Martian scrap|Martian scrap]] 2x
+- [[Components/ORB|ORB]]
+
+#### [[Bridge|Bridge]]
+
+- [[Martian scrap|Martian scrap]] 2x
+- [[Components/Wireless Signaler|Wireless signaller]]
+
+#### [[Flat plane|Flat plane]]
+
+- Unknown
+
+#### [[Laser cannon|Laser cannon]]
+
+- Unknown
+
+#### [[Alien Looker|Looker]]
+
+- [[Fluxirivation crystal|Fluxirivation crystal]]
+- [[Components/Seeker|Seeker]]
+
+#### [[Components/Fab|Printer]]
+
+- [[Fluxirivation crystal|Fluxirivation crystal]] 2x
+- [[Martian scrap|Martian scrap]]
+
+#### [[Pyramid|Pyramid]]
+
+- Unknown
+
+#### [[Teleporter|Teleporter]]
+
+- Unknown
+
+#### [[Components/Tractor Beam|Tractor beam]]
+
+- [[Fluxirivation crystal|Fluxirivation crystal]]
+- [[Components/Leafblower|Leafblower]]
+- [[Martian scrap|Martian scrap]]
+
+#### [[Components/Worldspike|Worldspike]]
+
+- [[Components/Anti-Gravity Device|Anti-gravity device]]
+- [[Fluxirivation crystal|Fluxirivation crystal]]
+- [[Components/Spikes|Spikes]]
+
+
+### Storables
+
+#### [[Chauchat|Chauchat]]
+
+- [[1911|1911]] 2x
+- [[Sniper Rifle|Rifle]] 2x
+  Dart shooter, Gun, Lens
+
+#### [[Conduit Pipe|Conduit Pipe]]
+
+- [[Funnel pipe|Funnel pipe]]
+- [[Components/Leafblower|Leafblower]] 2x
+- [[Components/Tractor Beam|Tractor beam]]
+
+#### [[DP-28|DP-28]]
+
+- [[1911|1911]] 2x
+- [[Components/Chauchat|Chauchat]] 2x
+  1911 2x, Rifle 2x
+- [[Sniper Rifle|Rifle]] 2x
+  Dart shooter, Gun, Lens
+
+#### [[MG-42|MG-42]]
+
+- [[1911|1911]] 2x
+- [[Components/Chauchat|Chauchat]] 2x
+  1911 2x, Rifle 2x
+- [[Components/DP-28|DP-28]] 2x
+  Chauchat 2x
+- [[Sniper Rifle|Rifle]] 2x
+  Dart shooter, Gun, Lens
+
+#### [[Quantum aligner|Quantum aligner]]
+
+- [[Components/Alien Looker|Looker]]
+- [[Components/Wireless Signaler|Wireless signaller]]
+
+#### [[Spear cannon|Spear cannon]]
+
+- [[Components/Speargun|Speargun]]
+- [[Breech-Loading Cannon|Tank cannon]]
+  Cannon, Straight pipe
+
+
+### Explosives
+
+#### [[Attraction Bomb|Attractor bomb]]
+
+- [[Items/Regular Items/Jerry Can|Jerry can]]
+- [[Fluid pump|Fluid pump]]
+- [[Components/Uranium Rod|Uranium rod]]
+
+#### [[Banana can|Banana can]]
+
+- [[Items/Regular Items/Jerry Can|Jerry can]]
+- [[Components/Banana|Banana]] 3x
+
+#### [[Nuclear Bomb|Oblotenium nuke]]
+
+- [[Items/Regular Items/Jerry Can|Jerry can]]
+- Any metal piece 3x
+- [[Components/Speaker|Speaker]] 2x
+- [[Components/Uranium Rod|Uranium rod]] 4x
+- [[Components/Ball Of Oblotenium|Ball of oblotenium]]
+- [[Components/Propellant|Propellant]] 2x
+
+#### [[Pumpkin bomb|Pumpkin bomb]]
+
+- [[Items/Regular Items/Jerry Can|Jerry can]]
+- [[Pumpkin|Pumpkin]]
+- [[Components/Uranium Rod|Uranium rod]]
+
+#### [[Time Bomb|Timebomb]]
+
+- [[Items/Regular Items/Jerry Can|Jerry can]]
+- [[Components/Stopwatch|Stopwatch]]
+  Influenced by time on stopwatch
+
+
+### Tank rounds
+
+#### [[Firework Artillery Shell|Firework tank round]]
+
+- [[Items/Regular Items/Jerry Can|Jerry can]]
+- [[Straight pipe|Straight pipe]]
+- [[Components/Firework|Firework]]
+  Stacks indefinitely to create a bigger blast
+- [[Spraypaint|Spraypaint]] (OPTIONAL)
+  Changes color of firework explosion
+
+#### [[Gas Artillery Shell|Gas tank round]]
+
+- [[Items/Regular Items/Jerry Can|Jerry can]]
+- [[Straight pipe|Straight pipe]]
+- [[Water balloon|Water balloon]]
+  Inherits whatever is currently inside the water balloon
+
+#### [[HE Artillery Shell|Tank round]]
+
+- [[Items/Regular Items/Jerry Can|Jerry can]]
+- [[Straight pipe|Straight pipe]]
+
+#### [[AP Artillery Shell|Armor-piercing tank round]]
+
+- [[Items/Regular Items/Jerry Can|Jerry can]]
+- [[Straight pipe|Straight pipe]]
+- [[Components/Gun|Gun]]
+
+#### [[Tracer Artillery Shell|Tracer tank round]]
+
+- [[Items/Regular Items/Jerry Can|Jerry can]]
+- [[Straight pipe|Straight pipe]]
+- [[Components/Flashbang|Flashbang]]
+
+
+### Weaponry
+
+#### [[Flintlock cannon|Flintlock cannon]]
+
+- [[Components/Cannon|Cannon]]
+- [[Components/Gun|Gun]]
+
+#### [[Knifle|Knifle]]
+
+- [[Components/Knife|Knife]] / [[Machete|machete]]
+- [[Sniper Rifle|Rifle]]
+  Dart shooter, Gun, Lens
+
+#### [[Sawblade|Sawblade]]
+
+- [[Cog|Cog]]
+- [[Sharpening block|Sharpening block]]
+
+#### [[Breech-Loading Cannon|Tank cannon]]
+
+- [[Components/Cannon|Cannon]]
+- [[Straight pipe|Straight pipe]]
+
+
+### General fishing rods
+
+#### [[Duckie fishing rod|Duckie fishing rod]]
+
+- [[Fish/Poseidon's Rod|Poseidon’s fishing rod]]
+- [[Fish/Rainbow Rod|Rainbow fishing rod]]
+- [[Rubber duckie|Rubber duckie]]
+  Rubber slab, duck
+
+#### [[Golden fishing rod|Golden fishing rod]]
+
+- [[Fish/Regular Fishing Rod|Fishing rod]]
+- [[Gold bar|Gold bar]]
+
+#### [[Jumbo fishing rod|Jumbo fishing rod]]
+
+- [[Fish/Regular Fishing Rod|Fishing rod]] 10x
+
+
+### Miscellaneous
+
+#### [[Bearing pipe|Bearing pipe]]
+
+- [[Ball bearing|Ball bearing]]
+- [[Straight pipe|Straight pipe]]
+
+#### [[Cardboard box|Cardboard box]]
+
+- [[Items/Regular Items/Cardboard|Cardboard]] 6x
+
+#### [[Crane magnet|Crane magnet]]
+
+- [[Car battery|Car battery]]
+- [[Components/Cable|Cable]] 4x
+- [[Magnet|Magnet]] 2x
+
+#### [[Cryopump|Cryopump]]
+
+- [[Air compressor|Air compressor]]
+- [[Gas condenser|Gas condenser]]
+- [[Skate|Skate]] 2x
+
+#### [[Diamond drill|Diamond drill]]
+
+- [[Diamond|Diamond]]
+- [[Drill|Drill]]
+
+#### [[Diamond grillz|Diamond grillz]]
+
+- [[Diamond|Diamond]]
+- [[Chattering teeth|Chattering teeth]]
+
+#### [[Electromagnet|Electromagnet]]
+
+- [[Copper rod|Copper rod]]
+- [[Magnet|Magnet]]
+  Inherits magnet size
+
+#### [[Electromagnet ball|Electromagnet ball]]
+
+- [[Components/Ball Of Oblotenium|Ball of oblotenium]]
+- [[Components/Electromagnet|Electromagnet]]
+  Inherits ball of oblotenium size
+
+#### [[Fuse time|Fuse time]]
+
+- [[Fuse|Fuse]]
+- [[Components/Stopwatch|Stopwatch]]
+  Influenced by time on stopwatch
+
+#### [[Interacter|Interacter]]
+
+- [[Components/Button|Button]]
+- [[Components/Input Receiver|Input receiver]]
+
+#### [[Magnet ball|Magnet ball]]
+
+- [[Components/Ball Of Oblotenium|Ball of oblotenium]]
+- [[Magnet|Magnet]]
+  Inherits ball of oblotenium size
+
+#### [[Paper plane|Paper plane]]
+
+- [[Towel|Towel]] 2x
+
+#### [[Pilot seat|Pilot seat]]
+
+- [[Components/Alien Looker|Looker]]
+- [[Components/Seat|Seat]]
+
+#### [[Rotary actuator|Rotary actuator]]
+
+- [[Components/Linear Actuator|Linear actuator]]
+- [[Components/Servo|Servo]]
+
+#### [[Rubber duckie|Rubber duckie]]
+
+- [[Duck|Duck]]
+- [[Components/Rubber slab|Rubber slab]]
+
+#### [[Sandbag|Sandbag]]
+
+- [[Pillow|Pillow]]
+- [[Sand|Sand]]
+
+#### [[Spraycan color change|Spraycan color change]]
+
+- [[Palette card|Palette card]]
+- [[Items/Regular Items/Spray paint|Spraycan]]
+
+#### [[Universal joint|Universal joint]]
+
+- [[Components/Bearing|Bearing]] 2x
+
+#### [[Uranium glass|Uranium glass]]
+
+- Anything with glass material
+- [[Components/Uranium Rod|Uranium rod]]
+  More uranium increases glow brightness
+
+#### [[Water pump|Water pump]]
+
+- [[Drill|Drill]]
+- [[Fluid pump|Fluid pump]]

@@ -98,3 +98,50 @@ The printer has a bunch of combinations that give flat blocks called **slabs**. 
 ## Footnotes
 
 1. Even though printer slabs may look the same in size, they are purposefully slightly different to make building more annoying. [↩](#user-content-fnref-1)
+
+## Printer code source notes
+
+[Source notes](https://docs.google.com/document/d/1e596lGtcqha5UJ0B3TbnV4otxj5TkY13zfzx_dPbkro/edit) (last updated 11/9/2026).
+
+| Code | Material | Notes |
+| --- | --- | --- |
+| `*_\|_\|\|_\|_\|` | Cellophane | Bouncy |
+| `*_\|_\|` | D30 | Explosion proof |
+| `*\|\|_\|\|_\|\|` | Disco tile | Flashing neon lights |
+| `*\|\|\|\|\|\|\|\|\|` | Dynamite | Explosive |
+| `*\|\|\|_\|` | Pressure plate | Sends signals when stepped on or off, liquids work too |
+| `*_\|\|\|_\|_\|` | Soil | Planter |
+| `*_\|_\|\|\|` | Wallpaper | Random wallpaper upon creation (Floral pattern, chevron pattern, hearts pattern, cloudy pattern, hexagon pattern, fancy pattern, loopy pattern) |
+| `\|\|\|_\|_\|` | Brass |  |
+| `\|\|\|_\|\|` | Bronze |  |
+| `\|\|\|` | Copper |  |
+| `\|\|\|_\|\|\|\|\|\|` | Copper disc |  |
+| `\|\|\|_\|` | Corroded metal |  |
+| `\|_\|_\|\|\|` | Diamond plate |  |
+| `\|_\|_\|` | Lead |  |
+| `\|_\|_\|_\|\|\|\|` | Metal disc |  |
+| `\|\|\|\|\|_\|\|\|` | Nickel |  |
+| `\|_\|\|\|_\|\|` | Clay |  |
+| `\|_\|_\|\|` | Mud | Melts into glass |
+| `\|\|_\|_\|` | Sand | Melts into glass |
+| `\|_\|\|\|\|_\|` | Concrete |  |
+| `\|_\|\|_\|_\|\|` | Obsidian |  |
+| `\|_\|\|\|_\|` | Slate |  |
+| `\|_\|\|_\|\|\|` | Wood |  |
+| `\|_\|\|\|_\|\|\|` | Wood planks |  |
+| `\|_\|\|_\|` | Worn wood |  |
+| `\|\|\|\|_\|\|_\|` | Aerogel | Bouncy |
+| `\|\|_\|\|_\|` | Butter | Nearly frictionless |
+| `\|_\|\|\|` | Carbon fiber |  |
+| `\|\|\|_\|_\|\|\|` | Decaying matter | Emits particles |
+| `\|\|\|\|_\|_\|\|\|` | Face of mars | Random color upon creation |
+| `\|\|\|\|_\|_\|_\|` | Flesh |  |
+| `\|_\|\|_\|_\|` | Glass |  |
+| `\|\|\|_\|_\|\|_\|` | Manure | Emits particles |
+| `\|_\|\|_\|\|_\|` | Money |  |
+| `\|_\|_\|\|\|_\|` | Mosaic tiles |  |
+| `\|_\|_\|_\|_\|` | Osmium | Very heavy |
+| `\|_\|\|` | Paper |  |
+| `\|_\|\|_\|\|\|\|\|` | Paper disc |  |
+| `\|\|\|\|_\|_\|\|` | Plaster |  |
+| `\|_\|\|\|\|\|\|\|` | Sponge | Absorbs liquids |

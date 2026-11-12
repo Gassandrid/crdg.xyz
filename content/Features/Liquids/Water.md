@@ -33,3 +33,22 @@
 >
 >
 > The pre-filled glass of **Water** inside of [[Gas Station]].
+
+## Fluid source notes
+
+[Source notes](https://docs.google.com/document/d/1e596lGtcqha5UJ0B3TbnV4otxj5TkY13zfzx_dPbkro/edit) (last updated 11/9/2026).
+
+It tastes refreshing
+- Collecting rain
+- Condensing fog
+- Dispensing boiling water with the water cooler on the cold setting
+- From a water cooler
+- Heating stillwater
+- Mixing hydrogen and oxygen
+- Using a water pump at Cathedral
+
+## Spraying
+
+[Source notes](https://docs.google.com/document/d/1e596lGtcqha5UJ0B3TbnV4otxj5TkY13zfzx_dPbkro/edit) (last updated 11/9/2026).
+
+Removes glue

@@ -26,3 +26,18 @@
 >
 >
 > The taste of **diesel**.
+
+## Fluid source notes
+
+[Source notes](https://docs.google.com/document/d/1e596lGtcqha5UJ0B3TbnV4otxj5TkY13zfzx_dPbkro/edit) (last updated 11/9/2026).
+
+It tastes bad for me
+- Condensing diesel (gas)
+- Drilling at gas station
+- Using gas station’s fuel pump
+
+## Spraying
+
+[Source notes](https://docs.google.com/document/d/1e596lGtcqha5UJ0B3TbnV4otxj5TkY13zfzx_dPbkro/edit) (last updated 11/9/2026).
+
+Spraying on fuel tanks refuels

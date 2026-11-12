@@ -148,4 +148,48 @@ The following list will contain a recipe for every potion, and will describe the
 This section refers to the [[Water Heater]] mechanic where inputting select potions into the heater will "concentrate" them, giving up to two times the effect.  This can be particularly useful in a few situations, but it is too niche to be useful anywhere else.
 
 > ![[Pasted image 20251221192438.png]]
-> 
+>
+
+## Recipe source notes
+
+[Source notes](https://docs.google.com/document/d/1e596lGtcqha5UJ0B3TbnV4otxj5TkY13zfzx_dPbkro/edit) (last updated 11/9/2026).
+
+These notes preserve the source recipes and effects, including entries that differ from the recipes above.
+
+| Potion | Ingredients | Effect |
+| --- | --- | --- |
+| [[Features/Potions/Balloon potion\|Balloon potion]] | [[Components/Balloon\|Balloon]] / [[Gumball\|gumball]] | Makes things lighter |
+| [[Features/Potions/Balloon head potion\|Balloon head potion]] | [[Components/Balloon\|Balloon]], [[Components/Rope\|Rope]] | Makes the player’s head into a big balloon, fastened by a rope coming from the torso |
+| [[Features/Potions/Block potion\|Block potion]] | [[Components/Flashbang\|Flashbang]], [[Components/Gun\|Gun]], [[Items/Regular Items/Jerry Can\|Jerry can]] | Prompts a screen asking if you'd like to block and report the nearest player, if you have them added it asks if you’d like to unfriend them instead |
+| [[Features/Potions/Bounce potion\|Bounce potion]] | [[Components/Banana\|Banana]], [[Components/Cannon\|Cannon]], [[Components/Spring\|Spring]] | Makes the player bounce |
+| [[Features/Potions/Cannon potion\|Cannon potion]] | [[Components/Cannon\|Cannon]] | Gives the player the “miracle of momentum” leap ability with 3 uses. If the player owns the gamepass already, the three leaps become more powerful. |
+| [[Features/Potions/Car potion\|Car potion]] | [[Features/Liquids/Diesel\|Diesel]], [[Items/Regular Items/Jerry Can\|Jerry can]] | High speeds makes you emit an engine sound, drinking gasoline makes you walk faster |
+| [[Features/Potions/Car battery potion\|Car battery potion]] | [[Car battery\|Car battery]] | Makes the player activate battery holsters when touching them, once |
+| [[Features/Potions/Cure potion\|Cure potion]] | [[Honey\|Honey]], [[Features/Liquids/Water\|Water]] | Removes active potion effects |
+| [[Features/Potions/Dizzy potion\|Dizzy potion]] | [[Alien egg juice\|Alien egg juice]], [[Fish goo\|Fish goo]] | Inverts controls and messes with visuals and sounds heavily |
+| [[Features/Potions/Electricity resistance potion\|Electricity resistance potion]] | [[Components/Rubber slab\|Rubber slab]] | Grants immunity to voltage |
+| [[Features/Potions/Explosion immunity potion\|Explosion immunity potion]] | [[Pillow\|Pillow]], [[Components/Planter\|Planter]] | Allows things to persist the effects of an explosion |
+| [[Features/Potions/Flintlock potion\|Flintlock potion]] | [[Flintlock bullet\|Flintlock bullet]] | Increases the liquid amount of the potion it’s shot into |
+| [[Features/Potions/Fuel potion\|Fuel potion]] | [[Items/Regular Items/Jerry Can\|Jerry can]] | Sprayed objects become able to refuel carts |
+| [[Features/Potions/Green cannon potion\|Green cannon potion]] | [[Green cannon\|Green cannon]] | Falling on people kills them immediately |
+| [[Features/Potions/Glowing potion\|Glowing potion]] | [[Components/Uranium Rod\|Uranium rod]] | Makes you become glowy |
+| [[Features/Potions/Gold potion\|Gold potion]] | [[Components/Gold\|Gold]] | Makes the player unable to move and turns them into a golden statue |
+| [[Features/Potions/Healing potion\|Healing potion]] | [[Pizza\|Pizza]] | Heals the player |
+| [[Features/Potions/Heavy potion\|Heavy potion]] | [[Components/Ball Of Oblotenium\|Ball of oblotenium]] | Makes things heavier |
+| [[Features/Potions/Long arms potion\|Long arms potion]] | [[Linear motor\|Linear motor]], [[Components/Spring\|Spring]] | Makes arms longer |
+| [[Features/Potions/Long legs potion\|Long legs potion]] | [[Components/Linear Actuator\|Linear actuator]], [[Components/Spring\|Spring]] | Makes legs longer |
+| [[Features/Potions/Pickle potion\|Pickle potion]] | [[Pickle\|Pickle]], [[Pickle juice\|Pickle juice]], [[Components/Uranium Rod\|Uranium rod]] | Turns the player into a pickle, removing their controls but allowing them to be grabbed |
+| [[Features/Potions/Premium car battery potion\|Premium car battery potion]] | [[Premium car battery\|Premium car battery]] | Makes the player activate battery holsters when touching them |
+| [[Features/Potions/Ragdoll potion\|Ragdoll potion]] | [[Components/Banana\|Banana]] | Makes the player “floppy” |
+| [[Features/Potions/Regeneration potion\|Regeneration potion]] | [[Pizza\|Pizza]], [[Components/Stopwatch\|Stopwatch]] | Natural health regen is faster |
+| [[Features/Potions/Rocket potion\|Rocket potion]] | [[Features/Liquids/Diesel\|Diesel (liquid)]], [[Ultra Cart\|Ultracart]] | Tripping propels the player, giving them a rocket shoe effect |
+| [[Features/Potions/Strength potion\|Strength potion]] | [[Components/Ball Of Oblotenium\|Ball of oblotenium]], [[Components/Uranium Rod\|Uranium rod]] | Heavy things become easier to lift |
+| [[Features/Potions/Tire potion\|Tire potion]] | [[Tire\|Tire]] | Lets you roll around when sitting |
+| [[Features/Potions/Turkey potion\|Turkey potion]] | [[Gem corn\|Gem corn]], [[Pumpkin\|Pumpkin]] | After a short period the player turns into a turkey, making all chats become “gobble” |
+| [[Features/Potions/Upside down potion\|Upside down potion]] | [[Components/Banana\|Banana]], [[Components/Uranium Rod\|Uranium rod]] | Flips the player upside down |
+| [[Features/Potions/Wormhole potion\|Wormhole potion]] | [[Components/Ball Of Oblotenium\|Ball of oblotenium]], [[Components/ORB\|ORB]], [[Components/Uranium Rod\|Uranium rod]] | Teleports the player to a dark, echoey void for a short period. This is located at (-10k, 10k, -10k) |
+
+### Unknown ingredients
+
+- [[Homunculus|Homunculus]]
+- [[Passenger cart|Passenger cart]]
