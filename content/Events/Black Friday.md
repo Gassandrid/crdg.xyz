@@ -27,7 +27,9 @@ On the second Black Friday (11/29/24), 4 gamepasses showed, those being
 - [[miracle of alien diplomacy]] (400 robux)
 - [[miracle of POWER]] (2000 robux) (wont appear anymore)
 
-The next black friday is in November 27, probably the miracles that will come back are:
+The next black friday is in November 27, the miracles that will be on sale are:
 
-- [[Miracle of momentum]] (maybe)
+- [[Miracle of momentum]]
 - [[miracle of alien diplomacy]]
+- Limited new 2026 exclusive miracle
+- two unknown miracles
