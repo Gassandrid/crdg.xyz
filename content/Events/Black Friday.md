@@ -14,22 +14,23 @@ Black Friday is a yearly event that happens every Black Friday. On Black Friday,
 
 ## Black Fridays {#black\_fridays}
 
-In the first Black Friday (11/24/23), 3 gamepasses showed, those being
+In the first Black Friday (11/24/23), 3 game passes showed, those being
 
-- [[Miracle of momentum]] (100 robux) (maybe will appear in the next black friday)
-- [[miracle of manifestation]] (600 robux) (maybe will appear in the next black friday)
+- [[miracle of momentum]] (100 robux) (maybe will appear in the next Black Friday)
+- [[miracle of manifestation]] (600 robux) (maybe will appear in the next Black Friday)
 - [[Ladder|miracle of ascension]] (1000 robux) (wont appear anymore)
 
-On the second Black Friday (11/29/24), 4 gamepasses showed, those being
+On the second Black Friday (11/29/24), 4 game passes showed, those being
 
-- [[Miracle of momentum]] (200 robux) (maybe will appear in the next black friday)
-- [[miracle of manifestation]] (600 robux) (maybe will appear in the next black friday)
+- [[miracle of momentum]] (200 robux) (maybe will appear in the next Black Friday)
+- [[miracle of manifestation]] (600 robux) (maybe will appear in the next Black Friday)
 - [[miracle of alien diplomacy]] (400 robux)
 - [[miracle of POWER]] (2000 robux) (wont appear anymore)
 
-The next black friday is in November 27, the miracles that will be on sale are:
+On the fourth Black Friday (11/27/26), 3 new game passes showed, those being
 
-- [[Miracle of momentum]]
+- [[miracle of momentum]]
 - [[miracle of alien diplomacy]]
-- Limited new 2026 exclusive miracle
-- two unknown miracles
+- Limited 2026 [[content/Gamepasses/Miracles/miracle of sledging]]
+- [[miracle of computing]]
+- [[miracle of prayer]]
