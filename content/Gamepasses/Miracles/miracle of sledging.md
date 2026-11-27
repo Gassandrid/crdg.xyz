@@ -33,3 +33,7 @@ The Miracle of Sledging is a Limited Black Friday Miracle costing 1600 Robux and
 ## Usage
 
 It can be used for vertical momentum, can be paired with [[miracle of momentum]] to launch yourself pretty far if used right, and is really good when paired with [[miracle of prayer]] after praying to the cart god for killing players.
+
+## Gamepass Description
+
+2026 black friday exclusive

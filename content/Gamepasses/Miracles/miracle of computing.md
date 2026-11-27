@@ -74,3 +74,14 @@ Copy its infobox values into the matching frontmatter properties, and set image 
 ## Usage
 
 Explain common uses, behavior, and important limitations.
+
+## Gamepass Description
+
+black friday 2025 (ITEMS ADDED TO COLLECTIBLE INVENTORY) Congratulations on your purchase of the Commodiesel 75 Personal Computer. Designed for hobbyists and lua programmers of varying skill levels, the Commodiesel 64 is ideal for creating games, controlling components, and automating tasks.
+
+Your Commodiesel 64 is bundled with everything you need to begin computing immediately:
+
+- PC Monitor
+- PC Speaker
+- 10 GPIO Expansions
+- 2 Computer Joysticks

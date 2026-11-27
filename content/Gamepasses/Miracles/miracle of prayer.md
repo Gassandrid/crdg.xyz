@@ -74,3 +74,7 @@ Copy its infobox values into the matching frontmatter properties, and set image 
 ## Usage
 
 Explain common uses, behavior, and important limitations.
+
+## Gamepass Description
+
+PRESS P
