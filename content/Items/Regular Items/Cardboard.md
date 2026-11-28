@@ -9,38 +9,31 @@ usage: "- Cheap building material"
 dateAdded:
 ---
 
-<div style="display:flex;align-items:center;margin:1em 0;">
-  <div style="color:#b2b7f2;font-size:3.3em;font-family:serif;font-weight:bold;line-height:.8;padding:4px 6px;">“</div>
-  <blockquote style="margin:0;font-style:italic;flex:1;text-align:center;background:none;border:none;padding:0;">
-    click bits of debris to turn it into cardboard
-  </blockquote>
-  <div style="color:#b2b7f2;font-size:3.3em;font-family:serif;font-weight:bold;line-height:.8;padding:4px 6px;">„</div>
-</div>
-<div style="text-align:right;margin-top:.25em;">
-  <small>— Tooltip of the <b>cardboard</b> item.</small>
-</div>
-
 ---
 
-> [!infobox|n-th]
-> 
+> [!infobox] >
 > ## cardboard
-> 
-> > [!caption|center wfull txt-s]
-> > 
-> >![[cropped_circle_image.png|center]]
-> > 
-> > Item in-game
-> 
+>
+>
+> > [!caption] > >
+> > ![[cropped_circle_image.png]]
+>
+>
+> ![[wiki-1795838547867-f1d0103f-image.png]]
+>
 > ### Item Info
-> 
+>
+>
 > | **Requirements** | [[Delicious Citrus]] badge |
 > | --- | --- |
 > | **Usage** | - Cheap building material |
 
-**Cardboard** was added on 23rd of June, 2024. during the summer update pt1 alongside [[content/Items/Regular Items/Stapler|Stapler]] and [[Box cutter]].
+**Cardboard** was added on 23rd of June, 2024. during the Summer Update alongside [Stapler](https://crdg.xyz/items/regular-items/box-cutter) and [Box cutter](https://crdg.xyz/items/regular-items/box-cutter).
 
 ---
+
 ## Usage
 
-Cardboard is a self-explanatory item, clicking while holding **cardboard** player will drop cardboard, which is able to be cut **once** using [[Box cutter]]. The cardboard will not come back on its own, you will need to click "debris" which any loose part not connected to anything counts as (e.g. [bananas](https://crdg.xyz/Components/Regular-Components/Banana), [rubber slabs](https://crdg.xyz/Components/Regular-Components/Rubber), and sand from the [bag of sand](https://crdg.xyz/Items/Regular-Items/Bag-of-sand))
+Cardboard is an item that is capable of dropping a flat piece of cardboard, which can be cut twice using the [box cutter](https://crdg.xyz/items/regular-items/box-cutter).
+
+Cardboard does not restock on its own, and must be refilled by picking up small, unconnected pieces of debris, including destroyed cart or other object pieces, sand from the bag of sand, [bananas](https://crdg.xyz/components/banana), [rubber slabs](https://crdg.xyz/components/rubber-slab), et cetera.
